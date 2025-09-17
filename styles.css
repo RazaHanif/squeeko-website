@@ -1,9 +1,9 @@
 :root {
-    --base: #FF942A;
-    --highlight: #FF8000;
-    --background: #0A0A0A;
-    --contrast: #161616;
-    --text: #AAAAAA;
+    --base: #E4B4E0;
+    --highlight: #C581A3;
+    --background: #1f1f1f;
+    --contrast: #2e2e2e;
+    --text: #C581A3;
     --contrast-text: #FFFFFF; 
     background-color: var(--background);
 }
@@ -184,7 +184,7 @@ a {
 }
 
 .hero .buttons .secondary {
-    background-color: transparent;
+    background-color: var(--background);
     border: 1px solid var(--base);
     color: var(--base);
 }
@@ -217,9 +217,9 @@ a {
     margin: 20px 10px;
     padding: 30px;
     background: hsla(0, 0%, 9%, 1);
-    background: linear-gradient(135deg, hsla(0, 0%, 9%, 1) 0%, hsla(0, 0%, 4%, 1) 70%);
-    background: -moz-linear-gradient(135deg, hsla(0, 0%, 9%, 1) 0%, hsla(0, 0%, 4%, 1) 70%);
-    background: -webkit-linear-gradient(135deg, hsla(0, 0%, 9%, 1) 0%, hsla(0, 0%, 4%, 1) 70%);
+    background: linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
+    background: -moz-linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
+    background: -webkit-linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#161616", endColorstr="#0A0A0A", GradientType=1 );
     border: 1px solid var(--contrast);
     border-radius: 5px;
@@ -243,4 +243,60 @@ a {
     font-size: 0.75rem;
     color: var(--text);
     line-height: 1.6;
+}
+
+.modal {
+    display: none; /* hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: var(--background);
+    padding: 2rem;
+    border: 1px solid var(--base);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.modal-content p {
+    color: var(--base);
+}
+
+.modal-content p a {
+    color: var(--text);
+}
+
+.modal-content p a:hover {
+    text-decoration: underline
+}
+
+.modal-content button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    background-color: var(--background);
+    border: 1px solid var(--base);
+    color: var(--base);
+}
+
+.modal-content button:hover {
+    background-color: var(--base);
+    color: var(--background);
+}
+
+
+#modal-close {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
 }
