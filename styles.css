@@ -7,7 +7,7 @@
     --contrast-text: #FFFFFF; 
     background-color: var(--background);
 }
-
+ 
 body {
     color: var(--contrast-text);
     font-family: "Montserrat", sans-serif;
@@ -110,14 +110,14 @@ a {
 }
 
 /* Responsive Styles */
-@media (max-width: 700px) { /* Adjust breakpoint as needed */
+@media (max-width: 700px) {
     .header nav ul {
-        display: none; /* Hide nav links */
+        display: none;
     }
 
     .hamburger {
-        display: flex; /* Show hamburger */
-    }
+        display: flex;
+    } 
 }
 
 .hero {
