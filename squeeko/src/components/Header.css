@@ -1,0 +1,104 @@
+
+a {
+    text-decoration: none;
+    color: var(--contrast-text);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    border: 3px solid blue;
+    font-family: 'Roboto Mono', sans-serif;
+    background-color: var(--base);
+    padding: 10px 20px; 
+    margin: 20px 10px;
+    border-radius: 5px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 95%;
+}
+
+.header .container {
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--background);
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--background);
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.header nav ul li {
+    margin-left: 20px;
+}
+
+.header nav ul li a {
+    color: var(--background);
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header nav ul li button.header-button {
+    background-color: var(--background);
+    border: 1px solid var(--background); 
+    color: var(--base);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header nav ul li button.header-button:hover {
+    background-color: var(--base);
+    color: var(--background);
+}
+
+/* Responsive Styles */
+@media (max-width: 700px) {
+    .header nav ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    } 
+}
