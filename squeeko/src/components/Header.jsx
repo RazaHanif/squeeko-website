@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
-import { ModeToggle } from "../components/mode-toggle";
 
 const Header = () => {
   return (
@@ -28,11 +27,7 @@ const Header = () => {
                         Start Today
                     </Button>
                 </li>
-                <li className="ml-5">
-                    <ModeToggle />
-                </li>
             </ul>
-
         </div>
     </div>
   );

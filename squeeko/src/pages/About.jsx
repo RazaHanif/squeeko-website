@@ -1,6 +1,3 @@
-import { ThemeProvider } from "../components/theme-provider";
-import { ModeToggle } from "../components/mode-toggle";
-
 const About = () => {
   return (
       <p>
