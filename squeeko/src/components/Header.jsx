@@ -1,8 +1,6 @@
-import {
-  NavigationMenu, NavigationMenuContent, NavigationMenuIndicator, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, NavigationMenuViewport,
-} from "@/components/ui/navigation-menu"
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
+import { ModeToggle } from "../components/mode-toggle";
 
 const Header = () => {
   return (
@@ -29,6 +27,9 @@ const Header = () => {
                     <Button variant="outline">
                         Start Today
                     </Button>
+                </li>
+                <li className="ml-5">
+                    <ModeToggle />
                 </li>
             </ul>
 
