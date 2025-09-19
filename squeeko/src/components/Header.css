@@ -4,38 +4,35 @@ a {
     color: var(--contrast-text);
 }
 
-.container {
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 .header {
-    border: 3px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Roboto Mono', sans-serif;
     background-color: var(--base);
-    padding: 10px 20px; 
-    margin: 20px 10px;
+    margin: 1em 0.25em;
     border-radius: 0.5em;
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
     width: 95%;
 }
 
 .header .container {
-    width: 100%; 
+    flex: 1;
+    padding: 0 0.5em;
     display: flex; 
-    justify-content: space-between; 
+    justify-content:space-between; 
     align-items: center; 
 }
 
 .header .logo {
+    border: 1px solid red;
     font-size: 2rem;
     font-weight: bold;
     color: var(--background);
 }
 
 .header nav {
+    border: 1px solid blue;
+    justify-self: end;
     display: flex;
     align-items: center;
 }
