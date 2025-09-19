@@ -4,12 +4,14 @@ import { Button } from "@/components/ui/button";
 
 const Home = () => {
   return (
-    <>
-    <Button variant="default" className="w-xs">Test</Button>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies posuere lorem eleifend venenatis. Aenean non leo in ex lobortis cursus. Sed odio libero, vehicula sed suscipit ut, ultrices fermentum ex. Cras consectetur volutpat metus, id porta ligula efficitur at. Aenean a mauris consequat, suscipit nibh a, commodo sem. In hac habitasse platea dictumst. Vestibulum sit amet scelerisque lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent bibendum in sapien nec viverra. Fusce ultrices pretium lacus, et sodales risus molestie quis.
-      </p>
-    </>
+    <div className="flex flex-col text-left pt-40 pb-50 relative">
+        <h1 className="text-7xl">SIMPLIFYING CHILDCARE, <br/>CLICK BY CLICK.</h1>
+        <p className="text-xl mb-10 ml-5">STAY COMPLIANT, SIMPLIFY BILLING, AND KEEP PARENTS CONNECTED - BUILT FOR CENTERS LIKE YOURS.</p>
+        <div className="buttons">
+            <button className="primary btn">Start Today</button>
+            <button className="secondary btn">Try it first!</button>
+        </div>
+    </div>
   );
 }
 

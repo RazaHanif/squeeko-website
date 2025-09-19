@@ -5,7 +5,7 @@ import { ModeToggle } from "../components/mode-toggle";
 const Header = () => {
   return (
     <div className="flex w-[100%] mx-0 my-auto border border-solid border-red-50">
-        <div className="flex justify-between items-center font-roboto bg-primary py-2 px-4 my-4 mx-2 rounded w-[100%]">
+        <div className="flex justify-between items-center font-roboto-mono bg-primary py-2 px-4 my-4 mx-2 rounded w-[100%]">
             <div className="text-4xl font-bold text-background">SQUEEKO</div>
             <ul className="list-none flex items-center justify-end m-0">
                 <li className="ml-5">
