@@ -7,7 +7,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <div className='flex flex-col gap-4 items-center justify-center min-h-screen'>
+      <div className='flex flex-col gap-4 items-center justify-center min-h-screen font-sans'>
         <App />
       </div>
     </BrowserRouter>
