@@ -4,11 +4,9 @@ import { ModeToggle } from "../components/mode-toggle";
 const Home = () => {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div className="">Home page Header</div>
       <div>
         <ModeToggle />
       </div>
-      <div>Home Page Footer</div>
     </ThemeProvider>
   );
 }
