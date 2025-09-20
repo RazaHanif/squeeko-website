@@ -1,0 +1,40 @@
+.cards-main {
+    border-top: 2px solid var(--contrast);
+    border-bottom: 2px solid var(--contrast);
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+}
+
+.cards {
+    display: flex;
+    gap: 2em;
+}
+
+.card {
+    border-color: var(--contrast);
+    color: var(--primary);
+    background: var(--background);
+    background: linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
+    background: -moz-linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
+    background: -webkit-linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#161616", endColorstr="#0A0A0A", GradientType=1 );
+}
+
+.card-title i {
+    font-size: xx-large;
+}
+
+.card-content {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.card-footer {
+    font-size: small;
+    color: var(--text);
+}

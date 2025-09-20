@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button"
 import './Home.css'
+import Cards from "@/components/Cards";
 
 const Home = () => {
   return (
+    <>
     <div className="hero">
         <h1 className="title">SIMPLIFYING CHILDCARE, <br/>CLICK BY CLICK.</h1>
         <p class="subtitle">STAY COMPLIANT, SIMPLIFY BILLING, AND KEEP PARENTS CONNECTED - BUILT FOR CENTERS LIKE YOURS.</p>
@@ -11,6 +13,8 @@ const Home = () => {
             <Button variant="outline" className="home-btn-secondary">Try it first!</Button>
         </div>
     </div>
+    <Cards />
+    </>
   );
 }
 

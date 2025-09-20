@@ -1,21 +1,14 @@
 .footer {
-    border-top: 2px solid var(--contrast);
-    background-color: var(--background);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    padding: 0 2em;
+}
+
+.footer div {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: auto;
-    padding: 1em;
-}
-
-.cards {
-    display: flex;
-    gap: 2em;
-}
-
-.card-title img {
-    width: 2em;
-    height: 2em;
-    color: #fff;
 }
