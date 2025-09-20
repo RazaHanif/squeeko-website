@@ -35,6 +35,7 @@ const Footer = () => {
                 <CardHeader>
                     <CardTitle className="card-title">
                         <img src={PaymentIcon} alt="document-icon"/>
+                        <i className="fi fi-brands-linkedin"></i>
                     </CardTitle>
                 </CardHeader>
                 <CardContent className="card-content">
