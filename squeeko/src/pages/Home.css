@@ -1,0 +1,51 @@
+.hero {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    padding: 150px 1em 200px 2em;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    color: var(--base);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .hero h1 {
+        font-size: 3rem; /* Reduced font size for tablets */
+    }
+}
+
+@media (max-width: 480px) { /* Adjust breakpoint as needed */
+    .hero h1 {
+        font-size: 2.5rem; /* Further reduced font size for phones */
+    }
+}
+
+.hero .subtitle {
+    color: var(--text);
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.hero .btns button {
+    padding: 1.5em 1.5em;
+    font-size: medium;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.hero .btns .home-btn-primary:hover {
+    box-shadow: 0 0 10px 5px var(--highlight); 
+}

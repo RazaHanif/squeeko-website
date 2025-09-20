@@ -1,15 +1,16 @@
-
 a {
     text-decoration: none;
     color: var(--contrast-text);
 }
 
 .header {
+    border: 1px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto Mono', sans-serif;
     width: 100%;
+    height: auto;
 }
 
 .header .container {
@@ -25,14 +26,12 @@ a {
 }
 
 .header .logo {
-    border: 1px solid red;
     font-size: 2rem;
     font-weight: bold;
     color: var(--background);
 }
 
 .header nav {
-    border: 1px solid blue;
     justify-self: end;
     display: flex;
     align-items: center;
@@ -88,6 +87,10 @@ a {
 .header nav ul li button.header-button:hover {
     background-color: var(--base);
     color: var(--background);
+}
+
+.header-btn {
+    width: 8em;
 }
 
 /* Responsive Styles */
