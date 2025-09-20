@@ -8,9 +8,9 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import './Footer.css'
-import { ReactComponent as DocumentIcon } from '../assets/compliance-document.svg'
-import { ReactComponent as PaymentIcon } from '../assets/payroll-check.svg'
-import { ReactComponent as MessagesIcon } from '../assets/messages.svg'
+import DocumentIcon from '../assets/compliance-document.svg'
+import PaymentIcon from '../assets/payroll-check.svg'
+import MessagesIcon from '../assets/messages.svg'
 
 const Footer = () => {
   return (
@@ -20,54 +20,46 @@ const Footer = () => {
             <Card>
                 <CardHeader>
                     <CardTitle className="card-title">
-                        <MessagesIcon className='w-6 h-6 text-red-500' />
+                        <img src={DocumentIcon} alt="document-icon"/>
                     </CardTitle>
                 </CardHeader>
                 <CardContent className="card-content">
                     <h1>GET COMPLIANT</h1>
                 </CardContent>
                 <CardFooter className="card-footer">
-                    <p>EASILY MEET MINISTRY REQUIREMENTS SO YOUR CENTER CAN BE AUDIT-READY</p>
+                    <p>EASILY MEET MINISTRY REQUIREMENTS SO YOUR CENTER CAN BE AUDIT-READY.</p>
                 </CardFooter>
             </Card>
+            
             <Card>
                 <CardHeader>
-                    <CardTitle>
-                        Card Title
+                    <CardTitle className="card-title">
+                        <img src={PaymentIcon} alt="document-icon"/>
                     </CardTitle>
-                    <CardDescription>
-                        Card Description
-                    </CardDescription>
-                    <CardAction>
-                        Card Action
-                    </CardAction>
                 </CardHeader>
-                <CardContent>
-                    <p>Card Content</p>
+                <CardContent className="card-content">
+                    <h1>SMART PAYMENTS</h1>
                 </CardContent>
-                <CardFooter>
-                    <p>Card Footer</p>
+                <CardFooter className="card-footer">
+                    <p>AUTOMATE BILLING, TRACK INVOICES, AND ACCEPT ONLINE PAYMENTS.</p>
                 </CardFooter>
             </Card>
+            
             <Card>
                 <CardHeader>
-                    <CardTitle>
-                        Card Title
+                    <CardTitle className="card-title">
+                        <img src={MessagesIcon} alt="document-icon"/>
                     </CardTitle>
-                    <CardDescription>
-                        Card Description
-                    </CardDescription>
-                    <CardAction>
-                        Card Action
-                    </CardAction>
                 </CardHeader>
-                <CardContent>
-                    <p>Card Content</p>
+                <CardContent className="card-content">
+                    <h1>STAY CONNECTED</h1>
                 </CardContent>
-                <CardFooter>
-                    <p>Card Footer</p>
+                <CardFooter className="card-footer">
+                    <p>SHARE UPDATES, MESSSAGES, AND REMINDERS WITH PARENTS IN REAL TIME.</p>
                 </CardFooter>
             </Card>
+            
+
         </div>
     </div>
   );
