@@ -8,6 +8,9 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import './Footer.css'
+import { ReactComponent as DocumentIcon } from '../assets/compliance-document.svg'
+import { ReactComponent as PaymentIcon } from '../assets/payroll-check.svg'
+import { ReactComponent as MessagesIcon } from '../assets/messages.svg'
 
 const Footer = () => {
   return (
@@ -17,7 +20,7 @@ const Footer = () => {
             <Card>
                 <CardHeader>
                     <CardTitle className="card-title">
-                        <img src="compliance-document.svg" alt="document-icon"/>
+                        <MessagesIcon className='w-6 h-6 text-red-500' />
                     </CardTitle>
                 </CardHeader>
                 <CardContent className="card-content">
