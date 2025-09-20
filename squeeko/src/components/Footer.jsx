@@ -16,21 +16,15 @@ const Footer = () => {
         <div className="cards">
             <Card>
                 <CardHeader>
-                    <CardTitle>
-                        Card Title
+                    <CardTitle className="card-title">
+                        <img src="compliance-document.svg" alt="document-icon"/>
                     </CardTitle>
-                    <CardDescription>
-                        Card Description
-                    </CardDescription>
-                    <CardAction>
-                        Card Action
-                    </CardAction>
                 </CardHeader>
-                <CardContent>
-                    <p>Card Content</p>
+                <CardContent className="card-content">
+                    <h1>GET COMPLIANT</h1>
                 </CardContent>
-                <CardFooter>
-                    <p>Card Footer</p>
+                <CardFooter className="card-footer">
+                    <p>EASILY MEET MINISTRY REQUIREMENTS SO YOUR CENTER CAN BE AUDIT-READY</p>
                 </CardFooter>
             </Card>
             <Card>

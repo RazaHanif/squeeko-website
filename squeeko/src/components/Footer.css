@@ -1,14 +1,16 @@
 .footer {
-    border: 1px solid green;
+    border-top: 2px solid var(--contrast);
+    background-color: var(--background);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: auto;
-    padding : 1em;
+    padding: 1em;
 }
 
 .cards {
     display: flex;
     gap: 2em;
 }
+
