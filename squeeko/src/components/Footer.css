@@ -1,12 +1,17 @@
 .footer {
+    border-top: 2px solid var(--contrast);
+    background-color: var(--background);
+       background: var(--background);
+    background: linear-gradient(90deg, var(--contrast) 0%, var(--background) 70%);
+    background: -moz-linear-gradient(90deg, var(--contrast) 0%, var(--background) 70%);
+    background: -webkit-linear-gradient(90deg, var(--contrast) 0%, var(--background) 70%);
     margin-top: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 2em;
     width: 100%;
-    padding: 0 2em;
-    border: 1px solid red;
+    padding: 1em 2em;
 }
 
 @media (max-width: 768px) { /* Tablet */
@@ -24,7 +29,6 @@
 }
 
 .footer-cards {
-    border: 1px solid green;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -34,7 +38,7 @@
 
 .footer-card-title {
     font-size: 1.5em;
-    color: var(--primary)
+    color: var(--text)
 }
 
 .footer-card-list {
@@ -46,8 +50,13 @@
     gap: 0.5em;
 }
 
-.footer-card-list li {
+.footer-link {
     font-size: 0.8em;
+    color: var(--text);
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
 
 .footer-bar {
@@ -55,4 +64,5 @@
     height: 0.25em;
     background-color: var(--primary);
     margin: 0.5em 0;
+    padding: 0;
 }
