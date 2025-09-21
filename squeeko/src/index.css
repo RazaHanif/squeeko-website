@@ -119,6 +119,11 @@ body {
   height: auto;
 }
 
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
