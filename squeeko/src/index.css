@@ -119,7 +119,7 @@ body {
   height: auto;
 }
 
-html, body, #root {
+html, #root {
   height: 100%;
   margin: 0;
 }

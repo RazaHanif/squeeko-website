@@ -5,7 +5,7 @@ import { Button } from './ui/button';
 const Footer = () => {
   return (
     <div className="footer">
-      <div className='footer-cards'>
+      <div className='footer-upper'>
         <div className='footer-card'>
           <h1 className='footer-card-title'>Product</h1>
           <div className='footer-bar'></div>
@@ -44,16 +44,28 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='footer-links'>
-        <Button variant='icon' className='footer-btn'>facebook</Button>
-        <Button variant='icon' className='footer-btn'>insta</Button>
-        <Button variant='icon' className='footer-btn'>linkdin</Button>
-        <Button variant='icon' className='footer-btn'>twitter</Button>
-        <Button variant='icon' className='footer-btn'>youtube</Button>
-      </div>
+      <div className='footer-lower'>
+        <div className='footer-links'>
+          <Button variant='link' className='footer-btn'>
+            <i className="fi fi-brands-facebook"></i>
+          </Button>
+          <Button variant='link' className='footer-btn'>
+            <i className="fi fi-brands-instagram"></i>
+          </Button>
+          <Button variant='link' className='footer-btn'>
+            <i className="fi fi-brands-linkedin"></i>
+          </Button>
+          <Button variant='link' className='footer-btn'>
+            <i className="fi fi-brands-twitter-alt"></i>
+          </Button>
+          <Button variant='link' className='footer-btn'>
+            <i className="fi fi-brands-youtube"></i>
+          </Button>
+        </div>
 
-      <div className='footer-copyright'>
-        
+        <div className='footer-copyright'>
+          &copy; 2025 Squeeko. All rights reserved.
+        </div>
       </div>
 
     </div>

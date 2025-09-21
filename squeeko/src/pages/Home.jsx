@@ -1,19 +1,73 @@
 import { Button } from "@/components/ui/button"
 import './Home.css'
-import Cards from "@/components/Cards";
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 const Home = () => {
   return (
     <>
     <div className="hero">
         <h1 className="title">SIMPLIFYING CHILDCARE, <br/>CLICK BY CLICK.</h1>
-        <p class="subtitle">STAY COMPLIANT, SIMPLIFY BILLING, AND KEEP PARENTS CONNECTED - BUILT FOR CENTERS LIKE YOURS.</p>
-        <div class="btns">
+        <p className="subtitle">STAY COMPLIANT, SIMPLIFY BILLING, AND KEEP PARENTS CONNECTED - BUILT FOR CENTERS LIKE YOURS.</p>
+        <div className="btns">
             <Button variant="default" className="home-btn-primary">Start Today</Button>
             <Button variant="outline" className="home-btn-secondary">Try it first!</Button>
         </div>
     </div>
-    <Cards />
+    <div className="hero-cards">
+        <div className="cards">
+            <Card className="card">
+                <CardHeader>
+                    <CardTitle className="card-title">
+                        <i className="fi fi-tr-document"></i>
+                    </CardTitle>
+                </CardHeader>
+                <CardContent className="card-content">
+                    <h1>GET COMPLIANT</h1>
+                </CardContent>
+                <CardFooter className="card-footer">
+                    <p>EASILY MEET MINISTRY REQUIREMENTS SO YOUR CENTER CAN BE AUDIT-READY.</p>
+                </CardFooter>
+            </Card>
+            
+            <Card className="card">
+                <CardHeader>
+                    <CardTitle className="card-title">
+                        <i className="fi fi-ts-payroll-check"></i>
+                    </CardTitle>
+                </CardHeader>
+                <CardContent className="card-content">
+                    <h1>SMART PAYMENTS</h1>
+                </CardContent>
+                <CardFooter className="card-footer">
+                    <p>AUTOMATE BILLING, TRACK INVOICES, AND ACCEPT ONLINE PAYMENTS.</p>
+                </CardFooter>
+            </Card>
+            
+            <Card className="card">
+                <CardHeader>
+                    <CardTitle className="card-title">
+                        <i className="fi fi-tr-messages"></i>
+                    </CardTitle>
+                </CardHeader>
+                <CardContent className="card-content">
+                    <h1>STAY CONNECTED</h1>
+                </CardContent>
+                <CardFooter className="card-footer">
+                    <p>SHARE UPDATES, MESSSAGES, AND REMINDERS WITH PARENTS IN REAL TIME.</p>
+                </CardFooter>
+            </Card>
+            
+
+        </div>
+    </div>
     </>
   );
 }

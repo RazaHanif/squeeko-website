@@ -12,6 +12,7 @@
 
 .cards {
     display: flex;
+    width: 100%;
     gap: 2em;
 }
 
@@ -23,6 +24,7 @@
     background: -moz-linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
     background: -webkit-linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#161616", endColorstr="#0A0A0A", GradientType=1 );
+    max-width: 20em;
 }
 
 .card-title i {

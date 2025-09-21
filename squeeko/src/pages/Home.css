@@ -6,6 +6,7 @@
     text-align: left;
     padding: 150px 1em 200px 2em;
     position: relative;
+    width: 100%;
 }
 
 .hero h1 {
@@ -48,3 +49,43 @@
 .hero .btns .home-btn-primary:hover {
     box-shadow: 0 0 10px 5px var(--highlight); 
 }
+
+.hero-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 1em;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    gap: 2em;
+}
+
+.card {
+    border-color: var(--contrast);
+    color: var(--primary);
+    background: var(--background);
+    background: linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
+    background: -moz-linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
+    background: -webkit-linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#161616", endColorstr="#0A0A0A", GradientType=1 );
+    max-width: 20em;
+}
+
+.card-title i {
+    font-size: xx-large;
+}
+
+.card-content {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.card-footer {
+    font-size: small;
+    color: var(--text);
+}
+
