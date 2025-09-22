@@ -59,9 +59,11 @@ const Header = () => {
                         </Link>
                     </li>
                     <li className="link-items">
-                        <Button variant="outline" className="header-btn">
+                        <a href="mailto:squeekoapp@gmail.com?subject?=Beta%20Signup&body=Hey%20I%20would%20like%20to%20join%20in%20on%20your%20beat%20program%20for%20Squeeko!">
+                            <Button variant="outline" className="header-btn">
                                 Start Today
-                        </Button>
+                            </Button>
+                        </a>
                     </li>
                 </ul>
             </nav>
