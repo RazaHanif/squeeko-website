@@ -60,9 +60,7 @@ const Header = () => {
                     </li>
                     <li className="link-items">
                         <Button variant="outline" className="header-btn">
-                            <a>
                                 Start Today
-                            </a>
                         </Button>
                     </li>
                 </ul>
