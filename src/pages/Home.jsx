@@ -17,7 +17,11 @@ const Home = () => {
         <h1 className="title">SIMPLIFYING CHILDCARE, <br/>CLICK BY CLICK.</h1>
         <p className="subtitle">STAY COMPLIANT, SIMPLIFY BILLING, AND KEEP PARENTS CONNECTED - BUILT FOR CENTERS LIKE YOURS.</p>
         <div className="btns">
-            <Button variant="default" className="home-btn-primary">Start Today</Button>
+            <a href="mailto:squeekoapp@gmail.com?subject?=Beta%20Signup&body=Hey%20I%20would%20like%20to%20join%20in%20on%20your%20beat%20program%20for%20Squeeko!">
+                <Button variant="default" className="header-btn">
+                    Start Today
+                </Button>
+            </a>
             {/* <Button variant="outline" className="home-btn-secondary">Try it first!</Button> */}
         </div>
     </div>
