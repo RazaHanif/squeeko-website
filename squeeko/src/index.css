@@ -42,8 +42,8 @@
   --highlight: oklch(0.6832 0.0943 348.5);
   --background: oklch(0.2393 0 0);
   --contrast: oklch(0.3012 0 0);
-  --text: oklch(0.955 0.0943 348.5);
-  --contrast-text: #FFFFFF; 
+  --text: oklch(0.855 0.001 348.5);
+  --contrast-text: oklch(0.6832 0.0943 348.5); 
   background-color: var(--background);
 }
 

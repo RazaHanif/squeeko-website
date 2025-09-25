@@ -66,7 +66,6 @@
 
 .card {
     border-color: var(--contrast);
-    color: var(--primary);
     background: var(--background);
     background: linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
     background: -moz-linear-gradient(135deg, var(--contrast) 0%, var(--background) 70%);
@@ -77,11 +76,13 @@
 
 .card-title i {
     font-size: xx-large;
+    color: var(--base)
 }
 
 .card-content {
     font-size: x-large;
     font-weight: bold;
+    color: var(--text);
 }
 
 .card-footer {

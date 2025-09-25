@@ -18,7 +18,7 @@ const Home = () => {
         <p className="subtitle">STAY COMPLIANT, SIMPLIFY BILLING, AND KEEP PARENTS CONNECTED - BUILT FOR CENTERS LIKE YOURS.</p>
         <div className="btns">
             <Button variant="default" className="home-btn-primary">Start Today</Button>
-            <Button variant="outline" className="home-btn-secondary">Try it first!</Button>
+            {/* <Button variant="outline" className="home-btn-secondary">Try it first!</Button> */}
         </div>
     </div>
     <div className="hero-cards">
