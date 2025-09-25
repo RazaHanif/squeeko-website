@@ -24,17 +24,17 @@ const Header = () => {
                         <div className="bar"></div>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent>
-                        <DropdownMenuItem asChild onClick={() => setOpen(false)}>
+                        <DropdownMenuItem asChild>
                             <Link to={'/features'} className="links">
                                 FEATURES
                             </Link>
                         </DropdownMenuItem>
-                        <DropdownMenuItem asChild onClick={() => setOpen(false)}>
+                        <DropdownMenuItem asChild>
                             <Link to={'/pricing'} className="links">
                                 PRICING
                             </Link>
                         </DropdownMenuItem>
-                        <DropdownMenuItem asChild onClick={() => setOpen(false)}>
+                        <DropdownMenuItem asChild>
                             <Link to={'/about'} className="links">
                                 ABOUT
                             </Link>
