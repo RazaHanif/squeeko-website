@@ -96,3 +96,7 @@
     color: var(--text);
 }
 
+.hero-quote {
+    display: flex;
+    justify-content: center;
+}

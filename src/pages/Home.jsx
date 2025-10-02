@@ -2,13 +2,12 @@ import { Button } from "@/components/ui/button"
 import './Home.css'
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import QuoteCarousel from "@/components/QuoteCarousel"
 
 const Home = () => {
   return (
@@ -24,6 +23,9 @@ const Home = () => {
             </a>
             {/* <Button variant="outline" className="home-btn-secondary">Try it first!</Button> */}
         </div>
+    </div>
+    <div className="hero-quote">
+        <QuoteCarousel />
     </div>
     <div className="hero-cards">
         <div className="cards">
