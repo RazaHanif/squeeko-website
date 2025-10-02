@@ -9,9 +9,8 @@
     width: 100%;
 }
 
-.hero h1 {
+.title {
     font-size: 4em;
-    margin-bottom: 20px;
     line-height: 1.1;
     color: var(--base);
     font-family: 'Montserrat', sans-serif;
@@ -21,7 +20,7 @@
 
 /* Responsive Styles */
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
-    .hero h1 {
+    .title {
         font-size: 3rem; /* Reduced font size for tablets */
     }
     .cards {
@@ -30,12 +29,25 @@
 }
 
 @media (max-width: 480px) { /* Adjust breakpoint as needed */
-    .hero h1 {
+    .title {
         font-size: 2.5rem; /* Further reduced font size for phones */
     }
     .cards {
         flex-direction: column;
     }
+}
+
+.hero-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hero-top img {
+    max-width: 200px;
+    width: 100%;
+    height: 100%;
 }
 
 .hero .subtitle {

@@ -8,13 +8,18 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import QuoteCarousel from "@/components/QuoteCarousel"
+import checklist from '../assets/Isometric Stickers - Checklist.png'
 
 const Home = () => {
   return (
     <>
     <div className="hero">
-        <h1 className="title">SIMPLIFYING CHILDCARE, <br/>CLICK BY CLICK.</h1>
+        <div className="hero-top">
+            <h1 className="title">SIMPLIFYING CHILDCARE, <br/>CLICK BY CLICK.</h1>
+            <img src={checklist} alt="checklist"/>
+        </div>
         <p className="subtitle">STAY COMPLIANT, SIMPLIFY BILLING, AND KEEP PARENTS CONNECTED - BUILT FOR CENTERS LIKE YOURS.</p>
+
         <div className="btns">
             <a href="mailto:squeekoapp@gmail.com">
                 <Button variant="default" className="header-btn">
