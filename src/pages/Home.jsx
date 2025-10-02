@@ -8,7 +8,6 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import QuoteCarousel from "@/components/QuoteCarousel"
-import checklist from '../assets/Isometric Stickers - Checklist.png'
 
 const Home = () => {
   return (
