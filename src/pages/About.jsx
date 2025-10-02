@@ -17,7 +17,7 @@ const About = () => {
           </p>
         </div>
         <div className="about-img right">
-          <img src={crmMock} alt="crm-mock" />
+          <img src={crmMock} alt="crm-mock"/>
         </div>
       </div>
 
@@ -45,7 +45,7 @@ const About = () => {
 
       <div className="about-section">
         <div className="about-img left">
-          <img src={crmLaptop} alt="crm-laptop" />
+          <img src={crmLaptop} alt="crm-laptop"/>
         </div>
         <div className="about-text right">
           <p>
