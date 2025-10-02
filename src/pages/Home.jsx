@@ -14,10 +14,7 @@ const Home = () => {
   return (
     <>
     <div className="hero">
-        <div className="hero-top">
-            <h1 className="title">SIMPLIFYING CHILDCARE, <br/>CLICK BY CLICK.</h1>
-            <img src={checklist} alt="checklist"/>
-        </div>
+        <h1 className="title">SIMPLIFYING CHILDCARE, <br/>CLICK BY CLICK.</h1>
         <p className="subtitle">STAY COMPLIANT, SIMPLIFY BILLING, AND KEEP PARENTS CONNECTED - BUILT FOR CENTERS LIKE YOURS.</p>
 
         <div className="btns">
