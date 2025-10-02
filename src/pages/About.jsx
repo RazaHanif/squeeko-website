@@ -1,6 +1,7 @@
 import './About.css'
 import crmMock from '../assets/crm-mock.png'
 import crmLaptop from '../assets/Isometric Stickers - Office Supplies.png'
+import { Button } from '@/components/ui/button';
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
 
       <div className="about-section">
         <div className="about-text left">
-          <p>
+          <p className='about-text-top'>
             Running a center means juggling compliance forms, invoicing, and dozens of parent messages every day. Without modern tools, staff drown in admin work, increasing stress and reducing time with kids.
           </p>
         </div>
@@ -55,7 +56,8 @@ const About = () => {
 
       <div className="bottom">
         <h1>Ready to simplify your day?</h1>
-        <div>Form goes here</div>
+        {/* TODO: Add contact form -- need to learn shadcn forms first! */}
+        <Button variant='default' className='about-btn'>Join Today!</Button>
       </div>
     </div>
   );
