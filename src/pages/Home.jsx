@@ -24,9 +24,11 @@ const Home = () => {
             {/* <Button variant="outline" className="home-btn-secondary">Try it first!</Button> */}
         </div>
     </div>
+    {/*
     <div className="hero-quote">
         <QuoteCarousel />
     </div>
+    */}
     <div className="hero-cards">
         <div className="cards">
             <Card className="card">
