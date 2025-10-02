@@ -1,0 +1,80 @@
+.about-page {
+    border: 1px solid yellow;
+    width: 100%;
+    height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 2em;
+}
+
+.mission-statment {
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.about-section {
+    width: 100%;
+    height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.right {
+    text-align: end;
+    padding-right: 2em;
+}
+
+.left {
+    text-align: start;
+    padding-left: 2em;
+}
+
+.about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border: 1px solid pink;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    border: 1px solid green;
+}
+
+.about-list {
+    border: 1px solid yellow;
+    flex: 1;
+    padding: 2em;
+}
+
+.about-list ul {
+    border: 1px solid red;
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.bottom {
+    border: 1px solid blue;
+    width: 100%;
+    height: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+

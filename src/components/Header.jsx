@@ -24,7 +24,7 @@ const Header = () => {
                         <div className="bar"></div>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent>
-                        <DropdownMenuItem asChild>
+                        {/* <DropdownMenuItem asChild>
                             <Link to={'/features'} className="links">
                                 FEATURES
                             </Link>
@@ -33,7 +33,7 @@ const Header = () => {
                             <Link to={'/pricing'} className="links">
                                 PRICING
                             </Link>
-                        </DropdownMenuItem>
+                        </DropdownMenuItem> */}
                         <DropdownMenuItem asChild>
                             <Link to={'/about'} className="links">
                                 ABOUT
@@ -43,7 +43,7 @@ const Header = () => {
                     </DropdownMenu>
                 </div>
                 <ul className="nav-links">
-                    <li className="link-items">
+                    {/* <li className="link-items">
                         <Link to={'/features'} className="links">
                             FEATURES
                         </Link>
@@ -52,7 +52,7 @@ const Header = () => {
                         <Link to={'/pricing'} className="links">
                             PRICING
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="link-items">
                         <Link to={'/about'} className="links">
                             ABOUT
