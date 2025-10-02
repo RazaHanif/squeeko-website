@@ -100,6 +100,8 @@
     }
     .cards {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -109,6 +111,8 @@
     }
     .cards {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .hero-top img {
         display: none;
