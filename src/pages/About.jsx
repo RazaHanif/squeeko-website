@@ -10,7 +10,7 @@ const About = () => {
         At Squeeko, we are building tools to help childcare centers spend less time on paper work and more time with kids
       </div>
 
-      <div className="about-section">
+      <div className="about-section frosted">
         <div className="about-text left">
           <p className='about-text-top'>
             Running a center means juggling compliance forms, invoicing, and dozens of parent messages every day. Without modern tools, staff drown in admin work, increasing stress and reducing time with kids.
@@ -43,7 +43,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="about-section">
+      <div className="about-section frosted">
         <div className="about-img left">
           <img src={crmLaptop} alt="crm-laptop"/>
         </div>

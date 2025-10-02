@@ -110,6 +110,15 @@ body {
   background-color: var(--background);
   background: radial-gradient(circle, transparent 20%, var(--background) 20%, var(--background) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, var(--background) 20%, var(--background) 80%, transparent 80%, transparent) 30px 30px, linear-gradient(var(--contrast) 2.4000000000000004px, transparent 2.4000000000000004px) 0 -1.2000000000000002px, linear-gradient(90deg, var(--contrast) 2.4000000000000004px, var(--background) 2.4000000000000004px) -1.2000000000000002px 0;
   background-size: 60px 60px, 60px 60px, 30px 30px, 30px 30px;
+  background-attachment: fixed;
+}
+
+.frosted {
+    background-color: rgba(228, 180, 224, 0.08);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(228, 180, 224, 0.25);
+    border-bottom: 1px solid rgba(228, 180, 224, 0.25);
 }
 
 #root {

@@ -31,7 +31,7 @@ const Home = () => {
         <QuoteCarousel />
     </div>
     */}
-    <div className="hero-cards">
+    <div className="hero-cards frosted">
         <div className="cards">
             <Card className="card">
                 <CardHeader>

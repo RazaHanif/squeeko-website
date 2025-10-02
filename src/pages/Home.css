@@ -51,14 +51,14 @@
 
 .hero-cards {
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: auto;
     padding: 1em;
+    width: 100%;
 }
 
 .cards {
     display: flex;
+    justify-content: space-evenly;
     width: 100%;
     gap: 2em;
 }
@@ -94,7 +94,6 @@
     justify-content: center;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .title {
         font-size: 3rem;
