@@ -114,11 +114,13 @@ body {
 }
 
 .frosted {
-    background-color: rgba(228, 180, 224, 0.08);
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(10px);
-    border-top: 1px solid rgba(228, 180, 224, 0.25);
-    border-bottom: 1px solid rgba(228, 180, 224, 0.25);
+  background-color: rgba(228, 180, 224, 0.08);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-top: 1px solid rgba(228, 180, 224, 0.25);
+  border-bottom: 1px solid rgba(228, 180, 224, 0.25);
+  will-change: backdrop-filter;
+  transform: translateZ(0);
 }
 
 #root {
