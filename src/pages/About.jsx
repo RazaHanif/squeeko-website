@@ -2,6 +2,7 @@ import './About.css'
 import crmMock from '../assets/crm-mock.png'
 import crmLaptop from '../assets/Isometric Stickers - Office Supplies.png'
 import { Button } from '@/components/ui/button';
+import ContactForm from '@/components/ContactForm';
 
 const About = () => {
   return (
@@ -56,8 +57,7 @@ const About = () => {
 
       <div className="bottom">
         <h1>Ready to simplify your day?</h1>
-        {/* TODO: Add contact form -- need to learn shadcn forms first! */}
-        <Button variant='default' className='about-btn'>Join Today!</Button>
+        <ContactForm/>
       </div>
     </div>
   );
