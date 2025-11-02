@@ -37,13 +37,7 @@ const ContactForm = () => {
   return (
     <form className="form" onSubmit={handleSubmit(onSubmit)}>
       <input
-        {...register("email", {
-          required: "Email is required.",
-          pattern: {
-            value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-            message: "Invalid email.",
-          },
-        })}
+        {...register("email")}
         type="text"
         placeholder="Email"
       />
@@ -51,13 +45,7 @@ const ContactForm = () => {
         <div className="text-red-500">{errors.email.message}</div>
       )}
       <input
-        {...register("password", {
-          required: "Password is requried.",
-          minLength: {
-            value: 8,
-            message: "Password must be at least 8 characters.",
-          },
-        })}
+        {...register("password")}
         type="password"
         placeholder="Password"
       />
