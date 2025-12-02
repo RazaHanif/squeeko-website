@@ -5,21 +5,27 @@ import Features from './pages/Features';
 import Pricing from './pages/Pricing';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import './App.css'
+
+// import './App.css'
+import ComingSoon from './pages/ComingSoon';
 
 const App = () => {
   return (
-    <div className='app-container'>
-      <Header />
-      <div className='main'>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/features' element={<Features />} />
-          <Route path='/pricing' element={<Pricing  />} />
-          <Route path='/about' element={<About />} />
-        </Routes>
-      </div>
-      <Footer />
+    // <div className='app-container'>
+    //   <Header />
+    //   <div className='main'>
+    //     <Routes>
+    //       <Route path='/' element={<Home />} />
+    //       {/* <Route path='/features' element={<Features />} />
+    //       <Route path='/pricing' element={<Pricing  />} />
+    //       <Route path='/about' element={<About />} /> */}
+    //     </Routes>
+    //   </div>
+    //   <Footer />
+    // </div>
+    <div className='w-full h-[100dvh] flex flex-col justify-center items-center bg-slate-600'>
+      <ComingSoon />
+    
     </div>
 
   );
