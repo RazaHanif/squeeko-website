@@ -1,28 +1,28 @@
-function Home() {
+import { Button } from "@/components/ui/button"
+import { useNavigate } from 'react-router-dom';
+
+function NotFound() {
+    const navigate = useNavigate()
+
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
             <div className="w-full flex justify-center items-center pb-8">
                 <h1 className="text-4xl lg:text-5xl font-serif">
-                    Home
+                    404 Not Found
                 </h1>
             </div>
 
             <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
                 <p>
-                    This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
+                    This firstly needs a proper 404 error from vercel, but also this button should be nicer
                 </p>
-                {(() => {
-                    const list = []
-                    for (let i = 0; i < 10; i++) {
-                        list.push(
-                            <p className="text-transparent" key={i}>
-                                {i}
-                            </p>
-                        )
-                    }
 
-                    return list
-                }) ()}
+                <Button
+                    className="cursor-pointer"
+                    onClick={() => navigate('/')}
+                >
+                    Go Home!
+                </Button>
             </div>
 
             {/* 
@@ -70,4 +70,4 @@ function Home() {
     )
 }
 
-export default Home
+export default NotFound

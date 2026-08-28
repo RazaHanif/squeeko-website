@@ -1,66 +1,61 @@
-import './About.css'
-import crmMock from '../assets/crm-mock.png'
-import crmLaptop from '../assets/Isometric Stickers - Office Supplies.png'
-import { Button } from '@/components/ui/button';
-import ContactForm from '@/components/ContactForm';
+function About() {
+    return (
+        <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
+            <div className="w-full flex justify-center items-center pb-8">
+                <h1 className="text-4xl lg:text-5xl font-serif">
+                    About
+                </h1>
+            </div>
 
-const About = () => {
-  return (
-    <div className='about-page'>
-      <div className='mission-statment'>
-        At Squeeko, we are building tools to help childcare centers spend less time on paper work and more time with kids
-      </div>
+            <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
+                <p>
+                    This should have some contact info, copy Jane.app mission, vision, and values format for a base. 
+                </p>
+            </div>
 
-      <div className="about-section frosted">
-        <div className="about-text left">
-          <p className='about-text-top'>
-            Running a center means juggling compliance forms, invoicing, and dozens of parent messages every day. Without modern tools, staff drown in admin work, increasing stress and reducing time with kids.
-          </p>
-        </div>
-        <div className="about-img right">
-          <img src={crmMock} alt="crm-mock"/>
-        </div>
-      </div>
+            {/* 
+            
+            <StructData schema={localBusinessSchema} />
+            <StructData schema={organizationSchema} />
+            <StructData schema={websiteSchema} /> 
+            
+            */}
 
-      <div className="about-section">
-        <div className="about-list">
-          <ul>
-            <li>
-              Compliance-first. Digital forms and record-keeping designed for audit-readiness.
-            </li>
-            <li>
-              Parent-first communication. Fast, translated, and trackable updates so families stay informed.
-            </li>
-            <li>
-              Simple operations. Automations and clear workflows that reduce repetitive tasks.
-            </li>
-            <li>
-              Secure & private. Data protection and access controls built into the platform.
-            </li>
-            <li>
-              Affordable for small centers. Practical pricing and features for real-world budgets.
-            </li>
-          </ul>
-        </div>
-      </div>
+            <title>
+                Child Care Management Software | SQUEEKO
+            </title>
 
-      <div className="about-section frosted">
-        <div className="about-img left">
-          <img src={crmLaptop} alt="crm-laptop"/>
-        </div>
-        <div className="about-text right">
-          <p>
-            We focus on the essentials: make compliance straightforward, automate billing where possible, and keep parents connected through simple, reliable messaging. Squeeko is built to remove friction so teams can focus on care.
-          </p>
-        </div>
-      </div>
+            <meta
+                name="description"
+                content="SQUEEKO is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
+            />
 
-      <div className="bottom">
-        <h1>Ready to simplify your day?</h1>
-        <ContactForm/>
-      </div>
-    </div>
-  );
+            <meta 
+                property="og:title"
+                content="Child Care Management Software | SQUEEKO"
+            />
+            <meta
+                property="og:description"
+                content="SQUEEKO is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
+            />
+            <meta 
+                property="og:type"
+                content="website"
+            />
+            <meta
+                property="og:url"
+                content="https://www.squeeko.ca/"
+            />
+            <meta
+                property="og:image"
+                content="https://www.squeeko.ca/media/og-image.jpg"
+            />
+            <meta
+                property="og:image:alt"
+                content="SQUEEKO Child Care Management Software Logo"
+            />
+        </div>
+    )
 }
 
-export default About;
+export default About
