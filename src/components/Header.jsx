@@ -126,7 +126,7 @@ function MobileNav() {
                         <AccordionItem
                             key={category}
                             value={category}
-                            className="border-b hover:bg-gradient-to-r from-background to-primary/40 px-4"
+                            className="border-b hover:bg-gradient-to-r from-background to-primary/40 px-10"
                         >
                             <AccordionTrigger
                                 className="text-lg text-primary hover:no-underline cursor-pointer border py-4"
@@ -156,7 +156,7 @@ function MobileNav() {
                             <AccordionItem 
                                 key={link}
                                 value={title}
-                                className="border-b hover:bg-gradient-to-r from-background to-primary/40 px-4"
+                                className="border-b hover:bg-gradient-to-r from-background to-primary/40 px-10"
                             >
                                 <SheetClose
                                     onClick={() => navigate(link)}
