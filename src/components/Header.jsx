@@ -51,7 +51,7 @@ function DesktopNav() {
                             >
                                 {category}
                             </NavigationMenuTrigger>
-                            <NavigationMenuContent>
+                            <NavigationMenuContent className="">
                                 {items.map(({ title, link }) => (
                                     <NavigationMenuLink 
                                         key={link}
