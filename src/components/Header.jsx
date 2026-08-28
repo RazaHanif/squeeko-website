@@ -103,9 +103,9 @@ function MobileNav() {
             <SheetContent 
                 side="top" 
                 showCloseButton={false}    
-                className="data-[side=top]:h-full gap-0"
+                className="data-[side=top]:h-full gap-0 bg-background"
             >
-                <SheetHeader className="flex flex-row justify-between items-center w-full p-6 border-b">
+                <SheetHeader className="flex flex-row justify-between items-center w-full py-6 px-10 border-b">
                     <SheetClose
                         className="cursor-pointer"
                         onClick={() => navigate('/')}
