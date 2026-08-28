@@ -12,7 +12,7 @@ function NotFound() {
                 </h1>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
+            <div className="flex flex-col justify-center items-center w-full text-muted-foreground gap-16">
                 <p>
                     This firstly needs a proper 404 error from vercel, but also this button should be nicer
                 </p>
@@ -34,7 +34,7 @@ function NotFound() {
             */}
 
             <title>
-                Child Care Management Software | SQUEEKO
+                404 Not Found | SQUEEKO
             </title>
 
             <meta
