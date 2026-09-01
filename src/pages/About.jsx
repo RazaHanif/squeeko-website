@@ -10,7 +10,7 @@ function About() {
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-muted text-muted-foreground">
-                <p className="w-3/4 border">
+                <p className="w-3/4 border border-accent">
                     This should have some contact info, copy Jane.app mission, vision, and values format for a base. 
                 </p>
             </section>
