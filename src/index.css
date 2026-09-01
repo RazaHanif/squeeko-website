@@ -257,7 +257,7 @@
   box-shadow: 40vmin 0 5.196265905749415vmin currentColor;
 }
 
-
+/* Horizontal Scroll Animation */
 .marquee-track {
     display: flex;
     width: max-content;
