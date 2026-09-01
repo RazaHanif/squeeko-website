@@ -22,10 +22,6 @@ function Home() {
                 </h1>
             </div>
 
-            <FadeUp>
-                <h2 className="text-5xl">Run your center</h2>
-            </FadeUp>
-
                 <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
                     <p>
                         This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
