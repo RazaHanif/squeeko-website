@@ -52,27 +52,6 @@ function HorizontalScroll() {
                             {item}
                         </div>
                     ))}
-                    <div className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
-                        block
-                    </div>
-                    <div className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
-                        block
-                    </div>
-                    <div className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
-                        block
-                    </div>
-                    <div className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
-                        block
-                    </div>
-                    <div className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
-                        block
-                    </div>
-                    <div className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
-                        block
-                    </div>
-                    <div className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
-                        block
-                    </div>
                 </div>
             </div>
         </div>
