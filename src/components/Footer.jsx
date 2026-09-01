@@ -103,7 +103,6 @@ function Footer() {
                                 <Icon className="size-8 lg:size-9" />
                             </a>
                         ))}
-
                     </div>
                 </div>
                 
