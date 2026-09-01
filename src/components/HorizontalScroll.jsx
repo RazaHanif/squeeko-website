@@ -75,7 +75,7 @@ function HorizontalScroll({ items=[]}) {
                         ))}
                     </div>
 
-                    <div className="marquee-group">
+                    <div className="marquee-group" aria-hidden>
                         {scrollList.map((items, idx) => (
                             <div key={idx} className="marquee-item">
                                 {item}
