@@ -42,7 +42,14 @@ function Home() {
                 <HorizontalScroll items={horizontalList} className="text-primary"/>
             </div>
             <div className="mt-16">
-                <HorizontalScroll items={horizontalList} className="text-primary"/>
+                
+    This is how to add icons into this scroll
+    <HorizontalScroll 
+        items={socialList.map((Icon, idx) => (
+            <Icon key={idx} className="size-8" />
+        ))} 
+    /> 
+
             </div>
 
             {/* 
