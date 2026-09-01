@@ -1,7 +1,13 @@
 function HorizontalScroll({ dur="12s", items=[]}) {
+    let scrollList = []
     
+    if (items.length > 0) {
+        scrollList = items
+    } else {
 
-    const scrollList = items || [
+    }
+
+    scrollList = [
         "Test 1", 
         "Test 2",
         "Test 3",
