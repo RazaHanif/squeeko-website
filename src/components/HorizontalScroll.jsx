@@ -52,7 +52,7 @@ function HorizontalScroll({ duration="12s", items=[]}) {
                     className="marquee"
                     style={{
                         "--marquee-items": scrollList.length,
-                        
+                        "--marquee-duration": `${scrollList.length }`
                     }}    
                 >
                     {scrollList.map((item, idx) => (
