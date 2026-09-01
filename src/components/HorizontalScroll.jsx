@@ -1,4 +1,4 @@
-function HorizontalScroll({ dur="12s", items}) {
+function HorizontalScroll({ dur="12s", items=[]}) {
 
     const items = [
         "Test 1", 
