@@ -64,7 +64,7 @@ function HorizontalScroll({ items=[]}) {
                     ))}
                 </div> */}
 
-                <div className="marquee-track" style={{"--marquee-duration": `${duration}`}}>
+                <div className="marquee-track" style={{"--marquee-duration": `${duration}s`}}>
 
 
                 </div>
