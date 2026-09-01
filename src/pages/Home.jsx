@@ -6,7 +6,7 @@ function Home() {
         'Less paperwork. more childcare',
         'never miss another payment',
         'stay connected with families',
-        'Voted Most Likely To Fall Asleep On The Beach',
+        'Built for childcare, by childcare experts',
         'Business Owner',
         'Boss',
     ]
