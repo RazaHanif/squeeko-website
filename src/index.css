@@ -285,17 +285,17 @@
 }
 
 .marquee__item {
-  background-color: var(--primary);
-  color: red;
-  --marquee-item-offset: max(
-    calc(var(--marquee-item-width) * var(--marquee-items)),
-    calc(100% + var(--marquee-item-width))
-  );
-  --marquee-delay: calc(var(--marquee-duration) / var(--marquee-items) * (var(--marquee-items) - var(--marquee-item-index)) * -1);
-  position: absolute;
-  inset-inline-start: var(--marquee-item-offset);
-  transform: translateX(-50%);
-  animation: go linear var(--marquee-duration) var(--marquee-delay, 0s) infinite;
+    background-color: var(--primary);
+    color: red;
+    --marquee-item-offset: max(
+      calc(var(--marquee-item-width) * var(--marquee-items)),
+      calc(100% + var(--marquee-item-width))
+    );
+    --marquee-delay: calc(var(--marquee-duration) / var(--marquee-items) * (var(--marquee-items) - var(--marquee-item-index)) * -1);
+    position: absolute;
+    inset-inline-start: var(--marquee-item-offset);
+    transform: translateX(-50%);
+    animation: go linear var(--marquee-duration) var(--marquee-delay, 0s) infinite;
 }
 
 .marquee--8 {
