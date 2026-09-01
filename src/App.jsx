@@ -24,7 +24,7 @@ function App() {
         <div className="flex-1 flex flex-col w-full min-h-dvh">
         <Temp>
             <Header />
-            <div className="flex-1 flex flex-col justify-center items-center w-full relative">
+            <div className="flex-1 flex flex-col justify-center items-center w-full relative border-2 border-blue-500">
                 <ScrollToTop />
 
                 <Routes>
