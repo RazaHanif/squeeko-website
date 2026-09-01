@@ -31,12 +31,12 @@ function HorizontalScroll() {
 
                     <div className="flex shrink-0 gap-16 aria-hidden:true">
                         {items.map((item) => (
-                            <p
+                            <div
                                 key={item}
                                 className="cursor-pointer border rounded-2xl bg-muted text-muted-foreground px-4 py-2 hover:text-secondary"
                             >
                                 {item}
-                            </p>
+                            </div>
                         ))}
                     </div>
 
