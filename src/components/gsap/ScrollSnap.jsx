@@ -18,8 +18,9 @@ function ScrollSnap({ children, className}) {
             snap: {
                 snapTo: 1 / (sections.length - 1),
                 duration: { min: 0.2, max: 0.6 },
-                delay: 0.05
-            }
+                delay: 0.05,
+                ease: "power2.out"
+            },
         })
     })
 }
