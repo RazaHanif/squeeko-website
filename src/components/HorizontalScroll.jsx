@@ -1,4 +1,7 @@
 function HorizontalScroll({ items=[], duration=20}) {
+
+
+    
     let scrollList = []
     
     if (items.length > 0) {
