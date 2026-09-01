@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react"
     HorizontalScroll 
     socialList.map((Icon, idx) => (
             <Icon key={idx} className="size-8" />
-        ))} 
+        )
 */}
 
 function HorizontalScroll({ items=[], speed=100, className}) {
