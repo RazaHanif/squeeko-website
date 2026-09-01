@@ -66,7 +66,7 @@ export default HorizontalScroll
 
 /* 
 
-Horizontal Scroll Animtaion
+Horizontal Scroll Animation
 
 .marquee {
   display: flex;
