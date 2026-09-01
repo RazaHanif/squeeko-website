@@ -4,7 +4,13 @@ function HorizontalScroll({ items=[], duration=20}) {
     const groupRef = useRef(null)
     const [groupWidth, setGroupWidth] = useState(0)
 
-    useEffect
+    useEffect(() => {
+        if (!groupRef.current) return
+
+        const updateWidth = () => {
+            setGroupWidth
+        }
+    })
 
 
     let scrollList = []
