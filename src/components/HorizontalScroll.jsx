@@ -20,33 +20,6 @@ function HorizontalScroll() {
                 <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-background to-transparent" />
                 <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-background to-transparent" />
 
-
-                <div className="flex w-max animate-marquee gap-16">
-                    <div className="flex shrink-0 gap-16">
-                        {items.map((item) => (
-                            <p
-                                key={item}
-                                className="cursor-pointer border rounded-2xl bg-muted text-muted-foreground px-4 py-2 hover:text-secondary"
-                            >
-                                {item}
-                            </p>
-                        ))}
-                    </div>
-
-                    <div className="flex shrink-0 gap-16 aria-hidden:true">
-                        {items.map((item) => (
-                            <div
-                                key={item}
-                                className="flex flex-row cursor-pointer border rounded-2xl bg-muted text-muted-foreground px-4 py-2 hover:text-secondary"
-                            >
-                                {item}
-                            </div>
-                        ))}
-                    </div>
-
-
-                </div>
-
                 <div className="marquee marquee--8">
                     {items.map((item) => (
                         <div 
