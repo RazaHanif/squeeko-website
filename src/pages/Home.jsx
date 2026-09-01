@@ -1,5 +1,4 @@
 import HorizontalScroll from "@/components/HorizontalScroll"
-import { FacebookIcon, InstagramIcon, LinkedInIcon, TiktokIcon, YoutubeIcon } from "@/components/icons"
 
 function Home() {
     const horizontalList = [
