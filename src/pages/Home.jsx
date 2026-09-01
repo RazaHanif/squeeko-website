@@ -1,4 +1,5 @@
 import HorizontalScroll from "@/components/HorizontalScroll"
+import { FacebookIcon, InstagramIcon } from "@/components/icons"
 
 function Home() {
     const horizontalList = [
@@ -13,7 +14,8 @@ function Home() {
     ]
 
     const socialList = [
-        instag
+        InstagramIcon,
+        FacebookIcon
     ]
 
     return (
