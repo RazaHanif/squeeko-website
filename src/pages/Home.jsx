@@ -29,7 +29,7 @@ function Home() {
             </div>
 
             <div className="my-16">
-                <HorizontalScroll items={horizontalList} speed={20} />
+                <HorizontalScroll items={horizontalList} speed={2000} />
             </div>
 
             <div className="my-16">
@@ -37,7 +37,7 @@ function Home() {
                     items={socialList.map((Icon, idx) => (
                         <Icon key={idx} className="size-8" />
                     ))} 
-                    speed={5} 
+                    speed={500} 
                 />
             </div>
 
