@@ -18,7 +18,7 @@ function Home() {
                 </h1>
             </div>
 
-            <div className="flex flex-col justify-center items-center text-  my-16">
+            <div className="flex flex-col justify-center items-center text-muted-foreground my-16">
                 <HorizontalScroll items={horizontalList} />
             </div>
 
