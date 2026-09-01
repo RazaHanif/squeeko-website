@@ -23,6 +23,8 @@ function ScrollSnap({ children, className}) {
             container.current.offsetHeight - 
             window.innerHeight
 
+        const snapPoints = sections.map
+
         ScrollTrigger.create({
             trigger: container.current,
             start: "top 80px",
