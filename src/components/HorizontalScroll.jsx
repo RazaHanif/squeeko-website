@@ -64,7 +64,7 @@ function HorizontalScroll({ items=[]}) {
                     ))}
                 </div> */}
 
-                <div className="">
+                <div className="marquee-track">
 
 
                 </div>
