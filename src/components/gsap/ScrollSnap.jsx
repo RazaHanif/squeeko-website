@@ -18,6 +18,9 @@ function ScrollSnap({ children, className}) {
             const sectionTop = 
                 section.getBoundingClientRect().top  + 
                 window.scrollY
+
+            const containerTop = 
+                container
             
             const scrollPosition = sectionTop - headerHeight
 
