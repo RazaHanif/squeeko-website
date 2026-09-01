@@ -1,5 +1,12 @@
 import { useEffect, useRef, useState } from "react"
 
+{/* 
+    <HorizontalScroll 
+        items={socialList.map((Icon, idx) => (
+            <Icon key={idx} className="size-8" />
+        ))} 
+    /> 
+*/}
 
 function HorizontalScroll({ items=[], speed=100, className}) {
     const groupRef = useRef(null)
