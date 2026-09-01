@@ -282,7 +282,9 @@
       var(--marquee-duration) 
       / var(--marquee-items) 
       * (
-        var(--marquee-items) - var(--marquee-item-index)) * -1);
+        var(--marquee-items) - var(--marquee-item-index)
+      ) * -1
+      );
     position: absolute;
     width: var(--marquee-item-width);
     height: var(--marquee-item-height);
