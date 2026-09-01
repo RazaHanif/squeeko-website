@@ -69,70 +69,28 @@ function HorizontalScroll({ items=[], duration=20}) {
 export default HorizontalScroll
 
 /* 
+        <div className="w-full border-2 border-red-500">
+            <div className="overflow-hidden relative">
+                <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-15 bg-gradient-to-r from-background to-transparent" />
+                <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-15 bg-gradient-to-l from-background to-transparent" />
 
-Horizontal Scroll Animation
+                <div className="marquee-track" style={{"--marquee-duration": `${duration}s`}}>
+                    <div className="marquee-group">
+                        {scrollList.map((item, idx) => (
+                            <div key={idx} className="marquee-item">
+                                {item}
+                            </div>
+                        ))}
+                    </div>
 
-.marquee {
-  display: flex;
-  block-size: var(--marquee-item-height);
-  position: relative;
-  overflow-x: hidden;
-}
-
-.marquee_item {
-    --marquee-item-offset: max(
-      calc(var(--marquee-item-width) * var(--marquee-items)),
-      calc(100% + var(--marquee-item-width))
-    );
-    --marquee-delay: calc(var(--marquee-duration) / var(--marquee-items) * (var(--marquee-items) - var(--marquee-item-index)) * -1);
-    position: absolute;
-    inset-inline-start: var(--marquee-item-offset);
-    transform: translateX(-50%);
-    animation: go linear var(--marquee-duration) var(--marquee-delay, 0s) infinite;
-}
-
-.marquee-8 {
-  --marquee-item-width: 8rem;
-  --marquee-item-height: 4rem;
-  --marquee-duration: 15s;
-  --marquee-items: 8;
-}
-
-.marquee-8 .marquee_item:nth-of-type(1) {
-  --marquee-item-index: 1;
-}
-
-.marquee-8 .marquee_item:nth-of-type(2) {
-  --marquee-item-index: 2;
-}
-
-.marquee-8 .marquee_item:nth-of-type(3) {
-  --marquee-item-index: 3;
-}
-
-.marquee-8 .marquee_item:nth-of-type(4) {
-  --marquee-item-index: 4;
-}
-
-.marquee-8 .marquee_item:nth-of-type(5) {
-  --marquee-item-index: 5;
-}
-
-.marquee-8 .marquee_item:nth-of-type(6) {
-  --marquee-item-index: 6;
-}
-
-.marquee-8 .marquee_item:nth-of-type(7) {
-  --marquee-item-index: 7;
-}
-
-.marquee-8 .marquee_item:nth-of-type(8) {
-  --marquee-item-index: 8;
-}
-
-@keyframes go {
-  to {  
-    inset-inline-start: calc(var(--marquee-item-width) * -1);
-  }
-}
+                    <div className="marquee-group" aria-hidden="true">
+                        {scrollList.map((item, idx) => (
+                            <div key={idx} className="marquee-item">
+                                {item}
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </div>
 */
