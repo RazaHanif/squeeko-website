@@ -12,7 +12,7 @@ function HorizontalScroll({ items=[], duration=20}) {
 
         const update = () => {
             const groupWidth = groupRef.current.offsetWidth
-            const viewportWidth = viewportRef
+            const viewportWidth = viewportRef.current.offsetWidth
         }
 
         const updateWidth = () => {
