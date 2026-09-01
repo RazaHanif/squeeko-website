@@ -1,14 +1,14 @@
 function HorizontalScroll() {
 
     const items = [
-        "Coming soon.", 
-        "Coming soon.",
-        "Coming soon.",
-        "Coming soon.",
-        "Coming soon.",
-        "Coming soon.",
-        "Coming soon.",
-        "Coming soon.",
+        "Test 1", 
+        "Test 1",
+        "Test 1",
+        "Test 1",
+        "Test 1",
+        "Test 1",
+        "Test 1",
+        "Test 1",
     ]
     return (
         <div className="overflow-hidden py-12">
