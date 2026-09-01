@@ -22,7 +22,9 @@ function Home() {
                 </h1>
             </div>
 
-            <Fade
+            <FadeUp>
+                <h2>Run your center</h2>
+            </FadeUp>
 
                 <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
                     <p>
