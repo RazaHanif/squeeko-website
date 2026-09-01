@@ -33,7 +33,7 @@ function HorizontalScroll() {
                         {items.map((item) => (
                             <div
                                 key={item}
-                                className="cursor-pointer border rounded-2xl bg-muted text-muted-foreground px-4 py-2 hover:text-secondary"
+                                className="flex flex-row cursor-pointer border rounded-2xl bg-muted text-muted-foreground px-4 py-2 hover:text-secondary"
                             >
                                 {item}
                             </div>
