@@ -3,25 +3,25 @@ import ScrollSnap from "@/components/gsap/ScrollSnap"
 function About() {
     return (
         <ScrollSnap className="flex flex-col justify-center items-center flex-1 gap-4 font-serif w-9/10 lg:w-3/4 lg:pb-16 pb-8">
-            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary/40 text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary text-muted-foreground">
                 <h1 className="text-4xl lg:text-5xl font-serif text-center">
                     About
                 </h1>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary/40 text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
                     This should have some contact info, copy Jane.app mission, vision, and values format for a base. 
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary/40 text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
                     Features
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary/40 text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
                     CTA
                 </p>
