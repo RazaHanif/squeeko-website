@@ -256,53 +256,6 @@
   transform-origin: 25vw -3vh;
   box-shadow: 40vmin 0 5.196265905749415vmin currentColor;
 }
-/* 
-Horizontal Scroll
-.marquee {
-  --marquee-item-width: 10rem;
-  --marquee-item-height: 4rem;
-
-  display: flex;
-  block-size: var(--marquee-item-height);
-  position: relative;
-  overflow-x: hidden;
-}
-
-.marquee_item {
-    --marquee-item-offset: max(
-      calc(
-        var(--marquee-item-width) * var(--marquee-items)
-      ),
-      calc(
-        100% + var(--marquee-item-width)
-      )
-    );
-    --marquee-delay: calc(
-        var(--marquee-duration) 
-        / var(--marquee-items) 
-        * (var(--marquee-items) - var(--marquee-item-index)) 
-        * -1
-      );
-    position: absolute;
-    width: var(--marquee-item-width);
-    height: var(--marquee-item-height);
-    box-sizing: border-box;
-    inset-inline-start: var(--marquee-item-offset);
-    transform: translateX(-50%);
-    animation: 
-      go 
-      linear 
-      var(--marquee-duration) 
-      var(--marquee-delay, 0s) 
-      infinite;
-}
-
-@keyframes go {
-  to {  
-    inset-inline-start: calc(var(--marquee-item-width) * -1);
-  }
-} */
-
 
 
 .marquee-track {
