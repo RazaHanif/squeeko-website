@@ -4,8 +4,8 @@ function Home() {
     const horizontalList = [
         'Spend more time with the children',
         'Less paperwork. more childcare',
-        'never miss another paymnet',
-        'Shopaholic',
+        'never miss another payment',
+        'stay connected with families',
         'Voted Most Likely To Fall Asleep On The Beach',
         'Business Owner',
         'Boss',
