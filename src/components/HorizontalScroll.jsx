@@ -32,7 +32,7 @@ function HorizontalScroll() {
                             style={{
                                 "--marquee-item-index": idx + 1,
                             }}
-                            className="cursor-pointer marquee_item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-row justify-center items-center text-center"
+                            className="marquee_item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-row justify-center items-center text-center"
                         >
                             {item}
                         </div>
