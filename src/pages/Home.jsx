@@ -3,7 +3,7 @@ import HorizontalScroll from "@/components/HorizontalScroll"
 function Home() {
     const horizontalList = [
         'Best of the Best',
-        'Super Duper Hard Working',
+        'Hard Working',
         'Coffee Addict',
         'Shopaholic',
         'Voted Most Likely To Fall Asleep On The Beach',
