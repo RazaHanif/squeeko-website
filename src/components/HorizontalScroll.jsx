@@ -12,7 +12,7 @@ function HorizontalScroll() {
     ]
     return (
         <div className="overflow-hidden py-12">
-            <p className="mb-8 text-center text-sm text-muted-foreground">
+            <p className="text-center text-sm text-muted-foreground">
                 Horizontal Scroll Testing
             </p>
 
