@@ -256,7 +256,7 @@
   transform-origin: 25vw -3vh;
   box-shadow: 40vmin 0 5.196265905749415vmin currentColor;
 }
-
+/* 
 /* Horizontal Scroll */
 .marquee {
   --marquee-item-width: 10rem;
@@ -301,7 +301,7 @@
   to {  
     inset-inline-start: calc(var(--marquee-item-width) * -1);
   }
-}
+} */
 
 
 
