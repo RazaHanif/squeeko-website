@@ -264,7 +264,9 @@
     animation: marquee var(--marquee-duration) linear infinite;
 }
 
-.mar
+.marquee-track:hover {
+  animation-play-state: paused;
+}
 
 .marquee-group {
     display: flex;
