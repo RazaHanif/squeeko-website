@@ -31,7 +31,7 @@ function ScrollSnap({ children, className}) {
 
         ScrollTrigger.create({
             trigger: container.current,
-            start: "top 80px",
+            start: "top top",
             end: "bottom bottom",
             snap: {
                 snapTo: snapPoints,
