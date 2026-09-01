@@ -302,3 +302,33 @@
     inset-inline-start: calc(var(--marquee-item-width) * -1);
   }
 }
+
+
+
+.marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marquee var(--marquee-duration) linear infinite;
+}
+
+.marquee-group {
+    display: flex;
+    flex-shrink: 0;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+.marquee-item {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+    
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
