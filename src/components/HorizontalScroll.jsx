@@ -44,9 +44,9 @@ function HorizontalScroll() {
                 </div>
 
                 <div className="marquee marquee--8">
-                    <p className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
+                    <div className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
                         block
-                    </p>
+                    </div>
                     <div className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
                         block
                     </div>
