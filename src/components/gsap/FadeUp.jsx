@@ -13,7 +13,10 @@ function FadeUp({
     const container = useRef(null)
 
     useGSAP(() => {
-        
+        gsap.from(container.current, {
+            y,
+            
+        })
     })
 
 }
