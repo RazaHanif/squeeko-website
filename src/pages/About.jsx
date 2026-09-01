@@ -3,23 +3,23 @@ import ScrollSnap from "@/components/gsap/ScrollSnap"
 function About() {
     return (
         <ScrollSnap className="flex flex-col flex-1 gap-4 font-mono border-2 border-red-500">
-            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-muted text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-muted text-muted-foreground ">
                 <h1 className="text-4xl lg:text-5xl font-serif">
                     About
                 </h1>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-muted text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-muted text-muted-foreground ">
                 <p className="w-3/4">
                     This should have some contact info, copy Jane.app mission, vision, and values format for a base. 
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-muted text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-muted text-muted-foreground ">
                 Features
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-muted text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-muted text-muted-foreground ">
                 CTA
             </section>
 
