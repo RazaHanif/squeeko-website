@@ -65,7 +65,9 @@ function HorizontalScroll() {
 export default HorizontalScroll
 
 /* 
-// 
+
+Horizontal Scroll Animtaion
+
 .marquee {
   display: flex;
   block-size: var(--marquee-item-height);
