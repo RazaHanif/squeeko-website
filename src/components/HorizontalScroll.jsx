@@ -39,7 +39,7 @@ function HorizontalScroll({ items=[]}) {
     }
 
     return (
-        <div className="overflow-hidden py-12 border">
+        <div className="overflow-hidden border">
             <p className="text-center text-sm text-muted-foreground">
                 Horizontal Scroll Testing
             </p>
