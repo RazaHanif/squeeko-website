@@ -5,6 +5,7 @@ function HorizontalScroll() {
         "Test 2",
         "Test 3",
         "Test 4",
+        "Test 4",
     ]
     return (
         <div className="overflow-hidden py-12">
