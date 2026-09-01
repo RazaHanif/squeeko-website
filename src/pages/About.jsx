@@ -16,7 +16,7 @@ function About() {
             <ScrollSnap>
 
                 <section className="snap-section min-h-screen">
-                    {/* Hero */}
+                    Phone number
                 </section>
 
                 <section className="snap-section min-h-screen">
