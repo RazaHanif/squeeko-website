@@ -33,6 +33,8 @@ function HorizontalScroll({ items=[], speed=100}) {
         return () => observer.disconnect()
     }, [items])
 
+
+    
     let scrollList = []
     
     if (items.length > 0) {
