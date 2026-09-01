@@ -22,7 +22,7 @@ function ScrollSnap({ children, className}) {
                 ease: "power2.out"
             },
         })
-    })
+    },)
 }
 
 export default ScrollSnap
