@@ -53,7 +53,7 @@ function FooterAccordion() {
 
 function FooterLinks() {
     return (
-        <div className="hidden lg:flex flex-row w-full justify-around items-center bg-red-500">
+        <div className="hidden lg:flex flex-row w-full justify-around items-center">
             {Object.entries(links).map(([ category, items ]) => (
                 <div
                     key={category}
