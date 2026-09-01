@@ -10,7 +10,9 @@ function ScrollSnap({ children, className}) {
 
     useGSAP(() => {
         const sections = gsap.utils.toArray(
-            ".snap-section", container.current)
+            ".snap-section", 
+            container.current
+        )
 
         ScrollTrigger.create({
             trigger: container.current,
