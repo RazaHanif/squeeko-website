@@ -9,3 +9,5 @@ function FadeUp({
 }) {
 
 }
+
+export default FadeUp
