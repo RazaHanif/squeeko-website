@@ -1,4 +1,4 @@
-function HorizontalScroll() {
+function HorizontalScroll({ dur}) {
 
     const items = [
         "Test 1", 
