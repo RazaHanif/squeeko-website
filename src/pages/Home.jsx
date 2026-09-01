@@ -7,8 +7,8 @@ function Home() {
         'never miss another payment',
         'stay connected with families',
         'Built for childcare, by childcare experts',
-        'goodbye paperwork, Hello SQUEEKO',
-        'Boss',
+        'Goodbye paperwork. Hello SQUEEKO',
+        '',
     ]
 
     return (
