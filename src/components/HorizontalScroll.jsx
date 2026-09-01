@@ -1,8 +1,10 @@
-import { useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 
 function HorizontalScroll({ items=[], duration=20}) {
     const groupRef = useRef(null)
     const [groupWidth, setGroupWidth] = useState(0)
+
+    useEffect
 
 
     let scrollList = []
