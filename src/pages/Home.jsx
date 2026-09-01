@@ -2,7 +2,7 @@ import HorizontalScroll from "@/components/HorizontalScroll"
 
 function Home() {
     const horizontalList = [
-        'Voted Best of the Best 2 Years',
+        'Voted Best of the Best 2 Years in a row',
         'Coming soon.',
         'Coming soon.',
         'Coming soon.',
