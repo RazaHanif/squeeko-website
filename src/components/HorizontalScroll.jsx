@@ -47,6 +47,7 @@ function HorizontalScroll({ items=[], duration=20}) {
                 <div 
                     className="marquee-track" 
                     style={{
+                        "--marquee-distance": `${groupWidth}px`,
                         "--marquee-duration": `${duration}s`,
                     }}
                 >
