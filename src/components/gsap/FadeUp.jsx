@@ -17,7 +17,9 @@ function FadeUp({
             y,
             opacity: 0,
             duration,
-            
+            delay,
+            ease: "power2.out",
+            scrollTrigger
         })
     })
 
