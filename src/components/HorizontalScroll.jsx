@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react"
 {/* 
     This is how to add icons into this scroll
     HorizontalScroll 
+        
         items={socialList.map((Icon, idx) => (
             <Icon key={idx} className="size-8" />
         ))} 
