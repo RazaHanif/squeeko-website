@@ -1,9 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 
-{/* 
-    This is how to add icons into this scroll
-
-*/}
+// arr.map((Icon, idx) => (<Icon key={idx} />)
 
 function HorizontalScroll({ items=[], speed=100, className}) {
     const groupRef = useRef(null)
