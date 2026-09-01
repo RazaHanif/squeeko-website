@@ -31,7 +31,6 @@ function HorizontalScroll() {
         "Test 28",
         "Test 29",
         "Test 30",
-
     ]
     return (
         <div className="overflow-hidden py-12">
