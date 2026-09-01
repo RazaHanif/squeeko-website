@@ -283,3 +283,10 @@
     hsl(0 0% 0% / 0)
   );
 }
+
+.marquee--8 {
+  --marquee-item-width: 100px;
+  --marquee-item-height: 100px;
+  --marquee-duration: 36s;
+  --marquee-items: 8;
+}
