@@ -21,7 +21,7 @@ function About() {
                     Hero
                 </section>
 
-                <section className="snap-section min-h-dvh border bg-primary text-primary-foreground">
+                <section className="snap-section min-h-dvh border bg-secondary text-primary-foreground">
                     Testimonials
                 </section>
 
@@ -29,7 +29,7 @@ function About() {
                     Features
                 </section>
 
-                <section className="snap-section min-h-dvh border bg-primary text-primary-foreground">
+                <section className="snap-section min-h-dvh border bg-secondary text-primary-foreground">
                     CTA
                 </section>
 
