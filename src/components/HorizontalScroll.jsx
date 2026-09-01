@@ -1,4 +1,4 @@
-function HorizontalScroll({ dur="12s", items=[]}) {
+function HorizontalScroll({ duration="12s", items=[]}) {
     let scrollList = []
     
     if (items.length > 0) {
