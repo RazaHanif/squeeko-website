@@ -1,7 +1,7 @@
 function HorizontalScroll({ items=[], duration=20}) {
+    const groupRef = useRef
 
 
-    
     let scrollList = []
     
     if (items.length > 0) {
