@@ -44,28 +44,28 @@ function HorizontalScroll() {
                 </div>
 
                 <div className="marquee marquee--8">
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
+                    <div className="marquee__item border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
+                    <div className="marquee__item border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
+                    <div className="marquee__item border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
+                    <div className="marquee__item border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
+                    <div className="marquee__item border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
+                    <div className="marquee__item border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
+                    <div className="marquee__item border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
+                    <div className="marquee__item border rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
                         block
                     </div>
                 </div>
