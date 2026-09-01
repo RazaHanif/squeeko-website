@@ -45,10 +45,10 @@ function HorizontalScroll({ dur="12s", items=[]}) {
                 <div 
                     className="marquee"
                     style={{
-                        "--marquee-items": items.length,
+                        "--marquee-items": scrollList.length,
                     }}    
                 >
-                    {items.map((item, idx) => (
+                    {scrollList.map((item, idx) => (
                         <div 
                             key={item}
                             style={{
