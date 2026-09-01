@@ -4,8 +4,8 @@ function Home() {
     const horizontalList = [
         'Voted Best of the Best 2 Years in a row',
         'Super Duper Hard Working',
-        'Coming soon.',
-        'Coming soon.',
+        'Coffee Addict',
+        'Shopaholic',
         'Coming soon.',
         'Coming soon.',
         'Coming soon.',
