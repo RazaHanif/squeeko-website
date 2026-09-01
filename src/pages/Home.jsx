@@ -30,7 +30,7 @@ function Home() {
                     const list = []
                     for (let i = 0; i < 10; i++) {
                         list.push(
-                            <p className="text-primary" key={i}>
+                            <p className="text-tranb" key={i}>
                                 {i}
                             </p>
                         )
