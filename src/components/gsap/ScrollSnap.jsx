@@ -26,8 +26,6 @@ function ScrollSnap({ children, className}) {
             const totalScroll =
                 container.current.offsetHeight - window.innerHeight
             
-            const scrollPosition = sectionTop - headerHeight
-
             return gsap.utils.clamp(
                 0, 1, (scrollPosition - start) / (end - start)
             )
