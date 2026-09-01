@@ -25,6 +25,12 @@ function ScrollSnap({ children, className}) {
     },{
         scope: container
     })
+
+    return (
+        <div ref={container} className={className}>
+            {children}
+        </div>
+    )
 }
 
 export default ScrollSnap
