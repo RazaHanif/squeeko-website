@@ -15,7 +15,7 @@ function Home() {
     ]
 
     return (
-        <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
+        <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8 b">
             <div className="w-full flex justify-center items-center pb-8">
                 <h1 className="text-4xl lg:text-5xl font-serif">
                     Home
