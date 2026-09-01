@@ -271,7 +271,9 @@
 
 .marquee_item {
     --marquee-item-offset: max(
-      calc(var(--marquee-item-width) * var(--marquee-items)),
+      calc(
+        var(--marquee-item-width) * var(--marquee-items)
+      ),
       calc(100% + var(--marquee-item-width))
     );
     --marquee-delay: calc(var(--marquee-duration) / var(--marquee-items) * (var(--marquee-items) - var(--marquee-item-index)) * -1);
