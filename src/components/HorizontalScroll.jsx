@@ -71,7 +71,7 @@ function HorizontalScroll({ items=[], duration=20}) {
                         ref={groupIndex === 0 ? groupRef : null}
                         className="marquee-item"
                     >
-                        {item}
+                        {scrollList.map((item, idx))}
                     </div>
                 ))}
                 <div 
