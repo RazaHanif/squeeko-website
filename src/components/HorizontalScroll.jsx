@@ -44,28 +44,28 @@ function HorizontalScroll() {
                 </div>
 
                 <div className="marquee marquee--8">
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center p-4">
+                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center ">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center p-4">
+                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center ">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center p-4">
+                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center ">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center p-4">
+                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center ">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center p-4">
+                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center ">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center p-4">
+                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center ">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center p-4">
+                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center ">
                         block
                     </div>
-                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center p-4">
+                    <div className="marquee__item bg-red-500 border-blue-500 border rounded-2xl text-blue-500 flex flex-col justify-center items-center text-center ">
                         block
                     </div>
                 </div>
