@@ -25,7 +25,7 @@ function Home() {
             </div>
             
             <div className=" my-16">
-                <HorizontalScroll items={socialLinks} 
+                <HorizontalScroll items={socialLinks.icon} 
                 duration={20} 
             />
             </div>
