@@ -9,7 +9,7 @@ function ScrollSnap({ children, className}) {
     const container = useRef(null)
 
     useGSAP(() => {
-        const sections = gsap.utils.toArr
+        const sections = gsap.utils.toArray()
     })
 }
 
