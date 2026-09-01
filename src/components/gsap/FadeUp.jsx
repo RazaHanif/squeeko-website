@@ -15,6 +15,8 @@ function FadeUp({
     useGSAP(() => {
         gsap.from(container.current, {
             y,
+            opacity: 0,
+            duration,
             
         })
     })
