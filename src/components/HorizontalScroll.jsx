@@ -12,6 +12,8 @@ function HorizontalScroll({ items=[], duration=20}) {
         }
 
         updateWidth()
+
+        const observer = new Resi
     })
 
 
