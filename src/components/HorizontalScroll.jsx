@@ -45,7 +45,9 @@ function HorizontalScroll() {
 
                 <div className="marquee marquee--8">
                     {items.map((item) => (
-                        <div className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
+                        <div 
+                            key={item}
+                            className="marquee__item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-col justify-center items-center text-center px-6 py-4">
                             block
                         </div>
                     ))}
