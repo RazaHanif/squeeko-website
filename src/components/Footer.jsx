@@ -85,7 +85,7 @@ function FooterLinks() {
 
 function Footer() {
     return (
-        <div className="flex flex-col justify-center items-center w-full border-t bg-background">
+        <div className="flex flex-col justify-center items-center w-full border-t">
             <div className="flex-1 flex lg:flex-row flex-col w-9/10 lg:py-8 py-4">
                 <div className="lg:hidden flex px-4">
                     <FooterAccordion />
