@@ -3,11 +3,6 @@ import ScrollSnap from "@/components/gsap/ScrollSnap"
 function About() {
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
-            <div className="w-full flex justify-center items-center pb-8">
-                <h1 className="text-4xl lg:text-5xl font-serif">
-                    About
-                </h1>
-            </div>
 
             <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
                 <p>
@@ -18,6 +13,11 @@ function About() {
             <ScrollSnap>
 
                 <section className="snap-section min-h-[calc(100vh-80px)] border bg-primary text-primary-foreground">
+                    <div className="w-full flex justify-center items-center pb-8">
+                        <h1 className="text-4xl lg:text-5xl font-serif">
+                            About
+                        </h1>
+                    </div>
                     Hero
                 </section>
 
