@@ -261,7 +261,7 @@
 .marquee {
   --marquee-item-width: 10rem;
   --marquee-item-height: 4rem;
-  
+  --marquee-duration: 15s;
 
   display: flex;
   block-size: var(--marquee-item-height);
