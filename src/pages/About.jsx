@@ -4,12 +4,6 @@ function About() {
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
 
-            <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
-                <p>
-                    This should have some contact info, copy Jane.app mission, vision, and values format for a base. 
-                </p>
-            </div>
-
             <ScrollSnap>
 
                 <section className="snap-section min-h-[calc(100vh-80px)] border bg-primary text-primary-foreground">
@@ -21,7 +15,11 @@ function About() {
                 </section>
 
                 <section className="snap-section min-h-[calc(100vh-80px)] border bg-secondary text-primary-foreground">
-                    Testimonials
+                    <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
+                        <p>
+                            This should have some contact info, copy Jane.app mission, vision, and values format for a base. 
+                        </p>
+                    </div>
                 </section>
 
                 <section className="snap-section min-h-[calc(100vh-80px)] border bg-primary text-primary-foreground">
