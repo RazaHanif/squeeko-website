@@ -266,7 +266,7 @@
   overflow-x: hidden;
 }
 
-.marquee__item {
+.marquee_item {
     --marquee-item-offset: max(
       calc(var(--marquee-item-width) * var(--marquee-items)),
       calc(100% + var(--marquee-item-width))
