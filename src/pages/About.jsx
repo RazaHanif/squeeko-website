@@ -4,7 +4,7 @@ function About() {
     return (
         <ScrollSnap className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:my-16 my-8">
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border flex justify-center items-center pb-8">
+            <section className="snap-section min-h-[calc(100vh-80px)] border flex justify-center items-center w-full">
                 <h1 className="text-4xl lg:text-5xl font-serif">
                     About
                 </h1>
