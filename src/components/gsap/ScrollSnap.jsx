@@ -20,7 +20,7 @@ function ScrollSnap({ children, className}) {
                 window.scrollY
 
             const containerTop = 
-                container.current.getBou
+                container.current.getBoundingClientRect().top 
             
             const scrollPosition = sectionTop - headerHeight
 
