@@ -274,7 +274,9 @@
       calc(
         var(--marquee-item-width) * var(--marquee-items)
       ),
-      calc(100% + var(--marquee-item-width))
+      calc(
+        100% + var(--marquee-item-width)
+      )
     );
     --marquee-delay: calc(var(--marquee-duration) / var(--marquee-items) * (var(--marquee-items) - var(--marquee-item-index)) * -1);
     position: absolute;
