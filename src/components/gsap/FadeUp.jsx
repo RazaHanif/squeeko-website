@@ -19,7 +19,9 @@ function FadeUp({
             duration,
             delay,
             ease: "power2.out",
-            scrollTrigger
+            scrollTrigger: {
+                trigger: container.current
+            }
         })
     })
 
