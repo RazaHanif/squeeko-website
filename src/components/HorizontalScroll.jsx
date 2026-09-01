@@ -29,7 +29,9 @@ function HorizontalScroll() {
                     {items.map((item, idx) => (
                         <div 
                             key={item}
-                            
+                            style={{
+                                
+                            }}
                             className="cursor-pointer marquee_item border border-primary text-primary font-serif font-bold text-xl rounded-2xl flex flex-row justify-center items-center text-center"
                         >
                             {item}
