@@ -1,5 +1,5 @@
 import HorizontalScroll from "@/components/HorizontalScroll"
-import { socialLinks } from "@/components/NavigationLinks"
+import { FacebookIcon, InstagramIcon, LinkedInIcon, TiktokIcon, YoutubeIcon } from "@/components/icons"
 
 function Home() {
     const horizontalList = [
@@ -10,6 +10,14 @@ function Home() {
         'Voted Most Likely To Fall Asleep On The Beach',
         'Business Owner',
         'Boss',
+    ]
+
+    const socialList = [
+        InstagramIcon,
+        FacebookIcon,
+        LinkedInIcon,
+        TiktokIcon,
+        YoutubeIcon,
     ]
 
     return (
@@ -25,9 +33,7 @@ function Home() {
             </div>
             
             <div className=" my-16">
-                <HorizontalScroll items={Object.entries(socialLinks.icon)} 
-                duration={20} 
-            />
+                <HorizontalScroll items={horizontalList} duration={20} />
             </div>
 
 
