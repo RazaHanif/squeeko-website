@@ -14,15 +14,6 @@ function ScrollSnap({ children, className}) {
             container.current
         )
 
-        const headerHeight = 80
-
-        const start = container.current.offsetTop - headerHeight
-
-        const end =
-            container.current.offsetTop +
-            container.current.offsetHeight - 
-            window.innerHeight
-
         const snapPoints = sections.map((section) => {
             const sectionTop = 
                 section.getBoundingClientRect().top  + 
