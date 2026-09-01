@@ -86,7 +86,7 @@ function HorizontalScroll({ items=[], speed=100, className}) {
                         <div
                             key={groupIndex}
                             ref={groupIndex === 0 ? groupRef : null}
-                            className="marquee-group gap-12 px-12"
+                            className="marquee-grou gap-12 px-12"
                         >
                             {scrollList.map((item, idx) => (
                                 <div 
