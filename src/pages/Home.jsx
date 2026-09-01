@@ -4,7 +4,7 @@ function Home() {
     const horizontalList = [
         'Spend more time with the children',
         'Less paperwork. more childcare',
-        'Coffee Addict',
+        'never miss another paymnet',
         'Shopaholic',
         'Voted Most Likely To Fall Asleep On The Beach',
         'Business Owner',
