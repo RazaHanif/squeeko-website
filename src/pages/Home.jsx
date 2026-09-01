@@ -9,7 +9,7 @@ function Home() {
         'Built for childcare, by childcare experts',
         'Goodbye paperwork. Hello SQUEEKO',
         'Run your centre with confidence',
-        'Run your centre with confidence',
+        'The smarter way to manage childcare',
     ]
 
     return (
