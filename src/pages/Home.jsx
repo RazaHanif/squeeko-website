@@ -7,7 +7,7 @@ function Home() {
         'never miss another payment',
         'stay connected with families',
         'Built for childcare, by childcare experts',
-        'Business Owner',
+        'goodbye paperwork, ',
         'Boss',
     ]
 
