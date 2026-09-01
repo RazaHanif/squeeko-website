@@ -12,9 +12,9 @@ function FadeUp({
 
     const container = useRef(null)
 
-    useGSAP(
+    useGSAP(() => {
         
-    )
+    })
 
 }
 
