@@ -13,6 +13,26 @@ function About() {
                 </p>
             </div>
 
+            <ScrollSnap>
+
+  <section className="snap-section min-h-screen">
+    {/* Hero */}
+  </section>
+
+  <section className="snap-section min-h-screen">
+    {/* Testimonials */}
+  </section>
+
+  <section className="snap-section min-h-screen">
+    {/* Features */}
+  </section>
+
+  <section className="snap-section min-h-screen">
+    {/* CTA */}
+  </section>
+
+</ScrollSnap>
+
             {/* 
             
             <StructData schema={localBusinessSchema} />
