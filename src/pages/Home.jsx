@@ -41,6 +41,9 @@ function Home() {
             <div className="mt-16">
                 <HorizontalScroll items={horizontalList} className="text-primary"/>
             </div>
+            <div className="mt-16">
+                <HorizontalScroll items={horizontalList} className="text-primary"/>
+            </div>
 
             {/* 
             
