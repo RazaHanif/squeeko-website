@@ -293,7 +293,9 @@
     animation: 
       go 
       linear 
-      var(--marquee-duration) var(--marquee-delay, 0s) infinite;
+      var(--marquee-duration) 
+      var(--marquee-delay, 0s) 
+      infinite;
 }
 
 .marquee-8 {
