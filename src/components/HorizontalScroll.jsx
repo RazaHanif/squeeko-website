@@ -21,7 +21,7 @@ function HorizontalScroll() {
                 <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-30 bg-gradient-to-l from-background to-transparent" />
 
                 <div 
-                    className="marquee marquee-8">
+                    className="marquee">
                     {items.map((item) => (
                         <div 
                             key={item}
