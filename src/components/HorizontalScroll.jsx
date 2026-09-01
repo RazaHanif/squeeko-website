@@ -38,6 +38,8 @@ function HorizontalScroll({ items=[]}) {
         ]
     }
 
+    const duration = 20
+
     return (
         <div className="w-full">
             <div className="relative">
