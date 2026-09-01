@@ -13,14 +13,6 @@ function Home() {
         'The smarter way to manage childcare',
     ]
 
-    const socialList = [
-        InstagramIcon,
-        InstagramIcon,
-        InstagramIcon,
-        InstagramIcon,
-        InstagramIcon,
-    ]
-
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
             <div className="w-full flex justify-center items-center pb-8">
