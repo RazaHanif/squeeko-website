@@ -93,7 +93,7 @@ function HorizontalScroll({ items=[], speed=100, className}) {
                                     key={idx} 
                                     className={`marquee-item ${className}`}
                                 >
-                                    {item}
+                                    {item.toUpperCase()}
                                 </div>
                             ))}
                         </div>
