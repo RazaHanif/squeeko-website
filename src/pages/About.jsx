@@ -15,13 +15,13 @@ function About() {
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-l from-background to-primary text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
                     Features
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-gradient-to-l from-background to-primary text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
                     CTA
                 </p>
