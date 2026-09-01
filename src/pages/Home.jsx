@@ -1,3 +1,4 @@
+import FadeUp from "@/components/gsap/FadeUp"
 import HorizontalScroll from "@/components/HorizontalScroll"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 
@@ -20,6 +21,10 @@ function Home() {
                     Home
                 </h1>
             </div>
+
+            <FadeUp>
+                
+            </FadeUp>
 
             <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
                 <p>
