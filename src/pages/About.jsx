@@ -4,23 +4,23 @@ function About() {
     return (
         <ScrollSnap className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:my-16 my-8">
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border bg-primary text-primary-foreground w-full flex justify-center items-center pb-8">
+            <section className="snap-section min-h-[calc(100vh-80px)] border w-full flex justify-center items-center pb-8">
                 <h1 className="text-4xl lg:text-5xl font-serif">
                     About
                 </h1>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border bg-secondary text-secondary-foreground flex flex-col justify-center items-center w-full">
+            <section className="snap-section min-h-[calc(100vh-80px)] border flex flex-col justify-center items-center w-full">
                 <p>
                     This should have some contact info, copy Jane.app mission, vision, and values format for a base. 
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border bg-primary text-primary-foreground flex flex-col justify-center items-center w-full">
+            <section className="snap-section min-h-[calc(100vh-80px)] border flex flex-col justify-center items-center w-full">
                 Features
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border bg-secondary text-secondary-foreground flex flex-col justify-center items-center w-full">
+            <section className="snap-section min-h-[calc(100vh-80px)] border flex flex-col justify-center items-center w-full">
                 CTA
             </section>
 
