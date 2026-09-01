@@ -51,7 +51,10 @@ function HorizontalScroll({ items=[], duration=20}) {
                         "--marquee-duration": `${duration}s`,
                     }}
                 >
-                    <div className="marquee-group">
+                    <div 
+                        reg
+                        className="marquee-group"
+                    >
                         {scrollList.map((item, idx) => (
                             <div key={idx} className="marquee-item">
                                 {item}
