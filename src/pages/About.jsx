@@ -16,7 +16,7 @@ function About() {
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border bg-primary text-primary-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border bg-primary text-primary-foreground flex flex-col justify-center items-center w-full text-muted-foreground">
                 Features
             </section>
 
