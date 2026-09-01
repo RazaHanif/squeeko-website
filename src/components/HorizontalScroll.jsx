@@ -75,8 +75,13 @@ function HorizontalScroll({ items=[]}) {
                         ))}
                     </div>
 
-                    
-
+                    <div className="marquee-group">
+                        {scrollList.map((items, idx) => (
+                            <div key={idx} className="marquee-item">
+                                {item}
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
