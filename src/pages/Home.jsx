@@ -15,8 +15,10 @@ function Home() {
 
     const socialList = [
         InstagramIcon,
-        FacebookIcon,
-        YoutubeIcon
+        InstagramIcon,
+        InstagramIcon,
+        InstagramIcon,
+        InstagramIcon,
     ]
 
     return (
