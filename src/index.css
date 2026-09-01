@@ -264,6 +264,8 @@
     animation: marquee var(--marquee-duration) linear infinite;
 }
 
+.mar
+
 .marquee-group {
     display: flex;
     flex-shrink: 0;
