@@ -68,7 +68,7 @@ function HorizontalScroll({ items=[]}) {
 
                 <div className="marquee-track" style={{"--marquee-duration": `${duration}s`}}>
                     <div className="marquee-group">
-                        {it}
+                        {scrollList}
                     </div>
 
                 </div>
