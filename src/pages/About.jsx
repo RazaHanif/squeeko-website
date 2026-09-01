@@ -4,7 +4,7 @@ function About() {
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
 
-            <ScrollSnap className={className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8"}>
+            <ScrollSnap className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
 
                 <section className="snap-section min-h-[calc(100vh-80px)] border bg-primary text-primary-foreground">
                     <div className="w-full flex justify-center items-center pb-8">
