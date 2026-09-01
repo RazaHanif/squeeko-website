@@ -7,7 +7,7 @@ function Home() {
         'Coffee Addict',
         'Shopaholic',
         'Voted Most Likely To Fall Asleep On The Beach',
-        'Cannot wait to quit her job',
+        'Entrepruner',
         'Coming soon.',
     ]
     return (
