@@ -4,7 +4,6 @@ function HorizontalScroll({ dur="12s", items=[]}) {
     if (items.length > 0) {
         scrollList = items
     } else {
-
         scrollList = [
             "Test 1", 
             "Test 2",
