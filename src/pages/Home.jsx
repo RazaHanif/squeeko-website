@@ -37,7 +37,7 @@ function Home() {
                     items={socialList.map((Icon, idx) => (
                         <Icon key={idx} className="size-8" />
                     ))} 
-                    duration={5} 
+                    speed={5} 
                 />
             </div>
 
