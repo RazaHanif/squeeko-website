@@ -31,11 +31,10 @@ function FadeUp({
     })
 
     return (
-        <div ref={children}>
+        <div ref={children} className={className}>
             {children}
         </div>
     )
-
 }
 
 export default FadeUp
