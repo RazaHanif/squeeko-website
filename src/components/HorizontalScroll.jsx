@@ -24,26 +24,6 @@ function HorizontalScroll({ items=[], duration=20}) {
                 <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-15 bg-gradient-to-r from-background to-transparent" />
                 <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-15 bg-gradient-to-l from-background to-transparent" />
 
-                {/* <div 
-                    className="marquee"
-                    style={{
-                        "--marquee-items": scrollList.length,
-                        "--marquee-duration": `${scrollList.length * 2}s`
-                    }}    
-                >
-                    {scrollList.map((item, idx) => (
-                        <div 
-                            key={item}
-                            style={{
-                                "--marquee-item-index": idx + 1,
-                            }}
-                            className="marquee_item w-max min-w-40 whitespace-nowrap cursor-pointer text-primary font-serif font-bold text-xl flex justify-center items-center text-center text-nowrap"
-                        >
-                            {item.toUpperCase()}
-                        </div>
-                    ))}
-                </div> */}
-
                 <div className="marquee-track" style={{"--marquee-duration": `${duration}s`}}>
                     <div className="marquee-group">
                         {scrollList.map((item, idx) => (
