@@ -24,7 +24,7 @@ function ScrollSnap({ children, className}) {
             window.innerHeight
 
         const snapPoints = sections.map((section) => {
-            const sectionTop = section.getBoundingClientRect
+            const sectionTop = section.getBoundingClientRect().top
         })
 
         ScrollTrigger.create({
