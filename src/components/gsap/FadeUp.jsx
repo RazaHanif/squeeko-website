@@ -24,8 +24,7 @@ function FadeUp({
                 start: "top 85%",
                 once: true
             }
-        }
-    )
+        })
     })
 
 }
