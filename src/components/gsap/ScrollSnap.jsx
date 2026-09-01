@@ -16,7 +16,7 @@ function ScrollSnap({ children, className}) {
             start: "top top",
             end: "bottom bottom",
             snap: {
-                
+                snapTo: 1 / (sections.length - 1)
             }
         })
     })
