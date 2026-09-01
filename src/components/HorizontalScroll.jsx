@@ -60,7 +60,7 @@ function HorizontalScroll({ items=[], speed=100, className}) {
     }
 
     return (
-        <div className="w-full curn">
+        <div className="w-full curs">
             <div 
                 ref={viewportRef}
                 className="overflow-hidden relative"
