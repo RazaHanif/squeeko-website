@@ -80,8 +80,9 @@ function HorizontalScroll({ items=[], speed=100, className}) {
                             className="marquee-group"
                         >
                             {scrollList.map((item, idx) => (
-                                <div key={idx} className={`marquee-item ${className}`}
-                            >
+                                <div 
+                                    key={idx} className={`marquee-item ${className}`}
+                                >
                                     {item}
                                 </div>
                             ))}
