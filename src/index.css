@@ -329,6 +329,6 @@ Horizontal Scroll
     }
 
     to {
-        transform: translateX(50%);
+        transform: translateX(-50%);
     }
 }
