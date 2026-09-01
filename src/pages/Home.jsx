@@ -19,10 +19,6 @@ function Home() {
                 </h1>
             </div>
 
-            <div className="my-16">
-                <HorizontalScroll className="text-primary text-xl"/>
-            </div>
-
             <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
                 <p>
                     This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
@@ -39,6 +35,10 @@ function Home() {
 
                     return list
                 }) ()}
+            </div>
+
+            <div className="mt-16">
+                <HorizontalScroll className="text-primary text-xl"/>
             </div>
 
             {/* 
