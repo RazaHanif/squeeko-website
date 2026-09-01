@@ -49,9 +49,6 @@ function HorizontalScroll() {
                         <div className="marquee__item w-16 h-16" />
                         <div className="marquee__item w-16 h-16" />
                         <div className="marquee__item w-16 h-16" />
-                        
-
-                        
                     </div>
 
                 </div>
