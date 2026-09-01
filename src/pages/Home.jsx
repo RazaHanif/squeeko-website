@@ -19,7 +19,7 @@ function Home() {
             </div>
 
             <div className=" my-16">
-                <HorizontalScroll items={horizontalList} duration={5} />
+                <HorizontalScroll items={horizontalList} duration={20} />
             </div>
 
 
