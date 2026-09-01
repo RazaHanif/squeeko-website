@@ -44,12 +44,11 @@ Horizontal Scroll Animation
 .marquee {
   display: flex;
   block-size: var(--marquee-item-height);
-  margin-block: var(--marquee-item-height);
   position: relative;
   overflow-x: hidden;
 }
 
-.marquee__item {
+.marquee_item {
     --marquee-item-offset: max(
       calc(var(--marquee-item-width) * var(--marquee-items)),
       calc(100% + var(--marquee-item-width))
@@ -61,42 +60,42 @@ Horizontal Scroll Animation
     animation: go linear var(--marquee-duration) var(--marquee-delay, 0s) infinite;
 }
 
-.marquee--8 {
-  --marquee-item-width: 100px;
-  --marquee-item-height: 100px;
+.marquee-8 {
+  --marquee-item-width: 8rem;
+  --marquee-item-height: 4rem;
   --marquee-duration: 15s;
   --marquee-items: 8;
 }
 
-.marquee--8 .marquee__item:nth-of-type(1) {
+.marquee-8 .marquee_item:nth-of-type(1) {
   --marquee-item-index: 1;
 }
 
-.marquee--8 .marquee__item:nth-of-type(2) {
+.marquee-8 .marquee_item:nth-of-type(2) {
   --marquee-item-index: 2;
 }
 
-.marquee--8 .marquee__item:nth-of-type(3) {
+.marquee-8 .marquee_item:nth-of-type(3) {
   --marquee-item-index: 3;
 }
 
-.marquee--8 .marquee__item:nth-of-type(4) {
+.marquee-8 .marquee_item:nth-of-type(4) {
   --marquee-item-index: 4;
 }
 
-.marquee--8 .marquee__item:nth-of-type(5) {
+.marquee-8 .marquee_item:nth-of-type(5) {
   --marquee-item-index: 5;
 }
 
-.marquee--8 .marquee__item:nth-of-type(6) {
+.marquee-8 .marquee_item:nth-of-type(6) {
   --marquee-item-index: 6;
 }
 
-.marquee--8 .marquee__item:nth-of-type(7) {
+.marquee-8 .marquee_item:nth-of-type(7) {
   --marquee-item-index: 7;
 }
 
-.marquee--8 .marquee__item:nth-of-type(8) {
+.marquee-8 .marquee_item:nth-of-type(8) {
   --marquee-item-index: 8;
 }
 
