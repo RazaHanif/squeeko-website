@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from "react"
 
 function HorizontalScroll({ items=[], duration=20}) {
     const groupRef = useRef(null)
+    const viewportRef = useRef(null)
+
     const [groupWidth, setGroupWidth] = useState(0)
 
     useEffect(() => {
