@@ -2,11 +2,11 @@ import HorizontalScroll from "@/components/HorizontalScroll"
 
 function Home() {
     const horizontalList = [
-        'Best of the Best',
-        'Hard Working',
+        'Voted Best of the Best 2 Years in a row',
+        'Super Duper Hard Working',
         'Coffee Addict',
         'Shopaholic',
-        'Beach Lover',
+        'Voted Most Likely To Fall Asleep On The Beach',
         'Business Owner',
         'Boss',
     ]
@@ -18,12 +18,12 @@ function Home() {
                 </h1>
             </div>
 
-            <div className="flex flex-col justify-center items-center text-muted-foreground my-16">
+            <div className=" my-16">
                 <HorizontalScroll items={horizontalList} />
             </div>
 
 
-            <div className="hidden flex flex-col justify-center items-center w-full text-muted-foreground">
+            <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
                 <p>
                     This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
                 </p>
