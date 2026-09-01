@@ -40,7 +40,7 @@ function ScrollSnap({ children, className}) {
             start: "top 80px",
             end: "bottom 80px",
             snap: {
-                snapTo: 1 / (sections.length - 1),
+                snapTo: snapPoints,
                 duration: { min: 0.2, max: 0.6 },
                 delay: 0.05,
                 ease: "power2.out"
