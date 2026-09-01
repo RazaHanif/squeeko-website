@@ -65,7 +65,7 @@ function HorizontalScroll({ items=[], duration=20}) {
                     "--marquee-duration": `${duration}s`,
                 }}
             >
-                {Array.from({ length: copies })}
+                {Array.from({ length: copies }).map((_, groupIndex))}
                 <div 
                     ref={groupRef}
                     className="marquee-group"
