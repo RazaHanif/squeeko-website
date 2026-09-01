@@ -2,7 +2,7 @@ import ScrollSnap from "@/components/gsap/ScrollSnap"
 
 function About() {
     return (
-        <ScrollSnap className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:my-16 my-8 gap-4">
+        <ScrollSnap className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:my-16 my-8 gap-4 font-mono">
             <section className="snap-section min-h-[calc(100vh-80px)] border-2 flex flex-col justify-center items-center w-full bg-muted text-muted-foreground">
                 <h1 className="text-4xl lg:text-5xl font-serif">
                     About
