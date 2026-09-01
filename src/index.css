@@ -278,7 +278,7 @@
     animation: go linear var(--marquee-duration) var(--marquee-delay, 0s) infinite;
 }
 
-.marquee--8 {
+.marquee-8 {
   --marquee-item-width: 100px;
   --marquee-item-height: 100px;
   --marquee-duration: 15s;
