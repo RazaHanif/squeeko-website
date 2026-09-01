@@ -29,7 +29,7 @@ function Home() {
             </div>
 
             <div className="my-16">
-                <HorizontalScroll className="text-primary text-xl"/>
+                <HorizontalScroll className="text-primary text-xl bg-secondary p-4"/>
             </div>
 
             <div className="my-16">
