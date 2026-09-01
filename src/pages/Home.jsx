@@ -23,8 +23,7 @@ function Home() {
             </div>
 
             <FadeUp>
-                
-            </FadeUp>
+
 
             <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
                 <p>
@@ -43,6 +42,7 @@ function Home() {
                     return list
                 }) ()}
             </div>
+            </FadeUp>
 
             <div className="mt-16">
                 <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
