@@ -35,7 +35,7 @@ function Home() {
             <div className="my-16">
                 <HorizontalScroll 
                     items={socialList.map((Icon, idx) => (
-                        <Icon key={idx} className="size-8 bg-red-500" />
+                        <Icon key={idx} className="size-8 bg-red-500 p-4" />
                     ))} 
                 />
             </div>
