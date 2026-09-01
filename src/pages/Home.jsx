@@ -3,7 +3,7 @@ import HorizontalScroll from "@/components/HorizontalScroll"
 function Home() {
     const horizontalList = [
         'Spend more time with the children',
-        'Super Duper Hard Working',
+        'Less paperwork. more childcare',
         'Coffee Addict',
         'Shopaholic',
         'Voted Most Likely To Fall Asleep On The Beach',
