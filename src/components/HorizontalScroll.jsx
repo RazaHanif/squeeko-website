@@ -34,7 +34,7 @@ function HorizontalScroll({ items=[], speed=100}) {
     }, [items])
 
 
-    
+    const duration = groupWidth > 0 
     let scrollList = []
     
     if (items.length > 0) {
