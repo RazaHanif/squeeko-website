@@ -21,6 +21,12 @@ function Home() {
             <div className=" my-16">
                 <HorizontalScroll items={horizontalList} duration={20} />
             </div>
+            
+            <div className=" my-16">
+                <HorizontalScroll items={horizontalList} duration={20} />
+            </div>
+
+
 
 
             <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
