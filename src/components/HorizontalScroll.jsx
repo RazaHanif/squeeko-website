@@ -19,7 +19,7 @@ function HorizontalScroll({ items=[], duration=20}) {
             setCopies(
                 Math.ceil(
                     viewportWidth / groupWidth
-                )
+                ) + 1
             )
         }
 
