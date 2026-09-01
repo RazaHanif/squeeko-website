@@ -10,6 +10,10 @@ function HorizontalScroll({ items=[], duration=20}) {
     useEffect(() => {
         if (!groupRef.current) return
 
+        const update = () => {
+            const groupWidth = groupRef
+        }
+
         const updateWidth = () => {
             setGroupWidth(groupRef.current.offsetWidth)
         }
