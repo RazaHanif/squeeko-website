@@ -1,4 +1,4 @@
-function HorizontalScroll({ items=[]}) {
+function HorizontalScroll({ items=[], duration=20}) {
     let scrollList = []
     
     if (items.length > 0) {
@@ -37,8 +37,6 @@ function HorizontalScroll({ items=[]}) {
             "Test 30",
         ]
     }
-
-    const duration = 20
 
     return (
         <div className="w-full">
