@@ -10,12 +10,10 @@ function About() {
                 </h1>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border bg-secondary text-primary-foreground">
-                <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
-                    <p>
-                        This should have some contact info, copy Jane.app mission, vision, and values format for a base. 
-                    </p>
-                </div>
+            <section className="snap-section min-h-[calc(100vh-80px)] border bg-secondary text-primary-foreground flex flex-col justify-center items-center w-full text-muted-foreground">
+                <p>
+                    This should have some contact info, copy Jane.app mission, vision, and values format for a base. 
+                </p>
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] border bg-primary text-primary-foreground">
