@@ -1,13 +1,6 @@
 import HorizontalScroll from "@/components/HorizontalScroll"
 import { FacebookIcon, InstagramIcon, LinkedInIcon, TiktokIcon, YoutubeIcon } from "@/components/icons"
 
-{/* <HorizontalScroll 
-    items={socialList.map((Icon, idx) => (
-        <Icon key={idx} className="size-8" />
-    ))} 
-/> */}
-
-
 function Home() {
     const horizontalList = [
         'Voted Best of the Best 2 Years in a row',
