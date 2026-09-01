@@ -259,6 +259,7 @@
 
 /* Horizontal Scroll */
 .marquee {
+  --marquee-item-width: 10rem;
   --marquee-item-height: 4rem;
 
   display: flex;
