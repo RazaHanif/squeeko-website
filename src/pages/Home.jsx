@@ -23,7 +23,7 @@ function Home() {
             </div>
 
             <FadeUp>
-                <h2>Run your center</h2>
+                <h2 className="text-5xl">Run your center</h2>
             </FadeUp>
 
                 <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
