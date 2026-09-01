@@ -266,7 +266,7 @@
   overflow-x: hidden;
 }
 
-.marquee_item {
+.marquee__item {
     --marquee-item-offset: max(
       calc(var(--marquee-item-width) * var(--marquee-items)),
       calc(100% + var(--marquee-item-width))
@@ -278,7 +278,7 @@
     animation: go linear var(--marquee-duration) var(--marquee-delay, 0s) infinite;
 }
 
-.marquee-8 {
+.marquee--8 {
   --marquee-item-width: 100px;
   --marquee-item-height: 100px;
   --marquee-duration: 15s;
