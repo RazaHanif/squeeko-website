@@ -29,6 +29,10 @@ function ScrollSnap({ children, className}) {
                 window.scrollY
             
             const scrollPosition = sectionTop - headerHeight
+
+            return gsap.utils.clamp(
+                0, 1, 
+            )
         })
 
         ScrollTrigger.create({
