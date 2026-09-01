@@ -17,19 +17,19 @@ function About() {
 
             <ScrollSnap>
 
-                <section className="snap-section min-h- border bg-primary text-primary-foreground">
+                <section className="snap-section min-h-[calc(1)] border bg-primary text-primary-foreground">
                     Hero
                 </section>
 
-                <section className="snap-section min-h- border bg-secondary text-primary-foreground">
+                <section className="snap-section min-h-[calc(1)] border bg-secondary text-primary-foreground">
                     Testimonials
                 </section>
 
-                <section className="snap-section min-h- border bg-primary text-primary-foreground">
+                <section className="snap-section min-h-[calc(1)] border bg-primary text-primary-foreground">
                     Features
                 </section>
 
-                <section className="snap-section min-h- border bg-secondary text-primary-foreground">
+                <section className="snap-section min-h-[calc(1)] border bg-secondary text-primary-foreground">
                     CTA
                 </section>
 
