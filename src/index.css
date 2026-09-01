@@ -290,7 +290,9 @@
     box-sizing: border-box;
     inset-inline-start: var(--marquee-item-offset);
     transform: translateX(-50%);
-    animation: go linear var(--marquee-duration) var(--marquee-delay, 0s) infinite;
+    animation: 
+      go 
+      linear var(--marquee-duration) var(--marquee-delay, 0s) infinite;
 }
 
 .marquee-8 {
