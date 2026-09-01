@@ -6,7 +6,7 @@ function Home() {
         'Hard Working',
         'Coffee Addict',
         'Shopaholic',
-        'Voted Most Likely To Fall Asleep On The Beach',
+        'Beach Lover',
         'Business Owner',
         'Boss',
     ]
