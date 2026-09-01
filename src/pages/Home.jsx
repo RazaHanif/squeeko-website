@@ -2,7 +2,7 @@ import HorizontalScroll from "@/components/HorizontalScroll"
 
 function Home() {
     const horizontalList = [
-        'Coming soon.',
+        'Voted ',
         'Coming soon.',
         'Coming soon.',
         'Coming soon.',
