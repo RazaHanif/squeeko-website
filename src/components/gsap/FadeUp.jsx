@@ -25,6 +25,9 @@ function FadeUp({
                 once: true
             }
         })
+    },
+    {
+        
     })
 
 }
