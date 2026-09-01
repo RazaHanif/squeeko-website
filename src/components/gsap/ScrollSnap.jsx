@@ -26,9 +26,7 @@ function ScrollSnap({ children, className}) {
             const totalScroll =
                 container.current.offsetHeight - window.innerHeight
             
-            return gsap.utils.clamp(
-                
-            )
+            return 
         })
 
         ScrollTrigger.create({
