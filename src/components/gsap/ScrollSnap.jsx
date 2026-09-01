@@ -26,7 +26,7 @@ function ScrollSnap({ children, className}) {
             const totalScroll =
                 container.current.offsetHeight - window.innerHeight
             
-            return (sectionTop - containerTop) / totalScroll
+            return (sectionTop - containerTop - 80) / totalScroll
         })
 
         ScrollTrigger.create({
