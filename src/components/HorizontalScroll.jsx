@@ -53,7 +53,7 @@ function HorizontalScroll({ items=[], duration=20}) {
     }
 
     return (
-        <div >
+        <div className="w-full">
             <div 
                 ref={viewportRef}
                 className="overflow-hidden"
