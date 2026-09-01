@@ -5,6 +5,7 @@ function HorizontalScroll({ items=[], duration=20}) {
     const viewportRef = useRef(null)
 
     const [groupWidth, setGroupWidth] = useState(0)
+    const [copies, setCopies] = useState(2)
 
     useEffect(() => {
         if (!groupRef.current) return
