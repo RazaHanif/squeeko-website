@@ -57,7 +57,7 @@ function HorizontalScroll({ items=[]}) {
                             style={{
                                 "--marquee-item-index": idx + 1,
                             }}
-                            className="marquee_item cursor-pointer text-primary font-serif font-bold text-xl flex justify-center items-center text-center text-nowrap"
+                            className="marquee_item w-max  cursor-pointer text-primary font-serif font-bold text-xl flex justify-center items-center text-center text-nowrap"
                         >
                             {item.toUpperCase()}
                         </div>
