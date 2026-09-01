@@ -20,7 +20,7 @@ function About() {
                 Features
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] border bg-secondary text-primary-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] border bg-secondary text-primary-foreground flex flex-col justify-center items-center w-full">
                 CTA
             </section>
 
