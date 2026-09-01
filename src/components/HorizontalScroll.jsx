@@ -45,7 +45,7 @@ function HorizontalScroll({ items=[]}) {
                 <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-30 bg-gradient-to-l from-background to-primary" />
 
                 <div 
-                    className="marquee"
+                    className="marquee bg-primary"
                     style={{
                         "--marquee-items": scrollList.length,
                         "--marquee-duration": `${scrollList.length * 2}s`
