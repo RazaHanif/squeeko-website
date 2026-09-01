@@ -53,33 +53,35 @@ function HorizontalScroll({ items=[], duration=20}) {
     }
 
     return (
-        <div 
-            ref={viewportRef}
-            className="overflow-hidden"
-        >
-            <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-15 bg-gradient-to-r from-background to-primary" />
-            <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-15 bg-gradient-to-l from-background to-primary" />
-
+        <div >
             <div 
-                className="marquee-track" 
-                style={{
-                    "--marquee-distance": `${groupWidth}px`,
-                    "--marquee-duration": `${duration}s`,
-                }}
+                ref={viewportRef}
+                className="overflow-hidden"
             >
-                {Array.from({ length: copies }).map((_, groupIndex) => (
-                    <div
-                        key={groupIndex}
-                        ref={groupIndex === 0 ? groupRef : null}
-                        className="marquee-group"
-                    >
-                        {scrollList.map((item, idx) => (
-                            <div key={idx} className="marquee-item">
-                                {item}
-                            </div>
-                        ))}
-                    </div>
-                ))}
+                <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-15 bg-gradient-to-r from-background to-primary" />
+                <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-15 bg-gradient-to-l from-background to-primary" />
+
+                <div 
+                    className="marquee-track" 
+                    style={{
+                        "--marquee-distance": `${groupWidth}px`,
+                        "--marquee-duration": `${duration}s`,
+                    }}
+                >
+                    {Array.from({ length: copies }).map((_, groupIndex) => (
+                        <div
+                            key={groupIndex}
+                            ref={groupIndex === 0 ? groupRef : null}
+                            className="marquee-group"
+                        >
+                            {scrollList.map((item, idx) => (
+                                <div key={idx} className="marquee-item">
+                                    {item}
+                                </div>
+                            ))}
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     )
