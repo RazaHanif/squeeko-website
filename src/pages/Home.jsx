@@ -19,7 +19,7 @@ function Home() {
             </div>
 
             <div className="flex flex-col justify-center items-center text-muted-foreground my-16">
-                <p>Ghazal</p>
+                <p>GMS</p>
                 <HorizontalScroll items={horizontalList} />
             </div>
 
