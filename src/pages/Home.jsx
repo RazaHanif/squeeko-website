@@ -25,9 +25,7 @@ function Home() {
             </div>
             
             <div className=" my-16">
-                <HorizontalScroll items={[
-
-                ]} 
+                <HorizontalScroll items={socialLinks} 
                 duration={20} 
             />
             </div>
