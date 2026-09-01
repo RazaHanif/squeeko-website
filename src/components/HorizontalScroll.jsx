@@ -1,6 +1,6 @@
 function HorizontalScroll({ dur="12s", items=[]}) {
 
-    const scrollList = [
+    const scrollList = items || [
         "Test 1", 
         "Test 2",
         "Test 3",
