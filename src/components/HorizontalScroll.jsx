@@ -13,7 +13,8 @@ function HorizontalScroll({ items=[], duration=20}) {
 
         updateWidth()
 
-        const observer = new Resi
+        const observer = new ResizeObserver(updateWidth)
+        observer.observe(groupRef.current)
     })
 
 
