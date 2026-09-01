@@ -59,7 +59,7 @@ function HorizontalScroll({ items=[]}) {
                             }}
                             className="marquee_item cursor-pointer text-primary font-serif font-bold text-xl flex justify-center items-center text-center"
                         >
-                            {item.toCap}
+                            {item.toUpperCase()}
                         </div>
                     ))}
                 </div>
