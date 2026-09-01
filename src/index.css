@@ -279,7 +279,7 @@
 }
 
 .marquee-8 {
-  --marquee-item-width: 4rm;
+  --marquee-item-width: 1rem;
   --marquee-item-height: 4rem;
   --marquee-duration: 15s;
   --marquee-items: 8;
