@@ -18,7 +18,6 @@ function About() {
                             About
                         </h1>
                     </div>
-                    Hero
                 </section>
 
                 <section className="snap-section min-h-[calc(100vh-80px)] border bg-secondary text-primary-foreground">
