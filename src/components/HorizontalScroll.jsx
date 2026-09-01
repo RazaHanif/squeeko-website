@@ -8,7 +8,7 @@ function HorizontalScroll({ items=[], duration=20}) {
         if (!groupRef.current) return
 
         const updateWidth = () => {
-            setGroupWidth
+            setGroupWidth(groupRef)
         }
     })
 
