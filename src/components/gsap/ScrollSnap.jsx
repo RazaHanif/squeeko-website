@@ -28,7 +28,7 @@ function ScrollSnap({ children, className}) {
                 section.getBoundingClientRect().top  + 
                 window.scrollY
             
-            const scrollPosition = sectionTop
+            const scrollPosition = sectionTop - headerHeight
         })
 
         ScrollTrigger.create({
