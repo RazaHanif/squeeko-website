@@ -16,7 +16,10 @@ function ScrollSnap({ children, className}) {
 
         const headerHeight = 80
 
-        const start = container.current.offsetTop - header
+        const start = container.current.offsetTop - headerHeight
+
+        const end =
+            container.current
 
         ScrollTrigger.create({
             trigger: container.current,
