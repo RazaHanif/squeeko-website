@@ -1,7 +1,18 @@
 import HorizontalScroll from "@/components/HorizontalScroll"
 
 function Home() {
-    
+    const horizontalList = [
+        'Coming soon.',
+        'Coming soon.',
+        'Coming soon.',
+        'Coming soon.',
+        'Coming soon.',
+        'Coming soon.',
+        'Coming soon.',
+        'Coming soon.',
+        'Coming soon.',
+        'Coming soon.',
+    ]
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
             <div className="w-full flex justify-center items-center pb-8">
