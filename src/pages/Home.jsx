@@ -1,3 +1,5 @@
+import HorizontalScroll from "@/components/HorizontalScroll"
+
 function Home() {
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
@@ -6,6 +8,11 @@ function Home() {
                     Home
                 </h1>
             </div>
+
+            <div className="border border-primary my-16">
+                <HorizontalScroll />
+            </div>
+
 
             <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
                 <p>

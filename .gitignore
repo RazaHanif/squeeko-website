@@ -24,3 +24,4 @@ llm_helper.md
 *.sln
 *.sw?
 .env
+.ohgitrc.json
