@@ -51,49 +51,49 @@ function HorizontalScroll({ items=[], duration=20}) {
     }
 
     return (
+        <div 
+            ref={viewportRef}
+            className="overflow-hidden"
+        >
+            <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-15 bg-gradient-to-r from-background to-transparent" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-15 bg-gradient-to-l from-background to-transparent" />
+
             <div 
-                ref={viewportRef}
-                className="overflow-hidden"
+                className="marquee-track" 
+                style={{
+                    "--marquee-distance": `${groupWidth}px`,
+                    "--marquee-duration": `${duration}s`,
+                }}
             >
-                <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-15 bg-gradient-to-r from-background to-transparent" />
-                <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-15 bg-gradient-to-l from-background to-transparent" />
+                <div 
+                    ref={groupRef}
+                    className="marquee-group"
+                >
+                    {scrollList.map((item, idx) => (
+                        <div 
+                            key={idx} 
+                            className="marquee-item"
+                        >
+                            {item}
+                        </div>
+                    ))}
+                </div>
 
                 <div 
-                    className="marquee-track" 
-                    style={{
-                        "--marquee-distance": `${groupWidth}px`,
-                        "--marquee-duration": `${duration}s`,
-                    }}
+                    className="marquee-group" 
+                    aria-hidden="true"
                 >
-                    <div 
-                        ref={groupRef}
-                        className="marquee-group"
-                    >
-                        {scrollList.map((item, idx) => (
-                            <div 
-                                key={idx} 
-                                className="marquee-item"
-                            >
-                                {item}
-                            </div>
-                        ))}
-                    </div>
-
-                    <div 
-                        className="marquee-group" 
-                        aria-hidden="true"
-                    >
-                        {scrollList.map((item, idx) => (
-                            <div 
-                                key={idx} 
-                                className="marquee-item"
-                            >
-                                {item}
-                            </div>
-                        ))}
-                    </div>
+                    {scrollList.map((item, idx) => (
+                        <div 
+                            key={idx} 
+                            className="marquee-item"
+                        >
+                            {item}
+                        </div>
+                    ))}
                 </div>
             </div>
+        </div>
     )
 } 
 
