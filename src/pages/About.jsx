@@ -15,21 +15,21 @@ function About() {
 
             <ScrollSnap>
 
-            <section className="snap-section min-h-screen">
-                {/* Hero */}
-            </section>
+                <section className="snap-section min-h-screen">
+                    {/* Hero */}
+                </section>
 
-            <section className="snap-section min-h-screen">
-                {/* Testimonials */}
-            </section>
+                <section className="snap-section min-h-screen">
+                    {/* Testimonials */}
+                </section>
 
-            <section className="snap-section min-h-screen">
-                {/* Features */}
-            </section>
+                <section className="snap-section min-h-screen">
+                    {/* Features */}
+                </section>
 
-            <section className="snap-section min-h-screen">
-                {/* CTA */}
-            </section>
+                <section className="snap-section min-h-screen">
+                    {/* CTA */}
+                </section>
 
             </ScrollSnap>
 
