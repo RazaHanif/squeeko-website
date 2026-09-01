@@ -30,6 +30,12 @@ function FadeUp({
         scope: container
     })
 
+    return (
+        <div>
+            {children}
+        </div>
+    )
+
 }
 
 export default FadeUp
