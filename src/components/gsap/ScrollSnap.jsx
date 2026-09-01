@@ -27,7 +27,7 @@ function ScrollSnap({ children, className}) {
                 container.current.offsetHeight - window.innerHeight
             
             return gsap.utils.clamp(
-                0, 1, (scrollPosition - start) / (end - start)
+                
             )
         })
 
