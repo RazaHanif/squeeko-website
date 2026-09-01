@@ -17,7 +17,7 @@ function HorizontalScroll({ items=[], duration=20}) {
         observer.observe(groupRef.current)
 
         return () => observer.disconnect()
-    })
+    }, [items])
 
 
     let scrollList = []
