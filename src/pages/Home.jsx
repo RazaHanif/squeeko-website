@@ -9,7 +9,7 @@ function Home() {
                 </h1>
             </div>
 
-            <div className="border border-primary my-16">
+            <div className="my-16">
                 <HorizontalScroll />
             </div>
 
