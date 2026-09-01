@@ -68,7 +68,7 @@ function HorizontalScroll({ items=[]}) {
 
                 <div className="marquee-track" style={{"--marquee-duration": `${duration}s`}}>
                     <div className="marquee-group">
-                        {scrollList.map((items, idx) => (
+                        {scrollList.map((item, idx) => (
                             <div key={idx} className="marquee-item">
                                 {item}
                             </div>
@@ -76,7 +76,7 @@ function HorizontalScroll({ items=[]}) {
                     </div>
 
                     <div className="marquee-group" aria-hidden="true">
-                        {scrollList.map((items, idx) => (
+                        {scrollList.map((item, idx) => (
                             <div key={idx} className="marquee-item">
                                 {item}
                             </div>
