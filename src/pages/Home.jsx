@@ -11,14 +11,6 @@ function Home() {
         'Boss',
     ]
 
-    const socialList = [
-        InstagramIcon,
-        FacebookIcon,
-        LinkedInIcon,
-        TiktokIcon,
-        YoutubeIcon,
-    ]
-
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
             <div className="w-full flex justify-center items-center pb-8">
