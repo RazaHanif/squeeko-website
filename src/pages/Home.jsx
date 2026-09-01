@@ -1,4 +1,5 @@
 import HorizontalScroll from "@/components/HorizontalScroll"
+import { socialLinks } from "@/components/NavigationLinks"
 
 function Home() {
     const horizontalList = [
@@ -10,6 +11,7 @@ function Home() {
         'Business Owner',
         'Boss',
     ]
+
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
             <div className="w-full flex justify-center items-center pb-8">
@@ -23,7 +25,11 @@ function Home() {
             </div>
             
             <div className=" my-16">
-                <HorizontalScroll items={horizontalList} duration={20} />
+                <HorizontalScroll items={[
+
+                ]} 
+                duration={20} 
+            />
             </div>
 
 
