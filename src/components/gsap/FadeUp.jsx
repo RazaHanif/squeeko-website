@@ -21,7 +21,8 @@ function FadeUp({
             ease: "power2.out",
             scrollTrigger: {
                 trigger: container.current,
-                start: "top 85%"
+                start: "top 85%",
+                once: true
             }
         })
     })
