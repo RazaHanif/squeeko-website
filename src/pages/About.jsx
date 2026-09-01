@@ -21,15 +21,15 @@ function About() {
                     Hero
                 </section>
 
-                <section className="snap-section min-h-screen border bg-primary text-primary-foreground">
+                <section className="snap-section min-h-vh border bg-primary text-primary-foreground">
                     Testimonials
                 </section>
 
-                <section className="snap-section min-h-screen border bg-primary text-primary-foreground">
+                <section className="snap-section min-h-vh border bg-primary text-primary-foreground">
                     Features
                 </section>
 
-                <section className="snap-section min-h-screen border bg-primary text-primary-foreground">
+                <section className="snap-section min-h-vh border bg-primary text-primary-foreground">
                     CTA
                 </section>
 
