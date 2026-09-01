@@ -31,7 +31,7 @@ function FadeUp({
     })
 
     return (
-        <div>
+        <div ref={children}>
             {children}
         </div>
     )
