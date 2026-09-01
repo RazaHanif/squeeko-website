@@ -283,7 +283,7 @@
 
     to {
         transform: translateX(
-          calc(var(--marqu))
+          calc(var(--marquee-distance) * -1)
         );
     }
 }
