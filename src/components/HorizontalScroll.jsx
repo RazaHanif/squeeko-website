@@ -26,8 +26,9 @@ function HorizontalScroll({ items=[], duration=20}) {
         update()
 
         const observer = new ResizeObserver(update)
-        
+
         observer.observe(groupRef.current)
+        observer.observe(viewportRef.current)
 
         return () => observer.disconnect()
     }, [items])
