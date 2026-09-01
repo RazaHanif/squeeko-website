@@ -1,3 +1,3 @@
 import gsap from "gsap";
 
-gsap.reg
+gsap.registerPlugin(Scroll)
