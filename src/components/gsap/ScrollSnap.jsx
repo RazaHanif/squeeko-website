@@ -8,7 +8,9 @@ gsap.registerPlugin(ScrollTrigger)
 function ScrollSnap({ children, className}) {
     const container = useRef(null)
 
-    useGSAP
+    useGSAP(() => {
+        const sections = gsap.utils.toArr
+    })
 }
 
 export default ScrollSnap
