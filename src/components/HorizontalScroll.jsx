@@ -60,7 +60,7 @@ function HorizontalScroll({ items=[], speed=100, className}) {
     }
 
     return (
-        <div className="w-full cursor-default">
+        <div className="w-full cursor-default hover:bg-red-500">
             <div 
                 ref={viewportRef}
                 className="overflow-hidden relative"
