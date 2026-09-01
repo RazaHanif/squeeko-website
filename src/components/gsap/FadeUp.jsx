@@ -27,7 +27,7 @@ function FadeUp({
         })
     },
     {
-        
+        scope: container
     })
 
 }
