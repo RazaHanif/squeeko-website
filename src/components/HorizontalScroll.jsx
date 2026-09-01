@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 
-function HorizontalScroll({ items=[], speed=100 clas}) {
+function HorizontalScroll({ items=[], speed=100, className}) {
     const groupRef = useRef(null)
     const viewportRef = useRef(null)
 
