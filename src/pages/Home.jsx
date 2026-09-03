@@ -46,6 +46,12 @@ function Home() {
                     Why Squeeko (copy jane)
                 </p>
             </section>
+
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-gradient-to-l from-background to-primary text-muted-foreground">
+                <p className="w-3/4 text-center text-2xl">
+                    Why Squeeko (copy jane)
+                </p>
+            </section>
             <div className="w-full flex justify-center items-center pb-8">
                 <h1 className="text-4xl lg:text-5xl font-serif">
                     Home
