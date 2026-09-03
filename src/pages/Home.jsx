@@ -14,7 +14,7 @@ import { NavLink } from "react-router-dom"
 
 function HomeFeatureAccordion() {
     return (
-        <Accordion defaultValue={["item-1"]}>
+        <Accordion defaultValue={[""]}>
             <AccordionItem value="item-1">
                 <AccordionTrigger>
                     Is it accessible?
