@@ -16,7 +16,7 @@ function HomeFeatureAccordion() {
     return (
         <Accordion className="w-full bg-primary rounded-2xl p-8">
             <AccordionItem value="1">
-                <AccordionTrigger>
+                <AccordionTrigger className="">
                     Scheduling
                 </AccordionTrigger>
                 <AccordionContent className="flex flex-col">
