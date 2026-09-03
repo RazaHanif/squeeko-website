@@ -22,10 +22,14 @@ function HomeFeatureAccordion() {
                 value="1"
                 className="border-b"
             >
-                <AccordionTrigger className="text-md">
+                <AccordionTrigger 
+                    className="text-lg text-primary hover:no-underline cursor-pointer"
+                    >
                     Scheduling
                 </AccordionTrigger>
-                <AccordionContent className="flex flex-col">
+                <AccordionContent 
+                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
+                >
                     <h2 className="text-2xl">
                         Heading
                     </h2>
