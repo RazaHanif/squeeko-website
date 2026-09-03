@@ -30,7 +30,7 @@ function HomeFeatureAccordion() {
                 <AccordionContent 
                     className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit my-8 lg:my-16"
                 >
-                    <h2 className="text-4xl lg:text-5xl">
+                    <h2 className="text-4xl lg:text-5xl font-serif">
                         Heading
                     </h2>
                     <p className="">
