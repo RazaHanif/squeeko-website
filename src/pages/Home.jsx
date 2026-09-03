@@ -345,7 +345,8 @@ function Home() {
                         B
                     </div>
                     <div>
-                        </div> 
+                        C
+                    </div> 
                 </div>
             </section>
 
