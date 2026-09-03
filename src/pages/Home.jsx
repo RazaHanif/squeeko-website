@@ -29,7 +29,7 @@ function HomeFeatureAccordion() {
         {
             trigger: "Billing",
             header: "Get paid",
-            desc: "This will overview how you can collect payments within the app, including automating ",
+            desc: "This will overview how you can collect payments within the app, including automating late fees, field trips, ",
             links: [
                 {title: "Link 1", link: "#"},
                 {title: "Link 2", link: "#"},
