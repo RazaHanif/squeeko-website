@@ -19,7 +19,11 @@ function HomeFeatureAccordion() {
             trigger: "Scheduling",
             header: "Heading",
             desc: "Description",
-            links: {title: "Link", link: "#"}
+            links: [
+                {title: "Link", link: "#"},
+                {title: "Link", link: "#"},
+                {title: "Link", link: "#"},
+            ]
         }
     ]
 
