@@ -17,7 +17,7 @@ function Home() {
 
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-card text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border text-muted-foreground">
             <div className="w-full flex justify-center items-center pb-8">
                 <h1 className="text-4xl lg:text-5xl font-serif text-center">
                     Home
@@ -30,7 +30,7 @@ function Home() {
             <div>
                 <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
             </div>
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-card text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
                     This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
                 </p>
@@ -39,19 +39,19 @@ function Home() {
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-card text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
                     Overview of the features
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-card text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
                     Why Squeeko (copy jane)
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-card text-muted-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
                     CTA Get Started (Copy Jane)
                 </p>
