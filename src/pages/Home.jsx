@@ -47,7 +47,7 @@ function Home() {
                     </Button>
                 </div>
 
-                <div className="w-full flex flex-1 flex-col justify-center items-center border rounded-md bg-primary text-primary-foreground">
+                <div className="w-full flex flex-1 flex-col justify-center items-center border rounded-xl bg-primary text-primary-foreground">
                     <div className="w-full flex-1 flex justify-center items-center">
                         Some sort of pictures here of the app? Demos and shit
                     </div>
