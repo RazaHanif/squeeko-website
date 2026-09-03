@@ -20,7 +20,7 @@ function HomeFeatureAccordion() {
                     Scheduling
                 </AccordionTrigger>
                 <AccordionContent>
-                    <h2 className="">
+                    <h2 className="text-2xl">
                         Heading
                     </h2>
                 </AccordionContent>
