@@ -31,15 +31,15 @@ function HomeFeatureAccordion() {
                 <AccordionContent 
                     className="flex flex-col [&_a]:underline [&_a]:hover:text-secondary [&_a]:hover:underline [&_a]:w-fit my-8 lg:my-16 gap-4"
                 >
-                    <h2 className="text-4xl lg:text-5xl font-serif font-semibold border">
+                    <h2 className="text-4xl lg:text-5xl font-serif font-semibold">
                         Heading
                     </h2>
-                    <div className="border">
+                    <div className="">
                         <p>
                             Description
                         </p>
                     </div>
-                    <div className="flex flex-col items-start border my-8">
+                    <div className="flex flex-col items-start my-8">
                         <NavLink 
                             to="#" 
                             end 
