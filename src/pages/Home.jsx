@@ -55,7 +55,7 @@ function HomeFeatureAccordion() {
             links: [
                 {title: "Forms", link: "#"},
                 {title: "OnBoarding", link: "#"},
-                {title: "Link 3", link: "#"},
+                {title: "Customizability", link: "#"},
             ],
             image: "IMAGE"
         },
