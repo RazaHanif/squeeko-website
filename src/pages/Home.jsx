@@ -67,7 +67,7 @@ function HomeFeatureAccordion() {
                     </div>
 
                     <div className="flex-1 flex flex-col justify-center items-center p-20 border">
-                        <div className="border p-4 rounded-xl">
+                        <div className="border p-4 rounded-xl bg-primary">
                             Image
                         </div>
                     </div>
