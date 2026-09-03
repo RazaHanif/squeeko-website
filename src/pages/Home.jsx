@@ -20,6 +20,7 @@ function HomeFeatureAccordion() {
         >
             <AccordionItem 
                 value="1"
+                className="border-b"
             >
                 <AccordionTrigger className="">
                     Scheduling
