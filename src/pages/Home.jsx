@@ -87,6 +87,7 @@ function Home() {
                 <p className="text-center text-xs">
                     FEATURES
                 </p>
+                
 
             </section>
 
