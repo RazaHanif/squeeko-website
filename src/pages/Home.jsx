@@ -83,21 +83,20 @@ function Home() {
             
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-full bg-primary/50 text-primary-foreground">
                 <div className="p-8 flex flex-col justify-center items-center gap-4">
-
+                    <p className="text-center text-sm">
+                        FEATURES
+                    </p>
+                    <h2 className="text-4xl font-serif text-center font-semibold">
+                        The tools your centre needs, all in one place
+                    </h2>
+                    <NavLink
+                        to="/features"
+                        end
+                        className="cursor-pointer hover:underline"
+                    >
+                        see all features &rarr;
+                    </NavLink>
                 </div>
-                <p className="text-center text-sm">
-                    FEATURES
-                </p>
-                <h2 className="text-4xl font-serif text-center font-semibold">
-                    The tools your centre needs, all in one place
-                </h2>
-                <NavLink
-                    to="/features"
-                    end
-                    className="cursor-pointer hover:underline"
-                >
-                    see all features &rarr;
-                </NavLink>
 
             </section>
 
