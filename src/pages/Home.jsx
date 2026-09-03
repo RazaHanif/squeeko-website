@@ -81,8 +81,7 @@ function HomeFeatureAccordion() {
             {data.map(({trigger, header, desc, links, image}) => (
                 <>
                 <AccordionItem
-                    key={trigger}
-                    value={trigger}
+
                     className="border-b"
                 >
                     <AccordionTrigger
