@@ -27,7 +27,7 @@ function Home() {
                     your center has SQUEEKO
                 </h1>
                 <p>
-                    
+                    SQUEEKO brings scheduling, 
                 </p>
             </div>
                 <p className="w-3/4 text-center text-2xl">
