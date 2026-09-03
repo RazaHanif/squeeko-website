@@ -107,8 +107,8 @@ function HomeFeatureAccordion() {
                     </AccordionContent>
                 </AccordionItem>
             <AccordionItem 
-            
-                value="1"
+                                key={trigger}
+                    value={trigger}
                 className="border-primary-foreground"
             >
                 <AccordionTrigger 
