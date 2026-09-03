@@ -81,12 +81,9 @@ function HomeFeatureAccordion() {
             {data.map(({trigger, header, desc, links, image}) => (
                 <>
                 <AccordionItem
-
-                    className="border-b"
                 >
                     <AccordionTrigger
-                        className="text-lg text-primary hover:no-underline cursor-pointer"
-                    >
+                     >
                         {category}
                     </AccordionTrigger>
 
