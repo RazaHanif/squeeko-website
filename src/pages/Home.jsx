@@ -76,7 +76,6 @@ function HomeFeatureAccordion() {
 
             <AccordionItem 
                 value="2"
-                className="border-b"
             >
                 <AccordionTrigger 
                     className="hover:no-underline cursor-pointer"
@@ -130,7 +129,6 @@ function HomeFeatureAccordion() {
             </AccordionItem>
             <AccordionItem 
                 value="3"
-                className="border-b"
             >
                 <AccordionTrigger 
                     className="hover:no-underline cursor-pointer"
@@ -184,7 +182,6 @@ function HomeFeatureAccordion() {
             </AccordionItem>
             <AccordionItem 
                 value="4"
-                className="border-b"
             >
                 <AccordionTrigger 
                     className="hover:no-underline cursor-pointer"
@@ -238,7 +235,6 @@ function HomeFeatureAccordion() {
             </AccordionItem>
             <AccordionItem 
                 value="5"
-                className="border-b"
             >
                 <AccordionTrigger 
                     className="hover:no-underline cursor-pointer"
