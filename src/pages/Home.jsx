@@ -40,7 +40,7 @@ function HomeFeatureAccordion() {
         {
             trigger: "Communication",
             header: "Stay in touch",
-            desc: "This will highlight the in app insta style feed, and the in app messaging,",
+            desc: "This will highlight the in app insta style feed, the in app messaging,",
             links: [
                 {title: "Link 1", link: "#"},
                 {title: "Link 2", link: "#"},
