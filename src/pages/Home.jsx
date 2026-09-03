@@ -32,7 +32,7 @@ function HomeFeatureAccordion() {
             desc: "This will overview how you can collect payments within the app, including automating late fees, field trips, rate increases etc.",
             links: [
                 {title: "Auto Billing", link: "#"},
-                {title: "Link 2", link: "#"},
+                {title: "Late Fees", link: "#"},
                 {title: "Link 3", link: "#"},
             ],
             image: "IMAGE"
