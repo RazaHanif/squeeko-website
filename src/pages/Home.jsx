@@ -136,7 +136,7 @@ function HomeFeatureAccordion() {
 
                     <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
                         <div className="text-lg font-bold font-mono">
-                            IMAGE
+                            {image}
                         </div>
                     </div>
                 </AccordionContent>
