@@ -114,7 +114,7 @@ function HomeFeatureAccordion() {
                 <AccordionTrigger 
                     className="cursor-pointer hover:no-underline"
                 >
-                    Scheduling
+                    {header}
                 </AccordionTrigger>
                 <AccordionContent 
                     className="flex flex-col [&_a]:no-underline [&_a]:hover:text-secondary [&_a]:hover:underline [&_a]:w-fit my-8 lg:my-16 gap-4"
