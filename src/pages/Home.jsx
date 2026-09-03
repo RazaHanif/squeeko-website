@@ -18,6 +18,7 @@ function HomeFeatureAccordion() {
             defaultValue={["1"]}
             className="w-full"
         >
+            
             <AccordionItem 
                 value="1"
                 className="border-b border-primary-foreground"
