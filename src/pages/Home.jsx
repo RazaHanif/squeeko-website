@@ -17,7 +17,7 @@ function Home() {
     ]
 
     return (
-        <div className="flex-1 flex flex-collg:py-16 py-8">
+        <div className="flex-1 flex flex-col justify-center items-center w-full lg:py-16 py-8">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-9/10 lg:w-3/4">
                 <div className="w-full flex flex-col justify-center items-center gap-4">
                     <p className="text-xs font-bold">
