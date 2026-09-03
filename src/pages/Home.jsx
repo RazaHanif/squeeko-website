@@ -17,7 +17,8 @@ function HomeFeatureAccordion() {
     const data = [
         {
             trigger: "Scheduling",
-            headi
+            header: "Heading",
+            
         }
     ]
 
