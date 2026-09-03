@@ -356,6 +356,9 @@ function Home() {
                     <h2 className="text-4xl font-serif text-center font-semibold">
                         The tools your centre needs, all in one place
                     </h2>
+                </div>
+
+                <div className="w-9/10 lg:w-3/4 bg-primary rounded-lg overflow-hidden p-8">
                     <NavLink
                         to="/features"
                         end
@@ -363,9 +366,6 @@ function Home() {
                     >
                         see all features &rarr;
                     </NavLink>
-                </div>
-
-                <div className="w-9/10 lg:w-3/4 bg-primary rounded-lg overflow-hidden p-8">
                     <HomeFeatureAccordion />
                 </div>
 
