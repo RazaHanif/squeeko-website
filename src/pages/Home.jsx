@@ -18,7 +18,7 @@ function HomeFeatureAccordion() {
         {
             trigger: "Scheduling",
             header: "Scheduling",
-            desc: "This will be a small description of what the scheduling feature does within the app, including attendance, ratio, and other logic.",
+            desc: "This will be a small description of what the scheduling feature does within the app, including attendance, ratio, and other helpful stuff.",
             links: [
                 {title: "Link 1", link: "#"},
                 {title: "Link 2", link: "#"},
