@@ -61,7 +61,7 @@ function HomeFeatureAccordion() {
         },
         {
             trigger: "IDK",
-            header: "Heading",
+            header: "I ",
             desc: "Description",
             links: [
                 {title: "Link 1", link: "#"},
