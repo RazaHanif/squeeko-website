@@ -31,6 +31,7 @@ function Home() {
                         SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
                     </p>
                 </div>
+                
                 <div className="w-full flex flex-row justify-center items-center">
                     <Button 
                         variant="default"
@@ -45,6 +46,7 @@ function Home() {
                         Book a demo
                     </Button>
                 </div>
+
                 <div className="w-full flex flex-row justify-center items-center">
                     <div className="flex-1 w-full h-50dvh border border-primary bg-primary text-primary-foreground">
                         Some sort of pictures here of the app? Demos and shit
