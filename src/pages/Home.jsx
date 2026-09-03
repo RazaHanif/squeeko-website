@@ -14,6 +14,9 @@ import { ChevronRight } from "lucide-react"
 
 
 function HomeFeatureAccordion() {
+    
+
+
     return (
         <Accordion
             defaultValue={["1"]}
