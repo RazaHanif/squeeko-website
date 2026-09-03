@@ -43,7 +43,7 @@ function HomeFeatureAccordion() {
             desc: "This will highlight the in app insta style feed, the in app messaging, and the ability to send forms to the parents directly",
             links: [
                 {title: "Insta Style Feed", link: "#"},
-                {title: "Link 2", link: "#"},
+                {title: "Messaging", link: "#"},
                 {title: "Link 3", link: "#"},
             ],
             image: "IMAGE"
