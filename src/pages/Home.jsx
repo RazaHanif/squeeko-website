@@ -78,7 +78,7 @@ function HomeFeatureAccordion() {
             defaultValue={[data[0].trigger]}
             className="w-full rounded-lg bg-primary p-6"
         >
-            {Object.entries(links).map(([ category, items ]) => (
+            {data.map(([ category, items ]) => (
                 <AccordionItem
                     key={category}
                     value={category}
