@@ -75,7 +75,7 @@ function HomeFeatureAccordion() {
 
     return (
         <Accordion
-            defaultValue={["1"]}
+            defaultValue={[data[0].trigger]}
             className="w-full rounded-lg bg-primary p-6"
         >
             {Object.entries(links).map(([ category, items ]) => (
