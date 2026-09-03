@@ -61,7 +61,7 @@ function HomeFeatureAccordion() {
         },
         {
             trigger: "IDK",
-            header: "I ",
+            header: "Secret Feature?",
             desc: "Description",
             links: [
                 {title: "Link 1", link: "#"},
