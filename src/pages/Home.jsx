@@ -23,7 +23,8 @@ function Home() {
                     CHILD CARE MANAGEMENT SOFTWARE  
                 </p>
                 <h1 className="text-4xl lg:text-5xl font-serif text-center">
-                    Your children have you,
+                    Your children have you,<br>
+                    </br>
                 </h1>
             </div>
                 <p className="w-3/4 text-center text-2xl">
