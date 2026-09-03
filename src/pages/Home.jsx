@@ -24,7 +24,7 @@ function HomeFeatureAccordion() {
                 {title: "Link 2", link: "#"},
                 {title: "Link 3", link: "#"},
             ],
-            
+            image: "IMAGE"
         }
     ]
 
