@@ -2,6 +2,7 @@ import FadeUp from "@/components/gsap/FadeUp"
 import ScrollSnap from "@/components/gsap/ScrollSnap"
 import HorizontalScroll from "@/components/HorizontalScroll"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
+import { Button } from "@/components/ui/button"
 
 function Home() {
     const horizontalList = [
@@ -30,7 +31,10 @@ function Home() {
                         SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
                     </p>
                 </div>
-                <div className="w-full flex flex-col justify-center items-center pb-8">
+                <div className="w-full flex flex-row justify-center items-center pb-8">
+                    <Button variant="default">
+                        
+                    </Button>
 
                     <p className="w-3/4 text-center text-2xl">
                         This should have a CTA btn that opens the form, or something
