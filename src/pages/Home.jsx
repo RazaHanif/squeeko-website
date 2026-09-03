@@ -132,22 +132,6 @@ function HomeFeatureAccordion() {
                                     {title}
                                 </NavLink>
                         ))}
-                        <NavLink 
-                            to="#" 
-                            end 
-                            className="flex flex-row justify-center items-center text-lg"
-                        >
-                            <ChevronRight className="size-6"/>
-                            Link
-                        </NavLink>
-                        <NavLink 
-                            to="#" 
-                            end 
-                            className="flex flex-row justify-center items-center text-lg"
-                        >
-                            <ChevronRight className="size-6"/>
-                            Link
-                        </NavLink>
                     </div>
 
                     <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
