@@ -14,7 +14,7 @@ import { NavLink } from "react-router-dom"
 
 function HomeFeatureAccordion() {
     return (
-        <Accordion className="">
+        <Accordion className="bg-red-500">
             <AccordionItem value="1">
                 <AccordionTrigger>
                     Scheduling
