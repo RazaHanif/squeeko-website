@@ -27,6 +27,9 @@ function Home() {
                 <p className="w-3/4 text-center text-2xl">
                     This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
                 </p>
+                <p className="w-3/4 text-center text-2xl">
+                    This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
+                </p>
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary text-muted-foreground">
