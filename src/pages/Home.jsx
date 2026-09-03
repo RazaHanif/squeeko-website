@@ -35,13 +35,13 @@ function Home() {
                 <div className="w-full flex flex-row justify-center items-center border">
                     <Button 
                         variant="default"
-                        className="cursor-pointer w-1/3"
+                        className="cursor-pointer w-1/3 h-"
                     >
                         Sign Up
                     </Button>
                     <Button 
                         variant="outline"
-                        className="cursor-pointer w-1/3"
+                        className="cursor-pointer w-1/3 h-"
                     >
                         Book a demo
                     </Button>
