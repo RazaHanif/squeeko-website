@@ -18,7 +18,7 @@ function HomeFeatureAccordion() {
                 <AccordionTrigger>Is it accessible?</AccordionTrigger>
                 <AccordionContent>
                     Yes. It adheres to the WAI-ARIA design pattern.
-            </AccordionContent>
+                </AccordionContent>
             </AccordionItem>
         </Accordion>
     )
