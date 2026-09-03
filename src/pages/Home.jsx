@@ -20,15 +20,15 @@ function HomeFeatureAccordion() {
         >
             <AccordionItem 
                 value="1"
-                className=""
+                className=" border-b border-b-red-500"
             >
                 <AccordionTrigger 
-                    className="text-lg hover:no-underline cursor-pointer border-b border-b-red-500"
+                    className="text-lg hover:no-underline cursor-pointer"
                     >
                     Scheduling
                 </AccordionTrigger>
                 <AccordionContent 
-                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3 border-b border-b-red-500"
+                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
                 >
                     <h2 className="text-2xl">
                         Heading
