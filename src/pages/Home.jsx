@@ -106,6 +106,7 @@ function HomeFeatureAccordion() {
                         ))}
                     </AccordionContent>
                 </AccordionItem>
+                
             ))}
             <AccordionItem 
                 value="1"
