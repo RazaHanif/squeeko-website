@@ -37,9 +37,9 @@ function HomeFeatureAccordion() {
                         Description
                     </p>
                     <div>
-                        <li>links</li>
-                        <li>links</li>
-                        <li>links</li>
+                        <p>links</p>
+                        <p>links</p>
+                        <p>links</p>
                     </div>
 
                     <div className="flex-1">
@@ -67,9 +67,9 @@ function HomeFeatureAccordion() {
                         Description
                     </p>
                     <div>
-                        <li>links</li>
-                        <li>links</li>
-                        <li>links</li>
+                        <p>links</p>
+                        <p>links</p>
+                        <p>links</p>
                     </div>
 
                     <div className="flex-1">
@@ -96,9 +96,9 @@ function HomeFeatureAccordion() {
                         Description
                     </p>
                     <div>
-                        <li>links</li>
-                        <li>links</li>
-                        <li>links</li>
+                        <p>links</p>
+                        <p>links</p>
+                        <p>links</p>
                     </div>
 
                     <div className="flex-1">
@@ -125,9 +125,9 @@ function HomeFeatureAccordion() {
                         Description
                     </p>
                     <div>
-                        <li>links</li>
-                        <li>links</li>
-                        <li>links</li>
+                        <p>links</p>
+                        <p>links</p>
+                        <p>links</p>
                     </div>
 
                     <div className="flex-1">
@@ -154,9 +154,9 @@ function HomeFeatureAccordion() {
                         Description
                     </p>
                     <div>
-                        <li>links</li>
-                        <li>links</li>
-                        <li>links</li>
+                        <p>links</p>
+                        <p>links</p>
+                        <p>links</p>
                     </div>
 
                     <div className="flex-1">
