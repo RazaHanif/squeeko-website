@@ -18,6 +18,7 @@ function HomeFeatureAccordion() {
         {
             trigger: "Scheduling",
             header: "Heading",
+            desc: "Description",
             
         }
     ]
