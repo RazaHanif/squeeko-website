@@ -223,7 +223,7 @@ function Home() {
                         Im an admin or director
                     </Button>
                     <Button variant="secondary">
-                        Im an admin or director
+                        Im a staff member
                     </Button>
                     <Button variant="secondary">
                         Im an admin or director
