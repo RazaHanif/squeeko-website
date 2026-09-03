@@ -342,7 +342,7 @@ function Home() {
                         A
                     </div>
                     <div className="flex-1 w-full flex flex-col">
-                        <div className="border-t flex-1 w-full flex justify-center items-center">
+                        <div className="border-b border-secondary flex-1 w-full flex justify-center items-center">
                             B
                         </div>
                         <div className="flex-1 w-full flex justify-center items-center">
