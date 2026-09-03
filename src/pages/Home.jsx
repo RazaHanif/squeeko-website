@@ -3,6 +3,12 @@ import ScrollSnap from "@/components/gsap/ScrollSnap"
 import HorizontalScroll from "@/components/HorizontalScroll"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Button } from "@/components/ui/button"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 
 function Home() {
     const horizontalList = [
@@ -62,7 +68,7 @@ function Home() {
                 <p className="text-center text-xs">
                     FEATURES
                 </p>
-                
+
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4 bg-primary/50 border border-primary">
