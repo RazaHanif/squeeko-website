@@ -36,7 +36,7 @@ function HomeFeatureAccordion() {
                     <p className="">
                         Description
                     </p>
-                    <div className="border flex flex-col items-start gap-2">
+                    <div className="border flex flex-col items-start">
                         <p className="p-0 !mb-0 border">links</p>
                         <p className="p-0 !mb-0 border">links</p>
                         <p className="p-0 !mb-0 border">links</p>
