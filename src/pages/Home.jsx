@@ -78,12 +78,12 @@ function HomeFeatureAccordion() {
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem 
-                value="1"
+                value="3"
                 className="border-b border-b-red-500"
             >
                 <AccordionTrigger 
                     className="text-lg hover:no-underline cursor-pointer"
-                    >
+                >
                     Scheduling
                 </AccordionTrigger>
                 <AccordionContent 
