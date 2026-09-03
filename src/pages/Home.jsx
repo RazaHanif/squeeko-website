@@ -42,13 +42,13 @@ function Home() {
         <div className="flex-1 flex flex-col justify-center items-center w-full lg:py-16 py-8">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-9/10 lg:w-3/4">
                 <div className="w-full flex flex-col justify-center items-center gap-4">
-                    <p className="text-xs font-bold">
+                    <h1 className="text-xs font-bold">
                         CHILD CARE MANAGEMENT SOFTWARE  
-                    </p>
-                    <h1 className="text-5xl font-serif text-center font-semibold">
+                    </h1>
+                    <h2 className="text-5xl font-serif text-center font-semibold">
                         Your children have you,<br/>
                         your center has SQUEEKO
-                    </h1>
+                    </h2>
                     <p className="w-full text-center font-light">
                         SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
                     </p>
@@ -88,7 +88,7 @@ function Home() {
                     FEATURES
                 </p>
                 <h2>
-                    
+
                 </h2>
 
             </section>
