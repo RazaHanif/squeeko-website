@@ -349,7 +349,7 @@ function Home() {
             </div>
             
             <section className="snap-section flex flex-col justify-start items-center w-full bg-primary/50 text-primary-foreground">
-                <div className="p-8 flex flex-col justify-center items-center gap-2">
+                <div className="p-8 lg:p-16 flex flex-col justify-center items-center gap-2">
                     <p className="text-center text-sm">
                         FEATURES
                     </p>
