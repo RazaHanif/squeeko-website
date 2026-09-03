@@ -31,7 +31,7 @@ function Home() {
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
-                    Features
+                    Overview of the features
                 </p>
             </section>
 
