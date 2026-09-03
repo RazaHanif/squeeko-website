@@ -86,7 +86,7 @@ function Home() {
                     <p className="text-center text-sm border justify-center items-center flex">
                         FEATURES
                     </p>
-                    <h2 className="text-4xl font-mono text-center font-semibold border justify-center items-center flex">
+                    <h2 className="text-4xl font-serif text-center font-semibold border justify-center items-center flex">
                         The tools your centre needs, all in one place
                     </h2>
                     <NavLink
