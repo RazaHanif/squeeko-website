@@ -44,7 +44,7 @@ function HomeFeatureAccordion() {
             links: [
                 {title: "Insta Style Feed", link: "#"},
                 {title: "Messaging", link: "#"},
-                {title: "Link 3", link: "#"},
+                {title: "Forms", link: "#"},
             ],
             image: "IMAGE"
         },
