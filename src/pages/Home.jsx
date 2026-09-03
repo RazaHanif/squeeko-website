@@ -25,7 +25,7 @@ function Home() {
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-gradient-to-l from-background to-primary text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
-                    This should have some contact info, copy Jane.app mission, vision, and values format for a base. 
+                    This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
                 </p>
             </section>
 
