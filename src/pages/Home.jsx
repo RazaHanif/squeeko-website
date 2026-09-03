@@ -41,7 +41,7 @@ function Home() {
                     </Button>
                     <Button 
                         variant="outline"
-                        className="cursor-pointer p-6 !outline-primary"
+                        className="cursor-pointer p-6 !border-primary"
                     >
                         Book a demo
                     </Button>
