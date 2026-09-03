@@ -42,7 +42,7 @@ function Home() {
                         variant="outline"
                         className="cursor-pointer"
                     >
-                        Sign Up
+                        Book a demo
                     </Button>
 
                     <p className="w-3/4 text-center text-2xl">
