@@ -215,7 +215,7 @@ function Home() {
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4 bg-primary/50 border border-primary">
                 <div className="w-3/4 text-center text-2xl">
-                    Tell us abour yourself.
+                    Tell us about yourself.
                 </div>
             </section>
 
