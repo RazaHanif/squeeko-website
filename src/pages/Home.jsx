@@ -36,7 +36,7 @@ function HomeFeatureAccordion() {
                     <p className="">
                         Description
                     </p>
-                    <div>
+                    <div className="border f">
                         <p>links</p>
                         <p>links</p>
                         <p>links</p>
