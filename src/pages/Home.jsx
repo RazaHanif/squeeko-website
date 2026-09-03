@@ -78,7 +78,35 @@ function HomeFeatureAccordion() {
             defaultValue={["1"]}
             className="w-full rounded-lg bg-primary p-6"
         >
+                        {Object.entries(links).map(([ category, items ]) => (
+                            <AccordionItem
+                                key={category}
+                                value={category}
+                                className="border-b"
+                            >
+                                <AccordionTrigger
+                                    className="text-lg text-primary hover:no-underline cursor-pointer"
+                                >
+                                    {category}
+                                </AccordionTrigger>
             
+                                <AccordionContent 
+                                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
+                                >
+                                    {items.map(({ title, link }) => (
+                                            <NavLink
+                                                key={link}
+                                                to={link}
+                                                end
+                                                className="py-2"
+                                                onClick={() => setOpen("")}
+                                            >
+                                                {title}
+                                            </NavLink>
+                                    ))}
+                                </AccordionContent>
+                            </AccordionItem>
+                        ))}
             <AccordionItem 
                 value="1"
                 className="border-primary-foreground"
