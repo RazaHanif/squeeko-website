@@ -60,7 +60,7 @@ function HomeFeatureAccordion() {
             image: "IMAGE"
         },
         {
-            trigger: "Scheduling",
+            trigger: "OnBoarding",
             header: "Heading",
             desc: "Description",
             links: [
