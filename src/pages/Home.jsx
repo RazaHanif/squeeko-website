@@ -117,7 +117,7 @@ function HomeFeatureAccordion() {
                     </h2>
                     <div className="">
                         <p>
-                            Description
+                            {desc}
                         </p>
                     </div>
                     <div className="flex flex-col items-start my-8">
