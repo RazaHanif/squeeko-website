@@ -34,7 +34,7 @@ function Home() {
                 <div className="w-full flex flex-row justify-center items-center pb-8">
                     <Button 
                         variant="default"
-                        className=""
+                        className="cursor-pointer"
                     >
 
                     </Button>
