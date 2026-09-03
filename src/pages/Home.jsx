@@ -23,6 +23,9 @@ function HomeFeatureAccordion() {
                     <h2 className="text-2xl">
                         Heading
                     </h2>
+                    <p className="">
+
+                    </p>
                 </AccordionContent>
             </AccordionItem>
         </Accordion>
