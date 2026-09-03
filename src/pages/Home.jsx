@@ -67,7 +67,7 @@ function HomeFeatureAccordion() {
                     </div>
 
                     <div className="flex-1 border">
-                        Images
+                        <div>Image</div>
                     </div>
                 </AccordionContent>
             </AccordionItem>
