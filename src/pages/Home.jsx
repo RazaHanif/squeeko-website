@@ -20,7 +20,9 @@ function HomeFeatureAccordion() {
                     Scheduling
                 </AccordionTrigger>
                 <AccordionContent>
-                    Yes. It adheres to the WAI-ARIA design pattern.
+                    <h2 className="">
+                        Heading
+                    </h2>
                 </AccordionContent>
             </AccordionItem>
         </Accordion>
