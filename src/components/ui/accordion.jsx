@@ -42,16 +42,10 @@ function AccordionTrigger({
         )}
         {...props}>
         {children}
-        {/* <ChevronDownIcon
-          data-slot="accordion-trigger-icon"
-          className="pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden" /> */}
         <ChevronDownIcon
             data-slot="accordion-trigger-icon"
             className="pointer-events-none shrink-0 transition-transform duration-300 ease-in-out group-aria-expanded/accordion-trigger:rotate-180"
         />
-        {/* <ChevronUpIcon
-          data-slot="accordion-trigger-icon"
-          className="pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline" /> */}
       </AccordionPrimitive.Trigger>
     </AccordionPrimitive.Header>
   );
