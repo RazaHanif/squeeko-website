@@ -32,7 +32,7 @@ function Home() {
                     </p>
                 </div>
 
-                <div className="w-full flex flex-row justify-center items-center border gap-6">
+                <div className="w-full flex flex-row justify-center items-center gap-6">
                     <Button 
                         variant="default"
                         className="cursor-pointer p-6"
