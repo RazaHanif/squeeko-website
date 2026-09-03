@@ -9,6 +9,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import { NavLink } from "react-router-dom"
 
 
 function HomeFeatureAccordion() {
@@ -90,7 +91,13 @@ function Home() {
                 <h2 className="text-4xl font-serif text-center font-semibold">
                     The tools your centre needs, all in one place
                 </h2>
-                
+                <NavLink
+                    to="/features"
+                    end
+                    className="cursor-pointer hover:underline"
+                >
+                    
+                </NavLink>
 
             </section>
 
