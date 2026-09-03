@@ -84,22 +84,47 @@ function HomeFeatureAccordion() {
                     Charting & Care
                 </AccordionTrigger>
                 <AccordionContent 
-                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
+                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-secondary [&_a]:hover:underline [&_a]:w-fit my-8 lg:my-16 gap-4"
                 >
-                    <h2 className="text-2xl">
+                    <h2 className="text-4xl lg:text-5xl font-serif font-semibold">
                         Heading
                     </h2>
-                    <p className="">
-                        Description
-                    </p>
-                    <div>
-                        <p>links</p>
-                        <p>links</p>
-                        <p>links</p>
+                    <div className="">
+                        <p>
+                            Description
+                        </p>
+                    </div>
+                    <div className="flex flex-col items-start my-8">
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
                     </div>
 
-                    <div className="flex-1">
-                        Images
+                    <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
+                        <div className="">
+                            Image
+                        </div>
                     </div>
                 </AccordionContent>
             </AccordionItem>
@@ -113,22 +138,47 @@ function HomeFeatureAccordion() {
                     Clinic
                 </AccordionTrigger>
                 <AccordionContent 
-                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
+                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-secondary [&_a]:hover:underline [&_a]:w-fit my-8 lg:my-16 gap-4"
                 >
-                    <h2 className="text-2xl">
+                    <h2 className="text-4xl lg:text-5xl font-serif font-semibold">
                         Heading
                     </h2>
-                    <p className="">
-                        Description
-                    </p>
-                    <div>
-                        <p>links</p>
-                        <p>links</p>
-                        <p>links</p>
+                    <div className="">
+                        <p>
+                            Description
+                        </p>
+                    </div>
+                    <div className="flex flex-col items-start my-8">
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
                     </div>
 
-                    <div className="flex-1">
-                        Images
+                    <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
+                        <div className="">
+                            Image
+                        </div>
                     </div>
                 </AccordionContent>
             </AccordionItem>
@@ -142,22 +192,47 @@ function HomeFeatureAccordion() {
                     Marketing
                 </AccordionTrigger>
                 <AccordionContent 
-                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
+                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-secondary [&_a]:hover:underline [&_a]:w-fit my-8 lg:my-16 gap-4"
                 >
-                    <h2 className="text-2xl">
+                    <h2 className="text-4xl lg:text-5xl font-serif font-semibold">
                         Heading
                     </h2>
-                    <p className="">
-                        Description
-                    </p>
-                    <div>
-                        <p>links</p>
-                        <p>links</p>
-                        <p>links</p>
+                    <div className="">
+                        <p>
+                            Description
+                        </p>
+                    </div>
+                    <div className="flex flex-col items-start my-8">
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
                     </div>
 
-                    <div className="flex-1">
-                        Images
+                    <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
+                        <div className="">
+                            Image
+                        </div>
                     </div>
                 </AccordionContent>
             </AccordionItem>
@@ -171,22 +246,47 @@ function HomeFeatureAccordion() {
                     Integration
                 </AccordionTrigger>
                 <AccordionContent 
-                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
+                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-secondary [&_a]:hover:underline [&_a]:w-fit my-8 lg:my-16 gap-4"
                 >
-                    <h2 className="text-2xl">
+                    <h2 className="text-4xl lg:text-5xl font-serif font-semibold">
                         Heading
                     </h2>
-                    <p className="">
-                        Description
-                    </p>
-                    <div>
-                        <p>links</p>
-                        <p>links</p>
-                        <p>links</p>
+                    <div className="">
+                        <p>
+                            Description
+                        </p>
+                    </div>
+                    <div className="flex flex-col items-start my-8">
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
+                        <NavLink 
+                            to="#" 
+                            end 
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
+                            <ChevronRight className="size-6"/>
+                            Link
+                        </NavLink>
                     </div>
 
-                    <div className="flex-1">
-                        Images
+                    <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
+                        <div className="">
+                            Image
+                        </div>
                     </div>
                 </AccordionContent>
             </AccordionItem>
