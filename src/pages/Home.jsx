@@ -14,12 +14,12 @@ import { NavLink } from "react-router-dom"
 
 function HomeFeatureAccordion() {
     return (
-        <Accordion className="bg-red-500 w-full flex">
+        <Accordion className="w-full">
             <AccordionItem value="1">
                 <AccordionTrigger>
                     Scheduling
                 </AccordionTrigger>
-                <AccordionContent className="flex flex-col flex-1">
+                <AccordionContent className="flex flex-col">
                     <h2 className="text-2xl">
                         Heading
                     </h2>
