@@ -62,7 +62,7 @@ function HomeFeatureAccordion() {
         {
             trigger: "Extra?",
             header: "Secret Feature?",
-            desc: "Description",
+            desc: "idk if anything is gonna go here yet, this section ",
             links: [
                 {title: "Link 1", link: "#"},
                 {title: "Link 2", link: "#"},
