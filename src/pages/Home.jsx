@@ -40,8 +40,8 @@ function Home() {
                         Sign Up
                     </Button>
                     <Button 
-                        variant="outline"
-                        className="cursor-pointer p-6 !border-primary"
+                        variant="secondary"
+                        className="cursor-pointer p-6"
                     >
                         Book a demo
                     </Button>
