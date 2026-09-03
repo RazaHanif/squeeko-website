@@ -44,7 +44,7 @@ function AccordionTrigger({
         {children}
         <ChevronDownIcon
           data-slot="accordion-trigger-icon"
-          className="pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden bg-red-500" />
+          className="pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden text-red-500" />
         <ChevronUpIcon
           data-slot="accordion-trigger-icon"
           className="pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline" />
