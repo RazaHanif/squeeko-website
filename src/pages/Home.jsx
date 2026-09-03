@@ -48,7 +48,7 @@ function Home() {
                 </div>
 
                 <div className="w-full flex flex-1 flex-row justify-center items-center border">
-                    <div className="w-full flex-1 flex flex-col h-50dvh border border-primary bg-primary text-primary-foreground">
+                    <div className="w-full flex-1 flex flex-col border border-primary bg-primary text-primary-foreground">
                         Some sort of pictures here of the app? Demos and shit
                     </div>
                 </div>
