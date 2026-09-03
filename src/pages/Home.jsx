@@ -42,7 +42,7 @@ function HomeFeatureAccordion() {
             header: "Stay in touch",
             desc: "This will highlight the in app insta style feed, the in app messaging, and the ability to send forms to the parents directly",
             links: [
-                {title: "Link 1", link: "#"},
+                {title: "Insta Style Feed", link: "#"},
                 {title: "Link 2", link: "#"},
                 {title: "Link 3", link: "#"},
             ],
