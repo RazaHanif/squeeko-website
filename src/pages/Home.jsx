@@ -21,7 +21,7 @@ function HomeFeatureAccordion() {
         >
             <AccordionItem 
                 value="1"
-                className="border-b border-primary-foreground"
+                className="border-primary-foreground"
             >
                 <AccordionTrigger 
                     className="cursor-pointer hover:no-underline"
