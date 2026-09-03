@@ -55,10 +55,6 @@ function Home() {
                 </p>
             </section>
 
-            <div className="mt-16">
-                <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
-            </div>
-
             {/* 
             
             <StructData schema={localBusinessSchema} />
