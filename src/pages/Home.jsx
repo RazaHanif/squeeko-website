@@ -226,7 +226,7 @@ function Home() {
                         Im a staff member
                     </Button>
                     <Button variant="secondary">
-                        Im an admin or director
+                        Im a parent or guardian
                     </Button>
                 </div>
             </section>
