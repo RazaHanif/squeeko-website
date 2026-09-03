@@ -45,6 +45,9 @@ function Home() {
                         Book a demo
                     </Button>
                 </div>
+                <div className="w-full flex flex-row justify-center items-center">
+                    
+                </div>
             </section>
 
             <div>
