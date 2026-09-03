@@ -54,7 +54,7 @@ function Home() {
                 </div>
             </section>
 
-            <div className="bg-red-500">
+            <div className="bg-red-500 w-full">
                 <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
             </div>
             
