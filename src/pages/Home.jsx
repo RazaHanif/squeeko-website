@@ -44,10 +44,6 @@ function Home() {
                     >
                         Book a demo
                     </Button>
-
-                    <p className="w-3/4 text-center text-2xl">
-                        This should have a CTA btn that opens the form, or something
-                    </p>
                 </div>
             </section>
 
