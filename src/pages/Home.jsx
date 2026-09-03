@@ -337,7 +337,7 @@ function Home() {
                     </Button>
                 </div>
 
-                <div className="w-full flex flex-1 flex-row border rounded-lg bg-primary text-primary-foreground">
+                <div className="w-full flex flex-1 flex-row border rounded-lg bg-primary text-primary-foreground overflow-hidden">
                     <div className="border  border-red-500 flex-1 w-full flex justify-center items-center">
                         A
                     </div>
