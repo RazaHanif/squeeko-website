@@ -92,7 +92,7 @@ function Home() {
                     <NavLink
                         to="/features"
                         end
-                        className="cursor-pointer hover:underline"
+                        className="cursor-pointer hover:underline p-0 m-0" 
                     >
                         see all features &rarr;
                     </NavLink>
