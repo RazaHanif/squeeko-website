@@ -62,9 +62,7 @@ function Home() {
                 <p className="text-center text-xs">
                     FEATURES
                 </p>
-                <p className="text-center">
-                    This should have a form
-                </p>
+                
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4 bg-primary/50 border border-primary">
