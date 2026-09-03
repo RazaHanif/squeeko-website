@@ -36,7 +36,7 @@ function Home() {
                         variant="default"
                         className="cursor-pointer"
                     >
-
+                        S
                     </Button>
 
                     <p className="w-3/4 text-center text-2xl">
