@@ -122,24 +122,16 @@ function HomeFeatureAccordion() {
                     </div>
                     <div className="flex flex-col items-start my-8">
                         {links.map(({ title, link }) => (
-                                <NavLink
+                                <NavLink 
                                     key={link}
                                     to={link}
                                     end
-                                    className="py-2"
-                                    onClick={() => setOpen("")}
+                                    className="flex flex-row justify-center items-center text-lg"
                                 >
+                                    <ChevronRight className="size-6"/>
                                     {title}
                                 </NavLink>
                         ))}
-                        <NavLink 
-                            to="#" 
-                            end 
-                            className="flex flex-row justify-center items-center text-lg"
-                        >
-                            <ChevronRight className="size-6"/>
-                            Link
-                        </NavLink>
                         <NavLink 
                             to="#" 
                             end 
