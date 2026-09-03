@@ -84,10 +84,10 @@ function HomeFeatureAccordion() {
                     value={trigger}
                     className="border-b"
                 >
-            <AccordionItem 
-                value="1"
-                className="border-primary-foreground"
-            >
+                <AccordionItem 
+                    value="1"
+                    className="border-primary-foreground"
+                >
                 <AccordionTrigger 
                     className="cursor-pointer hover:no-underline"
                 >
