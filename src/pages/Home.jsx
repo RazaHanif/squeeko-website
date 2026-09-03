@@ -31,8 +31,8 @@ function Home() {
                         SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
                     </p>
                 </div>
-                
-                <div className="w-full flex flex-row justify-center items-center">
+
+                <div className="w-full flex flex-row justify-center items-center border">
                     <Button 
                         variant="default"
                         className="cursor-pointer"
