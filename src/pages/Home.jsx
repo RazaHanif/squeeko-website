@@ -338,14 +338,14 @@ function Home() {
                 </div>
 
                 <div className="w-full flex flex-1 flex-row border rounded-lg bg-primary text-primary-foreground">
-                    <div className="border flex-1 w-full flex justify-center items-center">
+                    <div className="flex-1 w-full flex justify-center items-center">
                         A
                     </div>
                     <div className="flex-1 w-full flex flex-col">
-                        <div className="border flex-1 w-full flex justify-center items-center">
+                        <div className="flex-1 w-full flex justify-center items-center">
                             B
                         </div>
-                        <div className="border flex-1 w-full flex justify-center items-center">
+                        <div className="flex-1 w-full flex justify-center items-center">
                             C
                         </div> 
                     </div>
