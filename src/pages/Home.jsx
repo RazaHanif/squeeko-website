@@ -41,7 +41,7 @@ function Home() {
                     </Button>
                     <Button 
                         variant="outline"
-                        className="cursor-pointer w-1/3 h-20"
+                        className="cursor-pointer p-6"
                     >
                         Book a demo
                     </Button>
