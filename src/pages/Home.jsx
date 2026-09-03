@@ -38,7 +38,7 @@ function HomeFeatureAccordion() {
             image: "IMAGE"
         },
         {
-            trigger: "Scheduling",
+            trigger: "Communication",
             header: "Heading",
             desc: "Description",
             links: [
