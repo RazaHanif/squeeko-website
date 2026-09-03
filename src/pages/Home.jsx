@@ -24,7 +24,7 @@ function HomeFeatureAccordion() {
                         Heading
                     </h2>
                     <p className="">
-
+                        Description
                     </p>
                 </AccordionContent>
             </AccordionItem>
