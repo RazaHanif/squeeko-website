@@ -169,7 +169,7 @@ function Home() {
                     </Button>
                 </div>
 
-                <div className="w-full flex flex-1 flex-row border rounded-lg bg-primary text-primary-foreground overflow-hidden border">
+                <div className="w-full flex flex-1 flex-row border rounded-lg bg-primary text-primary-foreground overflow-hidden">
                     <div className="bg-secondary text-secondary-foreground flex-1 w-full flex justify-center items-center">
                         IMAGE
                     </div>
