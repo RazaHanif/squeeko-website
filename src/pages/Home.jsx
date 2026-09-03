@@ -219,9 +219,15 @@ function Home() {
                 </div>
 
                 <div>
-                    <Button variant="secondary">Im an admin or director</Button>
-                    <Button variant="secondary">Im an admin or director</Button>
-                    <Button variant="secondary">Im an admin or director</Button>
+                    <Button variant="secondary">
+                        Im an admin or director
+                    </Button>
+                    <Button variant="secondary">
+                        Im an admin or director
+                    </Button>
+                    <Button variant="secondary">
+                        Im an admin or director
+                    </Button>
                 </div>
             </section>
 
