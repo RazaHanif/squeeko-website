@@ -20,7 +20,7 @@ function Home() {
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
             <section 
                 className="snap-section min-h-[calc(100vh-80px)] w-full flex flex-col justify-start items-center">
-                <div className="w-full flex flex-col justify-center items-center p-8">
+                <div className="w-full flex flex-col justify-center items-center p-8 gap-4">
                     <p className="text-xs font-bold">
                         CHILD CARE MANAGEMENT SOFTWARE  
                     </p>
