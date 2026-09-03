@@ -35,7 +35,9 @@ function HomeFeatureAccordion() {
                         Heading
                     </h2>
                     <div className="border">
-                        Description
+                        <p>
+                            Description
+                        </p>
                     </div>
                     <div className="flex flex-col items-start border">
                         <NavLink to="#" end className="flex flex-row justify-center items-center">
