@@ -40,7 +40,7 @@ function HomeFeatureAccordion() {
         {
             trigger: "Communication",
             header: "Stay in touch",
-            desc: "Description",
+            desc: "This will highlight the in app ",
             links: [
                 {title: "Link 1", link: "#"},
                 {title: "Link 2", link: "#"},
