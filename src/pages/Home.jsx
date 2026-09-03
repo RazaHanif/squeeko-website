@@ -182,7 +182,7 @@ function Home() {
                         </div> 
                     </div>
                 </div>
-                <div className="w-full border mb-8">
+                <div className="w-full mb-8">
                     <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
                 </div>
             </section>
