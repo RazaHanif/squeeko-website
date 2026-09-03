@@ -20,7 +20,7 @@ function HomeFeatureAccordion() {
         >
             <AccordionItem 
                 value="1"
-                className="border-b"
+                className=""
             >
                 <AccordionTrigger 
                     className="text-lg hover:no-underline cursor-pointer"
