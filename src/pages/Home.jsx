@@ -96,7 +96,7 @@ function Home() {
                     end
                     className="cursor-pointer hover:underline"
                 >
-                    see all features 
+                    see all features &rarr;
                 </NavLink>
 
             </section>
