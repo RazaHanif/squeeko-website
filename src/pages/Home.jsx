@@ -28,7 +28,7 @@ function Home() {
                         Your children have you,<br/>
                         your center has SQUEEKO
                     </h1>
-                    <p className="border w-full">
+                    <p className="border w-full text-center">
                         SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
                     </p>
                 </div>
