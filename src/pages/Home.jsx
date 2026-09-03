@@ -35,7 +35,7 @@ function Home() {
                 <div className="w-full flex flex-row justify-center items-center border">
                     <Button 
                         variant="default"
-                        className="cursor-pointer "
+                        className="cursor-pointer p-6"
                     >
                         Sign Up
                     </Button>
