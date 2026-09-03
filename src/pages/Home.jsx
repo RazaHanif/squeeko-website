@@ -28,7 +28,7 @@ function Home() {
                     This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
                 </p>
                 <p className="w-3/4 text-center text-2xl">
-                    This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
+                    This should have a 
                 </p>
             </section>
 
