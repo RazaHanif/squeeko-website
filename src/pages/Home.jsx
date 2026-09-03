@@ -33,7 +33,7 @@ function HomeFeatureAccordion() {
             links: [
                 {title: "Auto Billing", link: "#"},
                 {title: "Late Fees", link: "#"},
-                {title: "Link 3", link: "#"},
+                {title: "Pizza Party", link: "#"},
             ],
             image: "IMAGE"
         },
