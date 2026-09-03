@@ -27,7 +27,7 @@ function Home() {
                     This should have a CTA btn that opens the form, or something
                 </p>
             </section>
-            <div className="mt-16">
+            <div>
                 <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
             </div>
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-gradient-to-l from-background to-primary text-muted-foreground">
