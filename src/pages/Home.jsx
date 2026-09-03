@@ -182,11 +182,11 @@ function Home() {
                         </div> 
                     </div>
                 </div>
+                <div className="w-full py-16">
+                    <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
+                </div>
             </section>
 
-            <div className="w-full py-16">
-                <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
-            </div>
             
             <section className="snap-section flex flex-col justify-start items-center w-full bg-primary/50 text-primary-foreground">
                 <div className="p-8 lg:p-16 flex flex-col justify-center items-center gap-2">
