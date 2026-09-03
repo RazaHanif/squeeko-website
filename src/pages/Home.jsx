@@ -66,7 +66,7 @@ function HomeFeatureAccordion() {
                         </NavLink>
                     </div>
 
-                    <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-primary border">
+                    <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-primary/50 border">
                         <div className="">
                             Image
                         </div>
