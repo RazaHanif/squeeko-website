@@ -341,6 +341,7 @@ function Home() {
                     <div className="w-full flex-1 flex justify-center items-center">
 
                     </div>
+                    <div> </div>
                 </div>
             </section>
 
