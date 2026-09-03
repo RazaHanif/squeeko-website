@@ -79,69 +79,48 @@ function HomeFeatureAccordion() {
             className="w-full rounded-lg bg-primary p-6"
         >
             {data.map(({trigger, header, desc, links, image}) => (
-                <>
-                <AccordionItem>
-                    <AccordionTrigger></AccordionTrigger>
-
-                    <AccordionContent 
-                        className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
+                <AccordionItem 
+                    key={trigger}
+                    value={trigger}
+                    className="border-primary-foreground"
+                >
+                    <AccordionTrigger 
+                        className="cursor-pointer hover:no-underline"
                     >
-                        {items.map(({ title, link }) => (
-                                <NavLink
-                                    key={link}
-                                    to={link}
-                                    end
-                                    className="py-2"
-                                    onClick={() => setOpen("")}
-                                >
-                                    {title}
-                                </NavLink>
-                        ))}
+                        {trigger}
+                    </AccordionTrigger>
+                    <AccordionContent 
+                        className="flex flex-col [&_a]:no-underline [&_a]:hover:text-secondary [&_a]:hover:underline [&_a]:w-fit my-8 lg:my-16 gap-4"
+                    >
+                        <h2 className="text-4xl lg:text-5xl font-serif font-semibold">
+                            {header}
+                        </h2>
+                        <div className="">
+                            <p>
+                                {desc}
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-start my-8">
+                            {links.map(({ title, link }) => (
+                                    <NavLink 
+                                        key={link}
+                                        to={link}
+                                        end
+                                        className="flex flex-row justify-center items-center text-lg"
+                                    >
+                                        <ChevronRight className="size-6"/>
+                                        {title}
+                                    </NavLink>
+                            ))}
+                        </div>
+
+                        <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
+                            <div className="text-lg font-bold font-mono">
+                                {image}
+                            </div>
+                        </div>
                     </AccordionContent>
                 </AccordionItem>
-            <AccordionItem 
-                key={trigger}
-                value={trigger}
-                className="border-primary-foreground"
-            >
-                <AccordionTrigger 
-                    className="cursor-pointer hover:no-underline"
-                >
-                    {trigger}
-                </AccordionTrigger>
-                <AccordionContent 
-                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-secondary [&_a]:hover:underline [&_a]:w-fit my-8 lg:my-16 gap-4"
-                >
-                    <h2 className="text-4xl lg:text-5xl font-serif font-semibold">
-                        {header}
-                    </h2>
-                    <div className="">
-                        <p>
-                            {desc}
-                        </p>
-                    </div>
-                    <div className="flex flex-col items-start my-8">
-                        {links.map(({ title, link }) => (
-                                <NavLink 
-                                    key={link}
-                                    to={link}
-                                    end
-                                    className="flex flex-row justify-center items-center text-lg"
-                                >
-                                    <ChevronRight className="size-6"/>
-                                    {title}
-                                </NavLink>
-                        ))}
-                    </div>
-
-                    <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
-                        <div className="text-lg font-bold font-mono">
-                            {image}
-                        </div>
-                    </div>
-                </AccordionContent>
-            </AccordionItem>
-            </>
             ))}
             <AccordionItem 
                 value="1"
