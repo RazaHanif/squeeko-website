@@ -43,21 +43,24 @@ function HomeFeatureAccordion() {
                         <NavLink 
                             to="#" 
                             end 
-                            className="flex flex-row justify-center items-center text-lg">
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
                             <ChevronRight className="size-6"/>
                             Link
                         </NavLink>
                         <NavLink 
                             to="#" 
                             end 
-                            className="flex flex-row justify-center items-center text-lg">
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
                             <ChevronRight className="size-6"/>
                             Link
                         </NavLink>
                         <NavLink 
                             to="#" 
                             end 
-                            className="flex flex-row justify-center items-center text-lg">
+                            className="flex flex-row justify-center items-center text-lg"
+                        >
                             <ChevronRight className="size-6"/>
                             Link
                         </NavLink>
