@@ -67,7 +67,7 @@ function HomeFeatureAccordion() {
                     </div>
 
                     <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
-                        <div className="">
+                        <div className="text-lg ">
                             Image
                         </div>
                     </div>
@@ -122,7 +122,7 @@ function HomeFeatureAccordion() {
                     </div>
 
                     <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
-                        <div className="">
+                        <div className="text-lg ">
                             Image
                         </div>
                     </div>
@@ -176,7 +176,7 @@ function HomeFeatureAccordion() {
                     </div>
 
                     <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
-                        <div className="">
+                        <div className="text-lg ">
                             Image
                         </div>
                     </div>
@@ -230,7 +230,7 @@ function HomeFeatureAccordion() {
                     </div>
 
                     <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
-                        <div className="">
+                        <div className="text-lg ">
                             Image
                         </div>
                     </div>
@@ -284,7 +284,7 @@ function HomeFeatureAccordion() {
                     </div>
 
                     <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
-                        <div className="">
+                        <div className="text-lg ">
                             Image
                         </div>
                     </div>
