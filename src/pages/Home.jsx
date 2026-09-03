@@ -20,12 +20,12 @@ function HomeFeatureAccordion() {
         >
             <AccordionItem 
                 value="1"
-                className="border-b"
+                className="border-b p-8"
             >
                 <AccordionTrigger className="text-md">
                     Scheduling
                 </AccordionTrigger>
-                <AccordionContent className="flex flex-col">
+                <AccordionContent className="flex flex-col p-8">
                     <h2 className="text-2xl">
                         Heading
                     </h2>
