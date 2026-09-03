@@ -10,6 +10,11 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 
+
+function HomeFeatureAccordion() {
+    
+}
+
 function Home() {
     const horizontalList = [
         'Spend more time with the children',
