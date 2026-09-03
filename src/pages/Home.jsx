@@ -36,7 +36,13 @@ function Home() {
                         variant="default"
                         className="cursor-pointer"
                     >
-                        S
+                        Sign Up
+                    </Button>
+                    <Button 
+                        variant="default"
+                        className="cursor-pointer"
+                    >
+                        Sign Up
                     </Button>
 
                     <p className="w-3/4 text-center text-2xl">
