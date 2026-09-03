@@ -22,7 +22,7 @@ function HomeFeatureAccordion() {
                 value="1"
                 className="border-b"
             >
-                <AccordionTrigger>
+                <AccordionTrigger className="text-md">
                     Scheduling
                 </AccordionTrigger>
                 <AccordionContent className="flex flex-col">
