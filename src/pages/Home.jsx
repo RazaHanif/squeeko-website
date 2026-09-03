@@ -28,7 +28,7 @@ function HomeFeatureAccordion() {
                     Scheduling
                 </AccordionTrigger>
                 <AccordionContent 
-                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
+                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground"
                 >
                     <h2 className="text-2xl">
                         Heading
