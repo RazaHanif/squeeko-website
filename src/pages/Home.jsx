@@ -76,6 +76,93 @@ function HomeFeatureAccordion() {
                     </div>
                 </AccordionContent>
             </AccordionItem>
+            <AccordionItem 
+                value="1"
+                className="border-b border-b-red-500"
+            >
+                <AccordionTrigger 
+                    className="text-lg hover:no-underline cursor-pointer"
+                    >
+                    Scheduling
+                </AccordionTrigger>
+                <AccordionContent 
+                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
+                >
+                    <h2 className="text-2xl">
+                        Heading
+                    </h2>
+                    <p className="">
+                        Description
+                    </p>
+                    <div>
+                        <li>links</li>
+                        <li>links</li>
+                        <li>links</li>
+                    </div>
+
+                    <div className="flex-1">
+                        Images
+                    </div>
+                </AccordionContent>
+            </AccordionItem>
+            <AccordionItem 
+                value="1"
+                className="border-b border-b-red-500"
+            >
+                <AccordionTrigger 
+                    className="text-lg hover:no-underline cursor-pointer"
+                    >
+                    Scheduling
+                </AccordionTrigger>
+                <AccordionContent 
+                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
+                >
+                    <h2 className="text-2xl">
+                        Heading
+                    </h2>
+                    <p className="">
+                        Description
+                    </p>
+                    <div>
+                        <li>links</li>
+                        <li>links</li>
+                        <li>links</li>
+                    </div>
+
+                    <div className="flex-1">
+                        Images
+                    </div>
+                </AccordionContent>
+            </AccordionItem>
+            <AccordionItem 
+                value="1"
+                className="border-b border-b-red-500"
+            >
+                <AccordionTrigger 
+                    className="text-lg hover:no-underline cursor-pointer"
+                    >
+                    Scheduling
+                </AccordionTrigger>
+                <AccordionContent 
+                    className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
+                >
+                    <h2 className="text-2xl">
+                        Heading
+                    </h2>
+                    <p className="">
+                        Description
+                    </p>
+                    <div>
+                        <li>links</li>
+                        <li>links</li>
+                        <li>links</li>
+                    </div>
+
+                    <div className="flex-1">
+                        Images
+                    </div>
+                </AccordionContent>
+            </AccordionItem>
         </Accordion>
     )
 }
