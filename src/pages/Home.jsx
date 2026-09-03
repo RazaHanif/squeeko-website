@@ -37,7 +37,7 @@ function HomeFeatureAccordion() {
                     <p className="border">
                         Description
                     </p>
-                    <div className="flex flex-col items-start gap-2 border">
+                    <div className="flex flex-col items-start border">
                         <NavLink to="#" end className="flex flex-row justify-center items-center">
                             <ChevronRight className="size-6"/>
                             Link
