@@ -360,15 +360,14 @@ function Home() {
 
                 <div className="w-9/10 lg:w-3/4  overflow-hidden p-8">
                     <div>
-                        
+                        <NavLink
+                            to="/features"
+                            end
+                            className="cursor-pointer hover:underline" 
+                        >
+                            see all features &rarr;
+                        </NavLink>
                     </div>
-                    <NavLink
-                        to="/features"
-                        end
-                        className="cursor-pointer hover:underline" 
-                    >
-                        see all features &rarr;
-                    </NavLink>
                     <HomeFeatureAccordion />
                 </div>
 
