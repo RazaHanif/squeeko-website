@@ -51,7 +51,7 @@ function HomeFeatureAccordion() {
         {
             trigger: "Compliance",
             header: "Get in Compliance",
-            desc: "This will overview the amount of time saving ",
+            desc: "This will overview the amount of time saving and headach",
             links: [
                 {title: "Link 1", link: "#"},
                 {title: "Link 2", link: "#"},
