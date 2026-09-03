@@ -80,10 +80,8 @@ function HomeFeatureAccordion() {
         >
             {data.map(({trigger, header, desc, links, image}) => (
                 <>
-                <AccordionItem
-                >
-                    <AccordionTrigger
-                     >
+                <AccordionItem>
+                    <AccordionTrigger>
                         {category}
                     </AccordionTrigger>
 
