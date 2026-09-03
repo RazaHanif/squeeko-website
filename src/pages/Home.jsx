@@ -19,7 +19,7 @@ function Home() {
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary text-muted-foreground">
                 <h1 className="text-4xl lg:text-5xl font-serif text-center">
-                    About
+                    Home Hero Section
                 </h1>
             </section>
 
