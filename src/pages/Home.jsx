@@ -343,10 +343,10 @@ function Home() {
                     </div>
                     <div className="flex-1 w-full flex flex-col">
                         <div className="border-b border-secondary flex-1 w-full flex justify-center items-center">
-                            B
+                            Img
                         </div>
                         <div className="flex-1 w-full flex justify-center items-center">
-                            C
+                            Img
                         </div> 
                     </div>
                 </div>
