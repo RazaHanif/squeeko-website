@@ -31,7 +31,7 @@ function HomeFeatureAccordion() {
             header: "Get paid",
             desc: "This will overview how you can collect payments within the app, including automating late fees, field trips, rate increases etc.",
             links: [
-                {title: "Link 1", link: "#"},
+                {title: "Late Fees", link: "#"},
                 {title: "Link 2", link: "#"},
                 {title: "Link 3", link: "#"},
             ],
