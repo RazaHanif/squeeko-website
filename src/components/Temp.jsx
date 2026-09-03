@@ -35,7 +35,7 @@ const Temp = ({ children }) => {
             password === import.meta.env.VITE_G || 
             password === import.meta.env.VITE_R
         ) {
-            const expiresAt = Date.now() + 5* 5 * 1000
+            const expiresAt = Date.now() + 5 * 60 * 1000
 
             localStorage.setItem('s-p-a', 'true')
             localStorage.setItem('s-p-a-exp', expiresAt.toString())
