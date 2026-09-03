@@ -18,18 +18,18 @@ function Home() {
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border border-primary text-muted-foreground">
-            <div className="w-full flex flex-col justify-center items-center pb-8">
-                <p className="text-xs font-bold">
-                    CHILD CARE MANAGEMENT SOFTWARE  
-                </p>
-                <h1 className="text-4xl lg:text-5xl font-serif text-center">
-                    Your children have you,<br/>
-                    your center has SQUEEKO
-                </h1>
-                <p>
-                    SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
-                </p>
-            </div>
+                <div className="w-full flex flex-col justify-center items-center pb-8">
+                    <p className="text-xs font-bold">
+                        CHILD CARE MANAGEMENT SOFTWARE  
+                    </p>
+                    <h1 className="text-4xl lg:text-5xl font-serif text-center">
+                        Your children have you,<br/>
+                        your center has SQUEEKO
+                    </h1>
+                    <p>
+                        SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
+                    </p>
+                </div>
                 <p className="w-3/4 text-center text-2xl">
                     This should have a CTA btn that opens the form, or something
                 </p>
