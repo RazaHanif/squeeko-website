@@ -15,7 +15,7 @@ import { NavLink } from "react-router-dom"
 function HomeFeatureAccordion() {
     return (
         <Accordion
-            default 
+            defaultValue={["1"]}
             className="w-full bg-primary rounded-2xl p-8"
         >
             <AccordionItem value="1">
