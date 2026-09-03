@@ -58,23 +58,6 @@ function Home() {
                 </h1>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
-                <p>
-                    This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
-                </p>
-                {(() => {
-                    const list = []
-                    for (let i = 0; i < 10; i++) {
-                        list.push(
-                            <p className="text-transparent" key={i}>
-                                {i}
-                            </p>
-                        )
-                    }
-
-                    return list
-                }) ()}
-            </div>
 
             <div className="mt-16">
                 <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
