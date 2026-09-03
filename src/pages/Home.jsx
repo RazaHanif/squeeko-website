@@ -339,7 +339,7 @@ function Home() {
 
                 <div className="w-full flex flex-1 flex-row border rounded-lg bg-primary text-primary-foreground overflow-hidden">
                     <div className="bg-secondary text-secondary-foreground flex-1 w-full flex justify-center items-center">
-                        A
+                        Img
                     </div>
                     <div className="flex-1 w-full flex flex-col">
                         <div className="border-b border-secondary flex-1 w-full flex justify-center items-center">
