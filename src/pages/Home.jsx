@@ -14,7 +14,9 @@ import { ChevronRight } from "lucide-react"
 
 
 function HomeFeatureAccordion() {
-    
+    const data = [
+        {}
+    ]
 
 
     return (
