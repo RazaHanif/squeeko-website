@@ -24,7 +24,7 @@ function HomeFeatureAccordion() {
             >
                 <AccordionTrigger 
                     className="text-lg hover:no-underline cursor-pointer"
-                    >
+                >
                     Scheduling
                 </AccordionTrigger>
                 <AccordionContent 
