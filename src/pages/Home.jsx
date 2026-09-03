@@ -81,7 +81,7 @@ function Home() {
             </div>
             
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-full bg-primary/50 text-primary-foreground">
-                <div className="p-8 ">
+                <div className="p-8 flex flex-col justify-center items-center">
 
                 </div>
                 <p className="text-center text-xs">
