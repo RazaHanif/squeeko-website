@@ -359,6 +359,9 @@ function Home() {
                 </div>
 
                 <div className="w-9/10 lg:w-3/4  overflow-hidden p-8">
+                    <div>
+                        
+                    </div>
                     <NavLink
                         to="/features"
                         end
