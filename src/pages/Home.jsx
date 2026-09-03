@@ -34,7 +34,7 @@ function HomeFeatureAccordion() {
                     <h2 className="text-4xl lg:text-5xl font-serif font-semibold">
                         Heading
                     </h2>
-                    <p className="">
+                    <p className="border">
                         Description
                     </p>
                     <div className="flex flex-col items-start gap-2">
