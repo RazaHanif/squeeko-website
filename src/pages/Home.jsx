@@ -358,7 +358,7 @@ function Home() {
                     </h2>
                 </div>
 
-                <div className="w-9/10 lg:w-3/4 border border-red-500">
+                <div className="w-9/10 lg:w-3/4 border border-red-500 mb-">
                     <div className="text-center">
                         <NavLink
                             to="/features"
