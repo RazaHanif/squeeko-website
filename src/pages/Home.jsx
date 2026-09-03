@@ -17,7 +17,7 @@ function HomeFeatureAccordion() {
     const data = [
         {
             trigger: "Scheduling",
-            header: "Scheduling",
+            header: "Stay ",
             desc: "This will be a small description of what the scheduling feature does within the app, including attendance, ratio, and other helpful stuff.",
             links: [
                 {title: "Attendance", link: "#"},
