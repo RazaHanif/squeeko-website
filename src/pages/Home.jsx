@@ -80,7 +80,7 @@ function Home() {
                 <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
             </div>
             
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 bg-primary/50 text-primary-foreground">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-primary/50 text-primary-foreground">
                 <p className="text-center text-xs">
                     FEATURES
                 </p>
