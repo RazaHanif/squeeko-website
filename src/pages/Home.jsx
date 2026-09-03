@@ -58,7 +58,7 @@ function Home() {
                 <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
             </div>
             
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border border-primary text-muted-foreground w-9/10 lg:w-3/4">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center border border-primary text-muted-foreground w-9/10 lg:w-3/4">
                 <p className="w-3/4 text-center text-2xl">
                     This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
                 </p>
@@ -67,19 +67,19 @@ function Home() {
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border border-primary text-muted-foreground w-9/10 lg:w-3/4">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center border border-primary text-muted-foreground w-9/10 lg:w-3/4">
                 <p className="w-3/4 text-center text-2xl">
                     Overview of the features
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border border-primary text-muted-foreground w-9/10 lg:w-3/4">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center border border-primary text-muted-foreground w-9/10 lg:w-3/4">
                 <p className="w-3/4 text-center text-2xl">
                     Why Squeeko (copy jane)
                 </p>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border border-primary text-muted-foreground w-9/10 lg:w-3/4">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center border border-primary text-muted-foreground w-9/10 lg:w-3/4">
                 <p className="w-3/4 text-center text-2xl">
                     CTA Get Started (Copy Jane)
                 </p>
