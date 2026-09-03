@@ -20,7 +20,7 @@ function HomeFeatureAccordion() {
         >
             <AccordionItem 
                 value="1"
-                className="border-b border-b-red-500"
+                className="border-b"
             >
                 <AccordionTrigger 
                     className="text-lg hover:no-underline cursor-pointer"
@@ -50,7 +50,7 @@ function HomeFeatureAccordion() {
 
             <AccordionItem 
                 value="2"
-                className="border-b border-b-red-500"
+                className="border-b"
             >
                 <AccordionTrigger 
                     className="text-lg hover:no-underline cursor-pointer"
@@ -79,7 +79,7 @@ function HomeFeatureAccordion() {
             </AccordionItem>
             <AccordionItem 
                 value="3"
-                className="border-b border-b-red-500"
+                className="border-b"
             >
                 <AccordionTrigger 
                     className="text-lg hover:no-underline cursor-pointer"
@@ -108,7 +108,7 @@ function HomeFeatureAccordion() {
             </AccordionItem>
             <AccordionItem 
                 value="4"
-                className="border-b border-b-red-500"
+                className="border-b"
             >
                 <AccordionTrigger 
                     className="text-lg hover:no-underline cursor-pointer"
@@ -137,7 +137,7 @@ function HomeFeatureAccordion() {
             </AccordionItem>
             <AccordionItem 
                 value="5"
-                className="border-b border-b-red-500"
+                className="border-b"
             >
                 <AccordionTrigger 
                     className="text-lg hover:no-underline cursor-pointer"
