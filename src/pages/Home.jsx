@@ -60,7 +60,7 @@ function HomeFeatureAccordion() {
             image: "IMAGE"
         },
         {
-            trigger: "IDK",
+            trigger: "Extra?",
             header: "Secret Feature?",
             desc: "Description",
             links: [
