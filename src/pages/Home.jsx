@@ -112,7 +112,7 @@ function Home() {
                     </NavLink>
                 </div>
 
-                <div className="p-8 flex flex-col justify-center items-center gap-2">
+                <div className="p-8 flex gap-2">
                     <HomeFeatureAccordion />
                 </div>
 
