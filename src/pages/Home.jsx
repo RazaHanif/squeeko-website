@@ -28,7 +28,7 @@ function HomeFeatureAccordion() {
         },
         {
             trigger: "Billing",
-            header: "Heading",
+            header: "Get Paid",
             desc: "Description",
             links: [
                 {title: "Link 1", link: "#"},
