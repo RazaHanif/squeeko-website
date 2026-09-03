@@ -339,10 +339,13 @@ function Home() {
 
                 <div className="w-full flex flex-1 flex-col justify-center items-center border rounded-lg bg-primary text-primary-foreground">
                     <div className="w-full flex-1 flex justify-center items-center">
-
+                        A
                     </div>
-                    <div> </div>
-                    <div> </div> 
+                    <div>
+                        B
+                    </div>
+                    <div>
+                        </div> 
                 </div>
             </section>
 
