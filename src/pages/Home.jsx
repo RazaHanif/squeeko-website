@@ -27,7 +27,7 @@ function Home() {
                     your center has SQUEEKO
                 </h1>
                 <p>
-                    SQUEEKO brings scheduling, 
+                    SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, s
                 </p>
             </div>
                 <p className="w-3/4 text-center text-2xl">
