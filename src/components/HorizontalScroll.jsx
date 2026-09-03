@@ -65,8 +65,8 @@ function HorizontalScroll({ items=[], speed=100, className}) {
                 ref={viewportRef}
                 className="overflow-hidden relative"
             >
-                <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-15 bg-gradient-to-r from-background to-transparent" />
-                <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-15 bg-gradient-to-l from-background to-transparent" />
+                {/* <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-15 bg-gradient-to-r from-background to-transparent" />
+                <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-15 bg-gradient-to-l from-background to-transparent" /> */}
 
                 <div 
                     className="marquee-track" 
