@@ -27,7 +27,7 @@ function HomeFeatureAccordion() {
             image: "IMAGE"
         },
         {
-            trigger: "Scheduling",
+            trigger: "Billing",
             header: "Heading",
             desc: "Description",
             links: [
