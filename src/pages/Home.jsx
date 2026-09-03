@@ -31,7 +31,10 @@ function HomeFeatureAccordion() {
                         <li>links</li>
                         <li>links</li>
                     </div>
-                    
+
+                    <div>
+                        Images
+                    </div>
                 </AccordionContent>
             </AccordionItem>
         </Accordion>
