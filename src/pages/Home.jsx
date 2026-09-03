@@ -20,7 +20,7 @@ function Home() {
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border border-primary text-muted-foreground">
             <div className="w-full flex justify-center items-center pb-8">
                 <p>
-                    CHILDCARE 
+                    CHILD CARE MANAG 
                 </p>
                 <h1 className="text-4xl lg:text-5xl font-serif text-center">
                     Home
