@@ -358,7 +358,7 @@ function Home() {
                     </h2>
                 </div>
 
-                <div className="w-9/10 lg:w-3/4 bg-primary rounded-lg overflow-hidden p-8">
+                <div className="w-9/10 lg:w-3/4  overflow-hidden p-8">
                     <NavLink
                         to="/features"
                         end
