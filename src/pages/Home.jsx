@@ -113,7 +113,7 @@ function HomeFeatureAccordion() {
                 <AccordionTrigger 
                     className="text-lg hover:no-underline cursor-pointer"
                 >
-                    Scheduling
+                    Marketing
                 </AccordionTrigger>
                 <AccordionContent 
                     className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
@@ -136,13 +136,13 @@ function HomeFeatureAccordion() {
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem 
-                value="1"
+                value="5"
                 className="border-b border-b-red-500"
             >
                 <AccordionTrigger 
                     className="text-lg hover:no-underline cursor-pointer"
-                    >
-                    Scheduling
+                >
+                    Integration
                 </AccordionTrigger>
                 <AccordionContent 
                     className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
