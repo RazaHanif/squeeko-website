@@ -47,9 +47,8 @@ function Home() {
                 </div>
                 <div className="w-full flex flex-row justify-center items-center">
                     <div className="flex-1 w-full h-50dvh">
-
+                        Some sort of pictures here of the app? Demos and shit
                     </div>
-                    Some sort of pictures here of the app? Demos and shit
                 </div>
             </section>
 
