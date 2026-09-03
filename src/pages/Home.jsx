@@ -21,7 +21,7 @@ function HomeFeatureAccordion() {
             desc: "This will be a small description of what the scheduling feature does within the app, including attendance, ratio, and other helpful stuff.",
             links: [
                 {title: "Attendance", link: "#"},
-                {title: "Link 2", link: "#"},
+                {title: "Ratio", link: "#"},
                 {title: "Link 3", link: "#"},
             ],
             image: "IMAGE"
