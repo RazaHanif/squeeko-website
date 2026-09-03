@@ -23,7 +23,7 @@ function HomeFeatureAccordion() {
                 className=""
             >
                 <AccordionTrigger 
-                    className="text-lg hover:no-underline cursor-pointer border-b"
+                    className="text-lg hover:no-underline cursor-pointer border-b border-b-red-500"
                     >
                     Scheduling
                 </AccordionTrigger>
