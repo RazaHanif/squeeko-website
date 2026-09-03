@@ -84,7 +84,7 @@ function HomeFeatureAccordion() {
                     value={trigger}
                     className="border-b"
                 >
-                                <AccordionItem 
+            <AccordionItem 
                 value="1"
                 className="border-primary-foreground"
             >
