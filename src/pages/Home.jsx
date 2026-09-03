@@ -59,7 +59,7 @@ function Home() {
             </div>
             
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 bg-primary/50 text-primary-foreground">
-                <p className="text-center">
+                <p className="text-center text-xs">
                     This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
                 </p>
                 <p className="text-center">
