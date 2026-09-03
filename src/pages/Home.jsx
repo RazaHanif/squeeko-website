@@ -107,7 +107,7 @@ function HomeFeatureAccordion() {
                         ))}
                     </AccordionContent>
                 </AccordionItem>
-                            <AccordionItem 
+            <AccordionItem 
                 value="1"
                 className="border-primary-foreground"
             >
