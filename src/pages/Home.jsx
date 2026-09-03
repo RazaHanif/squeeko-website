@@ -169,7 +169,7 @@ function Home() {
                     </Button>
                 </div>
 
-                <div className="w-full flex flex-1 flex-row border rounded-lg bg-primary text-primary-foreground overflow-hidden">
+                <div className="w-full flex flex-1 flex-row border rounded-lg bg-primary text-primary-foreground overflow-hidden border">
                     <div className="bg-secondary text-secondary-foreground flex-1 w-full flex justify-center items-center">
                         IMAGE
                     </div>
@@ -182,7 +182,7 @@ function Home() {
                         </div> 
                     </div>
                 </div>
-                <div className="w-full">
+                <div className="w-full border">
                     <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
                 </div>
             </section>
