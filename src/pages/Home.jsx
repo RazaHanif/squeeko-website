@@ -60,7 +60,7 @@ function HomeFeatureAccordion() {
             image: "IMAGE"
         },
         {
-            trigger: "On Boarding",
+            trigger: "IDK",
             header: "Heading",
             desc: "Description",
             links: [
