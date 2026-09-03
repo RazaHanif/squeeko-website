@@ -39,7 +39,7 @@ function Home() {
                         Sign Up
                     </Button>
                     <Button 
-                        variant="default"
+                        variant="outline"
                         className="cursor-pointer"
                     >
                         Sign Up
