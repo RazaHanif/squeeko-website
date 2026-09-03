@@ -79,7 +79,7 @@ function HomeFeatureAccordion() {
                 className="border-b"
             >
                 <AccordionTrigger 
-                    className="text-lg hover:no-underline cursor-pointer"
+                    className="hover:no-underline cursor-pointer"
                 >
                     Charting & Care
                 </AccordionTrigger>
@@ -108,7 +108,7 @@ function HomeFeatureAccordion() {
                 className="border-b"
             >
                 <AccordionTrigger 
-                    className="text-lg hover:no-underline cursor-pointer"
+                    className="hover:no-underline cursor-pointer"
                 >
                     Clinic
                 </AccordionTrigger>
@@ -137,7 +137,7 @@ function HomeFeatureAccordion() {
                 className="border-b"
             >
                 <AccordionTrigger 
-                    className="text-lg hover:no-underline cursor-pointer"
+                    className="hover:no-underline cursor-pointer"
                 >
                     Marketing
                 </AccordionTrigger>
@@ -166,7 +166,7 @@ function HomeFeatureAccordion() {
                 className="border-b"
             >
                 <AccordionTrigger 
-                    className="text-lg hover:no-underline cursor-pointer"
+                    className="hover:no-underline cursor-pointer"
                 >
                     Integration
                 </AccordionTrigger>
