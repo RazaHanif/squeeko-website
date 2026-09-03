@@ -25,7 +25,7 @@ function HomeFeatureAccordion() {
                 {title: "Link 3", link: "#"},
             ],
             image: "IMAGE"
-        }
+        },
     ]
 
 
