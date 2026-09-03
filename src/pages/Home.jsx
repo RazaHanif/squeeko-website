@@ -141,7 +141,7 @@ function Home() {
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full lg:py-16 py-8">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-full bg-[url('home-hero.svg')] bg-cover bg-center">
-                <div className="w-full flex flex-col justify-center items-center gap-4">
+                <div className=" flex flex-col justify-center items-center gap-4">
                     <h1 className="text-xs font-bold">
                         CHILD CARE MANAGEMENT SOFTWARE  
                     </h1>
@@ -149,12 +149,12 @@ function Home() {
                         Your children have you,<br/>
                         your center has SQUEEKO
                     </h2>
-                    <p className="w-full text-center font-light">
+                    <p className=" text-center font-light">
                         SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
                     </p>
                 </div>
 
-                <div className="w-full flex flex-row justify-center items-center gap-6">
+                <div className=" flex flex-row justify-center items-center gap-6">
                     <Button 
                         variant="default"
                         className="cursor-pointer p-6"
@@ -169,7 +169,7 @@ function Home() {
                     </Button>
                 </div>
 
-                <div className="w-full flex flex-1 flex-row border rounded-lg bg-primary text-primary-foreground overflow-hidden">
+                <div className=" flex flex-1 flex-row border rounded-lg bg-primary text-primary-foreground overflow-hidden">
                     <div className="bg-secondary text-secondary-foreground flex-1 w-full flex justify-center items-center">
                         IMAGE
                     </div>
