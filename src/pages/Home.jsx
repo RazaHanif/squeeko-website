@@ -87,8 +87,8 @@ function Home() {
                 <p className="text-center text-xs">
                     FEATURES
                 </p>
-                <h2>
-
+                <h2 className="">
+                    The tools your centre needs, all in one place
                 </h2>
 
             </section>
