@@ -22,7 +22,7 @@ function HomeFeatureAccordion() {
             links: [
                 {title: "Attendance", link: "#"},
                 {title: "Ratio", link: "#"},
-                {title: "Link 3", link: "#"},
+                {title: "Sick Day", link: "#"},
             ],
             image: "IMAGE"
         },
