@@ -18,7 +18,9 @@ function HomeFeatureAccordion() {
             defaultValue={["1"]}
             className="w-full bg-primary rounded-2xl p-8"
         >
-            <AccordionItem value="1">
+            <AccordionItem 
+                value="1"
+            >
                 <AccordionTrigger className="">
                     Scheduling
                 </AccordionTrigger>
