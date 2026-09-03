@@ -24,7 +24,7 @@ function Home() {
                     <p className="text-xs font-bold">
                         CHILD CARE MANAGEMENT SOFTWARE  
                     </p>
-                    <h1 className="text-5xl font-serif text-center font-">
+                    <h1 className="text-5xl font-serif text-center font-semibold">
                         Your children have you,<br/>
                         your center has SQUEEKO
                     </h1>
