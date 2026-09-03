@@ -81,8 +81,7 @@ function HomeFeatureAccordion() {
             {data.map(({trigger, header, desc, links, image}) => (
                 <>
                 <AccordionItem>
-                    <AccordionTrigger>
-                    </AccordionTrigger>
+                    <AccordionTrigger></AccordionTrigger>
 
                     <AccordionContent 
                         className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
