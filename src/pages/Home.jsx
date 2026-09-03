@@ -33,7 +33,7 @@ function HomeFeatureAccordion() {
                     <h2 className="text-4xl lg:text-5xl font-serif font-semibold">
                         Heading
                     </h2>
-                    <p className="border">
+                    <p className="">
                         Description
                     </p>
                     <div>
