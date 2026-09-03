@@ -49,7 +49,7 @@ function HomeFeatureAccordion() {
             image: "IMAGE"
         },
         {
-            trigger: "Scheduling",
+            trigger: "Compliance",
             header: "Heading",
             desc: "Description",
             links: [
