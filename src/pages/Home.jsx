@@ -341,8 +341,8 @@ function Home() {
                     <div className="border flex-1 w-full flex justify-center items-center">
                         A
                     </div>
-                    <div>
-                        
+                    <div className="flex flex-col">
+
                     </div>
                     <div className="border flex-1 w-full flex justify-center items-center">
                         B
