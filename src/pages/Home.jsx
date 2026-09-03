@@ -54,7 +54,7 @@ function HomeFeatureAccordion() {
             desc: "This will overview the compliance aspect of the app, and how much overhead it saves in mental space and admin time.",
             links: [
                 {title: "Forms", link: "#"},
-                {title: "Link 2", link: "#"},
+                {title: "OnBoarding", link: "#"},
                 {title: "Link 3", link: "#"},
             ],
             image: "IMAGE"
