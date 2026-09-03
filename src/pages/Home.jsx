@@ -338,7 +338,7 @@ function Home() {
                 </div>
 
                 <div className="w-full flex flex-1 flex-col justify-center items-center border rounded-lg bg-primary text-primary-foreground">
-                    <div className="flex-1 flex justify-center items-center">
+                    <div className="">
                         A
                     </div>
                     <div>
