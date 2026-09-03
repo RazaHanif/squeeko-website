@@ -40,6 +40,12 @@ function HomeFeatureAccordion() {
                         <NavLink to="#" end>
                             Link
                         </NavLink>
+                        <NavLink to="#" end>
+                            Link
+                        </NavLink>
+                        <NavLink to="#" end>
+                            Link
+                        </NavLink>
                         <p className="!mb-0">links</p>
                         <p className="!mb-0 border">links</p>
                         <p className="!mb-0 border">links</p>
