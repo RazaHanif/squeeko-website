@@ -4,7 +4,9 @@
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/geist";
 
-/*  */
+/* 
+  https://haikei.app/generators/
+*/
 
 :root {
   --background: oklch(0.9761 0.0041 91.4461);
