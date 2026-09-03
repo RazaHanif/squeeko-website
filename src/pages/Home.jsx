@@ -32,7 +32,7 @@ function HomeFeatureAccordion() {
                         <li>links</li>
                     </div>
 
-                    <div>
+                    <div className="flex-2">
                         Images
                     </div>
                 </AccordionContent>
