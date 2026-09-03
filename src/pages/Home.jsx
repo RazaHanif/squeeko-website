@@ -341,10 +341,10 @@ function Home() {
                     <div className="">
                         A
                     </div>
-                    <div>
+                    <div className="">
                         B
                     </div>
-                    <div>
+                    <div className="">
                         C
                     </div> 
                 </div>
