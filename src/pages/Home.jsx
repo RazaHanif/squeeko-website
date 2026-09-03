@@ -32,8 +32,11 @@ function Home() {
                     </p>
                 </div>
                 <div className="w-full flex flex-row justify-center items-center pb-8">
-                    <Button variant="default">
-                        
+                    <Button 
+                        variant="default"
+                        className=""
+                    >
+
                     </Button>
 
                     <p className="w-3/4 text-center text-2xl">
