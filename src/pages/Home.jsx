@@ -14,8 +14,8 @@ import { NavLink } from "react-router-dom"
 
 function HomeFeatureAccordion() {
     return (
-        <Accordion defaultValue={[""]}>
-            <AccordionItem value="item-1">
+        <Accordion defaultValue={["1"]}>
+            <AccordionItem value="1">
                 <AccordionTrigger>
                     Is it accessible?
                 </AccordionTrigger>
