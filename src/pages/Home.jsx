@@ -25,7 +25,7 @@ function HomeFeatureAccordion() {
                 <AccordionTrigger className="text-md">
                     Scheduling
                 </AccordionTrigger>
-                <AccordionContent className="flex flex-col p-8">
+                <AccordionContent className="flex flex-col">
                     <h2 className="text-2xl">
                         Heading
                     </h2>
