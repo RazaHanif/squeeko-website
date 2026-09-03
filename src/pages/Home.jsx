@@ -239,7 +239,7 @@ function Home() {
                     </NavLink>
                 </div>
 
-                <div className="w-9/10 lg:w-3/4 bg-primary rounded-lg overflow-hidden">
+                <div className="w-9/10 lg:w-3/4 bg-primary rounded-lg overflow-hidden p-8">
                     <HomeFeatureAccordion />
                 </div>
 
