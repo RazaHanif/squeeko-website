@@ -39,7 +39,7 @@ function HomeFeatureAccordion() {
         },
         {
             trigger: "Communication",
-            header: "Heading",
+            header: "Stay in touch",
             desc: "Description",
             links: [
                 {title: "Link 1", link: "#"},
