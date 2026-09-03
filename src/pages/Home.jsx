@@ -21,6 +21,9 @@ function Home() {
                 <h1 className="text-4xl lg:text-5xl font-serif text-center">
                     Home Hero Section
                 </h1>
+                <p className="w-3/4 text-center text-2xl">
+                    This should have a form
+                </p>
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-gradient-to-l from-background to-primary text-muted-foreground">
