@@ -85,7 +85,7 @@ function Home() {
                 <div className="p-8 flex flex-col justify-center items-center">
 
                 </div>
-                <p className="text-center text-xs">
+                <p className="text-center text-sm">
                     FEATURES
                 </p>
                 <h2 className="text-4xl font-serif text-center font-semibold">
