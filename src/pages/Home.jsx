@@ -16,7 +16,7 @@ function HomeFeatureAccordion() {
     return (
         <Accordion
             defaultValue={["1"]}
-            className="w-full bg-primary rounded-2xl"
+            className="w-full"
         >
             <AccordionItem 
                 value="1"
