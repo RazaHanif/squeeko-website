@@ -112,7 +112,7 @@ function Home() {
                     </NavLink>
                 </div>
 
-                <div className="flex ">
+                <div className="flex-1 w-full">
                     <HomeFeatureAccordion />
                 </div>
 
