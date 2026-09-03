@@ -17,7 +17,7 @@ function HomeFeatureAccordion() {
         <Accordion defaultValue={["1"]}>
             <AccordionItem value="1">
                 <AccordionTrigger>
-                    Is it accessible?
+                    Scheduling
                 </AccordionTrigger>
                 <AccordionContent>
                     Yes. It adheres to the WAI-ARIA design pattern.
