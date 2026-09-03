@@ -359,7 +359,7 @@ function Home() {
                 </div>
 
                 <div className="w-9/10 lg:w-3/4">
-                    <div>
+                    <div className="border ">
                         <NavLink
                             to="/features"
                             end
