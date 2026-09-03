@@ -66,7 +66,7 @@ function HomeFeatureAccordion() {
                         </NavLink>
                     </div>
 
-                    <div className="flex-1 flex flex-col  border">
+                    <div className="flex-1 flex flex-col justify-center items-center border">
                         <div>Image</div>
                     </div>
                 </AccordionContent>
