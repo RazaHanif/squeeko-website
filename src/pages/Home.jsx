@@ -121,7 +121,7 @@ function HomeFeatureAccordion() {
                         </p>
                     </div>
                     <div className="flex flex-col items-start my-8">
-                                                {items.map(({ title, link }) => (
+                        {items.map(({ title, link }) => (
                                 <NavLink
                                     key={link}
                                     to={link}
