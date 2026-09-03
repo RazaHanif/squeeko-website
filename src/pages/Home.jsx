@@ -198,7 +198,7 @@ function Home() {
                     </h2>
                 </div>
 
-                <div className="w-9/10 lg:w-3/4 mb-8 lg:mb-16 gap-45">
+                <div className="w-9/10 lg:w-3/4 mb-8 lg:mb-16 flex flex-col just">
                     <div className="text-center">
                         <NavLink
                             to="/features"
