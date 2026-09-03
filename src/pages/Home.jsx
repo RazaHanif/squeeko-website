@@ -30,13 +30,18 @@ function Home() {
                         SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
                     </p>
                 </div>
-                <p className="w-3/4 text-center text-2xl">
-                    This should have a CTA btn that opens the form, or something
-                </p>
+                <div className="w-full flex flex-col justify-center items-center pb-8">
+
+                    <p className="w-3/4 text-center text-2xl">
+                        This should have a CTA btn that opens the form, or something
+                    </p>
+                </div>
             </section>
+
             <div>
                 <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
             </div>
+            
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full border border-primary text-muted-foreground">
                 <p className="w-3/4 text-center text-2xl">
                     This will be the landing page, should over view the offerings, and have atleast 2 'onboarding' forms
