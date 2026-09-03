@@ -50,7 +50,7 @@ function HomeFeatureAccordion() {
         },
         {
             trigger: "Compliance",
-            header: "Stay in Compliance",
+            header: "Get in Compliance",
             desc: "Description",
             links: [
                 {title: "Link 1", link: "#"},
