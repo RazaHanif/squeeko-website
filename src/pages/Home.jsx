@@ -52,12 +52,6 @@ function Home() {
                     CTA Get Started (Copy Jane)
                 </p>
             </section>
-            <div className="w-full flex justify-center items-center pb-8">
-                <h1 className="text-4xl lg:text-5xl font-serif">
-                    Home
-                </h1>
-            </div>
-
 
             <div className="mt-16">
                 <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
