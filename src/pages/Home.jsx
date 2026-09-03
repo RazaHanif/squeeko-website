@@ -10,6 +10,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { NavLink } from "react-router-dom"
+import { ChevronRight } from "lucide-react"
 
 
 function HomeFeatureAccordion() {
@@ -38,7 +39,7 @@ function HomeFeatureAccordion() {
                     </p>
                     <div className="flex flex-col items-start gap-2">
                         <NavLink to="#" end>
-                            
+                            <ChevronRight />
                             Link
                         </NavLink>
                         <NavLink to="#" end>
