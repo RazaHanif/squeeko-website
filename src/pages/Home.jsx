@@ -17,7 +17,7 @@ function HomeFeatureAccordion() {
     const data = [
         {
             trigger: "Scheduling",
-            header: "Heading",
+            header: "Scheduling",
             desc: "Description",
             links: [
                 {title: "Link 1", link: "#"},
