@@ -98,6 +98,10 @@ function Home() {
                     </NavLink>
                 </div>
 
+                <div className="p-8 flex flex-col justify-center items-center gap-2">
+                    <HomeFeatureAccordion />
+                </div>
+
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4 bg-primary/50 border border-primary">
