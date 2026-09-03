@@ -37,7 +37,9 @@ function HomeFeatureAccordion() {
                         Description
                     </p>
                     <div className="flex flex-col items-start gap-2">
-                        <Nav
+                        <NavLink to="#" end>
+                            Link
+                        </NavLink>
                         <p className="!mb-0">links</p>
                         <p className="!mb-0 border">links</p>
                         <p className="!mb-0 border">links</p>
