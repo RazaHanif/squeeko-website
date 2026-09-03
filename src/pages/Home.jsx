@@ -22,7 +22,7 @@ function Home() {
                     Home Hero Section
                 </h1>
                 <p className="w-3/4 text-center text-2xl">
-                    This should have a form
+                    This should have a CTA btn 
                 </p>
             </section>
 
