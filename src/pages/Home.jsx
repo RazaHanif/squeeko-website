@@ -37,9 +37,9 @@ function HomeFeatureAccordion() {
                         Description
                     </p>
                     <div>
-                        <p>links</p>
-                        <p>links</p>
-                        <p>links</p>
+                        <li>links</li>
+                        <li>links</li>
+                        <li>links</li>
                     </div>
 
                     <div className="flex-1">
