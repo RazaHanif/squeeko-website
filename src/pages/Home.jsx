@@ -26,6 +26,9 @@ function Home() {
                     Your children have you,<br/>
                     your center has SQUEEKO
                 </h1>
+                <p>
+                    
+                </p>
             </div>
                 <p className="w-3/4 text-center text-2xl">
                     This should have a CTA btn that opens the form, or something
