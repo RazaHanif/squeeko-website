@@ -20,10 +20,11 @@ function HomeFeatureAccordion() {
             header: "Heading",
             desc: "Description",
             links: [
-                {title: "Link", link: "#"},
-                {title: "Link", link: "#"},
-                {title: "Link", link: "#"},
-            ]
+                {title: "Link 1", link: "#"},
+                {title: "Link 2", link: "#"},
+                {title: "Link 3", link: "#"},
+            ],
+            
         }
     ]
 
