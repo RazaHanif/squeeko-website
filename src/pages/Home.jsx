@@ -78,7 +78,7 @@ function HomeFeatureAccordion() {
             defaultValue={[data[0].trigger]}
             className="w-full rounded-lg bg-primary p-6"
         >
-            {data.map(({trigger, }) => (
+            {data.map(({trigger, header, desc, links, image}) => (
                 <AccordionItem
                     key={category}
                     value={category}
