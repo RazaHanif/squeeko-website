@@ -344,7 +344,7 @@ function Home() {
                 </div>
             </section>
 
-            <div className="w-full py-16">
+            <div className="w-full py-8">
                 <HorizontalScroll items={horizontalList} className="text-primary" speed={80}/>
             </div>
             
