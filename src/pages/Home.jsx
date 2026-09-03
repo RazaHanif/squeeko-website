@@ -82,7 +82,6 @@ function HomeFeatureAccordion() {
                 <>
                 <AccordionItem>
                     <AccordionTrigger>
-                        {category}
                     </AccordionTrigger>
 
                     <AccordionContent 
