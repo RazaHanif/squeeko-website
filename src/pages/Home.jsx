@@ -76,13 +76,13 @@ function HomeFeatureAccordion() {
     return (
         <Accordion
             defaultValue={[data[0].trigger]}
-            className="w-full rounded-lg bg-primary p-6"
+            className="w-full rounded-lg bg-secondary text-secondary-foreground p-6"
         >
             {data.map(({trigger, header, desc, links, image}) => (
                 <AccordionItem 
                     key={trigger}
                     value={trigger}
-                    className="border-primary-foreground"
+                    className="border-secondary-foreground"
                 >
                     <AccordionTrigger 
                         className="cursor-pointer hover:no-underline"
@@ -90,7 +90,7 @@ function HomeFeatureAccordion() {
                         {trigger}
                     </AccordionTrigger>
                     <AccordionContent 
-                        className="flex flex-col [&_a]:no-underline [&_a]:hover:text-secondary [&_a]:hover:underline [&_a]:w-fit my-8 lg:my-16 gap-4"
+                        className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit my-8 lg:my-16 gap-4"
                     >
                         <h2 className="text-4xl lg:text-5xl font-serif font-semibold">
                             {header}
@@ -114,7 +114,7 @@ function HomeFeatureAccordion() {
                             ))}
                         </div>
 
-                        <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-secondary text-secondary-foreground border-secondary-foreground border">
+                        <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-primary text-primary-foreground border-primary-foreground border">
                             <div className="text-lg font-bold font-mono">
                                 {image}
                             </div>
@@ -157,13 +157,13 @@ function Home() {
                 <div className="w-9/10 lg:w-3/4 flex flex-row justify-center items-center gap-6">
                     <Button 
                         variant="default"
-                        className="cursor-pointer p-6"
+                        className="cursor-pointer p-6 sm:border-0 border border-primary-foreground"
                     >
                         Sign Up
                     </Button>
                     <Button 
                         variant="secondary"
-                        className="cursor-pointer p-6"
+                        className="cursor-pointer p-6 sm:border-0 border border-secondary-foreground"
                     >
                         Book a demo
                     </Button>
@@ -213,7 +213,7 @@ function Home() {
 
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('home-cta-bg.svg')] bg-cover bg-center border border-primary">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-cover bg-center border border-primary">
                 <div className="w-3/4 text-center text-2xl">
                     Tell us about yourself.
                 </div>
