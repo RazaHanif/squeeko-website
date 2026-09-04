@@ -1,7 +1,4 @@
-import FadeUp from "@/components/gsap/FadeUp"
-import ScrollSnap from "@/components/gsap/ScrollSnap"
 import HorizontalScroll from "@/components/HorizontalScroll"
-import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Button } from "@/components/ui/button"
 import {
   Accordion,
@@ -140,7 +137,7 @@ function Home() {
 
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full lg:py-16 py-8">
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-full bg-[url('home-hero-2.svg')] bg-cover bg-center">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center">
                 <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-4">
                     <h1 className="text-xs font-bold">
                         CHILD CARE MANAGEMENT SOFTWARE  
@@ -218,7 +215,7 @@ function Home() {
                     Tell us about yourself.
                 </div>
 
-                <div>
+                <div className="flex flex-col justify-center gap-4">
                     <Button variant="secondary">
                         Im an admin or director
                     </Button>
@@ -233,13 +230,13 @@ function Home() {
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4 bg-primary/50 border border-primary">
                 <p className="w-3/4 text-center text-2xl">
-                    Why Squeeko (copy jane)
+                    Why Squeeko
                 </p>
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4 bg-primary/50 border border-primary">
                 <p className="w-3/4 text-center text-2xl">
-                    CTA Get Started (Copy Jane)
+                    CTA Get Started
                 </p>
             </section>
 
