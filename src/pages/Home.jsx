@@ -6,6 +6,15 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 import { NavLink } from "react-router-dom"
 import { ChevronRight } from "lucide-react"
 
@@ -123,6 +132,24 @@ function HomeFeatureAccordion() {
     )
 }
 
+function HomeCards() {
+    return (
+        <Card className="w-3/4">
+            <CardHeader>
+                IMG
+            </CardHeader>
+            <CardContent>
+                <h2 className="text-2xl font-serif font-bold">
+                    HEADER
+                </h2>
+                <p>
+                    Descripton
+                </p>
+            </CardContent>
+        </Card>
+    )
+}
+
 function Home() {
     const horizontalList = [
         'Spend more time with the children',
@@ -210,7 +237,7 @@ function Home() {
 
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-cover bg-center border border-primary">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-form.svg')] bg-cover bg-center">
                 <div className="w-3/4 text-center text-2xl">
                     Tell us about yourself.
                 </div>
@@ -228,13 +255,14 @@ function Home() {
                 </div>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4 bg-primary/50 border border-primary">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-why.svg')] bg-cover bg-center">
                 <p className="w-3/4 text-center text-2xl">
                     Why Squeeko
                 </p>
+                {/* <HomeCards /> */}
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4 bg-primary/50 border border-primary">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4 border border-primary">
                 <p className="w-3/4 text-center text-2xl">
                     CTA Get Started
                 </p>
