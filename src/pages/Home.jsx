@@ -17,6 +17,7 @@ import {
 } from "@/components/ui/card"
 import { NavLink } from "react-router-dom"
 import { ChevronRight } from "lucide-react"
+import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 
 
 function HomeFeatureAccordion() {
@@ -162,6 +163,12 @@ function Home() {
         'The smarter way to manage childcare',
     ]
 
+    const iconList = [
+        {icon: InstagramIcon},
+        {icon: FacebookIcon},
+        {icon: YoutubeIcon},
+    ]
+
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full lg:py-16 py-8">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center">
@@ -206,8 +213,14 @@ function Home() {
                         </div> 
                     </div>
                 </div>
-                <div className="w-full mb-8">
+                <div className="w-full mb-4">
                     <HorizontalScroll items={horizontalList} className="text-primary-foreground" speed={80}/>
+                    {/* <HorizontalScroll 
+                        items={iconList.map(({icon: Icon}, idx) => (
+                            <Icon key={idx} className="size-8 text-primary-foreground"/>
+                        ))} 
+                        speed={80}
+                    /> */}
                 </div>
             </section>
 
@@ -262,9 +275,9 @@ function Home() {
                 {/* <HomeCards /> */}
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4 border border-primary">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4">
                 <p className="w-3/4 text-center text-2xl">
-                    CTA Get Started
+                    Get Started (CTA)
                 </p>
             </section>
 

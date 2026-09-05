@@ -160,7 +160,7 @@ function MobileNav() {
                             >
                                 <SheetClose
                                     onClick={() => navigate(link)}
-                                    className="text-lg text-primary cursor-pointer items-start w-full border border-transparent px-2.5 py-4 text-left font-medium outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50"
+                                    className="text-lg text-primary cursor-pointer items-start w-full border border-transparent py-4 text-left font-medium outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50"
                                 >
                                     {title}
                                 </SheetClose>

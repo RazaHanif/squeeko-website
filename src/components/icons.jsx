@@ -2,7 +2,7 @@ export function InstagramIcon({ className }) {
     return (
         <svg 
             className={`${className} p-1 hover:fill-muted-foreground transition-all duration-200 ease-in-out`}
-            fill={`var(--primary)`} 
+            fill="currentColor"
             viewBox="0 0 16 16"
             xmlns="http://www.w3.org/2000/svg" 
         >
@@ -15,7 +15,7 @@ export function LinkedInIcon({ className }) {
     return (
         <svg 
             className={`${className} p-1 hover:fill-muted-foreground transition-all duration-200 ease-in-out`}
-            fill={`var(--primary)`} 
+            fill="currentColor"
             viewBox="0 0 16 16"
             xmlns="http://www.w3.org/2000/svg" 
         >
@@ -28,7 +28,7 @@ export function FacebookIcon({ className }) {
     return (
         <svg 
             className={`${className} p-1 hover:fill-muted-foreground transition-all duration-200 ease-in-out`}
-            fill={`var(--primary)`} 
+            fill="currentColor"
             viewBox="0 0 16 16"
             xmlns="http://www.w3.org/2000/svg" 
         >
@@ -41,7 +41,7 @@ export function TiktokIcon({ className }) {
     return (
         <svg 
             className={`${className} p-1 hover:fill-muted-foreground transition-all duration-200 ease-in-out`}
-            fill={`var(--primary)`} 
+            fill="currentColor"
             viewBox="0 0 16 16"
             xmlns="http://www.w3.org/2000/svg" 
         >
@@ -53,8 +53,8 @@ export function TiktokIcon({ className }) {
 export function YoutubeIcon({ className }) {
     return (
         <svg 
-            className={`${className} p-1 hover:fill-muted-foreground transition-all duration-200 ease-in-out`}
-            fill={`var(--primary)`} 
+            className={`${className} p-1 hover:text-muted-foreground transition-all duration-200 ease-in-out`}
+            fill="currentColor"
             viewBox="0 0 16 16"
             xmlns="http://www.w3.org/2000/svg" 
         >
