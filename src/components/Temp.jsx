@@ -53,7 +53,6 @@ const Temp = ({ children }) => {
 
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full background bg-background overflow-hidden">
-    
             <span className="ball" />
             <span className="ball" />
             <span className="ball" />
