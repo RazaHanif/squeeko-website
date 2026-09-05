@@ -100,7 +100,7 @@ function Footer() {
                     <div className="flex flex-row justify-start lg:justify-center items-center">
                         {socialLinks.map(({ icon: Icon, link }) => (
                             <a href={link} key={link}>
-                                <Icon className="size-8 lg:size-9" />
+                                <Icon className="size-8 lg:size-9 text-primary" />
                             </a>
                         ))}
                     </div>
