@@ -134,6 +134,7 @@ function HomeFeatureAccordion() {
 }
 
 function HomeCards() {
+    
     return (
         <Card className="w-3/4">
             <CardHeader>
