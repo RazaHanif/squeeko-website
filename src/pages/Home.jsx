@@ -187,7 +187,7 @@ function HomeForm() {
             <h2 className="">
                 Tell us about yourself
             </h2>
-            <div className="flex flex-col justify-center ">
+            <div className="flex flex-col justify-center gap-4">
                 <Button variant="secondary">
                     Im an admin or director
                 </Button>
