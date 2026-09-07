@@ -19,6 +19,7 @@ import { Slider } from "@/components/ui/slider"
 import { NavLink } from "react-router-dom"
 import { ChevronRight } from "lucide-react"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
+import { Label } from "@/components/ui/label"
 
 
 function HomeFeatureAccordion() {
@@ -189,7 +190,7 @@ function HomeForm() {
                 Tell us about yourself
             </h2>
             <div className="flex flex-col justify-center gap-4">
-                <Label
+                <Label ></Label>
                 <Slider defaultValue={[33]} max={100} step={1} />
                 <Button variant="secondary">
                     Im a staff member
