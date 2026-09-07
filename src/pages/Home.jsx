@@ -206,7 +206,7 @@ function HomeForm() {
                             max={100} 
                             step={1} 
                         />
-                        <p>4</p> 
+                        <p>{value}</p> 
                     </div>
                     
                 </div>
