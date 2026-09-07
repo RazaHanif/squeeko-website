@@ -337,13 +337,13 @@ function Home() {
                         <div className="flex flex-row justify-start items-center gap-6 w-3/4 lg:w-1/4">
                             <Button 
                                 variant="default"
-                                className="flex-1 cursor-pointer p-6 sm:border-0 border border-primary-foreground"
+                                className="flex-1 cursor-pointer p-6 border border-primary-foreground"
                             >
                                 Sign Up
                             </Button>
                             <Button 
                                 variant="secondary"
-                                className="flex-1 cursor-pointer p-6 sm:border-0 border border-secondary-foreground"
+                                className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
                             >
                                 Book a demo
                             </Button>
