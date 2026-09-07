@@ -278,7 +278,7 @@ function Home() {
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full py-8 lg:py-16 border-t border-primary bg-primary/50">
                 <div className="flex flex-1 flex-col lg:flex-row gap-4 w-9/10 p-2">
                     <div className="flex lg:flex-1 flex-col justify-start lg:justify-center gap-4">
-                        <p className="text-xs font-bold">
+                        <p className="text-xs lg:text-sm font-bold">
                             GET STARTED
                         </p>
                         <h2 className="text-4xl lg:text-5xl font-serif text-start font-semibold">
