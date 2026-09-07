@@ -196,7 +196,6 @@ function HomeForm() {
                     </Label>
                 <div className="bg-secondary p-2 flex flex-col gap-2 rounded-xl">
                     <Slider 
-                        className="bg-red-500 "
                         id="max-capacity"
                         defaultValue={[33]} 
                         max={100} 
