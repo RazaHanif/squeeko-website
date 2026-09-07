@@ -191,7 +191,8 @@ function HomeForm() {
             </h2>
             <div className="flex flex-col justify-center gap-4">
                 <div>
-                    <Label htmlFor="email">Your email address</Label>
+                    <Label htmlFor="children">
+                        Your email address</Label>
                     <Slider defaultValue={[33]} max={100} step={1} />
                 </div>
                 <Button variant="secondary">
