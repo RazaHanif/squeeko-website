@@ -275,10 +275,34 @@ function Home() {
                 {/* <HomeCards /> */}
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-9/10 lg:w-3/4">
-                <p className="w-3/4 text-center text-2xl">
-                    Get Started (CTA)
-                </p>
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full py-8 lg:py-16 border-t border-primary bg-primary/50">
+                <div className="flex flex-1 flex-col lg:flex-row gap-4 w-9/10 p-2">
+                    <div className="flex lg:flex-1 flex-col justify-start lg:justify-center gap-4">
+                        <p className="text-xs font-bold">
+                            GET STARTED
+                        </p>
+                        <h2 className="text-4xl font-serif text-start font-semibold">
+                            See SQUEEKO run your center
+                        </h2>
+                        <p className="w-9/10 lg:w-3/4 text-start font-light">
+                             With Squeeko's powerful technology and expert human support, you can keep your busy days running smoothly.
+                        </p>
+                        <div className="flex flex-row justify-start items-center gap-4">
+                            <Button>
+                                Sign Up
+                            </Button>
+                            <Button variant="secondary">
+                                Book a Demo
+                            </Button>
+                        </div>
+                    </div>
+                    <div className="flex flex-1 w-full">
+                        <div className="bg-primary border border-primary w-full flex justify-center items-center rounded-xl">
+                            IMAGE
+                        </div>
+                    </div>
+
+                </div>
             </section>
 
             {/* 
