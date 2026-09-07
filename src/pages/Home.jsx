@@ -195,7 +195,7 @@ function HomeForm() {
                         Whats your max child capacity
                     </Label>
                     <Slider 
-                        className=""
+                        className="bg-red-500 "
                         id="max-capacity"
                         defaultValue={[33]} 
                         max={100} 
