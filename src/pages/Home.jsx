@@ -173,7 +173,7 @@ function HomeCards() {
                             {header}
                         </h2>
                         <p>
-                            Descripton
+                            {desc}
                         </p>
                     </CardContent>
                 </Card>
