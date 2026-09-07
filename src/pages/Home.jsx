@@ -192,7 +192,7 @@ function HomeForm() {
             <div className="flex flex-col justify-center gap-4">
                 <div>
                     <Label htmlFor="children">
-                        How many children does your centre </Label>
+                        Whats your max child capacity</Label>
                     <Slider defaultValue={[33]} max={100} step={1} />
                 </div>
                 <Button variant="secondary">
