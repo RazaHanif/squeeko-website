@@ -234,7 +234,7 @@ function Home() {
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full lg:pt-16 pt-8">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center">
-                <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-4">
+                <div className="w-9/10 lg:w-3/4 flex flex-1 flex-col justify-center items-center gap-4">
                     <h1 className="text-xs font-bold">
                         CHILD CARE MANAGEMENT SOFTWARE  
                     </h1>
@@ -247,7 +247,7 @@ function Home() {
                     </p>
                 </div>
 
-                <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/4">
+                <div className="flex flex-1 flex-row justify-center items-center gap-6 w-3/4 lg:w-1/4">
                     <Button 
                         variant="default"
                         className="flex-1 cursor-pointer p-6 sm:border-0 border border-primary-foreground"
@@ -262,7 +262,7 @@ function Home() {
                     </Button>
                 </div>
 
-                <div className="w-9/10 lg:w-3/4 flex-5 flex-row border rounded-lg bg-primary text-primary-foreground overflow-hidden">
+                <div className="w-9/10 lg:w-3/4 flex flex-5 flex-row border rounded-lg bg-primary text-primary-foreground overflow-hidden">
                     <div className="bg-secondary text-secondary-foreground flex-1 w-full flex justify-center items-center">
                         IMAGE
                     </div>
