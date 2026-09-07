@@ -183,7 +183,7 @@ function HomeCards() {
 
 function HomeForm() {
     return (
-        <>
+        <div>
             <Button variant="secondary">
                 Im an admin or director
             </Button>
@@ -193,7 +193,7 @@ function HomeForm() {
             <Button variant="secondary">
                 Im a parent or guardian
             </Button>
-        </>
+        </div>
 
     )
 }
