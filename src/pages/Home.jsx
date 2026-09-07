@@ -154,7 +154,7 @@ function HomeCards() {
 //             {data.map(({trigger, header, desc, links, image}) => (
 
     return (
-        <>
+        <div className="">
             {data.map(({ image, header, desc }, idx) => (
                 <Card
                     key={idx}
@@ -173,7 +173,7 @@ function HomeCards() {
                     </CardContent>
                 </Card>
             ))}
-        </>
+        </div>
     )
 }
 
