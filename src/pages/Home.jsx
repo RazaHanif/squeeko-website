@@ -185,7 +185,7 @@ function HomeCards() {
 }
 
 function HomeForm() {
-    const [value, setValue] = useState([0.3, 0.7])
+    const [value, setValue] = useState(0)
 
     return (
        <div className="flex flex-col justify-center gap-4 p-8 rounded-xl border border-primary bg-primary">
