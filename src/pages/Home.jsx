@@ -184,16 +184,16 @@ function HomeCards() {
 function HomeForm() {
     return (
         <>
-                            <Button variant="secondary">
-                        Im an admin or director
-                    </Button>
-                    <Button variant="secondary">
-                        Im a staff member
-                    </Button>
-                    <Button variant="secondary">
-                        Im a parent or guardian
-                    </Button>
-                    </>
+            <Button variant="secondary">
+                Im an admin or director
+            </Button>
+            <Button variant="secondary">
+                Im a staff member
+            </Button>
+            <Button variant="secondary">
+                Im a parent or guardian
+            </Button>
+        </>
 
     )
 }
