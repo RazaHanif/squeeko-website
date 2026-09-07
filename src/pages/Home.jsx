@@ -158,7 +158,7 @@ function HomeCards() {
     ]
 
     return (
-        <div className="flex-1 w-full grid grid-cols-1 lg:grid-cols-2">
+        <div className="flex-1 w-full grid grid-cols-1 lg:grid-cols-2 just">
             {data.map(({ image, header, desc }, idx) => (
                 <Card
                     key={idx}
