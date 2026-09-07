@@ -158,7 +158,7 @@ function HomeCards() {
     ]
 
     return (
-        <div className="flex-1 w-full flex flex-col justify-center items-center gap-8">
+        <div className="flex-1 w-full grid justify-center items-center gap-8">
             {data.map(({ image, header, desc }, idx) => (
                 <Card
                     key={idx}
