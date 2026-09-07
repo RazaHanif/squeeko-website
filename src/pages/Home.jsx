@@ -156,7 +156,9 @@ function HomeCards() {
     return (
         <>
             {data.map(({ image, header, desc }) => (
-                <Card className="w-3/4">
+                <Card
+                    
+                >
                     <CardHeader>
                         IMG
                     </CardHeader>
