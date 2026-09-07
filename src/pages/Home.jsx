@@ -150,6 +150,11 @@ function HomeCards() {
             header: "Stay in touch",
             desc: "This will highlight the in app insta style feed, the in app messaging, and the ability to send forms to the parents directly",
         },
+        {
+            image: "IMAGE",
+            header: "Stay in touch",
+            desc: "This will highlight the in app insta style feed, the in app messaging, and the ability to send forms to the parents directly",
+        },
     ]
 //             {data.map(({trigger, header, desc, links, image}) => (
 
