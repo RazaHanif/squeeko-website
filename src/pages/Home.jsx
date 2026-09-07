@@ -202,6 +202,7 @@ function HomeForm() {
                             step={1} 
                         /> 
                     </div>
+                    <p></p>
                 </div>
                 <Button variant="secondary">
                     Im a staff member
