@@ -302,9 +302,7 @@ function Home() {
                     Tell us about yourself.
                 </div>
 
-                <div className="">
-                    <HomeForm />
-                </div>
+                <HomeForm />
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-why.svg')] bg-cover bg-center py-8">
