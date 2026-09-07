@@ -189,9 +189,6 @@ function HomeForm() {
 
     return (
        <div className="flex flex-col justify-center gap-4 p-8 rounded-xl border border-primary bg-primary">
-            <h2 className="">
-                Tell us about yourself
-            </h2>
             <div className="flex flex-col justify-center gap-4">
                 <div className="flex flex-col gap-2">
                     <Label htmlFor="max-capacity">
