@@ -194,7 +194,7 @@ function HomeForm() {
                     <Label htmlFor="max-capacity" className="">
                         Whats your max child capacity
                     </Label>
-                    <div className="flex flex-row gap-4 justify-center items-center p-2 bg-secondary rounded-xl px-4">
+                    <div className="flex flex-row gap-4 justify-center items-center p-2 bg-secondary rounded-xl">
                         <Slider 
                             className="flex-5"
                             value={value}
