@@ -165,7 +165,7 @@ function HomeCards() {
                     key={idx}
                     className="flex w-3/4"
                 >
-                    <CardContent className="flex flex-col justify-center items-center ">
+                    <CardContent className="flex flex-col justify-center items-center gap-4">
                         <div className="w-20 h-20 bg-red-500">
                             {image}
                         </div>
