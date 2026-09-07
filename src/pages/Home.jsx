@@ -288,10 +288,10 @@ function Home() {
                              With Squeeko's powerful technology and expert human support, you can keep your busy days running smoothly.
                         </p>
                         <div className="flex flex-row justify-start items-center gap-4">
-                            <Button className="p-4">
+                            <Button className="">
                                 Sign Up
                             </Button>
-                            <Button className="p-4" variant="secondary">
+                            <Button className="" variant="secondary">
                                 Book a Demo
                             </Button>
                         </div>
