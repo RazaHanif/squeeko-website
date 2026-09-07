@@ -184,6 +184,8 @@ function HomeCards() {
 }
 
 function HomeForm() {
+    const [value, setValue] = React.useState([0.3, 0.7])
+    
     return (
        <div className="flex flex-col justify-center gap-4 p-8 rounded-xl border border-primary bg-primary">
             <h2 className="">
