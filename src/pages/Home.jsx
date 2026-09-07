@@ -134,7 +134,20 @@ function HomeFeatureAccordion() {
 }
 
 function HomeCards() {
-    
+    const data = [
+        {
+            trigger: "Scheduling",
+            header: "Stay on track",
+            desc: "This will be a small description of what the scheduling feature does within the app, including attendance, ratio, and other helpful stuff.",
+            links: [
+                {title: "Attendance", link: "#"},
+                {title: "Ratio", link: "#"},
+                {title: "Late Fees", link: "#"},
+            ],
+            image: "IMAGE"
+        },
+    ]
+
     return (
         <Card className="w-3/4">
             <CardHeader>
