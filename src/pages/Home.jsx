@@ -165,10 +165,10 @@ function HomeCards() {
                     key={idx}
                     className="flex w-3/4"
                 >
-                    <CardHeader>
-                        IMG
-                    </CardHeader>
                     <CardContent>
+                        <p>
+                            {image}
+                        </p>
                         <h2 className="text-2xl font-serif font-bold">
                             HEADER
                         </h2>
