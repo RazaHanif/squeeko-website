@@ -286,15 +286,7 @@ function Home() {
                 </div>
 
                 <div className="flex flex-col justify-center gap-4">
-                    <Button variant="secondary">
-                        Im an admin or director
-                    </Button>
-                    <Button variant="secondary">
-                        Im a staff member
-                    </Button>
-                    <Button variant="secondary">
-                        Im a parent or guardian
-                    </Button>
+                    <HomeForm />
                 </div>
             </section>
 
