@@ -20,6 +20,7 @@ import { NavLink } from "react-router-dom"
 import { ChevronRight } from "lucide-react"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Label } from "@/components/ui/label"
+import { useState } from "react"
 
 
 function HomeFeatureAccordion() {
@@ -184,8 +185,8 @@ function HomeCards() {
 }
 
 function HomeForm() {
-    const [value, setValue] = React.useState([0.3, 0.7])
-    
+    const [value, setValue] = useState([0.3, 0.7])
+
     return (
        <div className="flex flex-col justify-center gap-4 p-8 rounded-xl border border-primary bg-primary">
             <h2 className="">
