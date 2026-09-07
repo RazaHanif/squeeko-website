@@ -250,7 +250,7 @@ function Home() {
                 <div className="flex flex-row justify-center items-center gap-6 border border-red-500">
                     <Button 
                         variant="default"
-                        className="cursor-pointer p-6 sm:border-0 border border-primary-foreground"
+                        className="flex-1 cursor-pointer p-6 sm:border-0 border border-primary-foreground"
                     >
                         Sign Up
                     </Button>
