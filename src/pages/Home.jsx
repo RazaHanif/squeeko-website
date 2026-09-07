@@ -158,7 +158,7 @@ function HomeCards() {
             {data.map(({ image, header, desc }, idx) => (
                 <Card
                     key={idx}
-                    className=""
+                    className="flex "
                 >
                     <CardHeader>
                         IMG
