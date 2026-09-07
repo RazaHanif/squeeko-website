@@ -194,7 +194,7 @@ function HomeForm() {
                     <Label htmlFor="children">
                         Whats your max child capacity</Label>
                     <Slider 
-                    
+                        id="max-capacity"
                     defaultValue={[33]} max={100} step={1} /> 
                 </div>
                 <Button variant="secondary">
