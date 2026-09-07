@@ -193,7 +193,7 @@ function HomeForm() {
                 <div>
                     <Label htmlFor="children">
                         Whats your max child capacity</Label>
-                    <Slider defaultValue={[33]} max={100} step={1} />
+                    <Slider defaultValue={[33]} max={100} step={1} /> 
                 </div>
                 <Button variant="secondary">
                     Im a staff member
