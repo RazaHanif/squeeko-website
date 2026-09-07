@@ -190,7 +190,7 @@ function HomeForm() {
     return (
        <div className="flex flex-col justify-center gap-4 p-4 rounded-xl border border-primary-foreground bg-primary w-3/4">
             <div className="flex flex-col justify-center gap-4 w-full">
-                <div className="flex flex-col gap-2 w-full border border-red-500">
+                <div className="flex flex-col gap-2 w-full">
                     <Label htmlFor="max-capacity" className="">
                         Whats your max child capacity
                     </Label>
