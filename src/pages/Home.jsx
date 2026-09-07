@@ -188,7 +188,7 @@ function HomeForm() {
     const [value, setValue] = useState(30)
 
     return (
-       <div className="flex flex-col justify-center gap-4 rounded-xl border border-primary bg-primary">
+       <div className="flex flex-col justify-center gap-4 p-4 rounded-xl border border-primary bg-primary">
             <div className="flex flex-col justify-center gap-4 px-4">
                 <div className="flex flex-col gap-2 w-full border border-red-500">
                     <Label htmlFor="max-capacity" className="">
