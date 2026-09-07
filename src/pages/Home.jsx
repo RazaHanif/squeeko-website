@@ -263,7 +263,7 @@ function Home() {
                 </div>
 
                 <div className="w-9/10 lg:w-3/4 flex flex-1 flex-row border border-secondary-foreground rounded-lg bg-primary text-primary-foreground overflow-hidden">
-                    <div className="bg-secondary text-secondary-foreground flex-1 w-full flex justify-center items-center">
+                    <div className="bg-secondary text-secondary-foreground flex-1 w-full flex justify-center items-center border-secondary-foreground">
                         IMAGE
                     </div>
                     <div className="flex-1 w-full flex flex-col">
