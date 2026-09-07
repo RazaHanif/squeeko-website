@@ -334,20 +334,28 @@ function Home() {
                         <p className="w-9/10 lg:w-3/4 text-start font-light">
                              With Squeeko's powerful technology and expert human support, you can keep your busy days running smoothly.
                         </p>
-                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/4">
-                            <Button 
-                                variant="default"
-                                className="flex-1 cursor-pointer p-6 sm:border-0 border border-primary-foreground"
-                            >
+                        <div className="flex flex-row justify-start items-center gap-4">
+                            <Button className="p-5">
                                 Sign Up
                             </Button>
-                            <Button 
-                                variant="secondary"
-                                className="flex-1 cursor-pointer p-6 sm:border-0 border border-secondary-foreground"
-                            >
-                                Book a demo
+                            <Button className="p-5" variant="secondary">
+                                Book a Demo
                             </Button>
                         </div>
+                                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/4">
+                    <Button 
+                        variant="default"
+                        className="flex-1 cursor-pointer p-6 sm:border-0 border border-primary-foreground"
+                    >
+                        Sign Up
+                    </Button>
+                    <Button 
+                        variant="secondary"
+                        className="flex-1 cursor-pointer p-6 sm:border-0 border border-secondary-foreground"
+                    >
+                        Book a demo
+                    </Button>
+                </div>
                     </div>
                     <div className="flex flex-1 w-full">
                         <div className="bg-secondary/50 border-2 border-secondary w-full flex justify-center items-center rounded-xl">
