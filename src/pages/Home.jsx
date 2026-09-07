@@ -139,11 +139,6 @@ function HomeCards() {
             image: "IMAGE",
             header: "Stay on track",
             desc: "This will be a small description of what the scheduling feature does within the app, including attendance, ratio, and other helpful stuff.",
-            links: [
-                {title: "Attendance", link: "#"},
-                {title: "Ratio", link: "#"},
-                {title: "Late Fees", link: "#"},
-            ],
         },
     ]
 
