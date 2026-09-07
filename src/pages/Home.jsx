@@ -184,7 +184,9 @@ function HomeCards() {
 function HomeForm() {
     return (
        <div className="flex flex-col justify-center gap-4 p-8 rounded-xl border border-primary bg-primary">
-            <h2></h2>
+            <h2>
+                Tell us about yourself
+            </h2>
             <Button variant="secondary">
                 Im an admin or director
             </Button>
