@@ -158,7 +158,7 @@ function HomeCards() {
             {data.map(({ image, header, desc }, idx) => (
                 <Card
                     key={idx}
-                    
+                    className="bg-red-500"
                 >
                     <CardHeader>
                         IMG
