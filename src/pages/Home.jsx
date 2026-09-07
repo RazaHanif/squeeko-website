@@ -199,7 +199,7 @@ function HomeForm() {
                     </Label>
                     <div className="flex flex-row gap-4 justify-center items-center p-2 bg-secondary rounded-xl">
                         <Slider 
-                            className="flex-1"
+                            className="flex-5"
                             value={value}
                             onValueChange={(value) => setValue(value)}
                             id="max-capacity"
