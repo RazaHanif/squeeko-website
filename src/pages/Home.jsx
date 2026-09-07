@@ -15,6 +15,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import { Slider } from "@/components/ui/slider"
 import { NavLink } from "react-router-dom"
 import { ChevronRight } from "lucide-react"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
