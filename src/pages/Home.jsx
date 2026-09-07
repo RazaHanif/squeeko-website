@@ -209,14 +209,7 @@ function HomeForm() {
                         />
                         <p className="flex-1 text-end text-primary">{value}</p> 
                     </div>
-                    
                 </div>
-                <Button variant="secondary">
-                    Im a staff member
-                </Button>
-                <Button variant="secondary">
-                    Im a parent or guardian
-                </Button>
             </div>
         </div>
 
