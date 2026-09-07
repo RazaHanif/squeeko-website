@@ -188,17 +188,16 @@ function HomeForm() {
                 Tell us about yourself
             </h2>
             <div>
-                
+                <Button variant="secondary">
+                    Im an admin or director
+                </Button>
+                <Button variant="secondary">
+                    Im a staff member
+                </Button>
+                <Button variant="secondary">
+                    Im a parent or guardian
+                </Button>
             </div>
-            <Button variant="secondary">
-                Im an admin or director
-            </Button>
-            <Button variant="secondary">
-                Im a staff member
-            </Button>
-            <Button variant="secondary">
-                Im a parent or guardian
-            </Button>
         </div>
 
     )
