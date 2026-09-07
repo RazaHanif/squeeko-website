@@ -136,9 +136,37 @@ function HomeFeatureAccordion() {
 function HomeCards() {
     const data = [
         {
-            image: "IMAGE",
+            trigger: "Scheduling",
             header: "Stay on track",
             desc: "This will be a small description of what the scheduling feature does within the app, including attendance, ratio, and other helpful stuff.",
+            links: [
+                {title: "Attendance", link: "#"},
+                {title: "Ratio", link: "#"},
+                {title: "Late Fees", link: "#"},
+            ],
+            image: "IMAGE"
+        },
+        {
+            trigger: "Billing",
+            header: "Get paid",
+            desc: "This will overview how you can collect payments within the app, including automating late fees, field trips, rate increases etc.",
+            links: [
+                {title: "Auto Billing", link: "#"},
+                {title: "Late Fees", link: "#"},
+                {title: "Pizza Party", link: "#"},
+            ],
+            image: "IMAGE"
+        },
+        {
+            trigger: "Communication",
+            header: "Stay in touch",
+            desc: "This will highlight the in app insta style feed, the in app messaging, and the ability to send forms to the parents directly",
+            links: [
+                {title: "Insta Style Feed", link: "#"},
+                {title: "Messaging", link: "#"},
+                {title: "Forms", link: "#"},
+            ],
+            image: "IMAGE"
         },
     ]
 
