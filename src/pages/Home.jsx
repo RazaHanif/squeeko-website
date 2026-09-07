@@ -154,20 +154,23 @@ function HomeCards() {
 //             {data.map(({trigger, header, desc, links, image}) => (
 
     return (
-        
-        <Card className="w-3/4">
-            <CardHeader>
-                IMG
-            </CardHeader>
-            <CardContent>
-                <h2 className="text-2xl font-serif font-bold">
-                    HEADER
-                </h2>
-                <p>
-                    Descripton
-                </p>
-            </CardContent>
-        </Card>
+        <>
+            {data.map(({ image, header, desc }) => (
+                <Card className="w-3/4">
+                    <CardHeader>
+                        IMG
+                    </CardHeader>
+                    <CardContent>
+                        <h2 className="text-2xl font-serif font-bold">
+                            HEADER
+                        </h2>
+                        <p>
+                            Descripton
+                        </p>
+                    </CardContent>
+                </Card>
+            ))}
+        </>
     )
 }
 
