@@ -297,7 +297,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="flex flex-1 w-full">
-                        <div className="bg-secondary/50 border-2 border-primary w-full flex justify-center items-center rounded-xl">
+                        <div className="bg-secondary/50 border-2 border-secondary w-full flex justify-center items-center rounded-xl">
                             IMAGE
                         </div>
                     </div>
