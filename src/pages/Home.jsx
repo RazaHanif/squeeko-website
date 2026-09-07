@@ -189,7 +189,7 @@ function HomeForm() {
                 Tell us about yourself
             </h2>
             <div className="flex flex-col justify-center gap-4">
-                
+                <Label
                 <Slider defaultValue={[33]} max={100} step={1} />
                 <Button variant="secondary">
                     Im a staff member
