@@ -202,7 +202,7 @@ function HomeForm() {
                             value={value}
                             onValueChange={(value) => setValue(value)}
                             id="max-capacity"
-                            defaultValue={[33]} 
+                            min={0}
                             max={100} 
                             step={1} 
                         />
