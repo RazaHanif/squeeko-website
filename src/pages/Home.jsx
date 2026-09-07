@@ -192,10 +192,14 @@ function HomeForm() {
             <div className="flex flex-col justify-center gap-4">
                 <div>
                     <Label htmlFor="max-capacity">
-                        Whats your max child capacity</Label>
+                        Whats your max child capacity
+                    </Label>
                     <Slider 
                         id="max-capacity"
-                    defaultValue={[33]} max={100} step={1} /> 
+                        defaultValue={[33]} 
+                        max={100} 
+                        step={1} 
+                    /> 
                 </div>
                 <Button variant="secondary">
                     Im a staff member
