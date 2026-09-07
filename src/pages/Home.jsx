@@ -302,7 +302,7 @@ function Home() {
                     Tell us about yourself.
                 </div>
 
-                <div className="flex flex-col justify-center gap-4">
+                <div className="bg-foreground">
                     <HomeForm />
                 </div>
             </section>
