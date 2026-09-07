@@ -281,7 +281,7 @@ function Home() {
                         <p className="text-xs font-bold">
                             GET STARTED
                         </p>
-                        <h2 className="text-4xl font-serif text-start font-semibold">
+                        <h2 className="text-4xl lg:text-5xl font-serif text-start font-semibold">
                             See SQUEEKO run your center
                         </h2>
                         <p className="w-9/10 lg:w-3/4 text-start font-light">
