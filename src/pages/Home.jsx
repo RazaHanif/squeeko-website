@@ -151,8 +151,10 @@ function HomeCards() {
             desc: "This will highlight the in app insta style feed, the in app messaging, and the ability to send forms to the parents directly",
         },
     ]
+//             {data.map(({trigger, header, desc, links, image}) => (
 
     return (
+        
         <Card className="w-3/4">
             <CardHeader>
                 IMG
