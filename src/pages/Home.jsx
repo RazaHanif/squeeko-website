@@ -272,7 +272,7 @@ function Home() {
                 <p className="w-3/4 text-center text-2xl">
                     Why Squeeko
                 </p>
-                <HomeCards />
+                {/* <HomeCards /> */}
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full py-8 lg:py-16 bg-gradient-to-b from-background to-primary">
