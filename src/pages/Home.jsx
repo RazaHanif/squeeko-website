@@ -302,7 +302,7 @@ function Home() {
                     Tell us about yourself.
                 </div>
 
-                <div className="bg-foreground">
+                <div className="bg-background">
                     <HomeForm />
                 </div>
             </section>
