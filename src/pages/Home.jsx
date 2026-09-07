@@ -189,7 +189,7 @@ function HomeForm() {
             </h2>
             <div className="flex flex-col justify-center gap-4">
                 <Button variant="secondary">
-                    I want mo
+                    
                 </Button>
                 <Button variant="secondary">
                     Im a staff member
