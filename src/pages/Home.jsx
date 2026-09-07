@@ -247,7 +247,7 @@ function Home() {
                     </p>
                 </div>
 
-                <div className="w-9/10 lg:w-3/4 flex flex-row justify-center items-center gap-6">
+                <div className="w-9/10 lg:w-3/4 flex flex-row justify-center items-center gap-6 border">
                     <Button 
                         variant="default"
                         className="cursor-pointer p-6 sm:border-0 border border-primary-foreground"
