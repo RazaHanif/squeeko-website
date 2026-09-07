@@ -166,7 +166,7 @@ function HomeCards() {
                     className="flex w-3/4"
                 >
                     <CardContent className="flex flex-col justify-center items-center gap-4">
-                        <div className="w-20 h-20 bg-red-500 flex justify-center items-center rounded-full">
+                        <div className="w-20 h-20  flex justify-center items-center rounded-full">
                             {image}
                         </div>
                         <h2 className="text-2xl font-serif font-bold">
