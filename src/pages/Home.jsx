@@ -269,7 +269,7 @@ function Home() {
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-why.svg')] bg-cover bg-center">
-                <p className="w-3/4 text-center text-2xl">
+                <p className="w-3/4 text-center text-2xl border">
                     Why Squeeko
                 </p>
                 {/* <HomeCards /> */}
