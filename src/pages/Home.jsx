@@ -342,7 +342,7 @@ function Home() {
                                 Book a Demo
                             </Button>
                         </div>
-                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/4">
+                        <div className="flex flex-row justify-start items-center gap-6 w-3/4 lg:w-1/4">
                             <Button 
                                 variant="default"
                                 className="flex-1 cursor-pointer p-6 sm:border-0 border border-primary-foreground"
