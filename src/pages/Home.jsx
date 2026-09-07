@@ -190,7 +190,7 @@ function HomeForm() {
                 Tell us about yourself
             </h2>
             <div className="flex flex-col justify-center gap-4">
-                <div className="bg-secondary p-2 flex flex-col gap-2">
+                <div className="bg-secondary p-2 flex flex-col gap-2 rounded-xl">
                     <Label htmlFor="max-capacity">
                         Whats your max child capacity
                     </Label>
