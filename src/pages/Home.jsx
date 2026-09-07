@@ -187,7 +187,7 @@ function HomeForm() {
             <h2 className="">
                 Tell us about yourself
             </h2>
-            <div>
+            <div className="">
                 <Button variant="secondary">
                     Im an admin or director
                 </Button>
