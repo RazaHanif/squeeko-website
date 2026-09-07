@@ -136,7 +136,6 @@ function HomeFeatureAccordion() {
 function HomeCards() {
     const data = [
         {
-            image: "Scheduling",
             header: "Stay on track",
             desc: "This will be a small description of what the scheduling feature does within the app, including attendance, ratio, and other helpful stuff.",
             links: [
