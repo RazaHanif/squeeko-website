@@ -206,7 +206,7 @@ function HomeForm() {
                             max={100} 
                             step={1} 
                         />
-                        <p>{value}</p> 
+                        <p className="flex-1">{value}</p> 
                     </div>
                     
                 </div>
