@@ -170,7 +170,7 @@ function HomeCards() {
                             {image}
                         </p>
                         <h2 className="text-2xl font-serif font-bold">
-                            HEADER
+                            {header}
                         </h2>
                         <p>
                             Descripton
