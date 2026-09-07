@@ -200,7 +200,8 @@ function HomeForm() {
                             defaultValue={[33]} 
                             max={100} 
                             step={1} 
-                        /> 
+                        />
+                        <p>4</p> 
                     </div>
                     
                 </div>
