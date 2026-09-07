@@ -155,9 +155,10 @@ function HomeCards() {
 
     return (
         <>
-            {data.map(({ image, header, desc }) => (
+            {data.map(({ image, header, desc }, idx) => (
                 <Card
-                    key={header}
+                    key={idx}
+                    
                 >
                     <CardHeader>
                         IMG
