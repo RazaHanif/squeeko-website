@@ -154,7 +154,7 @@ function HomeCards() {
 //             {data.map(({trigger, header, desc, links, image}) => (
 
     return (
-        <div className="border border-red-500 w-full flex">
+        <div className="border border-red-500 w-full flex-1">
             {data.map(({ image, header, desc }, idx) => (
                 <Card
                     key={idx}
