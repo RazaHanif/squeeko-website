@@ -268,8 +268,9 @@ const OnboardingForm = () => {
     }
 
     const acceptingType = {
-        "now": "Yes, we're actively enrolling"
-        
+        "now": "Yes, we're actively enrolling",
+        "in6Months": "Not right now, but within 6 months",
+        "after6Months": "Not for at least 6 months",
     }
 
 
