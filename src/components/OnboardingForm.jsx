@@ -282,6 +282,34 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             Are you currently accepting new families?
                         </h2>
+                                                <RadioGroup
+                            value={formData.numOfStaff}
+                            onValueChange={(value) =>
+                                setFormData((prev) => ({
+                                ...prev,
+                                numOfStaff: value,
+                                }))
+                            }
+                            className="px-4"
+                        >
+                            {numOfStaffType.map((value, idx) => (
+                                <div className="flex items-center gap-3" key={idx}>
+                                    <RadioGroupItem
+                                        value={value}
+                                        id={`numOfStaffRadio-${idx}`}
+                                    />
+                                    <Label htmlFor={`numOfStaffRadio-${idx}`}>
+                                        {value}
+                                    </Label>
+                                </div>
+                            ))}
+                        </RadioGroup>
+
+                        <Button 
+                            variant="default"
+                        >
+                            Continue
+                        </Button>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
