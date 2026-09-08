@@ -384,7 +384,7 @@ const OnboardingForm = () => {
                                         type="button"
                                         key={idx} 
                                         value={type} 
-                                        variant="secondary"
+                                        variant={formData.painPoints}
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
