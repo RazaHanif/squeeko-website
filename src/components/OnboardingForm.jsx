@@ -263,7 +263,7 @@ const OnboardingForm = () => {
     const daycareType = {
         "standalone": "Standalone daycare / childcare centre",
         "inSchool": "Daycare within a school",
-        "home": "Summer Break",
+        "home": "Home daycare",
         "winter": "Winter Break"
     }
 
