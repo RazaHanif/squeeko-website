@@ -3,6 +3,7 @@ import { Label } from "@/components/ui/label";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Button } from "./ui/button";
+import { Input } from "./ui/input";
 
 const OnboardingForm = () => {
     const daycareType = [
@@ -158,7 +159,7 @@ const OnboardingForm = () => {
                             What is your maximum licensed capacity?
                         </h2>
                         <div>
-                            
+                            <Input type="number" />
                         </div>
 
                     </div>
