@@ -136,8 +136,10 @@ const OnboardingForm = () => {
                 >
                     <div className="bg-red-500">
                         <h2>
-                            
-                        </h2>Centre type
+                            Centre type
+                        </h2>
+
+                        {}
 
 
                     </div>
