@@ -356,135 +356,135 @@ const OnboardingForm = () => {
                         </div>
                     )}
 
-                    <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
-                        <h2 className="text-xl text-center font-serif font-semibold w-full">
-                            Whats the biggest challenge you're trying to solve?
-                        </h2>
-                        {/* Make this so they can choose multiple options that just add to the painPoints array */}
-                        <div className="flex flex-col gap-4 w-full px-4">
-                            {painPointType.map((type, idx) => (
-                                <Button 
-                                key={idx} 
-                                value={type} 
-                                variant="secondary"
-                                onClick={() => {
-                                    setFormData((prev) => ({
-                                        ...prev,
-                                        painPoints: type,
-                                    }))
-                                    console.log(type)
-                                }}
-                                className="p-6 w-full"
-                                >
-                                    {type}
-                                </Button>
-                            ))}
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                Whats the biggest challenge you're trying to solve?
+                            </h2>
+                            {/* Make this so they can choose multiple options that just add to the painPoints array */}
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                {painPointType.map((type, idx) => (
+                                    <Button 
+                                    key={idx} 
+                                    value={type} 
+                                    variant="secondary"
+                                    onClick={() => {
+                                        setFormData((prev) => ({
+                                            ...prev,
+                                            painPoints: type,
+                                        }))
+                                        console.log(type)
+                                    }}
+                                    className="p-6 w-full"
+                                    >
+                                        {type}
+                                    </Button>
+                                ))}
+                            </div>
                         </div>
-                    </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
-                        <h2 className="text-xl text-center font-serif font-semibold w-full">
-                            When are you looking to make a change?
-                        </h2>
-                        <div className="flex flex-col gap-4 w-full px-4">
-                            {timelineType.map((type, idx) => (
-                                <Button 
-                                key={idx} 
-                                value={type} 
-                                variant="secondary"
-                                onClick={() => {
-                                    setFormData((prev) => ({
-                                        ...prev,
-                                        timeline: type,
-                                    }))
-                                    console.log(type)
-                                }}
-                                className="p-6 w-full"
-                                >
-                                    {type}
-                                </Button>
-                            ))}
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                When are you looking to make a change?
+                            </h2>
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                {timelineType.map((type, idx) => (
+                                    <Button 
+                                    key={idx} 
+                                    value={type} 
+                                    variant="secondary"
+                                    onClick={() => {
+                                        setFormData((prev) => ({
+                                            ...prev,
+                                            timeline: type,
+                                        }))
+                                        console.log(type)
+                                    }}
+                                    className="p-6 w-full"
+                                    >
+                                        {type}
+                                    </Button>
+                                ))}
+                            </div>
                         </div>
-                    </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
-                        <h2 className="text-xl text-center font-serif font-semibold w-full">
-                            Almost there! Let's get your centre connected with our team.
-                        </h2>
-                        <div className="flex flex-col gap-4 w-full px-4">
-                            <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                <Label htmlFor="firstName" className="pl-2.5 text-xs">
-                                    First Name
-                                </Label>
-                                <input
-                                    type="text"
-                                    name="firstName"
-                                    id="firstName"
-                                    className={inputClass}
-                                    value={formData.firstName}
-                                    onChange={handleChange}
-                                />
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                Almost there! Let's get your centre connected with our team.
+                            </h2>
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <Label htmlFor="firstName" className="pl-2.5 text-xs">
+                                        First Name
+                                    </Label>
+                                    <input
+                                        type="text"
+                                        name="firstName"
+                                        id="firstName"
+                                        className={inputClass}
+                                        value={formData.firstName}
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <Label htmlFor="lastName" className="pl-2.5 text-xs">
+                                        Last Name
+                                    </Label>
+                                    <input
+                                        type="text"
+                                        name="lastName"
+                                        id="lastName"
+                                        className={inputClass}
+                                        value={formData.lastName}
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <Label htmlFor="company" className="pl-2.5 text-xs">
+                                        Company Name
+                                    </Label>
+                                    <input
+                                        type="text"
+                                        name="company"
+                                        id="company"
+                                        className={inputClass}
+                                        value={formData.company}
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <Label htmlFor="email" className="pl-2.5 text-xs">
+                                        Email
+                                    </Label>
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        className={inputClass}
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <Label htmlFor="phone" className="pl-2.5 text-xs">
+                                        Phone
+                                    </Label>
+                                    <input
+                                        type="phone"
+                                        name="phone"
+                                        id="phone"
+                                        className={inputClass}
+                                        value={formData.phone}
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <Button 
+                                    type="submit"
+                                    variant="secondary"
+                                >
+                                    Submit
+                                </Button>
                             </div>
-                            <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                <Label htmlFor="lastName" className="pl-2.5 text-xs">
-                                    Last Name
-                                </Label>
-                                <input
-                                    type="text"
-                                    name="lastName"
-                                    id="lastName"
-                                    className={inputClass}
-                                    value={formData.lastName}
-                                    onChange={handleChange}
-                                />
-                            </div>
-                            <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                <Label htmlFor="company" className="pl-2.5 text-xs">
-                                    Company Name
-                                </Label>
-                                <input
-                                    type="text"
-                                    name="company"
-                                    id="company"
-                                    className={inputClass}
-                                    value={formData.company}
-                                    onChange={handleChange}
-                                />
-                            </div>
-                            <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                <Label htmlFor="email" className="pl-2.5 text-xs">
-                                    Email
-                                </Label>
-                                <input
-                                    type="email"
-                                    name="email"
-                                    id="email"
-                                    className={inputClass}
-                                    value={formData.email}
-                                    onChange={handleChange}
-                                />
-                            </div>
-                            <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                <Label htmlFor="phone" className="pl-2.5 text-xs">
-                                    Phone
-                                </Label>
-                                <input
-                                    type="phone"
-                                    name="phone"
-                                    id="phone"
-                                    className={inputClass}
-                                    value={formData.phone}
-                                    onChange={handleChange}
-                                />
-                            </div>
-                            <Button 
-                                type="submit"
-                                variant="secondary"
-                            >
-                                Submit
-                            </Button>
                         </div>
-                    </div>
                 </form>
             )}
         </div>
