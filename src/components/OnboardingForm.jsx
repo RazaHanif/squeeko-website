@@ -237,8 +237,8 @@ const OnboardingForm = () => {
                                         <p>1</p>
                                         <p>25</p>
                                         <p>50</p>
-                                        <p>1</p>
-                                        <p>1</p>
+                                        <p>75</p>
+                                        <p>100+</p>
                                     </div>
                             </div>
                             <Button 
