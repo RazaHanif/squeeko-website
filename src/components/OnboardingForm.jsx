@@ -203,7 +203,7 @@ const OnboardingForm = () => {
                             About how many employees work at your centre?
                         </h2>
                             <RadioGroup
-                                value={formData.session}
+                                value={formData.numOfStaff}
                                 onValueChange={(value) =>
                                     setFormData((prev) => ({
                                     ...prev,
