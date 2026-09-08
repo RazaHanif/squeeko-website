@@ -159,7 +159,11 @@ const OnboardingForm = () => {
                             What is your maximum licensed capacity?
                         </h2>
                         <div>
-                            <Input type="number" value/>
+                            <Input 
+                                type="number" 
+                                value={formData.maxChildCapacity}
+                                on
+                            />
                         </div>
 
                     </div>
