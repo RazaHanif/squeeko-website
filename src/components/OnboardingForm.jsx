@@ -388,7 +388,9 @@ const OnboardingForm = () => {
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
-                                                painPoints: prev.painPoints.includes(type),
+                                                painPoints: prev.painPoints.includes(type)
+                                                    ? prev.painPoints.filter(item => item !== type)
+                                                    : [...prev.painPoints, type],
                                             }))
                                             console.log(type)
                                             setCurrentStep(prev => prev + 1);
