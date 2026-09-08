@@ -136,7 +136,7 @@ const OnboardingForm = () => {
                     className="w-full flex flex-1 flex-col justify-center rounded-2xl bg-primary py-8 px-8 lg:py-16 gap-1"
                 >
                     <div className="flex flex-col justify-center items-center gap-2 border">
-                        <h2 className="text-2xl">
+                        <h2 className="text-xl">
                             What best describes your centre?
                         </h2>
 
