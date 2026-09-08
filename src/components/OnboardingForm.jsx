@@ -161,7 +161,9 @@ const OnboardingForm = () => {
                         </div>
 
                         <Progress 
-                            value={33} />
+                            value={33} 
+                            className="h-2"    
+                        />
 
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
