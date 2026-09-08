@@ -301,7 +301,7 @@ const OnboardingForm = () => {
 
     const [formData, setFormData] = useState({
         firstName: "",
-        firstName: "",
+        lastName: "",
         email: "",
         phone: "",
         type: "",
