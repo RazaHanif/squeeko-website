@@ -237,7 +237,7 @@ const OnboardingForm = () => {
                         </div>
                     )}
 
-                    
+                    {currentStep === 2}
                     <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
                         <h2 className="text-xl text-center font-serif font-semibold w-full">
                             About how many employees work at your centre?
