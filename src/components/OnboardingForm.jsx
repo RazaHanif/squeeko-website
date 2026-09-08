@@ -154,7 +154,7 @@ const OnboardingForm = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
+                    <div className="flex flex-col justify-center items-center gap-4 border-2 border-primary-foreground">
                         <h2 className="text-xl">
                             What is your maximum licensed capacity?
                         </h2>
