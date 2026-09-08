@@ -151,7 +151,10 @@ const OnboardingForm = () => {
                                 variant="ghost"
                                 onClick={() => setCurrentStep(prev => Math.max(prev - 1, 0))}
                                 disabled={currentStep === 0}
-                            />
+                            >
+                                Back
+                            </Button>
+                            
                         </div>
 
                     </div>
