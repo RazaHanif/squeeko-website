@@ -162,7 +162,7 @@ const OnboardingForm = () => {
                     </div>
 
                     <div className="bg-red-500">
-                        num of locations
+                        How many locations do you operate?
                     </div>
 
                     <div className="bg-red-500">
