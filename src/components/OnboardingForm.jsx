@@ -261,6 +261,12 @@ const OnboardingForm = () => {
                                 key={idx} 
                                 value={type} 
                                 onClick={() => console.log(type)}
+                                onValueChange={(value) =>
+                                    setFormData((prev) => ({
+                                    ...prev,
+                                    session: value,
+                                    }))
+                                }
                                 className="p-6 w-full"
                                 >
                                     {type}
