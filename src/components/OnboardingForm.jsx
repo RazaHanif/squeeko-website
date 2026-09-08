@@ -191,6 +191,9 @@ const OnboardingForm = () => {
                                 step={1}
                             />
                         </div>
+                        <Button variant="primary">
+                            Continue
+                        </Button>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
