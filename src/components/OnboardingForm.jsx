@@ -273,7 +273,7 @@ const OnboardingForm = () => {
         "Not for at least 6 months",
     ]
 
-    const manageType = [
+    const managementType = [
         "Paper / Binders",
         "Spreadsheets / Excel",
         "Childcare Software",
