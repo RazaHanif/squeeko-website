@@ -108,7 +108,7 @@ const OnboardingForm = () => {
         <div className="w-3/4 lg:w-1/4">
             { true ? (
                 <div 
-                    className='w-full flex flex-col justify-center items-center shadow-lg bg-card gap-4 border-2 rounded-lg lg:py-16 py-8'
+                    className='w-full flex flex-col justify-center items-center'
                 >
                     <h2 className="">
                         You're all set!
@@ -132,7 +132,7 @@ const OnboardingForm = () => {
             ) : (
                 <form
                     onSubmit={ handleSubmit }
-                    className='w-full flex flex-col justify-center items-center shadow-lg bg-card gap-4 border-2 rounded-lg lg:py-16 py-8'
+                    className='w-full flex flex-col justify-center items-center'
                 >
                     <div className="flex flex-col justify-center gap-4 p-4 rounded-xl border border-primary-foreground bg-primary w-3/4 lg:w-1/4">
                         <div className="flex flex-col justify-center gap-4 w-full">
