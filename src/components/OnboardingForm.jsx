@@ -110,7 +110,7 @@ const OnboardingForm = () => {
                 <div 
                     className="w-full flex flex-1 flex-col justify-center rounded-2xl bg-primary p-8"
                 >
-                    <h2 className="">
+                    <h2 className="text-2xl">
                         You're all set!
                     </h2>
 
