@@ -267,7 +267,6 @@ const OnboardingForm = () => {
                                 </Button>
                             ))}
                             <Button 
-                                key={idx} 
                                 value={type} 
                                 onClick={() => console.log(type)}
                                 className="p-6 w-full"
