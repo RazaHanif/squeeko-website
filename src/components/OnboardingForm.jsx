@@ -286,7 +286,7 @@ const OnboardingForm = () => {
         "Staying compliant",
         "Communicating with families",
         "Attendance & daily logs",
-        
+        "Invoicing & payments"
     ]
 
 
