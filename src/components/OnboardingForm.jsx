@@ -184,6 +184,9 @@ const OnboardingForm = () => {
                                 step={1}
                             />
                         </div>
+                        <p className={`text-xs font-light ${formData.maxChildCapacity > 100 ? 'text-destructive' : 'text-transparent'}`}>
+                                Please enter a value less than or equal to 100.
+                        </p>
                         <Button 
                             variant="default"
                         >
