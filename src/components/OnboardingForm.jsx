@@ -90,6 +90,8 @@ const OnboardingForm = () => {
 
         setIsSubmitting(true);
 
+        console.log()
+
         // try {
         //     const response = await fetch("/api/submit-form", {
         //         method: "POST",
