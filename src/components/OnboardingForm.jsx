@@ -207,7 +207,7 @@ const OnboardingForm = () => {
                                 onValueChange={(value) =>
                                     setFormData((prev) => ({
                                     ...prev,
-                                    session: value,
+                                    numOfStaff: value,
                                     }))
                                 }
                             >
