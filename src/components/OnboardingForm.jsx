@@ -74,6 +74,7 @@ const OnboardingForm = () => {
 
 
     const [currentStep, setCurrentStep] = useState(0)
+    const [direction, setDirection] = useState(1)
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
 
