@@ -86,6 +86,11 @@ const OnboardingForm = () => {
         });
     };
 
+    const nextStep = () => {
+        setDirection(1)
+        setCurrentStep
+    }
+
     const handleSubmit = async (e) => {
         e.preventDefault();
 
