@@ -166,7 +166,7 @@ const OnboardingForm = () => {
                     </div>
 
                     <div className="bg-red-500">
-                        Accepting new families?
+                        Are you currently accepting new families?
                     </div>
 
                     <div className="bg-red-500">
