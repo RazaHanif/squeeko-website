@@ -388,7 +388,7 @@ const OnboardingForm = () => {
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
-                                                painPoints: type,
+                                                painPoints: prev.painPoints,
                                             }))
                                             console.log(type)
                                             setCurrentStep(prev => prev + 1);
