@@ -174,7 +174,7 @@ const OnboardingForm = () => {
                     </div>
 
                     <div className="bg-red-500">
-                        Whats the biggest challenge you're trying to solve? ()
+                        Whats the biggest challenge you're trying to solve? (choose multiple)
                     </div>
 
                     <div className="bg-red-500">
