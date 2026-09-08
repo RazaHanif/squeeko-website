@@ -5,21 +5,7 @@ export default async function handler(req, res) {
     
     const data = req.body
 
-
-    const transporter = nodemailer.createTransport({
-        host: 'smtp.gmail.com',
-        port: 465,
-        secure: true,
-        auth: {
-          user: process.env.EMAIL_INFO,
-          pass: process.env.EMAIL_PASS
-        },
-    });
       
-
-    let emailContent = ''
-    let subject = ''
-
     switch (data.type) {
         case 'camp':
             subject = `${data.session} Camp Inquiry - ${data.name}`
