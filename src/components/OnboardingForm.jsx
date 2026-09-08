@@ -1,4 +1,4 @@
-function OnBoardingForm() {
+const OnboardingForm = () => {
     const [value, setValue] = useState(30)
 
     return (
@@ -27,4 +27,4 @@ function OnBoardingForm() {
     )
 }
 
-export const OnBoardingForm
+export const OnboardingForm
