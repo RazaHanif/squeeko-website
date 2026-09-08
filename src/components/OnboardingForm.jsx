@@ -260,26 +260,26 @@ const CampForm = ({ campType }) => {
 
 
 const OnboardingForm = () => {
-    const daycareType = {
-        "standalone": "Standalone daycare / childcare centre",
-        "inSchool": "Daycare within a school",
-        "home": "Home daycare",
-        "nursery": "Preschool / nursery"
-    }
+    const daycareType = [
+        "Standalone daycare / childcare centre",
+        "Daycare within a school",
+        "Home daycare",
+        "Preschool / nursery"
+    ]
 
-    const acceptingType = {
-        "now": "Yes, we're actively enrolling",
-        "in6Months": "Not right now, but within 6 months",
-        "after6Months": "Not for at least 6 months",
-    }
+    const acceptingType = [
+        "Yes, we're actively enrolling",
+        "Not right now, but within 6 months",
+        "Not for at least 6 months",
+    ]
 
-    const manageType = {
-        "paper": "Paper / Binders",
-        "spreadsheets": "Spreadsheets / Excel",
-        "software": "Childcare Software",
-        "combo": "A Combination of Tools",
-        "other": "Other"
-    }
+    const manageType = [
+        "Paper / Binders",
+        "Spreadsheets / Excel",
+        "Childcare Software",
+        "A Combination of Tools",
+        "Other"
+    ]
 
     const painPointType = [
         "Keeping records organized",
@@ -290,6 +290,11 @@ const OnboardingForm = () => {
         "Managing forms & paperwork",
         "Staff management",
         "Other"
+    ]
+
+    const timelineType = [
+        "exploring",
+
     ]
 
 
