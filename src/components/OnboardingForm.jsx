@@ -2,6 +2,7 @@ import { Slider } from "@/components/ui/slider"
 import { Label } from "@/components/ui/label";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Button } from "./ui/button";
 
 const OnboardingForm = () => {
     const daycareType = [
@@ -139,7 +140,11 @@ const OnboardingForm = () => {
                             Centre type
                         </h2>
 
-                        {daycare}
+                        {daycareType.map((type) => (
+                            <Button value={type} onClick={handleChange}>
+                                
+                            </Button>
+                        ))}
 
 
                     </div>
