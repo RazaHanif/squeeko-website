@@ -194,48 +194,48 @@ const OnboardingForm = () => {
                         </div>
                     )}
 
-                    {currentStep === 1 }
+                    {currentStep === 1 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                What is your maximum licensed capacity?
+                            </h2>
+                            <div className="flex flex-col justify-center items-center py-2 px-4">
+                                <div className="flex flex-row justify-center items-center p-2 gap-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <input 
+                                        type="number"
+                                        id="maxChildCapacity-input"
+                                        name="maxChildCapacity"
+                                        className="h-8 w-full min-w-0 border border-primary rounded-lg px-0 py-1 outline-none placeholder:text-muted-foreground text-md flex-1 text-end"
+                                        value={formData.maxChildCapacity}
+                                        onChange={handleChange}
+                                    />
+                                    <p className="flex-1">
+                                        Children
+                                    </p>
+                                </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
-                        <h2 className="text-xl text-center font-serif font-semibold w-full">
-                            What is your maximum licensed capacity?
-                        </h2>
-                        <div className="flex flex-col justify-center items-center py-2 px-4">
-                            <div className="flex flex-row justify-center items-center p-2 gap-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                <input 
-                                    type="number"
-                                    id="maxChildCapacity-input"
+                                <p className={`text-xs font-light my-1 ${formData.maxChildCapacity > 100 ? 'text-destructive' : 'text-transparent'}`}>
+                                        Please enter a value less than or equal to 100.
+                                </p>
+
+                                {/* Maybe we can add numbers to the bottom of this slider to represent the scale, with the very right being 100+ */}
+                                <Slider
+                                    id="maxChildCapacity-slider"
                                     name="maxChildCapacity"
-                                    className="h-8 w-full min-w-0 border border-primary rounded-lg px-0 py-1 outline-none placeholder:text-muted-foreground text-md flex-1 text-end"
                                     value={formData.maxChildCapacity}
                                     onChange={handleChange}
+                                    max={100}
+                                    min={1}
+                                    step={1}
                                 />
-                                <p className="flex-1">
-                                    Children
-                                </p>
                             </div>
-
-                            <p className={`text-xs font-light my-1 ${formData.maxChildCapacity > 100 ? 'text-destructive' : 'text-transparent'}`}>
-                                    Please enter a value less than or equal to 100.
-                            </p>
-
-                            {/* Maybe we can add numbers to the bottom of this slider to represent the scale, with the very right being 100+ */}
-                            <Slider
-                                id="maxChildCapacity-slider"
-                                name="maxChildCapacity"
-                                value={formData.maxChildCapacity}
-                                onChange={handleChange}
-                                max={100}
-                                min={1}
-                                step={1}
-                            />
+                            <Button 
+                                variant="secondary"
+                            >
+                                Continue
+                            </Button>
                         </div>
-                        <Button 
-                            variant="secondary"
-                        >
-                            Continue
-                        </Button>
-                    </div>
+                    )}
 
                     <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
                         <h2 className="text-xl text-center font-serif font-semibold w-full">
