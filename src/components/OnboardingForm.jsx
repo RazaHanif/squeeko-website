@@ -87,12 +87,7 @@ const OnboardingForm = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (!formData.dob) {
-            setErrorDOB("Please select a date of birth.");
-            return;
-        }
 
-        setErrorDOB("")
         setIsSubmitting(true);
 
         try {
