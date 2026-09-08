@@ -154,7 +154,7 @@ const OnboardingForm = () => {
                                 key={idx} 
                                 value={type} 
                                 onClick={() => {
-                                    setFormData(() => ({
+                                    setFormData((prev) => ({
                                         ...prev,
                                         numOfStaff: type,
                                     }))
