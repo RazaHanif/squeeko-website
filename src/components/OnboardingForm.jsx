@@ -350,7 +350,7 @@ const OnboardingForm = () => {
         setIsSubmitting(true);
 
         try {
-            const response = await fetch("/api/send-email", {
+            const response = await fetch("/api/submit-form", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
