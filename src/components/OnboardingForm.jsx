@@ -137,7 +137,7 @@ const OnboardingForm = () => {
                 >
                     <div className="bg-red-500">
                         <h2>
-                            Centre type
+                            What kind of childcare business are you?
                         </h2>
 
                         {daycareType.map((type, idx) => (
