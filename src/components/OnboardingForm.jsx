@@ -134,7 +134,7 @@ const OnboardingForm = () => {
                                     <Slider 
                                         className="flex-5"
                                         value={formData.maxChildCapacity}
-                                        onValueChange={handleChange}
+                                        onChange={handleChange}
                                         id="max-capacity"
                                         min={0}
                                         max={100} 
