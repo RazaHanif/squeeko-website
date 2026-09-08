@@ -371,7 +371,7 @@ const OnboardingForm = () => {
                             Almost there! Let's get your centre connected with our team.
                         </h2>
                         <div className="flex flex-col gap-4 w-full px-4">
-                            <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg text-primary-foreground">
+                            <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
                                 <Label htmlFor="firstName">
                                     First Name
                                 </Label>
@@ -384,7 +384,7 @@ const OnboardingForm = () => {
                                     onChange={handleChange}
                                 />
                             </div>
-                            <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg text-primary-foreground">
+                            <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
                                 <Label htmlFor="lastName">
                                     Last Name
                                 </Label>
@@ -396,7 +396,7 @@ const OnboardingForm = () => {
                                     onValueChange ={handleChange}
                                 />
                             </div>
-                            <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg text-primary-foreground">
+                            <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
                                 <Label htmlFor="company">
                                     Company Name
                                 </Label>
@@ -408,7 +408,7 @@ const OnboardingForm = () => {
                                     onValueChange ={handleChange}
                                 />
                             </div>
-                            <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg text-primary-foreground">
+                            <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
                                 <Label htmlFor="email">
                                     Email
                                 </Label>
@@ -420,7 +420,7 @@ const OnboardingForm = () => {
                                     onValueChange ={handleChange}
                                 />
                             </div>
-                            <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg text-primary-foreground">
+                            <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
                                 <Label htmlFor="phone">
                                     Phone
                                 </Label>
