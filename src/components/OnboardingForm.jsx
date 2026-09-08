@@ -310,6 +310,8 @@ const OnboardingForm = () => {
         numOfStaff: "",
         numOfLocations: "",
         accepting: "",
+        accepting: "",
+        accepting: "",
 
     });
 
