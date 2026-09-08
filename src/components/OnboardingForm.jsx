@@ -283,11 +283,11 @@ const OnboardingForm = () => {
                             Are you currently accepting new families?
                         </h2>
                         <RadioGroup
-                            value={formData.numOfStaff}
+                            value={formData.a}
                             onValueChange={(value) =>
                                 setFormData((prev) => ({
                                 ...prev,
-                                numOfStaff: value,
+                                a: value,
                                 }))
                             }
                             className="px-4"
