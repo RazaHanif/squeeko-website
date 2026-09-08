@@ -304,6 +304,7 @@ const OnboardingForm = () => {
         lastName: "",
         email: "",
         phone: "",
+        company: "",
         type: "",
         maxChildren: "",
         staff: "",
