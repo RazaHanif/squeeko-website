@@ -173,13 +173,13 @@ const OnboardingForm = () => {
                                 </p>  
                             </div>
                             <div className="text-xs font-light text-destructive">
-                            {   
-                                formData.maxChildCapacity > 100 && (
-                                    <p className="text-xs font-light text-destructive">
-                                        Please enter a value less than or equal to 100.
-                                    </p>
-                                )
-                            }
+                                {   
+                                    formData.maxChildCapacity > 100 && (
+                                        <p className="text-xs font-light text-destructive">
+                                            Please enter a value less than or equal to 100.
+                                        </p>
+                                    )
+                                }
                             </div>
 
                             {/* Maybe we can add numbers to the bottom of this slider to represent the scale, with the very right being 100+ */}
