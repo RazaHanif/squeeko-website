@@ -140,7 +140,7 @@ const OnboardingForm = () => {
                             What best describes your centre?
                         </h2>
 
-                        <div className="grid grid-cols-1 lg:grid-cols-2">
+                        <div className="flex flex-col">
                             {daycareType.map((type, idx) => (
                                 <Button 
                                     key={idx} 
