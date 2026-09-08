@@ -268,7 +268,7 @@ const OnboardingForm = () => {
     }
 
     const acceptingType = {
-        
+        "now": "Yes, we're activ"
     }
 
 
