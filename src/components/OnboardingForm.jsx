@@ -219,7 +219,7 @@ const OnboardingForm = () => {
                                 </p>
 
                                 {/* Maybe we can add numbers to the bottom of this slider to represent the scale, with the very right being 100+ */}
-                                <div className="w-full">
+                                <div className="w-full flex flex-col gap-1">
                                     <Slider
                                         id="maxChildCapacity-slider"
                                         name="maxChildCapacity"
