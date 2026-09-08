@@ -215,6 +215,7 @@ const OnboardingForm = () => {
                                 numOfStaff: value,
                                 }))
                             }
+                            className="px-4"
                         >
                             {numOfStaffType.map((value, idx) => (
                                 <div className="flex items-center gap-3" key={idx}>
