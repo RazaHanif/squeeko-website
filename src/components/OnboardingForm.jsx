@@ -134,7 +134,7 @@ const OnboardingForm = () => {
                     onSubmit={ handleSubmit }
                     className="w-full flex flex-1 flex-col justify-center rounded-2xl text-secondary-foreground py-8 px-8 lg:py-16 gap-1"
                 >
-                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
                         <h2 className="text-xl">
                             What best describes your centre?
                         </h2>
@@ -153,50 +153,50 @@ const OnboardingForm = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
                         <h2 className="text-xl">
                             What is your maximum licensed capacity?
                         </h2>
-                        
+
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
                         <h2 className="text-xl">
                             About how many employees work at your centre?
                         </h2>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
                         <h2 className="text-xl">
                             How many locations do you operate?
                         </h2>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
                         <h2 className="text-xl">
                             Are you currently accepting new families?
                         </h2>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
                         <h2 className="text-xl">
                             How do you currently manage your centre?
                         </h2>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
                         <h2 className="text-xl">
                          Whats the biggest challenge you're trying to solve? (choose multiple)
                         </h2>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
                         <h2 className="text-xl">
                             When are you looking to make a change?
                         </h2>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
                         <h2 className="text-xl">
                             Almost there! Let's get your centre connected with our team.
                         </h2>
