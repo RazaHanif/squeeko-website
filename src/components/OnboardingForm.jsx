@@ -135,7 +135,7 @@ const OnboardingForm = () => {
                     className="w-full flex flex-1 flex-col justify-center rounded-2xl bg-primary py-8 px-8 lg:py-16 gap-1"
                 >
                     <div className="bg-red-500">
-                        Centre type
+                        
                     </div>
 
                     <div className="bg-red-500">
