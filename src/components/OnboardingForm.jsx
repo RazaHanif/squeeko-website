@@ -418,14 +418,14 @@ const OnboardingForm = () => {
                                 />
                             </div>
                             <div className="flex items-center">
-                                <Label htmlFor="firstName">
+                                <Label htmlFor="phone">
                                     First Name
                                 </Label>
                                 <Input
                                     type="text"
-                                    name="firstName"
-                                    id="firstName"
-                                    value={formData.firstName}
+                                    name="phone"
+                                    id="phone"
+                                    value={formData.phone}
                                     onValueChange ={handleChange}
                                 />
                             </div>
