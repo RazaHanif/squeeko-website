@@ -278,7 +278,7 @@ const OnboardingForm = () => {
         maxChildren: "",
         staff: "",
         locations: "",
-        accepting
+        accepting: "",
 
     });
 
