@@ -140,6 +140,10 @@ const OnboardingForm = () => {
                             What best describes your centre?
                         </h2>
 
+                        <div>
+                            
+                        </div>
+
                         {daycareType.map((type, idx) => (
                             <Button 
                                 key={idx} 
