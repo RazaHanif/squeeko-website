@@ -202,7 +202,6 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             About how many employees work at your centre?
                         </h2>
-                        <div>
                             <RadioGroup defaultValue="option-one">
                                 <div className="flex items-center gap-3">
                                     <RadioGroupItem value="option-one" id="option-one" />
@@ -213,8 +212,6 @@ const OnboardingForm = () => {
                                     <Label htmlFor="option-two">Option Two</Label>
                                 </div>
                             </RadioGroup>
-
-                        </div>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
