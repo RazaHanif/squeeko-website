@@ -293,7 +293,7 @@ const OnboardingForm = () => {
                                 }}
                                 className="p-6 w-full"
                             >
-                                1
+                                2 or more
                             </Button>
                         </div>
 
