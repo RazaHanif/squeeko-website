@@ -242,6 +242,7 @@ const OnboardingForm = () => {
                         <div className="flex flex-col gap-4 w-full px-4">
                             <Button 
                                 value={"1"} 
+                                variant="secondary"
                                 onClick={() => {
                                     setFormData((prev) => ({
                                         ...prev,
