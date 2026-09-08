@@ -400,7 +400,6 @@ const OnboardingForm = () => {
             className='w-full flex flex-col justify-center items-center shadow-lg bg-card gap-4 border-2 rounded-lg lg:py-16 py-8'
         >
             { form }
-        </form>
        <div className="flex flex-col justify-center gap-4 p-4 rounded-xl border border-primary-foreground bg-primary w-3/4 lg:w-1/4">
             <div className="flex flex-col justify-center gap-4 w-full">
                 <div className="flex flex-col gap-2 w-full justify-center">
@@ -422,6 +421,7 @@ const OnboardingForm = () => {
                 </div>
             </div>
         </div>
+        </form>
         </>
     )
 }
