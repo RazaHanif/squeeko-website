@@ -298,18 +298,6 @@ const OnboardingForm = () => {
         "As Soon As Possible"
     ]
 
-    const finalScreen = `
-    You're all set! 🎉
-
-    We've got everything we need.
-
-    A member of the Squeeko team will review your centre's information and reach out to you shortly.
-
-    In the meantime, see what Squeeko can do for your centre.
-
-    Explore Squeeko →
-    `
-
     const [formData, setFormData] = useState({
         firstName: "",
         lastName: "",
