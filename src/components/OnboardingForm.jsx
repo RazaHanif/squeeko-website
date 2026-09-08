@@ -264,42 +264,43 @@ const OnboardingForm = () => {
                         </div>
                     )}
 
-                    {currentStep === 3 }
-                    <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
-                        <h2 className="text-xl text-center font-serif font-semibold w-full">
-                            How many locations do you operate?
-                        </h2>
-                        <div className="flex flex-col gap-4 w-full px-4">
-                            <Button 
-                                value={"1"} 
-                                variant="secondary"
-                                onClick={() => {
-                                    setFormData((prev) => ({
-                                        ...prev,
-                                        numOfStaff: "1",
-                                    }))
-                                    console.log("1")
-                                }}
-                                className="p-6 w-full"
-                            >
-                                1
-                            </Button>
-                            <Button 
-                                value={"2 or more"} 
-                                variant="secondary"
-                                onClick={() => {
-                                    setFormData((prev) => ({
-                                        ...prev,
-                                        numOfStaff: "2 or more",
-                                    }))
-                                    console.log("2 or more")
-                                }}
-                                className="p-6 w-full"
-                            >
-                                2 or more
-                            </Button>
+                    {currentStep === 3 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                How many locations do you operate?
+                            </h2>
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                <Button 
+                                    value={"1"} 
+                                    variant="secondary"
+                                    onClick={() => {
+                                        setFormData((prev) => ({
+                                            ...prev,
+                                            numOfStaff: "1",
+                                        }))
+                                        console.log("1")
+                                    }}
+                                    className="p-6 w-full"
+                                >
+                                    1
+                                </Button>
+                                <Button 
+                                    value={"2 or more"} 
+                                    variant="secondary"
+                                    onClick={() => {
+                                        setFormData((prev) => ({
+                                            ...prev,
+                                            numOfStaff: "2 or more",
+                                        }))
+                                        console.log("2 or more")
+                                    }}
+                                    className="p-6 w-full"
+                                >
+                                    2 or more
+                                </Button>
+                            </div>
                         </div>
-                    </div>
+                    )}
 
                     <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
                         <h2 className="text-xl text-center font-serif font-semibold w-full">
