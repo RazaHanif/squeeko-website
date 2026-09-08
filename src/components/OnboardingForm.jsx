@@ -319,6 +319,7 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             Whats the biggest challenge you're trying to solve? (choose multiple)
                         </h2>
+                        {/* Make this so they can choose multiple options that just add to the  */}
                         <div className="flex flex-col gap-4 w-full px-4">
                             {painPointType.map((type, idx) => (
                                 <Button 
