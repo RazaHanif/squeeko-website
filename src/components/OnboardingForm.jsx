@@ -174,7 +174,7 @@ const OnboardingForm = () => {
                     </div>
 
                     <div className="bg-red-500">
-                        Whats your biggest challen
+                        Whats the biggest challenge you're trying to solve?
                     </div>
 
                     <div className="bg-red-500">
