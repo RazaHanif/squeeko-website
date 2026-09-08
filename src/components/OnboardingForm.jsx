@@ -220,22 +220,23 @@ const OnboardingForm = () => {
 
                                 {/* Maybe we can add numbers to the bottom of this slider to represent the scale, with the very right being 100+ */}
                                 <div>
-                                    
+                                    <Slider
+                                        id="maxChildCapacity-slider"
+                                        name="maxChildCapacity"
+                                        value={[Number(formData.maxChildCapacity)]}
+                                        onValueChange={(value) => {
+                                            setFormData(prev => ({
+                                                ...prev,
+                                                maxChildCapacity: String(value[0])
+                                            }))
+                                        }}
+                                        max={100}
+                                        min={1}
+                                        step={1}
+                                    />
+                                    <
+
                                 </div>
-                                <Slider
-                                    id="maxChildCapacity-slider"
-                                    name="maxChildCapacity"
-                                    value={[Number(formData.maxChildCapacity)]}
-                                    onValueChange={(value) => {
-                                        setFormData(prev => ({
-                                            ...prev,
-                                            maxChildCapacity: String(value[0])
-                                        }))
-                                    }}
-                                    max={100}
-                                    min={1}
-                                    step={1}
-                                />
                                 
                             </div>
                             <Button 
