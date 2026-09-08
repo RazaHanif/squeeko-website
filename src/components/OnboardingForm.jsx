@@ -378,7 +378,7 @@ const OnboardingForm = () => {
                                     name="firstName"
                                     id="firstName"
                                     value={formData.firstName}
-                                   onValueChange ={handleChange}
+                                    onValueChange ={handleChange}
                                 />
                             </div>
                         </div>
