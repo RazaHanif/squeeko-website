@@ -399,6 +399,7 @@ const OnboardingForm = () => {
                                         {type}
                                     </Button>
                                 ))}
+                                
                             </div>
                         </div>
                     )}
