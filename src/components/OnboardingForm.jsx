@@ -233,7 +233,7 @@ const OnboardingForm = () => {
                                         min={1}
                                         step={1}
                                     />
-                                    <div>
+                                    <div className="flex flex-row ">
                                         <p>1</p>
                                         <p>25</p>
                                         <p>50</p>
