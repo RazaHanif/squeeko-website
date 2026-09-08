@@ -91,6 +91,11 @@ const OnboardingForm = () => {
         setCurrentStep(prev => prev + 1)
     }
 
+    const prevStep = () => {
+        setDirection(-1)
+        set
+    }
+
     const handleSubmit = async (e) => {
         e.preventDefault();
 
