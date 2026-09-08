@@ -171,8 +171,7 @@ const OnboardingForm = () => {
                                 <p className="">Children</p>  
                             </div>
                             {   
-                                formData.maxChildCapacity > 100 
-                                & (<p className="text-red-500">Please enter a value less than or equal to 100.</p>)
+                                formData.maxChildCapacity > 100 & (<p className="text-red-500">Please enter a value less than or equal to 100.</p>)
                             }
                             <Slider
                                 id="maxChildCapacity-slider"
