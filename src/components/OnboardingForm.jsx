@@ -158,7 +158,7 @@ const OnboardingForm = () => {
                     </div>
 
                     <div className="bg-red-500">
-                        Num of Employees
+                        About how many employees work at your centre?
                     </div>
 
                     <div className="bg-red-500">
