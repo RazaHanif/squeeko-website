@@ -393,7 +393,6 @@ const OnboardingForm = () => {
                                                     : [...prev.painPoints, type],
                                             }))
                                             console.log(type)
-                                            setCurrentStep(prev => prev + 1);
                                         }}
                                         className="p-6 w-full"
                                     >
