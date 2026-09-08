@@ -179,7 +179,7 @@ const OnboardingForm = () => {
                                     type="number"
                                     id="maxChildCapacity-input"
                                     name="maxChildCapacity"
-                                    className={`${inputClass} bg-priamry`}
+                                    className={`${inputClass} bg-primary `}
                                     value={formData.maxChildCapacity}
                                     onChange={handleChange}
                                 />
