@@ -365,7 +365,15 @@ const OnboardingForm = () => {
                 <div 
                     className='w-full flex flex-col justify-center items-center shadow-lg bg-card gap-4 border-2 rounded-lg lg:py-16 py-8'
                 >
-                    Form submitted, thank you!
+                        You're all set! 🎉
+
+    We've got everything we need.
+
+    A member of the Squeeko team will review your centre's information and reach out to you shortly.
+
+    In the meantime, see what Squeeko can do for your centre.
+
+    Explore Squeeko →
                 </div>
             ) : (
                 <form
