@@ -1,4 +1,4 @@
-function HomeForm() {
+function OnBoardingForm() {
     const [value, setValue] = useState(30)
 
     return (
