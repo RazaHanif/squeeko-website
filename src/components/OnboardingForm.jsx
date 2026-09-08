@@ -191,7 +191,10 @@ const OnboardingForm = () => {
                                 step={1}
                             />
                         </div>
-                        <Button variant="primary">
+                        <Button 
+                            variant="primary"
+                            
+                        >
                             Continue
                         </Button>
                     </div>
