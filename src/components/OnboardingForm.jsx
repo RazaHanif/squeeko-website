@@ -271,35 +271,24 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             Are you currently accepting new families?
                         </h2>
-                        
-                        <RadioGroup
-                            value={formData.accepting}
-                            onValueChange={(value) =>
-                                setFormData((prev) => ({
-                                ...prev,
-                            accepting: value,
-                                }))
-                            }
-                            className="px-4"
-                        >
-                            {acceptingType.map((value, idx) => (
-                                <div className="flex items-center gap-3" key={idx}>
-                                    <RadioGroupItem
-                                        value={value}
-                                        id={`acceptingRadio-${idx}`}
-                                    />
-                                    <Label htmlFor={`acceptingRadio-${idx}`}>
-                                        {value}
-                                    </Label>
-                                </div>
+                        <div className="flex flex-col gap-4 w-full px-4">
+                            {numOfStaffType.map((type, idx) => (
+                                <Button 
+                                key={idx} 
+                                value={type} 
+                                onClick={() => {
+                                    setFormData((prev) => ({
+                                        ...prev,
+                                        numOfStaff: type,
+                                    }))
+                                    console.log(type)
+                                }}
+                                className="p-6 w-full"
+                                >
+                                    {type}
+                                </Button>
                             ))}
-                        </RadioGroup>
-
-                        <Button 
-                            variant="default"
-                        >
-                            Continue
-                        </Button>
+                        </div>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
