@@ -255,7 +255,7 @@ const OnboardingForm = () => {
                             </div>
                         </RadioGroup>
 
-                                                <div className="flex flex-col gap-4 w-full px-4">
+                        <div className="flex flex-col gap-4 w-full px-4">
                             {daycareType.map((type, idx) => (
                                 <Button 
                                 key={idx} 
