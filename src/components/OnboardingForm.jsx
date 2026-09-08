@@ -170,7 +170,7 @@ const OnboardingForm = () => {
                     </div>
 
                     <div className="bg-red-500">
-                        current system
+                        How do you currently manage your centre?
                     </div>
 
                     <div className="bg-red-500">
