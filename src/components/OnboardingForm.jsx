@@ -170,7 +170,7 @@ const OnboardingForm = () => {
                                 id="maxChildCapacity-slider"
                                 name="maxChildCapacity"
                                 value={formData.maxChildCapacity}
-                                
+                                max={100}
                             />
                         </div>
 
