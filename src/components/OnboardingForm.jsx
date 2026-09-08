@@ -317,7 +317,7 @@ const OnboardingForm = () => {
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
                         <h2 className="text-xl text-center font-serif font-semibold">
-                            Whats the biggest challenge you're trying to solve? (choose multiple)
+                            Whats the biggest challenge you're trying to solve?
                         </h2>
                         {/* Make this so they can choose multiple options that just add to the painPoints array */}
                         <div className="flex flex-col gap-4 w-full px-4">
