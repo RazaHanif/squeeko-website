@@ -283,6 +283,8 @@ const OnboardingForm = () => {
 
     const painPointType = [
         "Keeping records organized",
+        "Staying compliant",
+        "Communicating with families",
         
     ]
 
