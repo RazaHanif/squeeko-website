@@ -161,7 +161,7 @@ const OnboardingForm = () => {
                         </div>
 
                         <Progress 
-                            value={33} 
+                            value={((currentStep + 1) / 9) * 100} 
                             className="h-2"    
                         />
 
