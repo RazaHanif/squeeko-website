@@ -268,7 +268,7 @@ const OnboardingForm = () => {
                             ))}
                             <Button 
                                 value={"1"} 
-                                onClick={() => console.log()}
+                                onClick={() => console.log("1")}
                                 className="p-6 w-full"
                             >
                                 1
