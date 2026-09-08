@@ -273,6 +273,10 @@ const OnboardingForm = () => {
         "after6Months": "Not for at least 6 months",
     }
 
+    const manageType = {
+        
+    }
+
 
 
     const [formData, setFormData] = useState({
