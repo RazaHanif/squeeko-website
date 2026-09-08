@@ -247,7 +247,7 @@ const OnboardingForm = () => {
                             <div className="flex flex-col gap-4 w-full px-4">
                                 {numOfStaffType.map((type, idx) => (
                                     <Button 
-                                    type="button"
+                                        type="button"
                                         key={idx} 
                                         value={type} 
                                         variant="secondary"
@@ -274,7 +274,7 @@ const OnboardingForm = () => {
                             </h2>
                             <div className="flex flex-col gap-4 w-full px-4">
                                 <Button 
-                                type="button"
+                                    type="button"
                                     value={"1"} 
                                     variant="secondary"
                                     onClick={() => {
@@ -289,7 +289,7 @@ const OnboardingForm = () => {
                                     1
                                 </Button>
                                 <Button 
-                                type="button"
+                                    type="button"
                                     value={"2 or more"} 
                                     variant="secondary"
                                     onClick={() => {
