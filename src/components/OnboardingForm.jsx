@@ -312,7 +312,7 @@ const OnboardingForm = () => {
         accepting: "",
         managementType: "",
         painPoints: [],
-        timeline
+        timeline: "",
 
     });
 
