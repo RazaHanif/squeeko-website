@@ -328,11 +328,6 @@ const OnboardingForm = () => {
 
     });
 
-    const currentYear = new Date().getFullYear();
-
-    const minDOB = new Date(currentYear - 13, 0, 1);
-    const maxDOB = new Date(currentYear - 4, 11, 31);
-
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [openDOB, setOpenDOB] = useState(false);
