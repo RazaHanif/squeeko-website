@@ -183,7 +183,7 @@ const OnboardingForm = () => {
                                     value={formData.maxChildCapacity}
                                     onChange={handleChange}
                                 />
-                                <p>
+                                <p className="flex-1">
                                     Children
                                 </p>
                             </div>
