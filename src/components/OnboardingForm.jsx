@@ -31,7 +31,7 @@ const OnboardingForm = () => {
     ]
 
     const numOfStaffType = [
-        ""
+        "1-5"
     ]
 
     const painPointType = [
