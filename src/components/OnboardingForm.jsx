@@ -158,7 +158,7 @@ const OnboardingForm = () => {
                                         ...prev,
                                         numOfStaff: type,
                                     }))
-                                    console.log("1")
+                                    console.log(type)
                                 }}                            
                                 className="p-6 w-full"
                                 >
