@@ -149,20 +149,20 @@ const OnboardingForm = () => {
                             What best describes your centre?
                         </h2>
                         <div>
-                            
-                        </div>
+
 
                         <div className="flex flex-col gap-4 w-full">
                             {daycareType.map((type, idx) => (
                                 <Button 
-                                    key={idx} 
-                                    value={type} 
-                                    onClick={() => console.log(type)}
-                                    className="p-6 w-full"
+                                key={idx} 
+                                value={type} 
+                                onClick={() => console.log(type)}
+                                className="p-6 w-full"
                                 >
                                     {type}
                                 </Button>
                             ))}
+                        </div>
                         </div>
                     </div>
 
