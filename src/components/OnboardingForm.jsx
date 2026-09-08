@@ -133,14 +133,14 @@ const OnboardingForm = () => {
                                 <div className="flex flex-row gap-4 justify-center items-center p-2 bg-secondary rounded-xl px-4">
                                     <Slider 
                                         className="flex-5"
-                                        value={form.maxChildCapacity}
+                                        value={formData.maxChildCapacity}
                                         onValueChange={(num) => setValue(num)}
                                         id="max-capacity"
                                         min={0}
                                         max={100} 
                                         step={1} 
                                     />
-                                    <p className="flex-1 text-end text-primary">{form.maxChildCapacity}</p> 
+                                    <p className="flex-1 text-end text-primary">{formData.maxChildCapacity}</p> 
                                 </div>
                             </div>
                         </div>
