@@ -381,6 +381,54 @@ const OnboardingForm = () => {
                                     onValueChange ={handleChange}
                                 />
                             </div>
+                            <div className="flex items-center">
+                                <Label htmlFor="firstName">
+                                    First Name
+                                </Label>
+                                <Input
+                                    type="text"
+                                    name="firstName"
+                                    id="firstName"
+                                    value={formData.firstName}
+                                    onValueChange ={handleChange}
+                                />
+                            </div>
+                            <div className="flex items-center">
+                                <Label htmlFor="firstName">
+                                    First Name
+                                </Label>
+                                <Input
+                                    type="text"
+                                    name="firstName"
+                                    id="firstName"
+                                    value={formData.firstName}
+                                    onValueChange ={handleChange}
+                                />
+                            </div>
+                            <div className="flex items-center">
+                                <Label htmlFor="firstName">
+                                    First Name
+                                </Label>
+                                <Input
+                                    type="text"
+                                    name="firstName"
+                                    id="firstName"
+                                    value={formData.firstName}
+                                    onValueChange ={handleChange}
+                                />
+                            </div>
+                            <div className="flex items-center">
+                                <Label htmlFor="firstName">
+                                    First Name
+                                </Label>
+                                <Input
+                                    type="text"
+                                    name="firstName"
+                                    id="firstName"
+                                    value={formData.firstName}
+                                    onValueChange ={handleChange}
+                                />
+                            </div>
                         </div>
                     </div>
                 </form>
