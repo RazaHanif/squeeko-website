@@ -193,7 +193,6 @@ const OnboardingForm = () => {
                         </div>
                         <Button 
                             variant="default"
-                            className="w-1/2"
                         >
                             Continue
                         </Button>
