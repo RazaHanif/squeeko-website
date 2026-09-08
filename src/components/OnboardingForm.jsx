@@ -369,22 +369,7 @@ const OnboardingForm = () => {
                             Almost there! Let's get your centre connected with our team.
                         </h2>
                         <div className="flex flex-col gap-4 w-full px-4">
-                            {numOfStaffType.map((type, idx) => (
-                                <Button 
-                                key={idx} 
-                                value={type} 
-                                onClick={() => {
-                                    setFormData((prev) => ({
-                                        ...prev,
-                                        numOfStaff: type,
-                                    }))
-                                    console.log(type)
-                                }}
-                                className="p-6 w-full"
-                                >
-                                    {type}
-                                </Button>
-                            ))}
+                            <
                         </div>
                     </div>
                 </form>
