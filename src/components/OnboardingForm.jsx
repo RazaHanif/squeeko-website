@@ -93,7 +93,7 @@ const OnboardingForm = () => {
 
     const prevStep = () => {
         setDirection(-1)
-        setCurrentStep(prev => Math.max(prev))
+        setCurrentStep(prev => Math.max(prev -1, 0))
     }
 
     const handleSubmit = async (e) => {
