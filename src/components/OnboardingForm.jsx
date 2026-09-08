@@ -299,8 +299,6 @@ const OnboardingForm = () => {
         "As Soon As Possible"
     ]
 
-
-
     const [formData, setFormData] = useState({
         name: "",
         email: "",
