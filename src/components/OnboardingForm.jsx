@@ -299,7 +299,8 @@ const OnboardingForm = () => {
         "As Soon As Possible"
     ]
 
-    const finalScreen = `You're all set! 🎉
+    const finalScreen = `
+    You're all set! 🎉
 
     We've got everything we need.
 
