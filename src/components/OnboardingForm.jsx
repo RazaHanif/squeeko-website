@@ -372,12 +372,19 @@ const OnboardingForm = () => {
 
 
     return (
-        <form
-            onSubmit={ handleSubmit }
-            className='w-full flex flex-col justify-center items-center shadow-lg bg-card gap-4 border-2 rounded-lg lg:py-16 py-8'
-        >
-            { form }
-       <div className="flex flex-col justify-center gap-4 p-4 rounded-xl border border-primary-foreground bg-primary w-3/4 lg:w-1/4">
+        <div className="w-full lg:w-3/4">
+            { submitted ? (
+                <div 
+                    className='w-full flex flex-col justify-center items-center shadow-lg bg-card gap-4 border-2 rounded-lg lg:py-16 py-8'
+                >
+                    Form submitted, thank you!
+                </div>
+            ) : (
+                <form
+                    onSubmit={ handleSubmit }
+                    className='w-full flex flex-col justify-center items-center shadow-lg bg-card gap-4 border-2 rounded-lg lg:py-16 py-8'
+                >
+                           <div className="flex flex-col justify-center gap-4 p-4 rounded-xl border border-primary-foreground bg-primary w-3/4 lg:w-1/4">
             <div className="flex flex-col justify-center gap-4 w-full">
                 <div className="flex flex-col gap-2 w-full justify-center">
                     <Label htmlFor="max-capacity" className="px-2">
@@ -397,8 +404,10 @@ const OnboardingForm = () => {
                     </div>
                 </div>
             </div>
+        </div>  
+                </form>
+            )}
         </div>
-        </form>
     )
 }
 
