@@ -307,7 +307,7 @@ const OnboardingForm = () => {
         company: "",
         daycareType: "",
         maxChildCapacity: "",
-        maxStaff: "",
+        numOfStaff: "",
         locations: "",
         accepting: "",
 
