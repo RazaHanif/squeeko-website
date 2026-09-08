@@ -13,7 +13,6 @@ function Input({
       type={type}
       data-slot="input"
       className={cn(
-        
         className
       )}
       {...props} />
