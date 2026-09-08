@@ -277,7 +277,7 @@ const OnboardingForm = () => {
         "paper": "Paper / Binders",
         "spreadsheets": "Spreadsheets / Excel",
         "software": "Childcare Software",
-        
+        "combo": "A Combination of Tools"
     }
 
 
