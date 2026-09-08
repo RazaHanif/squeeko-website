@@ -27,4 +27,4 @@ const OnboardingForm = () => {
     )
 }
 
-export const OnboardingForm
+export default OnboardingForm
