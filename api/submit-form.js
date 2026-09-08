@@ -5,10 +5,6 @@ export default async function handler(req, res) {
     
     const data = req.body
 
-    if (!data?.type) {
-        console.error('Error: Missing type field')
-        return res.status(400).json({ error: 'Type field is required' })
-    }
 
     const transporter = nodemailer.createTransport({
         host: 'smtp.gmail.com',
