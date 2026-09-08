@@ -274,7 +274,7 @@ const OnboardingForm = () => {
                             ))}
                             <Button 
                                 value={"1"} 
-                                onClick={(value) => {
+                                onClick={() => {
                                     setFormData((prev) => ({
                                         ...prev,
                                         numOfStaff: value,
