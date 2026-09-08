@@ -383,7 +383,7 @@ const OnboardingForm = () => {
                             </div>
                             <div className="flex items-center">
                                 <Label htmlFor="firstName">
-                                    First Name
+                                    Last Name
                                 </Label>
                                 <Input
                                     type="text"
