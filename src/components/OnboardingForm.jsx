@@ -395,7 +395,7 @@ const OnboardingForm = () => {
                             </div>
                             <div className="flex items-center">
                                 <Label htmlFor="company">
-                                    Comapny Name
+                                    Company Name
                                 </Label>
                                 <Input
                                     type="text"
