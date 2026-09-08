@@ -5,6 +5,8 @@ export default async function handler(req, res) {
     
     const data = req.body
 
+    console
+
       
     switch (data.type) {
         case 'camp':
