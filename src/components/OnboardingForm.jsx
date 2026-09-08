@@ -167,7 +167,7 @@ const OnboardingForm = () => {
                                 onChange={handleChange}
                             />
                             <Slider
-                                name
+                                name="maxChildCapacity"
                             />
                         </div>
 
