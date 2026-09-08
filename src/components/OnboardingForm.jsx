@@ -204,12 +204,7 @@ const OnboardingForm = () => {
                         </h2>
                             <RadioGroup
                                 value={formData.numOfStaff}
-                                onValueChange={(value) =>
-                                    setFormData((prev) => ({
-                                    ...prev,
-                                    numOfStaff: value,
-                                    }))
-                                }
+                                onValueChange={handleChange}
                             >
                             {Object.entries(sessionTypes).map(([key, value]) => (
                                 <div className="flex items-center gap-3" key={key}>
