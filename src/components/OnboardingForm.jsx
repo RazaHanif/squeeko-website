@@ -387,9 +387,9 @@ const OnboardingForm = () => {
                                 </Label>
                                 <Input
                                     type="text"
-                                    name="firstName"
-                                    id="firstName"
-                                    value={formData.firstName}
+                                    name="lastName"
+                                    id="lastName"
+                                    value={formData.lastName}
                                     onValueChange ={handleChange}
                                 />
                             </div>
