@@ -374,7 +374,7 @@ const OnboardingForm = () => {
                                     First Name
                                 </Label>
                                 <RadioGroupItem
-                                    value={form}
+                                    value={formData.firstName}
                                     id="firstName"
                                 />
                                 </div>
