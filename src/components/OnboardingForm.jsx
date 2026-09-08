@@ -296,14 +296,14 @@ const OnboardingForm = () => {
                             How do you currently manage your centre?
                         </h2>
                         <div className="flex flex-col gap-4 w-full px-4">
-                            {painPointType.map((type, idx) => (
+                            {managementType.map((type, idx) => (
                                 <Button 
                                 key={idx} 
                                 value={type} 
                                 onClick={() => {
                                     setFormData((prev) => ({
                                         ...prev,
-                                        painPoints: type,
+                                        managementType: type,
                                     }))
                                     console.log(type)
                                 }}
