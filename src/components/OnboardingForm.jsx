@@ -281,6 +281,10 @@ const OnboardingForm = () => {
         "other": "Other"
     }
 
+    const painPointType = {
+        
+    }
+
 
 
     const [formData, setFormData] = useState({
