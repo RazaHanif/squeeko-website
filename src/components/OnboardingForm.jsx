@@ -273,10 +273,9 @@ const OnboardingForm = () => {
         name: "",
         email: "",
         phone: "",
+        type: ""
         
-        session: campType ? sessionTypes[campType] : "",
-        message: "",
-        type: "camp",
+
     });
 
     const currentYear = new Date().getFullYear();
