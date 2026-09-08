@@ -148,18 +148,18 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             What best describes your centre?
                         </h2>
-                        <div className="flex flex-col gap-4 w-full">
-                                {daycareType.map((type, idx) => (
-                                    <Button 
-                                    key={idx} 
-                                    value={type} 
-                                    onClick={() => console.log(type)}
-                                    className="p-6 w-full"
-                                    >
-                                        {type}
-                                    </Button>
-                                ))}
-                            </div>
+                        <div className="flex flex-col gap-4 w-full px-4">
+                            {daycareType.map((type, idx) => (
+                                <Button 
+                                key={idx} 
+                                value={type} 
+                                onClick={() => console.log(type)}
+                                className="p-6 w-full"
+                                >
+                                    {type}
+                                </Button>
+                            ))}
+                        </div>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
