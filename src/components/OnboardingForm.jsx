@@ -141,19 +141,18 @@ const OnboardingForm = () => {
                         </h2>
 
                         <div className="grid grid-cols-1 lg:grid-cols-2">
-
+                            {daycareType.map((type, idx) => (
+                                <Button 
+                                    key={idx} 
+                                    value={type} 
+                                    onClick={console.log(type)}
+                                    className="border border-border p-8"
+                                >
+                                    {type}
+                                </Button>
+                            ))}
                         </div>
 
-                        {daycareType.map((type, idx) => (
-                            <Button 
-                                key={idx} 
-                                value={type} 
-                                onClick={console.log(type)}
-                                className="border border-border p-8"
-                            >
-                                {type}
-                            </Button>
-                        ))}
 
 
                     </div>
