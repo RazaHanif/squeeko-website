@@ -381,7 +381,7 @@ const OnboardingForm = () => {
                                     id="firstName"
                                     className={inputClass}
                                     value={formData.firstName}
-                                    onValueChange ={handleChange}
+                                    onValueChange={handleChange}
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-start">
