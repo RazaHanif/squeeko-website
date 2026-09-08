@@ -175,7 +175,7 @@ const OnboardingForm = () => {
                             <div className="flex flex-col gap-4 w-full px-4">
                                 {daycareType.map((type, idx) => (
                                     <Button 
-                                    type
+                                    type="button"
                                         key={idx} 
                                         value={type}
                                         variant="secondary"
@@ -231,7 +231,7 @@ const OnboardingForm = () => {
                                 />
                             </div>
                             <Button 
-                            type
+                            type="button"
                                 variant="secondary"
                             >
                                 Continue
@@ -247,7 +247,7 @@ const OnboardingForm = () => {
                             <div className="flex flex-col gap-4 w-full px-4">
                                 {numOfStaffType.map((type, idx) => (
                                     <Button 
-                                    type
+                                    type="button"
                                         key={idx} 
                                         value={type} 
                                         variant="secondary"
@@ -274,7 +274,7 @@ const OnboardingForm = () => {
                             </h2>
                             <div className="flex flex-col gap-4 w-full px-4">
                                 <Button 
-                                type
+                                type="button"
                                     value={"1"} 
                                     variant="secondary"
                                     onClick={() => {
@@ -289,7 +289,7 @@ const OnboardingForm = () => {
                                     1
                                 </Button>
                                 <Button 
-                                type
+                                type="button"
                                     value={"2 or more"} 
                                     variant="secondary"
                                     onClick={() => {
@@ -315,7 +315,7 @@ const OnboardingForm = () => {
                             <div className="flex flex-col gap-4 w-full px-4">
                                 {acceptingType.map((type, idx) => (
                                     <Button 
-                                    type
+                                    type="button"
                                     key={idx} 
                                     value={type} 
                                     variant="secondary"
@@ -343,7 +343,7 @@ const OnboardingForm = () => {
                             <div className="flex flex-col gap-4 w-full px-4">
                                 {managementType.map((type, idx) => (
                                     <Button 
-                                    type
+                                    type="button"
                                     key={idx} 
                                     value={type} 
                                     variant="secondary"
@@ -372,7 +372,7 @@ const OnboardingForm = () => {
                             <div className="flex flex-col gap-4 w-full px-4">
                                 {painPointType.map((type, idx) => (
                                     <Button 
-                                    type
+                                    type="button"
                                     key={idx} 
                                     value={type} 
                                     variant="secondary"
@@ -400,7 +400,7 @@ const OnboardingForm = () => {
                             <div className="flex flex-col gap-4 w-full px-4">
                                 {timelineType.map((type, idx) => (
                                     <Button 
-                                    type
+                                    type="button"
                                     key={idx} 
                                     value={type} 
                                     variant="secondary"
@@ -493,7 +493,6 @@ const OnboardingForm = () => {
                                     />
                                 </div>
                                 <Button 
-                                type
                                     type="submit"
                                     variant="secondary"
                                 >
