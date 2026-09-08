@@ -281,9 +281,9 @@ const OnboardingForm = () => {
         "other": "Other"
     }
 
-    const painPointType = {
+    const painPointType = [
         
-    }
+    ]
 
 
 
