@@ -372,7 +372,7 @@ const OnboardingForm = () => {
                         </h2>
                         <div className="flex flex-col gap-4 w-full px-4">
                             <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
-                                <Label htmlFor="firstName" className="pl-3">
+                                <Label htmlFor="firstName" className="pl-2.5">
                                     First Name
                                 </Label>
                                 <input
@@ -385,7 +385,7 @@ const OnboardingForm = () => {
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
-                                <Label htmlFor="lastName" className="pl-3">
+                                <Label htmlFor="lastName" className="pl-2.5">
                                     Last Name
                                 </Label>
                                 <Input
@@ -397,7 +397,7 @@ const OnboardingForm = () => {
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
-                                <Label htmlFor="company" className="pl-3">
+                                <Label htmlFor="company" className="pl-2.5">
                                     Company Name
                                 </Label>
                                 <Input
@@ -409,7 +409,7 @@ const OnboardingForm = () => {
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
-                                <Label htmlFor="email" className="pl-3">
+                                <Label htmlFor="email" className="pl-2.5">
                                     Email
                                 </Label>
                                 <Input
@@ -421,7 +421,7 @@ const OnboardingForm = () => {
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
-                                <Label htmlFor="phone" className="pl-3">
+                                <Label htmlFor="phone" className="pl-2.5">
                                     Phone
                                 </Label>
                                 <Input
