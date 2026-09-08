@@ -311,7 +311,7 @@ const OnboardingForm = () => {
         numOfLocations: "",
         accepting: "",
         managementType: "",
-        accepting: "",
+        painPoints: [],
 
     });
 
