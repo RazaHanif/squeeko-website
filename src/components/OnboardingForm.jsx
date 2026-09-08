@@ -261,7 +261,7 @@ const CampForm = ({ campType }) => {
 
 const OnboardingForm = () => {
     const daycareType = {
-        "standalone": "Standalone daycare / Childcare Centre",
+        "standalone": "Standalone daycare / childcare centre",
         "inSchool": "Daycare within a school",
         "summer": "Summer Break",
         "winter": "Winter Break"
