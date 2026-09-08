@@ -145,7 +145,7 @@ const OnboardingForm = () => {
                                 key={idx} 
                                 value={type} 
                                 onClick={console.log(type)}
-                                className="border border-border p-6"
+                                className="border border-border p-8"
                             >
                                 {type}
                             </Button>
