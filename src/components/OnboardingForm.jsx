@@ -267,11 +267,11 @@ const OnboardingForm = () => {
                                 </Button>
                             ))}
                             <Button 
-                                value={type} 
+                                value={"1"} 
                                 onClick={() => console.log(type)}
                                 className="p-6 w-full"
                             >
-                                {type}
+                                1
                             </Button>
                         </div>
 
