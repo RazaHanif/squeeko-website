@@ -274,7 +274,12 @@ const OnboardingForm = () => {
                             ))}
                             <Button 
                                 value={"1"} 
-                                onClick={() => console.log("1")}
+                                onValueChange={(value) =>
+                                    setFormData((prev) => ({
+                                    ...prev,
+                                    session: value,
+                                    }))
+                                }
                                 className="p-6 w-full"
                             >
                                 1
