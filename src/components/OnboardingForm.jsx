@@ -235,11 +235,16 @@ const OnboardingForm = () => {
                                         step={1}
                                     />
                                     <div className="flex flex-row w-full justify-between items-center">
-                                        <p clas>1</p>
-                                        <p clas>25</p>
-                                        <p clas>50</p>
-                                        <p clas>75</p>
-                                        <p clas>100+</p>
+                                        <p className="text-xs font-light">
+                                        1</p>
+                                        <p className="text-xs font-light">
+                                        25</p>
+                                        <p className="text-xs font-light">
+                                        50</p>
+                                        <p className="text-xs font-light">
+                                        75</p>
+                                        <p className="text-xs font-light">
+                                        100+</p>
                                     </div>
                                 </div>
                             </div>
