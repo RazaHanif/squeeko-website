@@ -168,7 +168,7 @@ const OnboardingForm = () => {
                                     value={formData.maxChildCapacity}
                                     onChange={handleChange}
                                 />
-                                <p className="">
+                                <p>
                                     Children
                                 </p>  
                             </div>
