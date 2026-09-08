@@ -30,6 +30,10 @@ const OnboardingForm = () => {
         "Other"
     ]
 
+    const numOfStaffType = [
+        ""
+    ]
+
     const painPointType = [
         "Keeping records organized",
         "Staying compliant",
