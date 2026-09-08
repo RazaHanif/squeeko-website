@@ -124,11 +124,10 @@ const OnboardingForm = () => {
                         In the meantime, see what Squeeko can do for your centre.
                     </p>
 
-                    <NavLink>
-                        
+                    <NavLink to>
+                        Explore Squeeko →
                     </NavLink>
 
-                        Explore Squeeko →
                 </div>
             ) : (
                 <form
