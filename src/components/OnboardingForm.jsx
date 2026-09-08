@@ -114,7 +114,7 @@ const OnboardingForm = () => {
                         You're all set!
                     </h2>
 
-                    <p>
+                    <p className="">
                         We've got everything we need.
 
                         A member of the Squeeko team will review your centre's information and reach out to you shortly.
