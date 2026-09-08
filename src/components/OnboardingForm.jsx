@@ -234,7 +234,9 @@ const OnboardingForm = () => {
                                         min={1}
                                         step={1}
                                     />
-                                    <
+                                    <div>
+                                        
+                                    </div>
 
                                 </div>
                                 
