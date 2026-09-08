@@ -380,7 +380,7 @@ const OnboardingForm = () => {
                                     value={formData.firstName}
                                    onValueChange ={handleChange}
                                 />
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </form>
