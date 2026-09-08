@@ -207,6 +207,9 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             About how many employees work at your centre?
                         </h2>
+                        <div>
+                            
+                        </div>
                             <RadioGroup
                                 value={formData.numOfStaff}
                                 onValueChange={(value) =>
