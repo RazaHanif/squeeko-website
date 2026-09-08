@@ -105,7 +105,7 @@ const OnboardingForm = () => {
 
     return (
         <div className="w-3/4 lg:w-1/4">
-            { submitted ? (
+            { true ? (
                 <div 
                     className='w-full flex flex-col justify-center items-center shadow-lg bg-card gap-4 border-2 rounded-lg lg:py-16 py-8'
                 >
