@@ -141,7 +141,7 @@ const OnboardingForm = () => {
                         </h2>
 
                         {daycareType.map((type, idx) => (
-                            <Button key={idx} value={type} onClick={handleChange}>
+                            <Button key={idx} value={type} onClick={console.log(type)}>
                                 {type}
                             </Button>
                         ))}
