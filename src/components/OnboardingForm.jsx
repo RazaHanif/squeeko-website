@@ -135,7 +135,7 @@ const OnboardingForm = () => {
                     onSubmit={ handleSubmit }
                     className="w-full flex flex-1 flex-col justify-center rounded-2xl bg-primary py-8 px-8 lg:py-16 gap-1"
                 >
-                    <div className="bg-red-500">
+                    <div className="">
                         <h2>
                             What best describes your centre?
                         </h2>
@@ -153,35 +153,35 @@ const OnboardingForm = () => {
 
                     </div>
 
-                    <div className="bg-red-500">
+                    <div className="">
                         What is your maximum licensed capacity?
                     </div>
 
-                    <div className="bg-red-500">
+                    <div className="">
                         About how many employees work at your centre?
                     </div>
 
-                    <div className="bg-red-500">
+                    <div className="">
                         How many locations do you operate?
                     </div>
 
-                    <div className="bg-red-500">
+                    <div className="">
                         Are you currently accepting new families?
                     </div>
 
-                    <div className="bg-red-500">
+                    <div className="">
                         How do you currently manage your centre?
                     </div>
 
-                    <div className="bg-red-500">
+                    <div className="">
                         Whats the biggest challenge you're trying to solve? (choose multiple)
                     </div>
 
-                    <div className="bg-red-500">
+                    <div className="">
                         When are you looking to make a change?
                     </div>
 
-                    <div className="bg-red-500">
+                    <div className="">
                         Almost there! Let's get your centre connected with our team.
                     </div>
                 </form>
