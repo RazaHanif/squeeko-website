@@ -207,6 +207,18 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             About how many employees work at your centre?
                         </h2>
+                                                <div className="flex flex-col gap-4 w-full px-4">
+                            {daycareType.map((type, idx) => (
+                                <Button 
+                                key={idx} 
+                                value={type} 
+                                onClick={() => console.log(type)}
+                                className="p-6 w-full"
+                                >
+                                    {type}
+                                </Button>
+                            ))}
+                        </div>
                         <RadioGroup
                             value={formData.numOfStaff}
                             onValueChange={(value) =>
