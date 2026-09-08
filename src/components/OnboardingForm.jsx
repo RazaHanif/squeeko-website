@@ -394,7 +394,6 @@ const OnboardingForm = () => {
 
 
     return (
-        <>
         <form
             onSubmit={ handleSubmit }
             className='w-full flex flex-col justify-center items-center shadow-lg bg-card gap-4 border-2 rounded-lg lg:py-16 py-8'
@@ -422,7 +421,6 @@ const OnboardingForm = () => {
             </div>
         </div>
         </form>
-        </>
     )
 }
 
