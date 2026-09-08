@@ -356,6 +356,7 @@ const OnboardingForm = () => {
                                 <Button 
                                 key={idx} 
                                 value={type} 
+                                variant="secondary"
                                 onClick={() => {
                                     setFormData((prev) => ({
                                         ...prev,
