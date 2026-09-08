@@ -260,7 +260,7 @@ const CampForm = ({ campType }) => {
 
 
 const OnboardingForm = () => {
-    const sessionTypes = {
+    const daycareType = {
         "march": "March Break",
         "pa": "PA Day",
         "summer": "Summer Break",
