@@ -382,7 +382,7 @@ const OnboardingForm = () => {
                                 />
                             </div>
                             <div className="flex items-center">
-                                <Label htmlFor="firstName">
+                                <Label htmlFor="lastName">
                                     Last Name
                                 </Label>
                                 <Input
