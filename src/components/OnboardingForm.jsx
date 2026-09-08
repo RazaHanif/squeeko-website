@@ -267,6 +267,9 @@ const OnboardingForm = () => {
         "nursery": "Preschool / nursery"
     }
 
+    const acceptingType = {
+        
+    }
 
 
 
