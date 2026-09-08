@@ -178,7 +178,7 @@ const OnboardingForm = () => {
                     </div>
 
                     <div className="bg-red-500">
-                        timeline
+                        When are you looking to make a change?
                     </div>
 
                     <div className="bg-red-500">
