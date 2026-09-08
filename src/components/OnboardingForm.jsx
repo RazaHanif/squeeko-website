@@ -88,7 +88,7 @@ const OnboardingForm = () => {
 
     const nextStep = () => {
         setDirection(1)
-        setCurrentStep(prev => prev + 1)
+        nextStep()
     }
 
     const prevStep = () => {
@@ -194,7 +194,7 @@ const OnboardingForm = () => {
                                                 daycareType: type,
                                             }))
                                             console.log(type)
-                                            setCurrentStep(prev => prev + 1);
+                                            nextStep();
                                         }}                            
                                         className="p-6 w-full"
                                     >
@@ -268,7 +268,7 @@ const OnboardingForm = () => {
                                 type="button"
                                 variant="secondary"
                                 onClick={() => {
-                                    setCurrentStep(prev => prev + 1);
+                                    nextStep();
                                 }}
                             >
                                 Continue
@@ -294,7 +294,7 @@ const OnboardingForm = () => {
                                                 numOfStaff: type,
                                             }))
                                             console.log(type)
-                                            setCurrentStep(prev => prev + 1);
+                                            nextStep();
                                         }}
                                         className="p-6 w-full"
                                     >
@@ -321,7 +321,7 @@ const OnboardingForm = () => {
                                             numOfLocations: "1",
                                         }))
                                         console.log("1")
-                                        setCurrentStep(prev => prev + 1);
+                                        nextStep();
                                     }}
                                     className="p-6 w-full"
                                 >
@@ -337,7 +337,7 @@ const OnboardingForm = () => {
                                             numOfLocations: "2 or more",
                                         }))
                                         console.log("2 or more")
-                                        setCurrentStep(prev => prev + 1);
+                                        nextStep();
                                     }}
                                     className="p-6 w-full"
                                 >
@@ -365,7 +365,7 @@ const OnboardingForm = () => {
                                                 accepting: type,
                                             }))
                                             console.log(type)
-                                            setCurrentStep(prev => prev + 1);
+                                            nextStep();
                                         }}
                                         className="p-6 w-full"
                                     >
@@ -394,7 +394,7 @@ const OnboardingForm = () => {
                                                 managementType: type,
                                             }))
                                             console.log(type)
-                                            setCurrentStep(prev => prev + 1);
+                                            nextStep();
                                         }}
                                         className="p-6 w-full"
                                     >
@@ -437,7 +437,7 @@ const OnboardingForm = () => {
                                 type="button"
                                 variant="secondary"
                                 onClick={() => {
-                                    setCurrentStep(prev => prev + 1);
+                                    nextStep();
                                 }}
                             >
                                 Continue
@@ -463,7 +463,7 @@ const OnboardingForm = () => {
                                                 timeline: type,
                                             }))
                                             console.log(type)
-                                            setCurrentStep(prev => prev + 1);
+                                            nextStep();
                                         }}
                                         className="p-6 w-full"
                                     >
