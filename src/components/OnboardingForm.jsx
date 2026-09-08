@@ -368,6 +368,7 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             Almost there! Let's get your centre connected with our team.
                         </h2>
+                        
                     </div>
                 </form>
             )}
