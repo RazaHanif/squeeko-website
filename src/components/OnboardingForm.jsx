@@ -212,11 +212,11 @@ const OnboardingForm = () => {
                                 value={formData.numOfStaff}
                                 onValueChange={handleChange}
                             >
-                                {numOfStaffType.map(([key, value]) => (
+                                {numOfStaffType.map((value, idx) => (
                                     <div className="flex items-center gap-3" key={key}>
                                     <RadioGroupItem
                                         value={value}
-                                        id={`radio-${key}`}
+                                        id={`radio-${idx}`}
                                     />
                                     <Label htmlFor={`radio-${key}`}>
                                         {value}
