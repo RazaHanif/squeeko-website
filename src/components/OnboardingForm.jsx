@@ -273,7 +273,8 @@ const OnboardingForm = () => {
         name: "",
         email: "",
         phone: "",
-        type: ""
+        type: "",
+        maxChildren: "",
         
 
     });
