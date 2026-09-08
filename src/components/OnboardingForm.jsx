@@ -258,12 +258,75 @@ const CampForm = ({ campType }) => {
     );
 };
 
-export default CampForm;
-
-
 
 const OnboardingForm = () => {
-    const [value, setValue] = useState(30)
+    const sessionTypes = {
+        "march": "March Break",
+        "pa": "PA Day",
+        "summer": "Summer Break",
+        "winter": "Winter Break"
+    }
+
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        phone: "",
+        dob: "",
+        session: campType ? sessionTypes[campType] : "",
+        message: "",
+        type: "camp",
+    });
+
+    const currentYear = new Date().getFullYear();
+
+    const minDOB = new Date(currentYear - 13, 0, 1);
+    const maxDOB = new Date(currentYear - 4, 11, 31);
+
+    const [submitted, setSubmitted] = useState(false);
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [openDOB, setOpenDOB] = useState(false);
+    const [errorDOB, setErrorDOB] = useState(false)
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value,
+        });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        if (!formData.dob) {
+            setErrorDOB("Please select a date of birth.");
+            return;
+        }
+
+        setErrorDOB("")
+        setIsSubmitting(true);
+
+        try {
+            const response = await fetch("/api/send-email", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                setSubmitted(true);
+            } else {
+                alert("Failed to submit the form.");
+            }
+        } catch (e) {
+            alert("Failed to submit the form.");
+            console.log(e);
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
 
     return (
        <div className="flex flex-col justify-center gap-4 p-4 rounded-xl border border-primary-foreground bg-primary w-3/4 lg:w-1/4">
