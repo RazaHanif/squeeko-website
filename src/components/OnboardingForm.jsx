@@ -282,6 +282,19 @@ const OnboardingForm = () => {
                             >
                                 1
                             </Button>
+                            <Button 
+                                value={"1"} 
+                                onClick={() => {
+                                    setFormData((prev) => ({
+                                        ...prev,
+                                        numOfStaff: "1",
+                                    }))
+                                    console.log("1")
+                                }}
+                                className="p-6 w-full"
+                            >
+                                1
+                            </Button>
                         </div>
 
                         <Button 
