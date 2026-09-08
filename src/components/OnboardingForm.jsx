@@ -222,7 +222,7 @@ const OnboardingForm = () => {
                                 onClick={() => {
                                     setFormData((prev) => ({
                                         ...prev,
-                                        daycareType: type,
+                                        numOfStaff: type,
                                     }))
                                     console.log(type)
                                 }}
