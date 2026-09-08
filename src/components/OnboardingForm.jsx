@@ -124,7 +124,7 @@ const OnboardingForm = () => {
                         In the meantime, see what Squeeko can do for your centre.
                     </p>
 
-                    <NavLink to={"/features"} end className="self-center">
+                    <NavLink to={"/features"} end className="self-center hover:underline">
                         Explore Squeeko →
                     </NavLink>
 
