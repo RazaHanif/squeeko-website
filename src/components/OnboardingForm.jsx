@@ -274,7 +274,7 @@ const OnboardingForm = () => {
                             ))}
                             <Button 
                                 value={"1"} 
-                                onValueChange={(value) =>
+                                onClick={(value) =>
                                     setFormData((prev) => ({
                                     ...prev,
                                     session: value,
