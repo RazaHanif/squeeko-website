@@ -330,8 +330,6 @@ const OnboardingForm = () => {
 
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
-    const [openDOB, setOpenDOB] = useState(false);
-    const [errorDOB, setErrorDOB] = useState(false)
 
     const handleChange = (e) => {
         const { name, value } = e.target;
