@@ -296,8 +296,7 @@ const OnboardingForm = () => {
         "Just exploring",
         "Within the next 3 months",
         "Within 6 months",
-        
-
+        "As Soon As Possible"
     ]
 
 
