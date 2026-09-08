@@ -199,6 +199,10 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             About how many employees work at your centre?
                         </h2>
+                        <div>
+
+                            
+                        </div>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
