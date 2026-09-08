@@ -182,7 +182,7 @@ const OnboardingForm = () => {
                     </div>
 
                     <div className="bg-red-500">
-                        contact info
+                        Almost there! Let's get your cen
                     </div>
                 </form>
             )}
