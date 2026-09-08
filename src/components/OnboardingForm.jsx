@@ -256,8 +256,8 @@ const OnboardingForm = () => {
                                     value={"1"}
                                     id={`numOfLocationsRadio-1`}
                                 />
-                                <Label htmlFor={`numOfLocationsRadio-${idx}`}>
-                                    {value}
+                                <Label htmlFor={`numOfLocationsRadio-1`}>
+                                    1
                                 </Label>
                             </div>
                         </RadioGroup>
