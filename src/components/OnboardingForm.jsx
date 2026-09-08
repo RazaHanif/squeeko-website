@@ -161,7 +161,7 @@ const OnboardingForm = () => {
                         <div className="flex flex-col justify-center items-center ">
                             {   
                                 formData.maxChildCapacity > 100 && (
-                                    <p className="text-xs font-light ">
+                                    <p className="text-xs font-light text-destructive">
                                         Please enter a value less than or equal to 100.
                                     </p>
                                 )
