@@ -277,7 +277,7 @@ const OnboardingForm = () => {
                                 onClick={(value) =>
                                     setFormData((prev) => ({
                                         ...prev,
-                                        session: value,
+                                        numOfStaff: value,
                                     }))
                                 }
                                 className="p-6 w-full"
