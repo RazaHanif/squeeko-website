@@ -9,22 +9,4 @@ export default async function handler(req, res) {
         success: true,
         message: data
     })
-    
-    try {
-        await transporter.sendMail({
-            from: `"Kidz Korner Website" <${process.env.EMAIL_INFO}>`,
-            to: process.env.EMAIL_INFO,
-            subject: subject,
-            text: emailContent,
-            replyTo: data.email
-        })
-    } catch (err) {
-        console.log('Failed to send email')
-        console.log(err)
-
-        res.status(500).json({ 
-            success: false, 
-            error: 'Failed to send email', 
-        })
-    }
 }
