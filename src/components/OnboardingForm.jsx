@@ -231,6 +231,12 @@ const OnboardingForm = () => {
                                     </div>
                                 ))}
                             </RadioGroup>
+
+                        <Button 
+                            variant="default"
+                        >
+                            Continue
+                        </Button>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
