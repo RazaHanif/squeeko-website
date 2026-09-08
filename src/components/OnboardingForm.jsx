@@ -295,6 +295,12 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             How do you currently manage your centre?
                         </h2>
+                    </div>
+
+                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
+                        <h2 className="text-xl text-center font-serif font-semibold">
+                         Whats the biggest challenge you're trying to solve? (choose multiple)
+                        </h2>
                         <div className="flex flex-col gap-4 w-full px-4">
                             {painPointType.map((type, idx) => (
                                 <Button 
@@ -313,12 +319,6 @@ const OnboardingForm = () => {
                                 </Button>
                             ))}
                         </div>
-                    </div>
-
-                    <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
-                        <h2 className="text-xl text-center font-serif font-semibold">
-                         Whats the biggest challenge you're trying to solve? (choose multiple)
-                        </h2>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary-foreground">
