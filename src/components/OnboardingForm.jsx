@@ -160,7 +160,9 @@ const OnboardingForm = () => {
                         </h2>
                         <div className="flex flex-col justify-center items-center ">
                             {   
-                                formData.maxChildCapacity > 100 && (<p className="text-xs font-light ">Please enter a value less than or equal to 100.</p>)
+                                formData.maxChildCapacity > 100 && (
+                                    <p className="text-xs font-light ">Please enter a value less than or equal to 100.</p>
+                                )
                             }
                             <div className="flex flex-row justify-center items-center gap-2">
                                 <Input 
