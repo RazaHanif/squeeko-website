@@ -161,7 +161,7 @@ const OnboardingForm = () => {
                         <div>
                             <Input 
                                 type="number"
-                                
+                                id="form"
                                 value={formData.maxChildCapacity}
                                 onChange={handleChange}
                             />
