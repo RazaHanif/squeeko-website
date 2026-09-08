@@ -125,7 +125,7 @@ const OnboardingForm = () => {
                     </p>
 
                     <NavLink to={"/features"} end className="self-center hover:underline">
-                        Explore Squeeko →
+                        Explore Squeeko
                     </NavLink>
 
                 </div>
