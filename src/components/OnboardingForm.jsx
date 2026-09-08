@@ -399,8 +399,16 @@ const OnboardingForm = () => {
                                         {type}
                                     </Button>
                                 ))}
-                                
                             </div>
+                            <Button 
+                                type="button"
+                                variant="secondary"
+                                onClick={() => {
+                                    setCurrentStep(prev => prev + 1);
+                                }}
+                            >
+                                Continue
+                            </Button>
                         </div>
                     )}
 
