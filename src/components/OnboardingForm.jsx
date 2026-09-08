@@ -329,30 +329,32 @@ const OnboardingForm = () => {
                         </div>
                     )}
 
-                    <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
-                        <h2 className="text-xl text-center font-serif font-semibold w-full">
-                            How do you currently manage your centre?
-                        </h2>
-                        <div className="flex flex-col gap-4 w-full px-4">
-                            {managementType.map((type, idx) => (
-                                <Button 
-                                key={idx} 
-                                value={type} 
-                                variant="secondary"
-                                onClick={() => {
-                                    setFormData((prev) => ({
-                                        ...prev,
-                                        managementType: type,
-                                    }))
-                                    console.log(type)
-                                }}
-                                className="p-6 w-full"
-                                >
-                                    {type}
-                                </Button>
-                            ))}
+                    {currentStep === 5 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                How do you currently manage your centre?
+                            </h2>
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                {managementType.map((type, idx) => (
+                                    <Button 
+                                    key={idx} 
+                                    value={type} 
+                                    variant="secondary"
+                                    onClick={() => {
+                                        setFormData((prev) => ({
+                                            ...prev,
+                                            managementType: type,
+                                        }))
+                                        console.log(type)
+                                    }}
+                                    className="p-6 w-full"
+                                    >
+                                        {type}
+                                    </Button>
+                                ))}
+                            </div>
                         </div>
-                    </div>
+                    )}
 
                     <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
                         <h2 className="text-xl text-center font-serif font-semibold w-full">
