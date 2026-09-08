@@ -1,20 +1,3 @@
-import nodemailer from 'nodemailer'
-
-/*
-send error logs to email
-
-catch (err) {
-  await transporter.sendMail({
-    to: process.env.EMAIL_INFO,
-    subject: '🚨 Email Function Error',
-    text: err.stack || err.message
-  })
-
-  res.status(500).json({ success: false })
-}
-*/
-
-
 export default async function handler(req, res) {
     if (req.method !== 'POST') {
         return res.status(405).json({ error: 'Method not allowed' })
