@@ -279,7 +279,7 @@ const OnboardingForm = () => {
                                         ...prev,
                                         numOfStaff: "1",
                                     }))
-                                    console.log()
+                                    console.log("1")
                                 }}
                                 className="p-6 w-full"
                             >
