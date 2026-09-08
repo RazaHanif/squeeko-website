@@ -162,7 +162,7 @@ const OnboardingForm = () => {
                             <p className={`text-xs font-light ${formData.maxChildCapacity > 100 ? 'text-destructive' : 'text-red-500'}`}>
                                 Please enter a value less than or equal to 100.
                             </p>
-                            <div className="flex flex-row justify-center items-center gap-2">
+                            <div className="flex flex-row justify-center items-center gap-2 pb-2">
                                 <Input 
                                     type="number"
                                     id="maxChildCapacity-input"
