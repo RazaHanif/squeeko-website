@@ -175,7 +175,7 @@ const OnboardingForm = () => {
                             <div className="flex flex-col gap-4 w-full px-4">
                                 {daycareType.map((type, idx) => (
                                     <Button 
-                                    type="button"
+                                        type="button"
                                         key={idx} 
                                         value={type}
                                         variant="secondary"
