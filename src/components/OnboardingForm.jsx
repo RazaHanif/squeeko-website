@@ -369,7 +369,7 @@ const OnboardingForm = () => {
                             Almost there! Let's get your centre connected with our team.
                         </h2>
                         <div className="flex flex-col gap-4 w-full px-4">
-                            <div className="flex items-center">
+                            <div className="flex flex-r items-center">
                                 <Label htmlFor="firstName">
                                     First Name
                                 </Label>
@@ -381,7 +381,7 @@ const OnboardingForm = () => {
                                     onValueChange ={handleChange}
                                 />
                             </div>
-                            <div className="flex items-center">
+                            <div className="flex flex-r items-center">
                                 <Label htmlFor="lastName">
                                     Last Name
                                 </Label>
@@ -393,7 +393,7 @@ const OnboardingForm = () => {
                                     onValueChange ={handleChange}
                                 />
                             </div>
-                            <div className="flex items-center">
+                            <div className="flex flex-r items-center">
                                 <Label htmlFor="company">
                                     Company Name
                                 </Label>
@@ -405,7 +405,7 @@ const OnboardingForm = () => {
                                     onValueChange ={handleChange}
                                 />
                             </div>
-                            <div className="flex items-center">
+                            <div className="flex flex-r items-center">
                                 <Label htmlFor="email">
                                     Email
                                 </Label>
@@ -417,7 +417,7 @@ const OnboardingForm = () => {
                                     onValueChange ={handleChange}
                                 />
                             </div>
-                            <div className="flex items-center">
+                            <div className="flex flex-r items-center">
                                 <Label htmlFor="phone">
                                     Phone
                                 </Label>
