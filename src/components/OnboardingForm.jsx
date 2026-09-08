@@ -71,7 +71,7 @@ const OnboardingForm = () => {
 
     });
 
-    const inputClass = "h-8 w-full min-w-0 border-0 bg-red-500 px-2.5 py-1 outline-none placeholder:text-muted-foreground"
+    const inputClass = "h-8 w-full min-w-0 border-0 px-2.5 py-1 outline-none placeholder:text-muted-foreground"
 
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
