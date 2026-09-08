@@ -234,7 +234,7 @@ const OnboardingForm = () => {
                             <Button 
                                 type="button"
                                 variant="secondary"
-
+                                onClick{()}
                             >
                                 Continue
                             </Button>
