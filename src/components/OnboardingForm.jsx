@@ -375,6 +375,7 @@ const OnboardingForm = () => {
                                 </Label>
                                 <Input
                                     type="text"
+                                    name="firstName"
                                     value={formData.firstName}
                                     id="firstName"
                                 />
