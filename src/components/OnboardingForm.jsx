@@ -109,6 +109,9 @@ const OnboardingForm = () => {
                 <div 
                     className='w-full flex flex-col justify-center items-center shadow-lg bg-card gap-4 border-2 rounded-lg lg:py-16 py-8'
                 >
+                    <h2>
+                        
+                    </h2>
                         You're all set! 🎉
 
                         We've got everything we need.
