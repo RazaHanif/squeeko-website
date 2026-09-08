@@ -158,7 +158,7 @@ const OnboardingForm = () => {
                                         ...prev,
                                         daycareType: type,
                                     }))
-                                    console.log(type)
+                                    console.log(form)
                                 }}                            
                                 className="p-6 w-full"
                                 >
