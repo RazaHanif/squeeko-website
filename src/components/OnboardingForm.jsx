@@ -145,6 +145,7 @@ const OnboardingForm = () => {
                                 key={idx} 
                                 value={type} 
                                 onClick={console.log(type)}
+                                c
                             >
                                 {type}
                             </Button>
