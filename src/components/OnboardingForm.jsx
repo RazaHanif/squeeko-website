@@ -154,34 +154,42 @@ const OnboardingForm = () => {
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                        <h2 clas
                         What is your maximum licensed capacity?
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                        <h2 clas
                         About how many employees work at your centre?
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                        <h2 clas
                         How many locations do you operate?
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                        <h2 clas
                         Are you currently accepting new families?
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                        <h2 clas
                         How do you currently manage your centre?
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                        <h2 clas
                         Whats the biggest challenge you're trying to solve? (choose multiple)
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                        <h2 clas
                         When are you looking to make a change?
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
+                        <h2 clas
                         Almost there! Let's get your centre connected with our team.
                     </div>
                 </form>
