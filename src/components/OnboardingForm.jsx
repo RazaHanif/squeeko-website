@@ -411,8 +411,8 @@ const OnboardingForm = () => {
                         </div>
 
                     )}
-                    
 
+                    {currentStep === 8 && (
                         <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 Almost there! Let's get your centre connected with our team.
@@ -491,6 +491,7 @@ const OnboardingForm = () => {
                                 </Button>
                             </div>
                         </div>
+                    )}
                 </form>
             )}
         </div>
