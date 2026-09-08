@@ -167,37 +167,37 @@ const OnboardingForm = () => {
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
                         <h2 className="text-xl">
-                        How many locations do you operate?
+                            How many locations do you operate?
                         </h2>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
                         <h2 className="text-xl">
-                        Are you currently accepting new families?
+                            Are you currently accepting new families?
                         </h2>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
                         <h2 className="text-xl">
-                        How do you currently manage your centre?
+                            How do you currently manage your centre?
                         </h2>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
                         <h2 className="text-xl">
-                        Whats the biggest challenge you're trying to solve? (choose multiple)
+                         Whats the biggest challenge you're trying to solve? (choose multiple)
                         </h2>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
                         <h2 className="text-xl">
-                        When are you looking to make a change?
+                            When are you looking to make a change?
                         </h2>
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2 border-2 border-primary">
                         <h2 className="text-xl">
-                        Almost there! Let's get your centre connected with our team.
+                            Almost there! Let's get your centre connected with our team.
                         </h2>
                     </div>
                 </form>
