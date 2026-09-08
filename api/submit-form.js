@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 
     res.status(200).json({ 
         success: true,
-        mess
+        message: data
     })
     
     try {
