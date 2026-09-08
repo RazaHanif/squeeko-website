@@ -3,8 +3,6 @@ import { Label } from "@/components/ui/label";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Button } from "./ui/button";
-import { Input } from "./ui/input";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 
 const OnboardingForm = () => {
     const daycareType = [
