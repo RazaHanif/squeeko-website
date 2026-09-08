@@ -264,7 +264,7 @@ const OnboardingForm = () => {
         "standalone": "Standalone daycare / childcare centre",
         "inSchool": "Daycare within a school",
         "home": "Home daycare",
-        "preschoolNursery": "Preschool / nursery"
+        "nursery": "Preschool / nursery"
     }
 
     const [formData, setFormData] = useState({
