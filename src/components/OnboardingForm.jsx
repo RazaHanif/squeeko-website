@@ -251,7 +251,7 @@ const OnboardingForm = () => {
                             }
                             className="px-4"
                         >
-                            <div className="flex items-center gap-3" key={idx}>
+                            <div className="flex items-center gap-3">
                                 <RadioGroupItem
                                     value={value}
                                     id={`radio-${idx}`}
