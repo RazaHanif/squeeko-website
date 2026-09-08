@@ -133,7 +133,7 @@ const OnboardingForm = () => {
                                 <div className="flex flex-row gap-4 justify-center items-center p-2 bg-secondary rounded-xl px-4">
                                     <Slider 
                                         className="flex-5"
-                                        value={value}
+                                        value={maxChildCapacity}
                                         onValueChange={(value) => setValue(value)}
                                         id="max-capacity"
                                         min={0}
