@@ -170,7 +170,7 @@ const OnboardingForm = () => {
                                 />
                                 {   
                                     formData.maxChildCapacity < 101 
-                                    ? <p>under 100</p>  
+                                    ? <p>Children</p>  
                                     : <p>over 100</p> 
                                 }
                             </div>
