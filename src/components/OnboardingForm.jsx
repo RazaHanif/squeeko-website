@@ -293,7 +293,8 @@ const OnboardingForm = () => {
     ]
 
     const timelineType = [
-        "exploring",
+        "Just exploring",
+        "Within the next 3 months"
 
     ]
 
