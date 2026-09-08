@@ -234,7 +234,7 @@ const OnboardingForm = () => {
                                         step={1}
                                     />
                                     <div>
-
+                                        
                                     </div>
                             </div>
                             <Button 
