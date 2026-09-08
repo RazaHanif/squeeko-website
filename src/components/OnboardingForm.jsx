@@ -1,3 +1,4 @@
+import { Slider } from "@/components/ui/slider"
 import { Label } from "@/components/ui/label";
 import { useState } from "react";
 
