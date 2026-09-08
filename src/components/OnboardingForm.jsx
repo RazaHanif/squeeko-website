@@ -224,7 +224,10 @@ const OnboardingForm = () => {
                                     name="maxChildCapacity"
                                     value={formData.maxChildCapacity}
                                     onValueChange={(value) => {
-                                        setFormData
+                                        setFormData(prev => ({
+                                            ...prev,
+                                            
+                                        }))
                                     }}
                                     max={100}
                                     min={1}
