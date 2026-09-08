@@ -278,7 +278,8 @@ const OnboardingForm = () => {
                                     setFormData((prev) => ({
                                         ...prev,
                                         numOfStaff: value,
-                                    }))
+                                    })
+                                )
                                 }
                                 className="p-6 w-full"
                             >
