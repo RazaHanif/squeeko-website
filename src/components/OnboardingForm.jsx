@@ -148,6 +148,9 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             What best describes your centre?
                         </h2>
+                        <div>
+                            
+                        </div>
 
                         <div className="flex flex-col gap-4 w-full">
                             {daycareType.map((type, idx) => (
