@@ -172,7 +172,7 @@ const OnboardingForm = () => {
                                     Children
                                 </p>  
                             </div>
-                            <p className={`text-xs font-light ${formData.maxChildCapacity > 100 ? 'text-transparent' : 'text'} text-destructive`}>
+                            <p className={`text-xs font-light ${formData.maxChildCapacity > 100 ? 'text-transparent' : 'text-destructive'} text-destructive`}>
                                 {   
                                     formData.maxChildCapacity > 100 && (
                                         "Please enter a value less than or equal to 100."
