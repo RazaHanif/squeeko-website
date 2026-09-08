@@ -371,10 +371,10 @@ const OnboardingForm = () => {
                         <div className="flex flex-col gap-4 w-full px-4">
                             <div className="flex items-center gap-3" key={key}>
                                 <Label htmlFor="firstName">
-                                    {value}
+                                    First Name
                                 </Label>
                                 <RadioGroupItem
-                                    value={value}
+                                    value=
                                     id="firstName"
                                 />
                                 </div>
