@@ -222,7 +222,7 @@ const OnboardingForm = () => {
                                 <Slider
                                     id="maxChildCapacity-slider"
                                     name="maxChildCapacity"
-                                    value={formData.maxChildCapacity}
+                                    value={[Number(formData.maxChildCapacity)]}
                                     onValueChange={(value) => {
                                         setFormData(prev => ({
                                             ...prev,
