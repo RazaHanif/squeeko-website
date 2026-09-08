@@ -254,9 +254,9 @@ const OnboardingForm = () => {
                             <div className="flex items-center gap-3">
                                 <RadioGroupItem
                                     value={"1"}
-                                    id={`radio-`}
+                                    id={`numOfLocationsRadio-`}
                                 />
-                                <Label htmlFor={`radio-${idx}`}>
+                                <Label htmlFor={`numOfLocationsRadio-${idx}`}>
                                     {value}
                                 </Label>
                             </div>
