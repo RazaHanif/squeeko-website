@@ -152,7 +152,8 @@ const OnboardingForm = () => {
                             {daycareType.map((type, idx) => (
                                 <Button 
                                     key={idx} 
-                                    value={type} 
+                                    value={type}
+                                    variant="secondary"
                                     onClick={() => {
                                         setFormData((prev) => ({
                                             ...prev,
