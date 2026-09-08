@@ -145,8 +145,8 @@ const OnboardingForm = () => {
                     onSubmit={ handleSubmit }
                     className="w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 gap-1"
                 >
-                    <div className="bg-card w-full ">
-
+                    <div className="bg-card w-full mb-8">
+                        
 
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2 p-2 bg-primary border border-secondary-foreground rounded-lg">
