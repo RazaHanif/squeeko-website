@@ -310,7 +310,7 @@ const OnboardingForm = () => {
         numOfStaff: "",
         numOfLocations: "",
         accepting: "",
-        accepting: "",
+        managementType: "",
         accepting: "",
 
     });
