@@ -134,9 +134,8 @@ const OnboardingForm = () => {
                     onSubmit={ handleSubmit }
                     className="w-full flex flex-1 flex-col justify-center rounded-2xl bg-primary py-8 px-8 lg:py-16"
                 >
-                    <div className="flex flex-col justify-center gap-4 p-4 rounded-xl border border-primary-foreground bg-primary w-3/4 lg:w-1/4">
+                    
 
-                    </div>  
                 </form>
             )}
         </div>
