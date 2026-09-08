@@ -160,14 +160,15 @@ const OnboardingForm = () => {
                         </h2>
                         <div className="flex flex-col justify-center items-center ">
                             <div>
-                                
+
                             <Input 
                                 type="number"
                                 id="maxChildCapacity-input"
                                 name="maxChildCapacity"
                                 value={formData.maxChildCapacity}
                                 onChange={handleChange}
-                                />
+                            />
+                            <p>Children</p>
                             </div>
                             <Slider
                                 id="maxChildCapacity-slider"
