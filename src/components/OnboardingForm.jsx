@@ -285,7 +285,7 @@ const OnboardingForm = () => {
                                     onClick={() => {
                                         setFormData((prev) => ({
                                             ...prev,
-                                            numOfStaff: "1",
+                                            numOfLocations: "1",
                                         }))
                                         console.log("1")
                                         setCurrentStep(prev => prev + 1);
@@ -301,7 +301,7 @@ const OnboardingForm = () => {
                                     onClick={() => {
                                         setFormData((prev) => ({
                                             ...prev,
-                                            numOfStaff: "2 or more",
+                                            numOfLocations: "2 or more",
                                         }))
                                         console.log("2 or more")
                                         setCurrentStep(prev => prev + 1);
