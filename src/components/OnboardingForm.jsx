@@ -274,13 +274,13 @@ const OnboardingForm = () => {
                             ))}
                             <Button 
                                 value={"1"} 
-                                onClick={(value) =>
+                                onClick={(value) => {
                                     setFormData((prev) => ({
                                         ...prev,
                                         numOfStaff: value,
-                                    })
-                                )
-                                }
+                                    }))
+                                    console.log(value)
+                                }}
                                 className="p-6 w-full"
                             >
                                 1
