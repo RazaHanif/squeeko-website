@@ -267,13 +267,13 @@ const OnboardingForm = () => {
         "nursery": "Preschool / nursery"
     }
 
-    
+
 
     const [formData, setFormData] = useState({
         name: "",
         email: "",
         phone: "",
-        dob: "",
+        
         session: campType ? sessionTypes[campType] : "",
         message: "",
         type: "camp",
