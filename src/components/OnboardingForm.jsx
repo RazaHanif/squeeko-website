@@ -275,7 +275,8 @@ const OnboardingForm = () => {
 
     const manageType = {
         "paper": "Paper / Binders",
-        "spreadsheets": "Sp"
+        "spreadsheets": "Spreadsheets / Excel",
+        
     }
 
 
