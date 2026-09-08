@@ -21,6 +21,7 @@ import { ChevronRight } from "lucide-react"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Label } from "@/components/ui/label"
 import { useState } from "react"
+import OnboardingForm from "@/components/OnboardingForm"
 
 
 function HomeFeatureAccordion() {
@@ -284,7 +285,7 @@ function Home() {
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-form.svg')] bg-cover bg-center">
-                <HomeForm />
+                <OnboardingForm />
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-why.svg')] bg-cover bg-center py-8">
