@@ -219,7 +219,13 @@ const OnboardingForm = () => {
                                 <Button 
                                 key={idx} 
                                 value={type} 
-                                onClick={() => console.log(type)}
+                                onClick={() => {
+                                    setFormData((prev) => ({
+                                        ...prev,
+                                        daycareType: type,
+                                    }))
+                                    console.log(type)
+                                }}
                                 className="p-6 w-full"
                                 >
                                     {type}
