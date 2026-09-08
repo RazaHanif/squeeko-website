@@ -288,7 +288,8 @@ const OnboardingForm = () => {
         "Attendance & daily logs",
         "Invoicing & payments",
         "Managing forms & paperwork",
-        "Staff management"
+        "Staff management",
+        "Other"
     ]
 
 
