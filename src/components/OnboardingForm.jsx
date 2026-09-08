@@ -153,7 +153,13 @@ const OnboardingForm = () => {
                                 <Button 
                                 key={idx} 
                                 value={type} 
-                                onClick={() => console.log(type)}
+                                onClick={() => {
+                                    setFormData((prev) => ({
+                                        ...prev,
+                                        numOfStaff: "1",
+                                    }))
+                                    console.log("1")
+                                }}                            
                                 className="p-6 w-full"
                                 >
                                     {type}
