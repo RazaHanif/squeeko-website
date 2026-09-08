@@ -155,7 +155,9 @@ const OnboardingForm = () => {
                                 Back
                             </Button>
 
-                            <div clas
+                            <div className="text-sm text-muted-foreground">
+                                {currentStep + 1} of 9
+                            </div>
                         </div>
 
                     </div>
