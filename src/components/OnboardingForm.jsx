@@ -52,8 +52,6 @@ const OnboardingForm = () => {
         "As Soon As Possible"
     ]
 
-    
-
     const [formData, setFormData] = useState({
         firstName: "",
         lastName: "",
@@ -73,6 +71,8 @@ const OnboardingForm = () => {
 
     const inputClass = "h-8 w-full min-w-0 border-0 px-2.5 py-1 outline-none placeholder:text-muted-foreground text-md"
 
+
+    const []
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
 
