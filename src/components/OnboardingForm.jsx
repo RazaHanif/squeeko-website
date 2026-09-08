@@ -392,6 +392,7 @@ const OnboardingForm = () => {
                                     type="text"
                                     name="lastName"
                                     id="lastName"
+                                    className={inputClass}
                                     value={formData.lastName}
                                     onValueChange ={handleChange}
                                 />
@@ -404,6 +405,7 @@ const OnboardingForm = () => {
                                     type="text"
                                     name="company"
                                     id="company"
+                                    className={inputClass}
                                     value={formData.company}
                                     onValueChange ={handleChange}
                                 />
@@ -416,6 +418,7 @@ const OnboardingForm = () => {
                                     type="email"
                                     name="email"
                                     id="email"
+                                    className={inputClass}
                                     value={formData.email}
                                     onValueChange ={handleChange}
                                 />
@@ -428,6 +431,7 @@ const OnboardingForm = () => {
                                     type="phone"
                                     name="phone"
                                     id="phone"
+                                    className={inputClass}
                                     value={formData.phone}
                                     onValueChange ={handleChange}
                                 />
