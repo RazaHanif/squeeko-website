@@ -256,6 +256,7 @@ const OnboardingForm = () => {
                             </Button>
                             <Button 
                                 value={"2 or more"} 
+                                variant="secondary"
                                 onClick={() => {
                                     setFormData((prev) => ({
                                         ...prev,
