@@ -156,7 +156,7 @@ const OnboardingForm = () => {
                                 onClick={() => {
                                     setFormData((prev) => ({
                                         ...prev,
-                                        numOfStaff: type,
+                                        daycareType: type,
                                     }))
                                     console.log(type)
                                 }}                            
