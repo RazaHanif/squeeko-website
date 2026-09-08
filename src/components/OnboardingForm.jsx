@@ -142,6 +142,10 @@ const OnboardingForm = () => {
                         Licensed Capactiy
                     </div>
 
+                    <div className="bg-red-500">
+                        Licensed Capactiy
+                    </div>
+
                 </form>
             )}
         </div>
