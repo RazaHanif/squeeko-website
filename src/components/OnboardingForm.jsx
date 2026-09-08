@@ -242,7 +242,7 @@ const OnboardingForm = () => {
                             How many locations do you operate?
                         </h2>
                         <RadioGroup
-                            value={formData.numOfStaff}
+                            value={formData.numOfLocations}
                             onValueChange={(value) =>
                                 setFormData((prev) => ({
                                 ...prev,
