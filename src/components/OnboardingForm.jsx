@@ -436,11 +436,11 @@ const OnboardingForm = () => {
                                     onChange={handleChange}
                                 />
                             </div>
-                                                    <Button 
-                            variant="default"
-                        >
-                            Continue
-                        </Button>
+                            <Button 
+                                variant="default"
+                            >
+                                Continue
+                            </Button>
                         </div>
                     </div>
                 </form>
