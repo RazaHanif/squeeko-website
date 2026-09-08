@@ -135,7 +135,7 @@ const OnboardingForm = () => {
                     onSubmit={ handleSubmit }
                     className="w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 gap-1"
                 >
-                    <div className="flex flex-col justify-center items-center gap-2 border">
+                    <div className="flex flex-col justify-center items-center gap-2 border border-primary">
                         <h2 className="text-xl">
                             What best describes your centre?
                         </h2>
@@ -154,35 +154,35 @@ const OnboardingForm = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border">
+                    <div className="flex flex-col justify-center items-center gap-2 border border-primary">
                         What is your maximum licensed capacity?
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border">
+                    <div className="flex flex-col justify-center items-center gap-2 border border-primary">
                         About how many employees work at your centre?
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border">
+                    <div className="flex flex-col justify-center items-center gap-2 border border-primary">
                         How many locations do you operate?
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border">
+                    <div className="flex flex-col justify-center items-center gap-2 border border-primary">
                         Are you currently accepting new families?
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border">
+                    <div className="flex flex-col justify-center items-center gap-2 border border-primary">
                         How do you currently manage your centre?
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border">
+                    <div className="flex flex-col justify-center items-center gap-2 border border-primary">
                         Whats the biggest challenge you're trying to solve? (choose multiple)
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border">
+                    <div className="flex flex-col justify-center items-center gap-2 border border-primary">
                         When are you looking to make a change?
                     </div>
 
-                    <div className="flex flex-col justify-center items-center gap-2 border">
+                    <div className="flex flex-col justify-center items-center gap-2 border border-primary">
                         Almost there! Let's get your centre connected with our team.
                     </div>
                 </form>
