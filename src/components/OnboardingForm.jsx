@@ -288,6 +288,7 @@ const OnboardingForm = () => {
                                             numOfStaff: "1",
                                         }))
                                         console.log("1")
+                                        setCurrentStep(prev => prev + 1);
                                     }}
                                     className="p-6 w-full"
                                 >
@@ -303,6 +304,7 @@ const OnboardingForm = () => {
                                             numOfStaff: "2 or more",
                                         }))
                                         console.log("2 or more")
+                                        setCurrentStep(prev => prev + 1);
                                     }}
                                     className="p-6 w-full"
                                 >
