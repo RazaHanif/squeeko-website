@@ -367,13 +367,13 @@ const OnboardingForm = () => {
                 >
                         You're all set! 🎉
 
-    We've got everything we need.
+                        We've got everything we need.
 
-    A member of the Squeeko team will review your centre's information and reach out to you shortly.
+                        A member of the Squeeko team will review your centre's information and reach out to you shortly.
 
-    In the meantime, see what Squeeko can do for your centre.
+                        In the meantime, see what Squeeko can do for your centre.
 
-    Explore Squeeko →
+                        Explore Squeeko →
                 </div>
             ) : (
                 <form
