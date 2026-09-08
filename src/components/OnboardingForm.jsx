@@ -394,7 +394,7 @@ const OnboardingForm = () => {
                                     id="lastName"
                                     className={inputClass}
                                     value={formData.lastName}
-                                    onValueChange ={handleChange}
+                                    onChange ={handleChange}
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
@@ -407,7 +407,7 @@ const OnboardingForm = () => {
                                     id="company"
                                     className={inputClass}
                                     value={formData.company}
-                                    onValueChange ={handleChange}
+                                    onChange ={handleChange}
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
@@ -420,7 +420,7 @@ const OnboardingForm = () => {
                                     id="email"
                                     className={inputClass}
                                     value={formData.email}
-                                    onValueChange ={handleChange}
+                                    onChange ={handleChange}
                                 />
                             </div>
                             <div className="flex flex-col justify-center items-start bg-primary p-2 rounded-lg">
@@ -433,7 +433,7 @@ const OnboardingForm = () => {
                                     id="phone"
                                     className={inputClass}
                                     value={formData.phone}
-                                    onValueChange ={handleChange}
+                                    onChange ={handleChange}
                                 />
                             </div>
                         </div>
