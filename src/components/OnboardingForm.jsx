@@ -172,7 +172,7 @@ const OnboardingForm = () => {
                                     Children
                                 </p>  
                             </div>
-                            <div className="">
+                            <div className="text-xs font-light text-destructive">
                             {   
                                 formData.maxChildCapacity > 100 && (
                                     <p className="text-xs font-light text-destructive">
