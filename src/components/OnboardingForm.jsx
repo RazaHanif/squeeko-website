@@ -283,7 +283,7 @@ const OnboardingForm = () => {
                                 1
                             </Button>
                             <Button 
-                                value={"1"} 
+                                value={"2"} 
                                 onClick={() => {
                                     setFormData((prev) => ({
                                         ...prev,
