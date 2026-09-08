@@ -139,7 +139,7 @@ const OnboardingForm = () => {
                             Centre type
                         </h2>
 
-                        {}
+                        {daycare}
 
 
                     </div>
