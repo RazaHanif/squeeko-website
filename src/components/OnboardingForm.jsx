@@ -120,11 +120,10 @@ const OnboardingForm = () => {
                     </p>
 
                     <p>
-                        
+                        In the meantime, see what Squeeko can do for your centre.
                     </p>
 
 
-                        In the meantime, see what Squeeko can do for your centre.
 
                         Explore Squeeko →
                 </div>
