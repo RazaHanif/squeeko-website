@@ -147,7 +147,11 @@ const OnboardingForm = () => {
                 >
                     <div className="bg-card w-full mb-8">
                         <div className="flex justify-between items-center mb-2">
-                            
+                            <Button
+                                variant="ghost"
+                                onClick={() => setCurrentStep(prev => Math.max(prev - 1, 0))}
+                                disabled={currentStep === 0}
+                            />
                         </div>
 
                     </div>
