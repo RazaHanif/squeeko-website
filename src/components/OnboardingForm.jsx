@@ -37,7 +37,6 @@ const FormLayout = ({ form, handleSubmit, submitted }) => {
     );
 };
 
-export default FormLayout;
 
 const CampForm = ({ campType }) => {
     const sessionTypes = {
