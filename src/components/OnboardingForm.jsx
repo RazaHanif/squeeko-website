@@ -422,7 +422,7 @@ const OnboardingForm = () => {
                                     First Name
                                 </Label>
                                 <Input
-                                    type="text"
+                                    type="phone"
                                     name="phone"
                                     id="phone"
                                     value={formData.phone}
