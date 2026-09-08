@@ -151,16 +151,16 @@ const OnboardingForm = () => {
                         <div className="flex flex-col gap-4 w-full px-4">
                             {daycareType.map((type, idx) => (
                                 <Button 
-                                key={idx} 
-                                value={type} 
-                                onClick={() => {
-                                    setFormData((prev) => ({
-                                        ...prev,
-                                        daycareType: type,
-                                    }))
-                                    console.log(type)
-                                }}                            
-                                className="p-6 w-full"
+                                    key={idx} 
+                                    value={type} 
+                                    onClick={() => {
+                                        setFormData((prev) => ({
+                                            ...prev,
+                                            daycareType: type,
+                                        }))
+                                        console.log(type)
+                                    }}                            
+                                    className="p-6 w-full"
                                 >
                                     {type}
                                 </Button>
