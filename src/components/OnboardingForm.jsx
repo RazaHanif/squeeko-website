@@ -435,6 +435,7 @@ const OnboardingForm = () => {
                                 />
                             </div>
                             <Button 
+                                type="submit"
                                 variant="default"
                             >
                                 Submit
