@@ -134,13 +134,13 @@ const OnboardingForm = () => {
                                     <Slider 
                                         className="flex-5"
                                         value={maxChildCapacity}
-                                        onValueChange={(value) => setValue(value)}
+                                        onValueChange={(num) => setValue(num)}
                                         id="max-capacity"
                                         min={0}
                                         max={100} 
                                         step={1} 
                                     />
-                                    <p className="flex-1 text-end text-primary">{value}</p> 
+                                    <p className="flex-1 text-end text-primary">{maxChildCapacity}</p> 
                                 </div>
                             </div>
                         </div>
