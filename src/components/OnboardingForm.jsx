@@ -88,7 +88,7 @@ const OnboardingForm = () => {
 
     const nextStep = () => {
         setDirection(1)
-        setCurrentStep
+        setCurrentStep(prev => prev + 1)
     }
 
     const prevStep = () => {
