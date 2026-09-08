@@ -292,7 +292,7 @@ const OnboardingForm = () => {
                             }
                             className="px-4"
                         >
-                            {numOfStaffType.map((value, idx) => (
+                            {acceptingType.map((value, idx) => (
                                 <div className="flex items-center gap-3" key={idx}>
                                     <RadioGroupItem
                                         value={value}
