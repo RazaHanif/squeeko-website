@@ -253,13 +253,13 @@ const OnboardingForm = () => {
                         >
                             {numOfStaffType.map((value, idx) => (
                                 <div className="flex items-center gap-3" key={idx}>
-                                <RadioGroupItem
-                                    value={value}
-                                    id={`radio-${idx}`}
-                                />
-                                <Label htmlFor={`radio-${idx}`}>
-                                    {value}
-                                </Label>
+                                    <RadioGroupItem
+                                        value={value}
+                                        id={`radio-${idx}`}
+                                    />
+                                    <Label htmlFor={`radio-${idx}`}>
+                                        {value}
+                                    </Label>
                                 </div>
                             ))}
                         </RadioGroup>
