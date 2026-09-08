@@ -307,7 +307,8 @@ const OnboardingForm = () => {
 
     In the meantime, see what Squeeko can do for your centre.
 
-    Explore Squeeko →`
+    Explore Squeeko →
+    `
 
     const [formData, setFormData] = useState({
         firstName: "",
