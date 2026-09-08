@@ -158,7 +158,7 @@ const OnboardingForm = () => {
                         <h2 className="text-xl">
                             What is your maximum licensed capacity?
                         </h2>
-                        <div className="flex flex-col justify-center items-center">
+                        <div className="flex flex-col justify-center items-center ">
                             <Input 
                                 type="number"
                                 id="maxChildCapacity-input"
