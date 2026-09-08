@@ -1,6 +1,7 @@
 import { Slider } from "@/components/ui/slider"
 import { Label } from "@/components/ui/label";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const OnboardingForm = () => {
     const daycareType = [
@@ -123,7 +124,9 @@ const OnboardingForm = () => {
                         In the meantime, see what Squeeko can do for your centre.
                     </p>
 
-
+                    <NavLink>
+                        
+                    </NavLink>
 
                         Explore Squeeko →
                 </div>
