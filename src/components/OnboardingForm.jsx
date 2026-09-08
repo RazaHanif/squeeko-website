@@ -233,7 +233,7 @@ const OnboardingForm = () => {
                                         min={1}
                                         step={1}
                                     />
-                                    <div className="flex flex-row ">
+                                    <div className="flex flex-row w-full justify-between items-center">
                                         <p>1</p>
                                         <p>25</p>
                                         <p>50</p>
