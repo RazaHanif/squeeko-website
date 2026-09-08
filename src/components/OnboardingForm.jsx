@@ -372,18 +372,18 @@ const OnboardingForm = () => {
                             <div className="flex flex-col gap-4 w-full px-4">
                                 {painPointType.map((type, idx) => (
                                     <Button 
-                                    type="button"
-                                    key={idx} 
-                                    value={type} 
-                                    variant="secondary"
-                                    onClick={() => {
-                                        setFormData((prev) => ({
-                                            ...prev,
-                                            painPoints: type,
-                                        }))
-                                        console.log(type)
-                                    }}
-                                    className="p-6 w-full"
+                                        type="button"
+                                        key={idx} 
+                                        value={type} 
+                                        variant="secondary"
+                                        onClick={() => {
+                                            setFormData((prev) => ({
+                                                ...prev,
+                                                painPoints: type,
+                                            }))
+                                            console.log(type)
+                                        }}
+                                        className="p-6 w-full"
                                     >
                                         {type}
                                     </Button>
