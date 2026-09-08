@@ -295,7 +295,7 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             How do you currently manage your centre?
                         </h2>
-                                                <div className="flex flex-col gap-4 w-full px-4">
+                        <div className="flex flex-col gap-4 w-full px-4">
                             {numOfStaffType.map((type, idx) => (
                                 <Button 
                                 key={idx} 
