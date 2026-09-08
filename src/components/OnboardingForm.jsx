@@ -108,7 +108,7 @@ const OnboardingForm = () => {
         <div className="w-3/4 lg:w-1/4">
             { true ? (
                 <div 
-                    className="w-full flex flex-1 flex-col justify-center rounded-2xl bg-primary py-8 px-8 lg:py-16"
+                    className="w-full flex flex-1 flex-col justify-center rounded-2xl bg-primary py-8 px-8 lg:py-16 lg:px"
                 >
                     <h2 className="">
                         You're all set!
