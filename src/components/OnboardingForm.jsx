@@ -388,7 +388,7 @@ const OnboardingForm = () => {
                                 <Label htmlFor="lastName" className="pl-2.5">
                                     Last Name
                                 </Label>
-                                <Input
+                                <input
                                     type="text"
                                     name="lastName"
                                     id="lastName"
@@ -400,7 +400,7 @@ const OnboardingForm = () => {
                                 <Label htmlFor="company" className="pl-2.5">
                                     Company Name
                                 </Label>
-                                <Input
+                                <input
                                     type="text"
                                     name="company"
                                     id="company"
@@ -412,7 +412,7 @@ const OnboardingForm = () => {
                                 <Label htmlFor="email" className="pl-2.5">
                                     Email
                                 </Label>
-                                <Input
+                                <input
                                     type="email"
                                     name="email"
                                     id="email"
@@ -424,7 +424,7 @@ const OnboardingForm = () => {
                                 <Label htmlFor="phone" className="pl-2.5">
                                     Phone
                                 </Label>
-                                <Input
+                                <input
                                     type="phone"
                                     name="phone"
                                     id="phone"
