@@ -204,7 +204,7 @@ const OnboardingForm = () => {
                             />
                         </div>
                         <Button 
-                            variant="default"
+                            variant="secondary"
                         >
                             Continue
                         </Button>
