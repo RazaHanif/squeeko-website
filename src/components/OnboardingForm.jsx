@@ -238,36 +238,6 @@ const OnboardingForm = () => {
                         <h2 className="text-xl text-center font-serif font-semibold">
                             How many locations do you operate?
                         </h2>
-                        <RadioGroup
-                            value={formData.numOfLocations}
-                            onValueChange={(value) =>
-                                setFormData((prev) => ({
-                                ...prev,
-                                numOfLocations: value,
-                                }))
-                            }
-                            className="px-4"
-                        >
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem
-                                    value={"1"}
-                                    id={`numOfLocationsRadio-1`}
-                                />
-                                <Label htmlFor={`numOfLocationsRadio-1`}>
-                                    1
-                                </Label>
-                            </div>
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem
-                                    value={"2+"}
-                                    id={`numOfLocationsRadio-1`}
-                                />
-                                <Label htmlFor={`numOfLocationsRadio-1`}>
-                                    2+
-                                </Label>
-                            </div>
-                        </RadioGroup>
-
                         <div className="flex flex-col gap-4 w-full px-4">
                             <Button 
                                 value={"1"} 
