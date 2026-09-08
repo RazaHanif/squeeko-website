@@ -296,7 +296,7 @@ const OnboardingForm = () => {
                             How do you currently manage your centre?
                         </h2>
                         <div className="flex flex-col gap-4 w-full px-4">
-                            {numOfStaffType.map((type, idx) => (
+                            {painPointType.map((type, idx) => (
                                 <Button 
                                 key={idx} 
                                 value={type} 
