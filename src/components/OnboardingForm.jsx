@@ -272,7 +272,7 @@ const OnboardingForm = () => {
                             Are you currently accepting new families?
                         </h2>
                         <div className="flex flex-col gap-4 w-full px-4">
-                            {numOfStaffType.map((type, idx) => (
+                            {acceptingType.map((type, idx) => (
                                 <Button 
                                 key={idx} 
                                 value={type} 
