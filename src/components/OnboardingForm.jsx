@@ -158,7 +158,7 @@ const OnboardingForm = () => {
                         <h2 className="text-xl">
                             What is your maximum licensed capacity?
                         </h2>
-                        <div className="flex flex-col justify-center items-center border">
+                        <div className="flex flex-col justify-center items-center border pb-2">
                             <p className={`text-xs font-light ${formData.maxChildCapacity > 100 ? 'text-destructive' : 'text-red-500'}`}>
                                 Please enter a value less than or equal to 100.
                             </p>
