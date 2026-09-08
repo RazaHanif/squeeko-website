@@ -246,7 +246,7 @@ const OnboardingForm = () => {
                             onValueChange={(value) =>
                                 setFormData((prev) => ({
                                 ...prev,
-                                numOfStaff: value,
+                                numOfLocations: value,
                                 }))
                             }
                             className="px-4"
