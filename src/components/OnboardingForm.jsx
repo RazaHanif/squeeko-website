@@ -26,3 +26,5 @@ function OnBoardingForm() {
 
     )
 }
+
+export const OnBoardingForm
