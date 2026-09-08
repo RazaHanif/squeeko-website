@@ -171,6 +171,8 @@ const OnboardingForm = () => {
                                 name="maxChildCapacity"
                                 value={formData.maxChildCapacity}
                                 max={100}
+                                min={1}
+                                step={1}
                             />
                         </div>
 
