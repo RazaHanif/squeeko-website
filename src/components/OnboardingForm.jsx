@@ -379,6 +379,7 @@ const OnboardingForm = () => {
                                     type="text"
                                     name="firstName"
                                     id="firstName"
+                                    clas
                                     value={formData.firstName}
                                     onValueChange ={handleChange}
                                 />
