@@ -1,6 +1,10 @@
 import { google } from "googleapis"
 
-const auth = new google.auth.GoogleAuth
+const auth = new google.auth.GoogleAuth({
+    credentials: {
+        client_email: proc
+    }
+})
 
 export async function lead(req, res) {
     if (req.method !== 'POST') {
