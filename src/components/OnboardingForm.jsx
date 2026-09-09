@@ -115,7 +115,7 @@ const OnboardingForm = () => {
         setIsSubmitting(true);
 
         console.log(formData)
-        
+        setSu
 
         // try {
         //     const response = await fetch("/api/lead", {
