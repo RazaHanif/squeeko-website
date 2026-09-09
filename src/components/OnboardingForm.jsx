@@ -495,6 +495,7 @@ const OnboardingForm = () => {
                                             className={inputClass}
                                             value={formData.firstName}
                                             onChange={handleChange}
+                                            re
                                         />
                                     </div>
                                     <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground flex-1">
