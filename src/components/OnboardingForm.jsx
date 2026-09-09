@@ -549,6 +549,7 @@ const OnboardingForm = () => {
                                     />
                                 </div>
                                 <Button 
+                                    className="py-6"
                                     type="submit"
                                     variant="secondary"
                                 >
