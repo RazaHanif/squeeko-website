@@ -152,7 +152,7 @@ const OnboardingForm = () => {
                         You're all set!
                     </h2>
 
-                    <div>
+                    <div clas>
                         <p className="">
                             We've got everything we need.
 
