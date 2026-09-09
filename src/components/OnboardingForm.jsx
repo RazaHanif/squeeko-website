@@ -115,7 +115,7 @@ const OnboardingForm = () => {
         setIsSubmitting(true);
 
         try {
-            const response = await fetch("/api/submit-form", {
+            const response = await fetch("/api/lead", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
