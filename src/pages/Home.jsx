@@ -245,10 +245,18 @@ function Home() {
                     </div>
                     <div className="flex-1 w-full flex flex-col">
                         <div className="border-b border-secondary-foreground flex-1 w-full flex justify-center items-center">
-                            IMAGE
+                                                    <Image
+                            src="/media/1.jpg"
+                            alt="Kidz Korner licensed daycare in  Milton"
+                            w="w-md"
+                        />
                         </div>
                         <div className="flex-1 w-full flex justify-center items-center">
-                            IMAGE
+                                                    <Image
+                            src="/media/1.jpg"
+                            alt="Kidz Korner licensed daycare in  Milton"
+                            w="w-md"
+                        />
                         </div> 
                     </div>
                 </div>
