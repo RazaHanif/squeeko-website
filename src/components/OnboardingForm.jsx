@@ -216,69 +216,8 @@ const OnboardingForm = () => {
                             </h2>
                             <div className="flex flex-col justify-center items-center w-3/4 gap-4 px-4">
                                 <div className="flex flex-row justify-center items-center p-2 gap-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                    <input 
-                                        type="number"
-                                        id="maxChildCapacity-input"
-                                        name="maxChildCapacity"
-                                        className="h-8 w-full min-w-0 border border-primary rounded-lg px-0 py-1 outline-none placeholder:text-muted-foreground text-md flex-1 text-end"
-                                        value={formData.maxChildCapacity ?? 1}
-                                        onChange={(e) => {
-                                            const value = Number(e.target.value)
-
-                                            setFormData(prev => ({
-                                                ...prev,
-                                                maxChildCapacity: Number.isFinite(value) && value >= 1 
-                                                ? value 
-                                                : 1
-                                            }))
-                                        }}
-                                    />
-                                    <p className="flex-1">
-                                        Children
-                                    </p>
-                                </div>
-
-                                <p className={`text-xs font-light my-1 ${formData.maxChildCapacity > 100 ? 'text-destructive' : 'text-transparent'}`}>
-                                        Please enter a value less than or equal to 100.
-                                </p>
-
-                                {/* Maybe we can add numbers to the bottom of this slider to represent the scale, with the very right being 100+ */}
-                                <div className="w-full flex flex-col gap-1">
-                                    <Slider
-                                        id="maxChildCapacity-slider"
-                                        name="maxChildCapacity"
-                                        onValueChange={(value) => {
-                        const newValue = value[0];
-
-                        if (newValue === undefined || Number.isNaN(newValue)) {
-                            return;
-                        }
-
-                        setFormData(prev => ({
-                            ...prev,
-                            maxChildCapacity: newValue
-                        }));
-                                        }}
-                                        max={100}
-                                        min={1}
-                                        step={1}
-                                    />
-                                    <div className="flex flex-row w-full justify-between items-center">
-                                        <p className="text-xs font-light">
-                                            1
-                                        </p>
-                                        <p className="text-xs font-light">
-                                            25
-                                        </p>
-                                        <p className="text-xs font-light">
-                                            50
-                                        </p>
-                                        <p className="text-xs font-light">
-                                            75
-                                        </p>
-                                        <p className="text-xs font-light">
-                                            100+
-                                        </p>
+                                    <div className="w-full grid grid-cols-2 justify-items-center gap-4 px-4">
+                                        
                                     </div>
                                 </div>
                             </div>
