@@ -16,7 +16,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { Slider } from "@/components/ui/slider"
-import { NavLink } from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom"
 import { ChevronRight } from "lucide-react"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Label } from "@/components/ui/label"
@@ -194,6 +194,8 @@ function HomeCards() {
 }
 
 function Home() {
+    const navigate = useNavigate()
+
     const horizontalList = [
         'Spend more time with the children',
         'Less paperwork. more childcare',
@@ -231,7 +233,7 @@ function Home() {
 
                         <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/4">
                             <Button 
-                                
+
                                 variant="default"
                                 className="flex-1 cursor-pointer p-6 border border-primary-foreground"
                             >
