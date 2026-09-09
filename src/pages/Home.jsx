@@ -241,7 +241,7 @@ function Home() {
                             src="/media/1.jpg"
                             alt="something"
                             loading="lazy"
-                            className="object-cover w-full h-full"
+                            className="w-2xl"
                         />
                     </div> 
                 </div>
