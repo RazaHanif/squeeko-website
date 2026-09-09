@@ -178,7 +178,8 @@ const OnboardingForm = () => {
 
                     {currentStep === 0 && (
                         <div 
-                            keyclassName="flex flex-col justify-start items-center gap-4">
+                            key={currentStep}
+                            className="flex flex-col justify-start items-center gap-4">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 What best describes your centre?
                             </h2>
@@ -208,7 +209,8 @@ const OnboardingForm = () => {
 
                     {currentStep === 1 && (
                         <div 
-                            keyclassName="flex flex-col justify-start items-center gap-4">
+                            key={currentStep}
+                            className="flex flex-col justify-start items-center gap-4">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 What is your maximum licensed capacity?
                             </h2>
@@ -288,7 +290,8 @@ const OnboardingForm = () => {
 
                     {currentStep === 2 && (
                         <div 
-                            keyclassName="flex flex-col justify-start items-center gap-4">
+                            key={currentStep}
+                            className="flex flex-col justify-start items-center gap-4">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 About how many employees work at your centre?
                             </h2>
@@ -318,7 +321,8 @@ const OnboardingForm = () => {
 
                     {currentStep === 3 && (
                         <div 
-                            keyclassName="flex flex-col justify-start items-center gap-4">
+                            key={currentStep}
+                            className="flex flex-col justify-start items-center gap-4">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 How many locations do you operate?
                             </h2>
@@ -361,7 +365,8 @@ const OnboardingForm = () => {
 
                     {currentStep === 4 && (
                         <div 
-                            keyclassName="flex flex-col justify-start items-center gap-4">
+                            key={currentStep}
+                            className="flex flex-col justify-start items-center gap-4">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 Are you currently accepting new families?
                             </h2>
@@ -391,7 +396,8 @@ const OnboardingForm = () => {
 
                     {currentStep === 5 && (
                         <div 
-                            keyclassName="flex flex-col justify-start items-center gap-4">
+                            key={currentStep}
+                            className="flex flex-col justify-start items-center gap-4">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 How do you currently manage your centre?
                             </h2>
@@ -421,7 +427,8 @@ const OnboardingForm = () => {
 
                     {currentStep === 6 && (
                         <div 
-                            keyclassName="flex flex-col justify-start items-center gap-4">
+                            key={currentStep}
+                            className="flex flex-col justify-start items-center gap-4">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 Whats the biggest challenge you're trying to solve?
                             </h2>
@@ -463,7 +470,8 @@ const OnboardingForm = () => {
 
                     {currentStep === 7 && (
                         <div 
-                            keyclassName="flex flex-col justify-start items-center gap-4">
+                            key={currentStep}
+                            className="flex flex-col justify-start items-center gap-4">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 When are you looking to make a change?
                             </h2>
@@ -494,7 +502,8 @@ const OnboardingForm = () => {
 
                     {currentStep === 8 && (
                         <div 
-                            keyclassName="flex flex-col justify-start items-center gap-4">
+                            key={currentStep}
+                            className="flex flex-col justify-start items-center gap-4">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 Almost there! Let's get your centre connected with our team.
                             </h2>
