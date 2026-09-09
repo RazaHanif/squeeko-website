@@ -181,7 +181,7 @@ const OnboardingForm = () => {
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 What best describes your centre?
                             </h2>
-                            <div className="flex flex-col justify-center w-full gap-4 px-4">
+                            <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
                                 {daycareType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -281,7 +281,7 @@ const OnboardingForm = () => {
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 About how many employees work at your centre?
                             </h2>
-                            <div className="flex flex-col justify-center w-full gap-4 px-4">
+                            <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
                                 {numOfStaffType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -310,7 +310,7 @@ const OnboardingForm = () => {
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 How many locations do you operate?
                             </h2>
-                            <div className="flex flex-col justify-center w-full gap-4 px-4">
+                            <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
                                 <Button 
                                     type="button"
                                     value={"1"} 
@@ -352,7 +352,7 @@ const OnboardingForm = () => {
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 Are you currently accepting new families?
                             </h2>
-                            <div className="flex flex-col justify-center w-full gap-4 px-4">
+                            <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
                                 {acceptingType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -381,7 +381,7 @@ const OnboardingForm = () => {
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 How do you currently manage your centre?
                             </h2>
-                            <div className="flex flex-col justify-center w-full gap-4 px-4">
+                            <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
                                 {managementType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -411,7 +411,7 @@ const OnboardingForm = () => {
                                 Whats the biggest challenge you're trying to solve?
                             </h2>
                             {/* Make this so they can choose multiple options that just add to the painPoints array */}
-                            <div className="flex flex-col justify-center w-full gap-4 px-4">
+                            <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
                                 {painPointType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -450,7 +450,7 @@ const OnboardingForm = () => {
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 When are you looking to make a change?
                             </h2>
-                            <div className="flex flex-col justify-center w-full gap-4 px-4">
+                            <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
                                 {timelineType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -480,7 +480,7 @@ const OnboardingForm = () => {
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 Almost there! Let's get your centre connected with our team.
                             </h2>
-                            <div className="flex flex-col justify-center w-full gap-4 px-4">
+                            <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
                                 <div className="flex flex-row gap-4">
                                     <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50 flex-1">
                                         <Label htmlFor="firstName" className="pl-2.5 text-xs">
