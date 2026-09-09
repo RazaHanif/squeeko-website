@@ -240,7 +240,7 @@ function Home() {
                                 Learn More
                             </Button>
                             <Button 
-                                onClick={() => navigate("/")}
+                                onClick={() => navigate("/#home-form")}
                                 variant="secondary"
                                 className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
                             >
