@@ -218,24 +218,24 @@ const OnboardingForm = () => {
                                 <div className="flex flex-row justify-center items-center p-2 gap-2 rounded-lg border border-secondary-foreground bg-secondary/50">
                                     <div className="w-full grid grid-cols-2 justify-items-center gap-4 px-4">
                                         {daycareType.map((type, idx) => (
-                                    <Button 
-                                        type="button"
-                                        key={idx} 
-                                        value={type}
-                                        variant="secondary"
-                                        onClick={() => {
-                                            setFormData((prev) => ({
-                                                ...prev,
-                                                daycareType: type,
-                                            }))
-                                            console.log(type)
-                                            nextStep()
-                                        }}                            
-                                        className="p-6 w-full"
-                                    >
-                                        {type}
-                                    </Button>
-                                ))}
+                                            <Button 
+                                                type="button"
+                                                key={idx} 
+                                                value={type}
+                                                variant="secondary"
+                                                onClick={() => {
+                                                    setFormData((prev) => ({
+                                                        ...prev,
+                                                        daycareType: type,
+                                                    }))
+                                                    console.log(type)
+                                                    nextStep()
+                                                }}                            
+                                                className="p-6 w-full"
+                                            >
+                                                {type}
+                                            </Button>
+                                        ))}
                                     </div>
                                 </div>
                             </div>
