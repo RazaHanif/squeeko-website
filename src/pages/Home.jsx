@@ -244,7 +244,7 @@ function Home() {
                         />
                             <img
                                 src="/media/3.jpg"
-                                alt={alt}
+                                alt="something"
                                 loading="lazy"
                                 className={style}
                             />
