@@ -242,6 +242,12 @@ function Home() {
                             alt="Kidz Korner licensed daycare in  Milton"
                             w="w-md"
                         />
+                            <img
+                                src={src}
+                                alt={alt}
+                                loading="lazy"
+                                className={style}
+                            />
                     </div>
                     <div className="flex-1 w-full flex flex-col">
                         <div className="border-b border-secondary-foreground flex-1 w-full flex justify-center items-center">
