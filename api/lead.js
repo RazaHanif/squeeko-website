@@ -13,7 +13,7 @@ const sheets = google.sheets({
     auth,
 })
 
-export async function createLead(req, res) {
+export async function handler(req, res) {
     try {
         const formData = req.body
 
