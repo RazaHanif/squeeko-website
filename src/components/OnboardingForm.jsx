@@ -30,7 +30,7 @@ const OnboardingForm = () => {
     const maxCapacityType = [
         "1-10",
         "11-20",
-        "11-20",
+        "21-30",
         "21-50",
         "50+"
     ]
