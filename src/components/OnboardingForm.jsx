@@ -152,7 +152,7 @@ const OnboardingForm = () => {
                         You're all set!
                     </h2>
 
-                    <div clas>
+                    <div className="flex">
                         <p className="">
                             We've got everything we need.
 
