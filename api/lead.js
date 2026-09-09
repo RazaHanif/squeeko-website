@@ -1,5 +1,7 @@
 import { google } from "googleapis"
 
+const auth = new google.auth.GoogleAuth
+
 export async function lead(req, res) {
     if (req.method !== 'POST') {
         return res.status(405).json({ error: 'Method not allowed' })
