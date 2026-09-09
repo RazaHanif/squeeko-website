@@ -508,7 +508,7 @@ const OnboardingForm = () => {
                                         />
                                     </div>
                                 </div>
-                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text">
+                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground">
                                     <Label htmlFor="email" className="pl-2.5 text-xs">
                                         Email
                                     </Label>
@@ -521,7 +521,7 @@ const OnboardingForm = () => {
                                         onChange={handleChange}
                                     />
                                 </div>
-                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text">
+                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground">
                                     <Label htmlFor="phone" className="pl-2.5 text-xs">
                                         Phone
                                     </Label>
@@ -534,7 +534,7 @@ const OnboardingForm = () => {
                                         onChange={handleChange}
                                     />
                                 </div>
-                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text">
+                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground">
                                     <Label htmlFor="company" className="pl-2.5 text-xs">
                                         Company
                                     </Label>
