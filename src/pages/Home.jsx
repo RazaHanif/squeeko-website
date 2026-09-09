@@ -288,7 +288,7 @@ function Home() {
                 <OnboardingForm />
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-why.svg')] bg-cover bg-center py-8">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full py-8">
                 <div className="w-9/10 text-center text-2xl border-2 border-secondary-foreground bg-secondary rounded-2xl flex-1 flex">
                     <HomeCards />
                 </div>
