@@ -233,6 +233,7 @@ function Home() {
                             <Button 
                                 variant="default"
                                 className="flex-1 cursor-pointer p-6 border border-primary-foreground"
+                                
                             >
                                 Learn More
                             </Button>
