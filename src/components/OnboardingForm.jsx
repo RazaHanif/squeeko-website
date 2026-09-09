@@ -125,7 +125,7 @@ const OnboardingForm = () => {
 
             const result = await response.json()
 
-            if (response.success) {
+            if (result.success) {
                 setSubmitted(true);
             } else {
                 alert("Failed to submit the form.");
