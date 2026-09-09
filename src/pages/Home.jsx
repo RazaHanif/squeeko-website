@@ -332,7 +332,12 @@ function Home() {
                     </div>
                     <div className="flex flex-1 w-full">
                         <div className="bg-secondary/50 border-2 border-secondary w-full flex justify-center items-center rounded-xl">
-                            IMAGE
+                        <img
+                            src="/media/1.jpg"
+                            alt="something"
+                            loading="lazy"
+                            className="w-xl rounded-lg"
+                        />                            
                         </div>
                     </div>
 
