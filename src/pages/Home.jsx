@@ -236,10 +236,11 @@ function Home() {
                                 onClick={() => navigate("/features")}
                                 variant="default"
                                 className="flex-1 cursor-pointer p-6 border border-primary-foreground"
-                            >
+                                >
                                 Learn More
                             </Button>
                             <Button 
+                                onClick={() => navigate("/features")}
                                 variant="secondary"
                                 className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
                             >
