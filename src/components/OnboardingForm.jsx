@@ -229,28 +229,26 @@ const OnboardingForm = () => {
                                 What is your maximum licensed capacity?
                             </h2>
                             <div className="flex flex-col justify-center items-center w-3/4 gap-4 px-4">
-                                <div className="flex flex-row justify-center items-center p-2 gap-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                    <div className="w-full grid grid-cols-2 justify-items-center gap-4 px-4">
-                                        {maxCapacityType.map((type, idx) => (
-                                            <Button 
-                                                type="button"
-                                                key={idx} 
-                                                value={type}
-                                                variant="secondary"
-                                                onClick={() => {
-                                                    setFormData((prev) => ({
-                                                        ...prev,
-                                                        maxChildCapacity: type,
-                                                    }))
-                                                    console.log(type)
-                                                    nextStep()
-                                                }}                            
-                                                className="p-6 w-full"
-                                            >
-                                                {type}
-                                            </Button>
-                                        ))}
-                                    </div>
+                                <div className="w-full grid grid-cols-2 justify-items-center gap-4 px-4">
+                                    {maxCapacityType.map((type, idx) => (
+                                        <Button 
+                                            type="button"
+                                            key={idx} 
+                                            value={type}
+                                            variant="secondary"
+                                            onClick={() => {
+                                                setFormData((prev) => ({
+                                                    ...prev,
+                                                    maxChildCapacity: type,
+                                                }))
+                                                console.log(type)
+                                                nextStep()
+                                            }}                            
+                                            className="p-6 w-full"
+                                        >
+                                            {type}
+                                        </Button>
+                                    ))}
                                 </div>
                             </div>
                             <Button 
