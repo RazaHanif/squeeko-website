@@ -509,7 +509,7 @@ const OnboardingForm = () => {
                                         />
                                     </div>
                                 </div>
-                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
                                     <Label htmlFor="email" className="pl-2.5 text-xs">
                                         Email
                                     </Label>
@@ -522,7 +522,7 @@ const OnboardingForm = () => {
                                         onChange={handleChange}
                                     />
                                 </div>
-                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
                                     <Label htmlFor="phone" className="pl-2.5 text-xs">
                                         Phone
                                     </Label>
@@ -535,7 +535,7 @@ const OnboardingForm = () => {
                                         onChange={handleChange}
                                     />
                                 </div>
-                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
                                     <Label htmlFor="company" className="pl-2.5 text-xs">
                                         Company
                                     </Label>
