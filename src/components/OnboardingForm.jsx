@@ -535,6 +535,19 @@ const OnboardingForm = () => {
                                         onChange={handleChange}
                                     />
                                 </div>
+                                                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <Label htmlFor="company" className="pl-2.5 text-xs">
+                                        Company Name
+                                    </Label>
+                                    <input
+                                        type="text"
+                                        name="company"
+                                        id="company"
+                                        className={inputClass}
+                                        value={formData.company}
+                                        onChange={handleChange}
+                                    />
+                                </div>
                                 <Button 
                                     type="submit"
                                     variant="secondary"
