@@ -60,7 +60,7 @@ const OnboardingForm = () => {
         phone: "",
         company: "",
         daycareType: "",
-        maxChildCapacity: 1,
+        maxChildCapacity: "",
         numOfStaff: "",
         numOfLocations: "",
         accepting: "",
