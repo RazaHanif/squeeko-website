@@ -221,7 +221,7 @@ const OnboardingForm = () => {
                                         id="maxChildCapacity-input"
                                         name="maxChildCapacity"
                                         className="h-8 w-full min-w-0 border border-primary rounded-lg px-0 py-1 outline-none placeholder:text-muted-foreground text-md flex-1 text-end"
-                                        value={formData.maxChildCapacity ?? ""}
+                                        value={formData.maxChildCapacity ?? 1}
                                         onChange={(e) => {
                                             const value = e.target.value
 
