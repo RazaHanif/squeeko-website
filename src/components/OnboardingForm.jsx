@@ -146,7 +146,7 @@ const OnboardingForm = () => {
         <div className="w-9/10 lg:w-1/2">
             { submitted ? (
                 <div 
-                    className="bg-secondary border border-secondary-foreground w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 min-h-[600px]"
+                    className="bg-card border border-secondary-foreground w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 min-h-[600px]"
                 >
                     <h2 className="text-3xl font-bold font-serif">
                         You're all set!
@@ -176,7 +176,7 @@ const OnboardingForm = () => {
             ) : (
                 <form
                     onSubmit={ handleSubmit }
-                    className="bg-secondary border border-secondary-foreground w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 min-h-[600px]"
+                    className="bg-card border border-secondary-foreground w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 min-h-[600px]"
 
                 >
                     <div className="w-full mb-8">
