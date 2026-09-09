@@ -207,8 +207,8 @@ function Home() {
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full lg:pt-16 pt-8">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center">
-                <div className="flex flex-rpw">
-                    <div clas>
+                <div className="flex flex-row">
+                    <div className="flex flex-col">
                         <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-4">
                             <h1 className="text-xs font-bold">
                                 CHILD CARE MANAGEMENT SOFTWARE  
