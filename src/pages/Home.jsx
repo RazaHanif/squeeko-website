@@ -123,7 +123,7 @@ function HomeFeatureAccordion() {
                                     //     <ChevronRight className="size-6"/>
                                     //     {title}
                                     // </NavLink>
-                                    <p>
+                                    <p key={title}>
                                         {title}
                                     </p>
                             ))}
