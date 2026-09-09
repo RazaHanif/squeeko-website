@@ -13,6 +13,10 @@ const sheets = google.sheets({
     auth,
 })
 
+export async function createLead(req, res) {
+    
+}
+
 export async function lead(req, res) {
     if (req.method !== 'POST') {
         return res.status(405).json({ error: 'Method not allowed' })
