@@ -2,8 +2,8 @@ import { google } from "googleapis"
 
 const auth = new google.auth.GoogleAuth({
     credentials: {
-        client_email: process.env.VITE_GOOGLE_EMAIL,
-        private_key: process.env.VITE_GOOGLE_KEY.replace(/\\n/g, "\n")
+        client_email: process.env.GOOGLE_EMAIL,
+        private_key: process.env.GOOGLE_KEY.replace(/\\n/g, "\n")
     },
     scopes: ["https://www.googleapis.com/auth/spreadsheets"]
 })
@@ -42,7 +42,7 @@ export async function handler(req, res) {
         ]
 
         await sheets.spreadsheets.values.append({
-            spreadsheetId: process.env.VITE_GOOGLE_SHEET_ID,
+            spreadsheetId: process.env.GOOGLE_SHEET_ID,
             range: "Leads!A:N",
             valueInputOption: "USER_ENTERED",
             requestBody: {
