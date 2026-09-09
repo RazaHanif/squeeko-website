@@ -234,7 +234,7 @@ function Home() {
                                 variant="default"
                                 className="flex-1 cursor-pointer p-6 border border-primary-foreground"
                             >
-                                Sign Up
+                                Get Started
                             </Button>
                             <Button 
                                 variant="secondary"
@@ -322,7 +322,7 @@ function Home() {
                                 variant="default"
                                 className="flex-1 cursor-pointer p-6 border border-primary-foreground"
                             >
-                                Sign Up
+                                Get Started
                             </Button>
                             <Button 
                                 variant="secondary"
