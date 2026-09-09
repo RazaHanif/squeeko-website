@@ -295,7 +295,7 @@ function Home() {
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-why.svg')] bg-cover bg-center">
                 <h2 className="text-4xl lg:text-5xl font-serif text-center font-semibold">Wanna see SQUEEKO in yur centre?</h2>
-                <p className="font-bold">Tell us alittle about yourself?</p>
+                <p className="font-bold">Tell us about yourself?</p>
                 <OnboardingForm />
             </section>
 
