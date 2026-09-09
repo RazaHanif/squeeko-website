@@ -270,6 +270,7 @@ const OnboardingForm = () => {
                                 onClick={() => {
                                     nextStep();
                                 }}
+                                className="py-6 w-1/2"
                             >
                                 Continue
                             </Button>
@@ -439,6 +440,7 @@ const OnboardingForm = () => {
                                 onClick={() => {
                                     nextStep();
                                 }}
+                                className="py-6 w-1/2"
                             >
                                 Continue
                             </Button>
