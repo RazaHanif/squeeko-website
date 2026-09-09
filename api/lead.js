@@ -8,7 +8,9 @@ const auth = new google.auth.GoogleAuth({
     scopes: ["https://www.googleapis.com/auth/spreadsheets"]
 })
 
-const sheets = google.sheets()
+const sheets = google.sheets({
+    versio
+})
 
 export async function lead(req, res) {
     if (req.method !== 'POST') {
