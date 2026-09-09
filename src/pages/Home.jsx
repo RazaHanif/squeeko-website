@@ -239,12 +239,15 @@ function Home() {
                                     Learn More
                                 </Button>
                             </NavLink>
+                            <NavLink to={"#"} end>
+
                             <Button 
                                 variant="secondary"
                                 className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
-                            >
+                                >
                                 Join our waitlist!
                             </Button>
+                            </NavLink>
                         </div>
                     </div>
 
