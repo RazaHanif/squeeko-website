@@ -114,26 +114,26 @@ const OnboardingForm = () => {
 
         setIsSubmitting(true);
 
-        // try {
-        //     const response = await fetch("/api/submit-form", {
-        //         method: "POST",
-        //         headers: {
-        //             "Content-Type": "application/json",
-        //         },
-        //         body: JSON.stringify(formData),
-        //     });
+        try {
+            const response = await fetch("/api/submit-form", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(formData),
+            });
 
-        //     if (response.ok) {
-        //         setSubmitted(true);
-        //     } else {
-        //         alert("Failed to submit the form.");
-        //     }
-        // } catch (e) {
-        //     alert("Failed to submit the form.");
-        //     console.log(e);
-        // } finally {
-        //     setIsSubmitting(false);
-        // }
+            if (response.ok) {
+                setSubmitted(true);
+            } else {
+                alert("Failed to submit the form.");
+            }
+        } catch (e) {
+            alert("Failed to submit the form.");
+            console.log(e);
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
 
