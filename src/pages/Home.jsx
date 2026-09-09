@@ -241,7 +241,7 @@ function Home() {
                             src="/media/5.jpg"
                             alt="something"
                             loading="lazy"
-                            className="object-cover w-full h-full rounded-lg border-2 shadow-lg"
+                            className="object-cover w-full h-full"
                         />
                     </div>
                     <div className="flex-1 w-full flex flex-col">
@@ -250,7 +250,7 @@ function Home() {
                                 src="/media/1.jpg"
                                 alt="something"
                                 loading="lazy"
-                                className="object-cover w-full h-full rounded-lg border-2 shadow-lg"
+                                className="object-cover w-full h-full"
                             />
                         </div>
                         <div className="flex-1 w-full flex justify-center items-center">
@@ -258,7 +258,7 @@ function Home() {
                                 src="/media/4.jpg"
                                 alt="something"
                                 loading="lazy"
-                                className="object-cover w-full h-full rounded-lg border-2 shadow-lg"
+                                className="object-cover w-full h-full"
                             />
                         </div> 
                     </div>
