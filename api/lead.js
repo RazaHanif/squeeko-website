@@ -9,7 +9,8 @@ const auth = new google.auth.GoogleAuth({
 })
 
 const sheets = google.sheets({
-    versio
+    version: "v4",
+    auth,
 })
 
 export async function lead(req, res) {
