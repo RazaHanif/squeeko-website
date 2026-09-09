@@ -3,7 +3,7 @@ import { google } from "googleapis"
 const auth = new google.auth.GoogleAuth({
     credentials: {
         client_email: process.env.VITE_GOOGLE_EMAIL,
-        private_key: process.env.VITE_GOOGLE_KEY
+        private_key: process.env.VITE_GOOGLE_KEY.replace()
     }
 })
 
