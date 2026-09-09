@@ -255,7 +255,7 @@ function Home() {
                         </div>
                         <div className="flex-1 w-full flex justify-center items-center">
                             <img
-                                src="/media/3.jpg"
+                                src="/media/2.jpg"
                                 alt="something"
                                 loading="lazy"
                                 className="object-cover w-full h-full rounded-lg border-2 shadow-lg"
