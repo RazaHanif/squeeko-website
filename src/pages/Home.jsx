@@ -240,7 +240,7 @@ function Home() {
 
 
                     <div className="w-9/10 lg:w-3/4 flex flex-1 flex-row rounded-lg overflow-hidden border border-blue-500">
-                        <div className="flex-1 flex justify-center items-center w-9/10 lg:w-3/4">
+                        <div className="flex-1 flex justify-center items-center">
                             <img
                                 src="/media/1.jpg"
                                 alt="something"
