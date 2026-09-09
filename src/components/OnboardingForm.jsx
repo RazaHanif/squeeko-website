@@ -123,6 +123,8 @@ const OnboardingForm = () => {
                 body: JSON.stringify(formData),
             });
 
+            const result
+
             if (response.success) {
                 setSubmitted(true);
             } else {
