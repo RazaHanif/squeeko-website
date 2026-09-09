@@ -5,7 +5,7 @@ const auth = new google.auth.GoogleAuth({
         client_email: process.env.VITE_GOOGLE_EMAIL,
         private_key: process.env.VITE_GOOGLE_KEY.replace(/\\n/g, "\n")
     },
-    scopes: []
+    scopes: ["https://www.googleapis.com"]
 })
 
 export async function lead(req, res) {
