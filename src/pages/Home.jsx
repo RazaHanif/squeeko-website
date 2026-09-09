@@ -244,7 +244,6 @@ function Home() {
                                 className="object-cover w-full h-full"
                             />
                         </div> 
-                    </div>
                 </div>
                 <div className="w-full mb-4">
                     <HorizontalScroll items={horizontalList} className="text-primary-foreground" speed={80}/>
