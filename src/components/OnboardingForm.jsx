@@ -148,7 +148,7 @@ const OnboardingForm = () => {
                 <div 
                     className="bg-secondary border border-secondary-foreground w-full min-h-[400px] flex flex-1 flex-col justify-around rounded-2xl py-8 px-8 lg:py-16"
                 >
-                    <h2 className="text-2xl">
+                    <h2 className="text-4xl">
                         You're all set!
                     </h2>
 
