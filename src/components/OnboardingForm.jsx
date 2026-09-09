@@ -152,7 +152,7 @@ const OnboardingForm = () => {
                         You're all set!
                     </h2>
 
-                    <div className="flex">
+                    <div className="flex flex-col gap-4">
                         <p className="">
                             We've got everything we need.
 
