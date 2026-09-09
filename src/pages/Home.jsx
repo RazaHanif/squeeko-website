@@ -295,7 +295,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-why.svg')] bg-cover bg-center pb-16" id="">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-why.svg')] bg-cover bg-center pb-16" id="home-form">
                 <h2 className="text-4xl lg:text-5xl font-serif text-center font-semibold">
                     Wanna see SQUEEKO in your centre?
                 </h2>
