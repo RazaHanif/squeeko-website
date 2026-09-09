@@ -123,7 +123,10 @@ function HomeFeatureAccordion() {
                                     //     <ChevronRight className="size-6"/>
                                     //     {title}
                                     // </NavLink>
-                                    <p key={title}>
+                                    <p 
+                                        key={title}
+                                        className="flex flex-row justify-center items-center text-lg"
+                                    >
                                         <ChevronRight className="size-6"/>
                                         {title}
                                     </p>
