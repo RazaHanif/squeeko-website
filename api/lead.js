@@ -14,7 +14,49 @@ const sheets = google.sheets({
 })
 
 export async function createLead(req, res) {
-    
+    try {
+        const formData = req.body
+
+        if (!formData.email || !formData.firstName) {
+            return res.status(400).json({
+                success: false,
+                message: "Incomplete Form"
+            })
+        }
+
+        const row = [
+            new Date().toISOString(),
+            formData.firstName || "",
+            formData.lastName || "",
+            formData.email || "",
+            formData.phone || "",
+            formData.company || "",
+            formData.daycareType || "",
+            formData.maxChildCapacity || "",
+            formData.numOfStaff || "",
+            formData.numOfLocations || "",
+            formData.accepting || "",
+            formData.managementType || "",
+            Array.isArray(formData.painPoints) ? formData.painPoints.join(",") : "",
+            formData.timeline || "",
+        ]
+
+        await sheets.spreadsheets.values.append({
+            spreadsheetId: process.env.VITE_GOOGLE_SHEET_ID,
+            range: "Leads!A:N",
+            valueInputOption: "USER_ENTERED",
+            requestBody: {
+                values: [row]
+            }
+        })
+
+        return res.status(200).json({
+            success: true,
+            message: "Successfully Submitted"
+        })
+    } catch (err) {
+        console.log("Error saving lead: ", err)
+    }
 }
 
 export async function lead(req, res) {
