@@ -126,11 +126,11 @@ function HomeFeatureAccordion() {
                             ))}
                         </div>
 
-                        <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-primary text-primary-foreground border-primary-foreground border">
+                        {/* <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-primary text-primary-foreground border-primary-foreground border">
                             <div className="text-lg font-bold font-mono">
                                 {image}
                             </div>
-                        </div>
+                        </div> */}
                     </AccordionContent>
                 </AccordionItem>
             ))}
