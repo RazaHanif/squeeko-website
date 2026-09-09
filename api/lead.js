@@ -1,1 +1,3 @@
-export default async fu
+export default async function handler(req, res) {
+    
+}
