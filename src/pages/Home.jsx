@@ -254,10 +254,11 @@ function Home() {
                             />
                         </div>
                         <div className="flex-1 w-full flex justify-center items-center">
-                            <Image
-                                src="/media/2.jpg"
-                                alt="Kidz Korner licensed daycare in  Milton"
-                                w="w-md"
+                            <img
+                                src="/media/3.jpg"
+                                alt="something"
+                                loading="lazy"
+                                className="object-cover w-full h-full rounded-lg border-2 shadow-lg"
                             />
                         </div> 
                     </div>
