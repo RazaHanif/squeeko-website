@@ -177,7 +177,7 @@ const OnboardingForm = () => {
                     </div>
 
                     {currentStep === 0 && (
-                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg min-h-[500px]">
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg min-h-[600px]">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 What best describes your centre?
                             </h2>
