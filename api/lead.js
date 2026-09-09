@@ -57,7 +57,9 @@ export async function createLead(req, res) {
     } catch (err) {
         console.log("Error saving lead: ", err)
 
-        return res.status(500)
+        return res.status(500).json({
+            succ
+        })
     }
 }
 
