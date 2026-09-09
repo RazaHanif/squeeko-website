@@ -205,7 +205,7 @@ const OnboardingForm = () => {
                         <div 
                             key={currentStep}
                             className={`min-h-[400px] flex-5 border border-red-500 flex flex-col justify-around items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
-                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                            <h2 className="text-2xl text-center font-serif font-semibold w-full">
                                 What best describes your centre?
                             </h2>
                             <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
@@ -236,7 +236,7 @@ const OnboardingForm = () => {
                         <div 
                             key={currentStep}
                             className={`min-h-[400px] flex-5 border border-red-500 flex flex-col justify-around items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
-                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                            <h2 className="text-2xl text-center font-serif font-semibold w-full">
                                 What is your maximum licensed capacity?
                             </h2>
                             <div className="w-full grid grid-cols-2 justify-items-center gap-4 px-4 [&>*:last-child:nth-child(odd)]:col-span-2">
@@ -277,7 +277,7 @@ const OnboardingForm = () => {
                         <div 
                             key={currentStep}
                             className={`min-h-[400px] flex-5 border border-red-500 flex flex-col justify-around items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
-                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                            <h2 className="text-2xl text-center font-serif font-semibold w-full">
                                 About how many employees work at your centre?
                             </h2>
                             <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
@@ -308,7 +308,7 @@ const OnboardingForm = () => {
                         <div 
                             key={currentStep}
                             className={`min-h-[400px] flex-5 border border-red-500 flex flex-col justify-around items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
-                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                            <h2 className="text-2xl text-center font-serif font-semibold w-full">
                                 How many locations do you operate?
                             </h2>
                             <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
@@ -352,7 +352,7 @@ const OnboardingForm = () => {
                         <div 
                             key={currentStep}
                             className={`min-h-[400px] flex-5 border border-red-500 flex flex-col justify-around items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
-                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                            <h2 className="text-2xl text-center font-serif font-semibold w-full">
                                 Are you currently accepting new families?
                             </h2>
                             <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
@@ -383,7 +383,7 @@ const OnboardingForm = () => {
                         <div 
                             key={currentStep}
                             className={`min-h-[400px] flex-5 border border-red-500 flex flex-col justify-around items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
-                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                            <h2 className="text-2xl text-center font-serif font-semibold w-full">
                                 How do you currently manage your centre?
                             </h2>
                             <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
@@ -414,7 +414,7 @@ const OnboardingForm = () => {
                         <div 
                             key={currentStep}
                             className={`min-h-[400px] flex-5 border border-red-500 flex flex-col justify-around items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
-                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                            <h2 className="text-2xl text-center font-serif font-semibold w-full">
                                 Whats the biggest challenge you're trying to solve?
                             </h2>
                             {/* Make this so they can choose multiple options that just add to the painPoints array */}
@@ -457,7 +457,7 @@ const OnboardingForm = () => {
                         <div 
                             key={currentStep}
                             className={`min-h-[400px] flex-5 border border-red-500 flex flex-col justify-around items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
-                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                            <h2 className="text-2xl text-center font-serif font-semibold w-full">
                                 When are you looking to make a change?
                             </h2>
                             <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
@@ -489,7 +489,7 @@ const OnboardingForm = () => {
                         <div 
                             key={currentStep}
                             className={`min-h-[400px] flex-5 border border-red-500 flex flex-col justify-around items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
-                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                            <h2 className="text-2xl text-center font-serif font-semibold w-full">
                                 Almost there! Let's get your centre connected with our team.
                             </h2>
                             <div className="flex flex-col justify-center items-center w-full gap-4 px-4">
