@@ -1,4 +1,3 @@
-import { Slider } from "@/components/ui/slider"
 import { Label } from "@/components/ui/label";
 import { Progress } from "@/components/ui/progress"
 import { useState } from "react";
