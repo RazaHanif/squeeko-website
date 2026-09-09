@@ -124,6 +124,7 @@ function HomeFeatureAccordion() {
                                     //     {title}
                                     // </NavLink>
                                     <p key={title}>
+                                        <ChevronRight className="size-6"/>
                                         {title}
                                     </p>
                             ))}
