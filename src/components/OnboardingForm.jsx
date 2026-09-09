@@ -176,7 +176,7 @@ const OnboardingForm = () => {
 
                     </div>
 
-                    <div className="relative min-h-[520px] overflow-hidden">
+                    <div className="relative min-h-[520px] overflow-hidden bg-ref-500">
                         {currentStep === 0 && (
                             <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
                                 <h2 className="text-xl text-center font-serif font-semibold w-full">
