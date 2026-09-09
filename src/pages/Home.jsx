@@ -271,7 +271,7 @@ function Home() {
                     </h2>
                 </div>
 
-                <div className="w-9/10 lg:w-3/4 mb-8 lg:mb-16 flex flex-col gap-2">
+                <div className="w-9/10 mb-8 lg:mb-16 flex flex-col gap-2">
                     <div className="text-center">
                         <NavLink
                             to="/features"
@@ -291,7 +291,7 @@ function Home() {
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full py-8">
-                <div className="w-9/10 lg:w-3/4 text-center text-2xl border-2 border-secondary-foreground bg-secondary rounded-2xl flex-1 flex">
+                <div className="w-9/10 text-center text-2xl border-2 border-secondary-foreground bg-secondary rounded-2xl flex-1 flex">
                     <HomeCards />
                 </div>
             </section>
