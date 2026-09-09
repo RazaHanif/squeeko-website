@@ -336,7 +336,7 @@ function Home() {
                                 src="/media/5.jpg"
                                 alt="something"
                                 loading="lazy"
-                                className="w-full h-full max-h-50vh rounded-lg object-cover"
+                                className="w-full h-full rounded-lg object-cover"
                             />                            
                         </div>
                     </div>
