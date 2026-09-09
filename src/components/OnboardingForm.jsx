@@ -176,7 +176,9 @@ const OnboardingForm = () => {
 
                     </div>
 
-                    <div></div>
+                    <div clas>
+
+                    </div>
 
                     {currentStep === 0 && (
                         <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
