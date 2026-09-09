@@ -246,7 +246,7 @@ function Home() {
                     </div>
 
 
-                    <div className="w-9/10 lg:w-3/4 flex-1 border-2 border-secondary flex justify-center items-center rounded-xl overflow-hidden">
+                    <div className="w-9/10 lg:w-3/4 flex-1 flex justify-center items-center rounded-xl overflow-hidden">
                         <img
                             src="/media/1.jpg"
                             alt="something"
