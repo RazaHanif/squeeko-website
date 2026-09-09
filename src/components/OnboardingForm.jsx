@@ -123,7 +123,7 @@ const OnboardingForm = () => {
                 body: JSON.stringify(formData),
             });
 
-            const result
+            const result = await response.json()
 
             if (response.success) {
                 setSubmitted(true);
