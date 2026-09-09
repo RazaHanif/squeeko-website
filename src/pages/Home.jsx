@@ -238,7 +238,7 @@ function Home() {
                 <div className="w-9/10 lg:w-3/4 flex flex-1 flex-row border border-secondary-foreground rounded-lg bg-primary text-primary-foreground overflow-hidden">
                     <div className="flex-1 w-full flex justify-center items-center">
                         <img
-                            src="/media/2.jpg"
+                            src="/media/1.jpg"
                             alt="something"
                             loading="lazy"
                             className="object-cover w-full h-full"
