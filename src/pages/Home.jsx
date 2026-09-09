@@ -238,7 +238,7 @@ function Home() {
                 <div className="w-9/10 lg:w-3/4 flex flex-1 flex-row border border-secondary-foreground rounded-lg bg-primary text-primary-foreground overflow-hidden">
                     <div className="bg-secondary text-secondary-foreground flex-1 w-full flex justify-center items-center border-r border-secondary-foreground">
                         <Image
-                            src="/media/5.jpg"
+                            src="/media/4.jpg"
                             alt="Kidz Korner licensed daycare in  Milton"
                             w="w-md"
                         />
