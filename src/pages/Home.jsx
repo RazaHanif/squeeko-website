@@ -241,7 +241,7 @@ function Home() {
                             src="/media/3.jpg"
                             alt="something"
                             loading="lazy"
-                            className="lg:w-3xs w-fit h-fit rounded-lg border-2 shadow-lg"
+                            className="lg:w-3xs w-full h-fit rounded-lg border-2 shadow-lg"
                         />
                     </div>
                     <div className="flex-1 w-full flex flex-col">
