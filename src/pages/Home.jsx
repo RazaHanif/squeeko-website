@@ -210,6 +210,8 @@ function Home() {
                 <div>
                     <div>
                         
+                    </div>
+
                     <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-4">
                         <h1 className="text-xs font-bold">
                             CHILD CARE MANAGEMENT SOFTWARE  
