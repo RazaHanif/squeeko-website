@@ -228,6 +228,8 @@ const OnboardingForm = () => {
                                             setFormData(prev => ({
                                                 ...prev,
                                                 maxChildCapacity: Number.isFinite(value) && value >= 1 
+                                                ? value 
+                                                : 1
                                             }))
                                         }}
                                     />
