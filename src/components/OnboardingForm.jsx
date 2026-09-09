@@ -552,6 +552,7 @@ const OnboardingForm = () => {
                                         className={inputClass}
                                         value={formData.company}
                                         onChange={handleChange}
+                                        required
                                     />
                                 </div>
                                 <Button 
