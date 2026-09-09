@@ -293,7 +293,6 @@ function Home() {
                     </div>
                     <HomeFeatureAccordion />
                 </div>
-
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-why.svg')] bg-cover bg-center pb-16">
