@@ -37,8 +37,8 @@ const OnboardingForm = () => {
         "61-70",
         "71-80",
         "81-90",
-        "81-100",
-        "50+"
+        "91-100",
+        "100+"
     ]
     
     const numOfStaffType = [
