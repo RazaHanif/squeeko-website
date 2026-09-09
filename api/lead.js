@@ -62,6 +62,6 @@ export default async function handler(req, res) {
             message: "Successfully Submitted."
         })
     } catch (err) {
-        cons
+        console.error("")
     }
 }
