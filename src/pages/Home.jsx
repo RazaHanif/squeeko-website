@@ -243,7 +243,7 @@ function Home() {
                             w="w-md"
                         />
                             <img
-                                src={src}
+                                src="/media/3.jpg"
                                 alt={alt}
                                 loading="lazy"
                                 className={style}
