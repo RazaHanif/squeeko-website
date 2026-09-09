@@ -271,7 +271,7 @@ function Home() {
             </section>
 
             
-            <section className="snap-section flex flex-col justify-start items-center w-full bg-primary text-primary-foreground pb-40">
+            <section className="snap-section flex flex-col justify-start items-center w-full bg-primary text-primary-foreground pb-25">
                 <div className="p-8 lg:p-16 flex flex-col justify-center items-center gap-2">
                     <p className="text-center text-sm">
                         FEATURES
