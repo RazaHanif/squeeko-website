@@ -228,7 +228,6 @@ const OnboardingForm = () => {
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 What is your maximum licensed capacity?
                             </h2>
-
                                 <div className="w-full grid grid-cols-2 justify-items-center gap-4 px-4">
                                     {maxCapacityType.map((type, idx) => (
                                         <Button 
