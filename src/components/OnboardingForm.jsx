@@ -220,6 +220,8 @@ const OnboardingForm = () => {
                                         value={formData.maxChildCapacity}
                                         onChange={(e) => {
                                             const value = Number(e.target.value)
+
+                                            setFormData
                                         }}
                                     />
                                     <p className="flex-1">
