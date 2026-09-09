@@ -226,7 +226,7 @@ const OnboardingForm = () => {
                                                 onClick={() => {
                                                     setFormData((prev) => ({
                                                         ...prev,
-                                                        daycareType: type,
+                                                        maxChildCapacity: type,
                                                     }))
                                                     console.log(type)
                                                     nextStep()
