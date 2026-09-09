@@ -218,7 +218,9 @@ const OnboardingForm = () => {
                                         name="maxChildCapacity"
                                         className="h-8 w-full min-w-0 border border-primary rounded-lg px-0 py-1 outline-none placeholder:text-muted-foreground text-md flex-1 text-end"
                                         value={formData.maxChildCapacity}
-                                        onChange={(value)}
+                                        onChange={(e) => {
+                                            const value = Number
+                                        }}
                                     />
                                     <p className="flex-1">
                                         Children
