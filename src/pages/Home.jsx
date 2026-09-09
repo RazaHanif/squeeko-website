@@ -241,7 +241,7 @@ function Home() {
                             src="/media/5.jpg"
                             alt="something"
                             loading="lazy"
-                            className="object-cover w-full h-full lg:w-"
+                            className="object-cover w-full h-full lg:w-3xl"
                         />
                     </div>
                     <div className="flex-1 w-full flex flex-col">
