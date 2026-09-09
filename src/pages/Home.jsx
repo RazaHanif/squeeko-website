@@ -240,7 +240,7 @@ function Home() {
                                 Learn More
                             </Button>
                             <Button 
-                                onClick={() => navigate("/features")}
+                                onClick={() => navigate("/")}
                                 variant="secondary"
                                 className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
                             >
