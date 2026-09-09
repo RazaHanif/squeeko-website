@@ -81,7 +81,6 @@ const OnboardingForm = () => {
         managementType: "",
         painPoints: [],
         timeline: "",
-
     });
 
     const inputClass = "h-8 w-full min-w-0 border-0 px-2.5 py-1 outline-none placeholder:text-muted-foreground text-md"
