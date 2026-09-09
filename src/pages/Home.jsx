@@ -22,6 +22,7 @@ import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Label } from "@/components/ui/label"
 import { useState } from "react"
 import OnboardingForm from "@/components/OnboardingForm"
+import Image from "@/components/Image"
 
 
 function HomeFeatureAccordion() {
