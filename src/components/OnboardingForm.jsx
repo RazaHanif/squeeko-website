@@ -435,7 +435,7 @@ const OnboardingForm = () => {
                                             }))
                                             console.log(type)
                                         }}
-                                        className="p-6 w-full"
+                                        className="p-6 w-full wrap-break-word"
                                     >
                                         {type}
                                     </Button>
