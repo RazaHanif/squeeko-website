@@ -233,7 +233,7 @@ function Home() {
 
                         <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/4">
                             <Button 
-
+                                onClick
                                 variant="default"
                                 className="flex-1 cursor-pointer p-6 border border-primary-foreground"
                             >
