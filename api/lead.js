@@ -4,7 +4,8 @@ const auth = new google.auth.GoogleAuth({
     credentials: {
         client_email: process.env.VITE_GOOGLE_EMAIL,
         private_key: process.env.VITE_GOOGLE_KEY.replace(/\\n/g, "\n")
-    }
+    },
+    sc
 })
 
 export async function lead(req, res) {
