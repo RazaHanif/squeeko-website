@@ -247,7 +247,15 @@ const OnboardingForm = () => {
                                     <Slider
                                         id="maxChildCapacity-slider"
                                         name="maxChildCapacity"
-                                        value={[formData.maxChildCapacity]}
+                                        value={[
+                        Math.min(
+                            Math.max(
+                                Number(formData.maxChildCapacity) || 1,
+                                1
+                            ),
+                            100
+                        )
+                    ]}
                                         onValueChange={(value) => {
                                             setFormData(prev => ({
                                                 ...prev,
