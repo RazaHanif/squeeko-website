@@ -231,7 +231,7 @@ const OnboardingForm = () => {
                             <div className="flex flex-col justify-center items-center w-3/4 gap-4 px-4">
                                 <div className="flex flex-row justify-center items-center p-2 gap-2 rounded-lg border border-secondary-foreground bg-secondary/50">
                                     <div className="w-full grid grid-cols-2 justify-items-center gap-4 px-4">
-                                        {daycareType.map((type, idx) => (
+                                        {maxCapacityType.map((type, idx) => (
                                             <Button 
                                                 type="button"
                                                 key={idx} 
