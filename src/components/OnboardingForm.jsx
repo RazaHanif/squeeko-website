@@ -166,7 +166,7 @@ const OnboardingForm = () => {
                         to={"/features"} 
                         end 
                     >
-                        Explore Squeeko
+                        Explore Squeeko 
                     </NavLink>
                 </div>
             ) : (
