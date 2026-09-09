@@ -207,38 +207,37 @@ function Home() {
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full lg:pt-16 pt-8">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center">
-                <div>
+                <div className="flex flex-col">
                     <div>
-                        
+                        <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-4">
+                            <h1 className="text-xs font-bold">
+                                CHILD CARE MANAGEMENT SOFTWARE  
+                            </h1>
+                            <h2 className="text-5xl font-serif text-center font-semibold">
+                                Your children have you,<br/>
+                                your center has SQUEEKO
+                            </h2>
+                            <p className="w-9/10 lg:w-3/4 text-center font-light">
+                                SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
+                            </p>
+                        </div>
+
+                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/4">
+                            <Button 
+                                variant="default"
+                                className="flex-1 cursor-pointer p-6 sm:border-0 border border-primary-foreground"
+                            >
+                                Sign Up
+                            </Button>
+                            <Button 
+                                variant="secondary"
+                                className="flex-1 cursor-pointer p-6 sm:border-0 border border-secondary-foreground"
+                            >
+                                Book a demo
+                            </Button>
+                        </div>
                     </div>
 
-                    <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-4">
-                        <h1 className="text-xs font-bold">
-                            CHILD CARE MANAGEMENT SOFTWARE  
-                        </h1>
-                        <h2 className="text-5xl font-serif text-center font-semibold">
-                            Your children have you,<br/>
-                            your center has SQUEEKO
-                        </h2>
-                        <p className="w-9/10 lg:w-3/4 text-center font-light">
-                            SQUEEKO brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
-                        </p>
-                    </div>
-
-                    <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/4">
-                        <Button 
-                            variant="default"
-                            className="flex-1 cursor-pointer p-6 sm:border-0 border border-primary-foreground"
-                        >
-                            Sign Up
-                        </Button>
-                        <Button 
-                            variant="secondary"
-                            className="flex-1 cursor-pointer p-6 sm:border-0 border border-secondary-foreground"
-                        >
-                            Book a demo
-                        </Button>
-                    </div>
 
                     <div className="w-9/10 lg:w-3/4 flex flex-1 flex-row rounded-lg overflow-hidden">
                         <div className="flex-1 w-full flex justify-center items-center">
@@ -251,6 +250,7 @@ function Home() {
                         </div> 
                     </div>
                 </div>
+                
                 <div className="w-full mb-4">
                     <HorizontalScroll items={horizontalList} className="text-primary-foreground" speed={80}/>
                     {/* <HorizontalScroll 
