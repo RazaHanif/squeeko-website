@@ -176,7 +176,7 @@ const OnboardingForm = () => {
 
                     </div>
 
-                    <div clas>
+                    <div className="relative min-h">
 
                     </div>
 
