@@ -2,7 +2,7 @@ import { google } from "googleapis"
 
 const auth = new google.auth.GoogleAuth({
     credentials: {
-        client_email: proc
+        client_email: process.env.
     }
 })
 
