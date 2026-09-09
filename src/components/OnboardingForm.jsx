@@ -423,7 +423,7 @@ const OnboardingForm = () => {
                                             }))
                                             console.log(type)
                                         }}
-                                        className="p-6 w-full whitespace-normal"
+                                        className="p-6 w-full whitespace-normal break-words"
                                     >
                                         {type}
                                     </Button>
