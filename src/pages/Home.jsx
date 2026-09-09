@@ -241,7 +241,7 @@ function Home() {
                             src="/media/1.jpg"
                             alt="something"
                             loading="lazy"
-                            className="w-2xl"
+                            className="w-xl"
                         />
                     </div> 
                 </div>
