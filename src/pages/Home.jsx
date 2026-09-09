@@ -240,7 +240,7 @@ function Home() {
                                 variant="secondary"
                                 className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
                             >
-                                Book a call
+                                Join our waitlist
                             </Button>
                         </div>
                     </div>
@@ -328,7 +328,7 @@ function Home() {
                                 variant="secondary"
                                 className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
                             >
-                                Book a call
+                                Join our waitlist
                             </Button>
                         </div>
                     </div>
