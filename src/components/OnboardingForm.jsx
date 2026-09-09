@@ -152,12 +152,12 @@ const OnboardingForm = () => {
                         You're all set!
                     </h2>
 
-                    <p className="f">
+                    <p className="text-muted">
                         We've got everything we need.
 
                         A member of the Squeeko team will review your centre's information and reach out to you shortly.
                     </p>
-                    <p className="f">
+                    <p className="text-muted">
                         In the meantime, see what Squeeko can do for your centre.
                     </p>
 
