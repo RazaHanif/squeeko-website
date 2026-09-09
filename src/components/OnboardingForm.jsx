@@ -524,6 +524,7 @@ const OnboardingForm = () => {
                                         className={inputClass}
                                         value={formData.email}
                                         onChange={handleChange}
+                                        required
                                     />
                                 </div>
                                 <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground">
@@ -537,6 +538,7 @@ const OnboardingForm = () => {
                                         className={inputClass}
                                         value={formData.phone}
                                         onChange={handleChange}
+                                        required
                                     />
                                 </div>
                                 <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground">
