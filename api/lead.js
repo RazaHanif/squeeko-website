@@ -58,7 +58,8 @@ export async function createLead(req, res) {
         console.log("Error saving lead: ", err)
 
         return res.status(500).json({
-            succ
+            success: false,
+            message: "Failed to save lead."
         })
     }
 }
