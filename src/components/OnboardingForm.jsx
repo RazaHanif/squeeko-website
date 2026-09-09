@@ -176,387 +176,385 @@ const OnboardingForm = () => {
 
                     </div>
 
-                    <div className=" w-full overflow-hidden">
-                        {currentStep === 0 && (
-                            <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
-                                <h2 className="text-xl text-center font-serif font-semibold w-full">
-                                    What best describes your centre?
-                                </h2>
-                                <div className="flex flex-col gap-4 w-full px-4">
-                                    {daycareType.map((type, idx) => (
-                                        <Button 
-                                            type="button"
-                                            key={idx} 
-                                            value={type}
-                                            variant="secondary"
-                                            onClick={() => {
-                                                setFormData((prev) => ({
-                                                    ...prev,
-                                                    daycareType: type,
-                                                }))
-                                                console.log(type)
-                                                nextStep()
-                                            }}                            
-                                            className="p-6 w-full"
-                                        >
-                                            {type}
-                                        </Button>
-                                    ))}
-                                </div>
+                    {currentStep === 0 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                What best describes your centre?
+                            </h2>
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                {daycareType.map((type, idx) => (
+                                    <Button 
+                                        type="button"
+                                        key={idx} 
+                                        value={type}
+                                        variant="secondary"
+                                        onClick={() => {
+                                            setFormData((prev) => ({
+                                                ...prev,
+                                                daycareType: type,
+                                            }))
+                                            console.log(type)
+                                            nextStep()
+                                        }}                            
+                                        className="p-6 w-full"
+                                    >
+                                        {type}
+                                    </Button>
+                                ))}
                             </div>
-                        )}
+                        </div>
+                    )}
 
-                        {currentStep === 1 && (
-                            <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
-                                <h2 className="text-xl text-center font-serif font-semibold w-full">
-                                    What is your maximum licensed capacity?
-                                </h2>
-                                <div className="flex flex-col justify-center items-center py-2 px-4">
-                                    <div className="flex flex-row justify-center items-center p-2 gap-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                        <input 
-                                            type="number"
-                                            id="maxChildCapacity-input"
-                                            name="maxChildCapacity"
-                                            className="h-8 w-full min-w-0 border border-primary rounded-lg px-0 py-1 outline-none placeholder:text-muted-foreground text-md flex-1 text-end"
-                                            value={formData.maxChildCapacity}
-                                            onChange={handleChange}
-                                        />
-                                        <p className="flex-1">
-                                            Children
+                    {currentStep === 1 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                What is your maximum licensed capacity?
+                            </h2>
+                            <div className="flex flex-col justify-center items-center py-2 px-4">
+                                <div className="flex flex-row justify-center items-center p-2 gap-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <input 
+                                        type="number"
+                                        id="maxChildCapacity-input"
+                                        name="maxChildCapacity"
+                                        className="h-8 w-full min-w-0 border border-primary rounded-lg px-0 py-1 outline-none placeholder:text-muted-foreground text-md flex-1 text-end"
+                                        value={formData.maxChildCapacity}
+                                        onChange={handleChange}
+                                    />
+                                    <p className="flex-1">
+                                        Children
+                                    </p>
+                                </div>
+
+                                <p className={`text-xs font-light my-1 ${formData.maxChildCapacity > 100 ? 'text-destructive' : 'text-transparent'}`}>
+                                        Please enter a value less than or equal to 100.
+                                </p>
+
+                                {/* Maybe we can add numbers to the bottom of this slider to represent the scale, with the very right being 100+ */}
+                                <div className="w-full flex flex-col gap-1">
+                                    <Slider
+                                        id="maxChildCapacity-slider"
+                                        name="maxChildCapacity"
+                                        value={[Number(formData.maxChildCapacity)]}
+                                        onValueChange={(value) => {
+                                            setFormData(prev => ({
+                                                ...prev,
+                                                maxChildCapacity: String(value[0])
+                                            }))
+                                        }}
+                                        max={100}
+                                        min={1}
+                                        step={1}
+                                    />
+                                    <div className="flex flex-row w-full justify-between items-center">
+                                        <p className="text-xs font-light">
+                                            1
+                                        </p>
+                                        <p className="text-xs font-light">
+                                            25
+                                        </p>
+                                        <p className="text-xs font-light">
+                                            50
+                                        </p>
+                                        <p className="text-xs font-light">
+                                            75
+                                        </p>
+                                        <p className="text-xs font-light">
+                                            100+
                                         </p>
                                     </div>
-
-                                    <p className={`text-xs font-light my-1 ${formData.maxChildCapacity > 100 ? 'text-destructive' : 'text-transparent'}`}>
-                                            Please enter a value less than or equal to 100.
-                                    </p>
-
-                                    {/* Maybe we can add numbers to the bottom of this slider to represent the scale, with the very right being 100+ */}
-                                    <div className="w-full flex flex-col gap-1">
-                                        <Slider
-                                            id="maxChildCapacity-slider"
-                                            name="maxChildCapacity"
-                                            value={[Number(formData.maxChildCapacity)]}
-                                            onValueChange={(value) => {
-                                                setFormData(prev => ({
-                                                    ...prev,
-                                                    maxChildCapacity: String(value[0])
-                                                }))
-                                            }}
-                                            max={100}
-                                            min={1}
-                                            step={1}
-                                        />
-                                        <div className="flex flex-row w-full justify-between items-center">
-                                            <p className="text-xs font-light">
-                                                1
-                                            </p>
-                                            <p className="text-xs font-light">
-                                                25
-                                            </p>
-                                            <p className="text-xs font-light">
-                                                50
-                                            </p>
-                                            <p className="text-xs font-light">
-                                                75
-                                            </p>
-                                            <p className="text-xs font-light">
-                                                100+
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <Button 
-                                    type="button"
-                                    variant="secondary"
-                                    onClick={() => {
-                                        nextStep();
-                                    }}
-                                >
-                                    Continue
-                                </Button>
-                            </div>
-                        )}
-
-                        {currentStep === 2 && (
-                            <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
-                                <h2 className="text-xl text-center font-serif font-semibold w-full">
-                                    About how many employees work at your centre?
-                                </h2>
-                                <div className="flex flex-col gap-4 w-full px-4">
-                                    {numOfStaffType.map((type, idx) => (
-                                        <Button 
-                                            type="button"
-                                            key={idx} 
-                                            value={type} 
-                                            variant="secondary"
-                                            onClick={() => {
-                                                setFormData((prev) => ({
-                                                    ...prev,
-                                                    numOfStaff: type,
-                                                }))
-                                                console.log(type)
-                                                nextStep();
-                                            }}
-                                            className="p-6 w-full"
-                                        >
-                                            {type}
-                                        </Button>
-                                    ))}
                                 </div>
                             </div>
-                        )}
+                            <Button 
+                                type="button"
+                                variant="secondary"
+                                onClick={() => {
+                                    nextStep();
+                                }}
+                            >
+                                Continue
+                            </Button>
+                        </div>
+                    )}
 
-                        {currentStep === 3 && (
-                            <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
-                                <h2 className="text-xl text-center font-serif font-semibold w-full">
-                                    How many locations do you operate?
-                                </h2>
-                                <div className="flex flex-col gap-4 w-full px-4">
+                    {currentStep === 2 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                About how many employees work at your centre?
+                            </h2>
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                {numOfStaffType.map((type, idx) => (
                                     <Button 
                                         type="button"
-                                        value={"1"} 
+                                        key={idx} 
+                                        value={type} 
                                         variant="secondary"
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
-                                                numOfLocations: "1",
+                                                numOfStaff: type,
                                             }))
-                                            console.log("1")
+                                            console.log(type)
                                             nextStep();
                                         }}
                                         className="p-6 w-full"
                                     >
-                                        1
+                                        {type}
                                     </Button>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {currentStep === 3 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                How many locations do you operate?
+                            </h2>
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                <Button 
+                                    type="button"
+                                    value={"1"} 
+                                    variant="secondary"
+                                    onClick={() => {
+                                        setFormData((prev) => ({
+                                            ...prev,
+                                            numOfLocations: "1",
+                                        }))
+                                        console.log("1")
+                                        nextStep();
+                                    }}
+                                    className="p-6 w-full"
+                                >
+                                    1
+                                </Button>
+                                <Button 
+                                    type="button"
+                                    value={"2 or more"} 
+                                    variant="secondary"
+                                    onClick={() => {
+                                        setFormData((prev) => ({
+                                            ...prev,
+                                            numOfLocations: "2 or more",
+                                        }))
+                                        console.log("2 or more")
+                                        nextStep();
+                                    }}
+                                    className="p-6 w-full"
+                                >
+                                    2 or more
+                                </Button>
+                            </div>
+                        </div>
+                    )}
+
+                    {currentStep === 4 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                Are you currently accepting new families?
+                            </h2>
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                {acceptingType.map((type, idx) => (
                                     <Button 
                                         type="button"
-                                        value={"2 or more"} 
+                                        key={idx} 
+                                        value={type} 
                                         variant="secondary"
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
-                                                numOfLocations: "2 or more",
+                                                accepting: type,
                                             }))
-                                            console.log("2 or more")
+                                            console.log(type)
                                             nextStep();
                                         }}
                                         className="p-6 w-full"
                                     >
-                                        2 or more
+                                        {type}
                                     </Button>
-                                </div>
+                                ))}
                             </div>
-                        )}
+                        </div>
+                    )}
 
-                        {currentStep === 4 && (
-                            <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
-                                <h2 className="text-xl text-center font-serif font-semibold w-full">
-                                    Are you currently accepting new families?
-                                </h2>
-                                <div className="flex flex-col gap-4 w-full px-4">
-                                    {acceptingType.map((type, idx) => (
-                                        <Button 
-                                            type="button"
-                                            key={idx} 
-                                            value={type} 
-                                            variant="secondary"
-                                            onClick={() => {
-                                                setFormData((prev) => ({
-                                                    ...prev,
-                                                    accepting: type,
-                                                }))
-                                                console.log(type)
-                                                nextStep();
-                                            }}
-                                            className="p-6 w-full"
-                                        >
-                                            {type}
-                                        </Button>
-                                    ))}
-                                </div>
+                    {currentStep === 5 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                How do you currently manage your centre?
+                            </h2>
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                {managementType.map((type, idx) => (
+                                    <Button 
+                                        type="button"
+                                        key={idx} 
+                                        value={type} 
+                                        variant="secondary"
+                                        onClick={() => {
+                                            setFormData((prev) => ({
+                                                ...prev,
+                                                managementType: type,
+                                            }))
+                                            console.log(type)
+                                            nextStep();
+                                        }}
+                                        className="p-6 w-full"
+                                    >
+                                        {type}
+                                    </Button>
+                                ))}
                             </div>
-                        )}
+                        </div>
+                    )}
 
-                        {currentStep === 5 && (
-                            <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
-                                <h2 className="text-xl text-center font-serif font-semibold w-full">
-                                    How do you currently manage your centre?
-                                </h2>
-                                <div className="flex flex-col gap-4 w-full px-4">
-                                    {managementType.map((type, idx) => (
-                                        <Button 
-                                            type="button"
-                                            key={idx} 
-                                            value={type} 
-                                            variant="secondary"
-                                            onClick={() => {
-                                                setFormData((prev) => ({
-                                                    ...prev,
-                                                    managementType: type,
-                                                }))
-                                                console.log(type)
-                                                nextStep();
-                                            }}
-                                            className="p-6 w-full"
-                                        >
-                                            {type}
-                                        </Button>
-                                    ))}
-                                </div>
+                    {currentStep === 6 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                Whats the biggest challenge you're trying to solve?
+                            </h2>
+                            {/* Make this so they can choose multiple options that just add to the painPoints array */}
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                {painPointType.map((type, idx) => (
+                                    <Button 
+                                        type="button"
+                                        key={idx} 
+                                        value={type} 
+                                        variant={formData.painPoints.includes(type) ? "default" : "secondary"}
+                                        onClick={() => {
+                                            setFormData((prev) => ({
+                                                ...prev,
+                                                painPoints: prev.painPoints.includes(type)
+                                                    ? prev.painPoints.filter(item => item !== type)
+                                                    : [...prev.painPoints, type],
+                                            }))
+                                            console.log(type)
+                                        }}
+                                        className="p-6 w-full"
+                                    >
+                                        {type}
+                                    </Button>
+                                ))}
                             </div>
-                        )}
+                            <Button 
+                                type="button"
+                                variant="secondary"
+                                onClick={() => {
+                                    nextStep();
+                                }}
+                            >
+                                Continue
+                            </Button>
+                        </div>
+                    )}
 
-                        {currentStep === 6 && (
-                            <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
-                                <h2 className="text-xl text-center font-serif font-semibold w-full">
-                                    Whats the biggest challenge you're trying to solve?
-                                </h2>
-                                {/* Make this so they can choose multiple options that just add to the painPoints array */}
-                                <div className="flex flex-col gap-4 w-full px-4">
-                                    {painPointType.map((type, idx) => (
-                                        <Button 
-                                            type="button"
-                                            key={idx} 
-                                            value={type} 
-                                            variant={formData.painPoints.includes(type) ? "default" : "secondary"}
-                                            onClick={() => {
-                                                setFormData((prev) => ({
-                                                    ...prev,
-                                                    painPoints: prev.painPoints.includes(type)
-                                                        ? prev.painPoints.filter(item => item !== type)
-                                                        : [...prev.painPoints, type],
-                                                }))
-                                                console.log(type)
-                                            }}
-                                            className="p-6 w-full"
-                                        >
-                                            {type}
-                                        </Button>
-                                    ))}
+                    {currentStep === 7 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                When are you looking to make a change?
+                            </h2>
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                {timelineType.map((type, idx) => (
+                                    <Button 
+                                        type="button"
+                                        key={idx} 
+                                        value={type} 
+                                        variant="secondary"
+                                        onClick={() => {
+                                            setFormData((prev) => ({
+                                                ...prev,
+                                                timeline: type,
+                                            }))
+                                            console.log(type)
+                                            nextStep();
+                                        }}
+                                        className="p-6 w-full"
+                                    >
+                                        {type}
+                                    </Button>
+                                ))}
+                            </div>
+                        </div>
+
+                    )}
+
+                    {currentStep === 8 && (
+                        <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
+                            <h2 className="text-xl text-center font-serif font-semibold w-full">
+                                Almost there! Let's get your centre connected with our team.
+                            </h2>
+                            <div className="flex flex-col gap-4 w-full px-4">
+                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <Label htmlFor="firstName" className="pl-2.5 text-xs">
+                                        First Name
+                                    </Label>
+                                    <input
+                                        type="text"
+                                        name="firstName"
+                                        id="firstName"
+                                        className={inputClass}
+                                        value={formData.firstName}
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <Label htmlFor="lastName" className="pl-2.5 text-xs">
+                                        Last Name
+                                    </Label>
+                                    <input
+                                        type="text"
+                                        name="lastName"
+                                        id="lastName"
+                                        className={inputClass}
+                                        value={formData.lastName}
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <Label htmlFor="company" className="pl-2.5 text-xs">
+                                        Company Name
+                                    </Label>
+                                    <input
+                                        type="text"
+                                        name="company"
+                                        id="company"
+                                        className={inputClass}
+                                        value={formData.company}
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <Label htmlFor="email" className="pl-2.5 text-xs">
+                                        Email
+                                    </Label>
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        className={inputClass}
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
+                                    <Label htmlFor="phone" className="pl-2.5 text-xs">
+                                        Phone
+                                    </Label>
+                                    <input
+                                        type="phone"
+                                        name="phone"
+                                        id="phone"
+                                        className={inputClass}
+                                        value={formData.phone}
+                                        onChange={handleChange}
+                                    />
                                 </div>
                                 <Button 
-                                    type="button"
+                                    type="submit"
                                     variant="secondary"
-                                    onClick={() => {
-                                        nextStep();
-                                    }}
                                 >
-                                    Continue
+                                    Submit
                                 </Button>
                             </div>
-                        )}
-
-                        {currentStep === 7 && (
-                            <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
-                                <h2 className="text-xl text-center font-serif font-semibold w-full">
-                                    When are you looking to make a change?
-                                </h2>
-                                <div className="flex flex-col gap-4 w-full px-4">
-                                    {timelineType.map((type, idx) => (
-                                        <Button 
-                                            type="button"
-                                            key={idx} 
-                                            value={type} 
-                                            variant="secondary"
-                                            onClick={() => {
-                                                setFormData((prev) => ({
-                                                    ...prev,
-                                                    timeline: type,
-                                                }))
-                                                console.log(type)
-                                                nextStep();
-                                            }}
-                                            className="p-6 w-full"
-                                        >
-                                            {type}
-                                        </Button>
-                                    ))}
-                                </div>
-                            </div>
-
-                        )}
-
-                        {currentStep === 8 && (
-                            <div className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
-                                <h2 className="text-xl text-center font-serif font-semibold w-full">
-                                    Almost there! Let's get your centre connected with our team.
-                                </h2>
-                                <div className="flex flex-col gap-4 w-full px-4">
-                                    <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                        <Label htmlFor="firstName" className="pl-2.5 text-xs">
-                                            First Name
-                                        </Label>
-                                        <input
-                                            type="text"
-                                            name="firstName"
-                                            id="firstName"
-                                            className={inputClass}
-                                            value={formData.firstName}
-                                            onChange={handleChange}
-                                        />
-                                    </div>
-                                    <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                        <Label htmlFor="lastName" className="pl-2.5 text-xs">
-                                            Last Name
-                                        </Label>
-                                        <input
-                                            type="text"
-                                            name="lastName"
-                                            id="lastName"
-                                            className={inputClass}
-                                            value={formData.lastName}
-                                            onChange={handleChange}
-                                        />
-                                    </div>
-                                    <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                        <Label htmlFor="company" className="pl-2.5 text-xs">
-                                            Company Name
-                                        </Label>
-                                        <input
-                                            type="text"
-                                            name="company"
-                                            id="company"
-                                            className={inputClass}
-                                            value={formData.company}
-                                            onChange={handleChange}
-                                        />
-                                    </div>
-                                    <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                        <Label htmlFor="email" className="pl-2.5 text-xs">
-                                            Email
-                                        </Label>
-                                        <input
-                                            type="email"
-                                            name="email"
-                                            id="email"
-                                            className={inputClass}
-                                            value={formData.email}
-                                            onChange={handleChange}
-                                        />
-                                    </div>
-                                    <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
-                                        <Label htmlFor="phone" className="pl-2.5 text-xs">
-                                            Phone
-                                        </Label>
-                                        <input
-                                            type="phone"
-                                            name="phone"
-                                            id="phone"
-                                            className={inputClass}
-                                            value={formData.phone}
-                                            onChange={handleChange}
-                                        />
-                                    </div>
-                                    <Button 
-                                        type="submit"
-                                        variant="secondary"
-                                    >
-                                        Submit
-                                    </Button>
-                                </div>
-                            </div>
-                        )}
-                    </div>
+                        </div>
+                    )}
                 </form>
             )}
         </div>
