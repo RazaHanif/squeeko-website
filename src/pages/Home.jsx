@@ -251,7 +251,7 @@ function Home() {
                             src="/media/1.jpg"
                             alt="something"
                             loading="lazy"
-                            className="w-xl rounded-lg"
+                            className="w-xl rounded-lg border-2 border-secondary" 
                         />
                     </div>
                 </div>
