@@ -537,7 +537,7 @@ const OnboardingForm = () => {
                                 </div>
                                 <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-secondary-foreground bg-secondary/50">
                                     <Label htmlFor="company" className="pl-2.5 text-xs">
-                                        Company Name
+                                        Company
                                     </Label>
                                     <input
                                         type="text"
