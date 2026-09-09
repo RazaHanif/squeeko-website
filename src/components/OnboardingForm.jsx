@@ -509,7 +509,7 @@ const OnboardingForm = () => {
                                             className={inputClass}
                                             value={formData.lastName}
                                             onChange={handleChange}
-                                            req
+                                            required
                                         />
                                     </div>
                                 </div>
