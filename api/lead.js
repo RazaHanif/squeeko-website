@@ -64,6 +64,6 @@ export default async function handler(req, res) {
     } catch (err) {
         console.error("Error Submitting: ", err)
 
-        return res.s
+        return res.status(50)
     }
 }
