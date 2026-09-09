@@ -257,10 +257,16 @@ const OnboardingForm = () => {
                         )
                     ]}
                                         onValueChange={(value) => {
-                                            setFormData(prev => ({
-                                                ...prev,
-                                                maxChildCapacity: value[0]
-                                            }))
+                        const newValue = value[0];
+
+                        if (newValue === undefined || Number.isNaN(newValue)) {
+                            return;
+                        }
+
+                        setFormData(prev => ({
+                            ...prev,
+                            maxChildCapacity: newValue
+                        }));
                                         }}
                                         max={100}
                                         min={1}
