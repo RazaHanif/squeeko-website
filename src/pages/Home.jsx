@@ -320,7 +320,7 @@ function Home() {
                         <div className="flex flex-row lg:justify-start justify-center items-center gap-6 w-full lg:w-1/4">
                             <Button 
                                 variant="default"
-                                className="flex-1 cursor-pointer p-6 border border-primary-foreground"
+                                className="flex-1 cursor-pointer p-6 border border-primary-foreground w-3/4"
                             >
                                 Get Started
                             </Button>
