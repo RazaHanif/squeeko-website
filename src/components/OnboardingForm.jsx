@@ -176,7 +176,7 @@ const OnboardingForm = () => {
 
                     </div>
 
-                    <div className="relative min-h">
+                    <div className="relative min-h-[520px] overl">
 
                     </div>
 
