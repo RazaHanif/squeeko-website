@@ -172,7 +172,7 @@ const OnboardingForm = () => {
             ) : (
                 <form
                     onSubmit={ handleSubmit }
-                    className="bg-secondary border border-secondary-foreground w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 min-w-"
+                    className="bg-secondary border border-secondary-foreground w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 min-w-[600px]"
 
                 >
                     <div className="w-full mb-8">
