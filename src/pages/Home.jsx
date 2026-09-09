@@ -236,12 +236,7 @@ function Home() {
                             >
                                 Get Started
                             </Button>
-                            <Button 
-                                variant="secondary"
-                                className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
-                            >
-                                Book a demo
-                            </Button>
+
                         </div>
                     </div>
 
@@ -324,12 +319,7 @@ function Home() {
                             >
                                 Get Started
                             </Button>
-                            <Button 
-                                variant="secondary"
-                                className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
-                            >
-                                Book a demo
-                            </Button>
+
                         </div>
                     </div>
                     <div className="flex flex-1 w-full">
