@@ -177,7 +177,8 @@ const OnboardingForm = () => {
                     </div>
 
                     {currentStep === 0 && (
-                        <div 
+                        <div
+                            key= 
                             className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 What best describes your centre?
@@ -207,7 +208,8 @@ const OnboardingForm = () => {
                     )}
 
                     {currentStep === 1 && (
-                        <div 
+                        <div
+                            key= 
                             className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 What is your maximum licensed capacity?
@@ -279,7 +281,8 @@ const OnboardingForm = () => {
                     )}
 
                     {currentStep === 2 && (
-                        <div 
+                        <div
+                            key= 
                             className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 About how many employees work at your centre?
@@ -309,7 +312,8 @@ const OnboardingForm = () => {
                     )}
 
                     {currentStep === 3 && (
-                        <div 
+                        <div
+                            key= 
                             className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 How many locations do you operate?
@@ -352,7 +356,8 @@ const OnboardingForm = () => {
                     )}
 
                     {currentStep === 4 && (
-                        <div 
+                        <div
+                            key= 
                             className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 Are you currently accepting new families?
@@ -382,7 +387,8 @@ const OnboardingForm = () => {
                     )}
 
                     {currentStep === 5 && (
-                        <div 
+                        <div
+                            key= 
                             className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 How do you currently manage your centre?
@@ -412,7 +418,8 @@ const OnboardingForm = () => {
                     )}
 
                     {currentStep === 6 && (
-                        <div 
+                        <div
+                            key= 
                             className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 Whats the biggest challenge you're trying to solve?
@@ -453,7 +460,8 @@ const OnboardingForm = () => {
                     )}
 
                     {currentStep === 7 && (
-                        <div 
+                        <div
+                            key= 
                             className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 When are you looking to make a change?
@@ -484,7 +492,8 @@ const OnboardingForm = () => {
                     )}
 
                     {currentStep === 8 && (
-                        <div 
+                        <div
+                            key= 
                             className="flex flex-col justify-center items-center gap-2 p-2 bg-card border border-secondary-foreground rounded-lg">
                             <h2 className="text-xl text-center font-serif font-semibold w-full">
                                 Almost there! Let's get your centre connected with our team.
