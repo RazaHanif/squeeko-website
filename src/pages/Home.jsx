@@ -205,7 +205,7 @@ function Home() {
     ]
 
     return (
-        <div className="flex-1 flex flex-col justify-center items-center w-full lg:pt-16 pt-8">
+        <div className="flex-1 flex flex-col justify-center items-center w-full">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-start items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center ">
                 <div className="flex lg:flex-row flex-col justify-center items-center lg:items-stretch w-full gap-8 lg:gap-0">
                     <div className="flex flex-col flex-1 w-full justify-center items-center">
