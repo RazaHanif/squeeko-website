@@ -201,7 +201,7 @@ const OnboardingForm = () => {
                                         type="button"
                                         key={idx} 
                                         value={type}
-                                        variant="secondary"
+                                        variant="default"
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
@@ -232,7 +232,7 @@ const OnboardingForm = () => {
                                         type="button"
                                         key={idx} 
                                         value={type}
-                                        variant="secondary"
+                                        variant="default"
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
@@ -249,7 +249,7 @@ const OnboardingForm = () => {
                             </div>
                             <Button 
                                 type="button"
-                                variant="secondary"
+                                variant="default"
                                 onClick={() => {
                                     nextStep();
                                 }}
@@ -273,7 +273,7 @@ const OnboardingForm = () => {
                                         type="button"
                                         key={idx} 
                                         value={type} 
-                                        variant="secondary"
+                                        variant="default"
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
@@ -302,7 +302,7 @@ const OnboardingForm = () => {
                                 <Button 
                                     type="button"
                                     value={"1"} 
-                                    variant="secondary"
+                                    variant="default"
                                     onClick={() => {
                                         setFormData((prev) => ({
                                             ...prev,
@@ -318,7 +318,7 @@ const OnboardingForm = () => {
                                 <Button 
                                     type="button"
                                     value={"2 or more"} 
-                                    variant="secondary"
+                                    variant="default"
                                     onClick={() => {
                                         setFormData((prev) => ({
                                             ...prev,
@@ -348,7 +348,7 @@ const OnboardingForm = () => {
                                         type="button"
                                         key={idx} 
                                         value={type} 
-                                        variant="secondary"
+                                        variant="default"
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
@@ -379,7 +379,7 @@ const OnboardingForm = () => {
                                         type="button"
                                         key={idx} 
                                         value={type} 
-                                        variant="secondary"
+                                        variant="default"
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
@@ -429,7 +429,7 @@ const OnboardingForm = () => {
                             </div>
                             <Button 
                                 type="button"
-                                variant="secondary"
+                                variant="default"
                                 onClick={() => {
                                     nextStep();
                                 }}
@@ -453,7 +453,7 @@ const OnboardingForm = () => {
                                         type="button"
                                         key={idx} 
                                         value={type} 
-                                        variant="secondary"
+                                        variant="default"
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
@@ -550,7 +550,7 @@ const OnboardingForm = () => {
                                 <Button 
                                     className="py-6 w-1/2"
                                     type="submit"
-                                    variant="secondary"
+                                    variant="default"
                                 >
                                     Submit
                                 </Button>
