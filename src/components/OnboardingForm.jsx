@@ -27,7 +27,7 @@ const OnboardingForm = () => {
         "Other"
     ]
 
-    const max = [
+    const maxCapacityType = [
         "1-5",
         "6-10",
         "11-20",
