@@ -256,7 +256,7 @@ function Home() {
                             loading="lazy"
                             className="w-xl rounded-lg border-2 border-secondary" 
                         /> */}
-                        <div className="border w-full flex-1 min-h-[200px] flex justify-center items-center bg-secondary border-secondary-foreground rounded-xl">
+                        <div className="border w-full flex-1 min-h-[200px] flex justify-center items-center bg-secondary border-secondary-foreground rounded">
                             IMG
                         </div>
                     </div>
