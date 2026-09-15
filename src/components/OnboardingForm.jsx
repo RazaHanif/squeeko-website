@@ -341,7 +341,7 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full border border-primary min-h-16">
                                 Are you currently accepting new families?
                             </h2>
-                            <div className="flex flex-col justify-start items-center w-full gap-4 p-4 border border-primary flex-1 p-4">
+                            <div className="flex flex-col justify-start items-center w-full gap-4 p-4 border border-primary flex-1">
                                 {acceptingType.map((type, idx) => (
                                     <Button 
                                         type="button"
