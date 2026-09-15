@@ -475,7 +475,7 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full border border-primary min-h-16">
                                 Almost there! Let's get your centre connected with our team.
                             </h2>
-                            <div className="flex flex-col justify-start items-center w-full gap-4 p-4 border border-primary flex-1 p-4">
+                            <div className="flex flex-col justify-start items-center w-full gap-4 p-4 border border-primary flex-1">
                                 <div className="flex flex-row gap-4 w-full">
                                     <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground flex-1">
                                         <Label htmlFor="firstName" className="pl-2.5 text-xs">
