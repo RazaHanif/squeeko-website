@@ -256,7 +256,7 @@ function Home() {
                             loading="lazy"
                             className="w-xl rounded-lg border-2 border-secondary" 
                         /> */}
-                        <div>
+                        <div clas>
                             IMG
                         </div>
                     </div>
