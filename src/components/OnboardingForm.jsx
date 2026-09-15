@@ -486,7 +486,7 @@ const OnboardingForm = () => {
                                                 type="text"
                                                 name="firstName"
                                                 id="firstName"
-                                                placeholder
+                                                placeholder="Joe"
                                                 className={inputClass}
                                                 value={formData.firstName}
                                                 onChange={handleChange}
