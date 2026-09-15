@@ -421,19 +421,19 @@ const OnboardingForm = () => {
                                         {type}
                                     </Button>
                                 ))}
-                            <Button 
-                                type="button"
-                                variant="default"
-                                onClick={() => {
-                                    nextStep();
-                                }}
-                                className="py-6 w-1/2"
-                            >
-                                Continue
-                            </Button>
+                                <Button 
+                                    type="button"
+                                    variant="default"
+                                    onClick={() => {
+                                        nextStep();
+                                    }}
+                                    className="py-6 w-1/2"
+                                >
+                                    Continue
+                                </Button>
+                            </div>
                         </div>
                     )}
-                            </div>
 
                     {currentStep === 7 && (
                         <div 
