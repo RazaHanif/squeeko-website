@@ -50,14 +50,14 @@ export default async function handler(req, res) {
 
         console.log(row)
 
-        await sheets.spreadsheets.values.append({
-            spreadsheetId: process.env.GOOGLE_SHEET_ID,
-            range: "Leads!A:N",
-            valueInputOption: "USER_ENTERED",
-            requestBody: {
-                values: [row]
-            },
-        })
+        // await sheets.spreadsheets.values.append({
+        //     spreadsheetId: process.env.GOOGLE_SHEET_ID,
+        //     range: "Leads!A:N",
+        //     valueInputOption: "USER_ENTERED",
+        //     requestBody: {
+        //         values: [row]
+        //     },
+        // })
 
         return res.status(200).json({
             success: true,
