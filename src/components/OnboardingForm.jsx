@@ -204,7 +204,7 @@ const OnboardingForm = () => {
                         <div 
                             key={currentStep}
                             className={`min-h-[400px] flex-1 flex flex-col justify-center items-center question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
-                            <h2 className="text-xl text-center font-serif font-semibold w-full border border-primary min-h-8">
+                            <h2 className="text-2xl text-center font-serif font-semibold w-full border border-primary min-h-8">
                                 What best describes your centre?
                             </h2>
                             <div className="flex flex-col justify-start items-center w-full gap-4 p-4 border border-primary flex-1">
