@@ -48,7 +48,7 @@ export default async function handler(req, res) {
             formData.timeline || "",
         ]
 
-        
+        console.log(row)
 
         await sheets.spreadsheets.values.append({
             spreadsheetId: process.env.GOOGLE_SHEET_ID,
