@@ -398,7 +398,7 @@ const OnboardingForm = () => {
                         <div 
                             key={currentStep}
                             className={`min-h-[400px] flex-1 flex flex-col justify-around items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
-                            <h2 className="text-2xl text-center font-serif font-semibold w-full">
+                            <h2 className="text-2xl text-center font-serif font-semibold w-full border border-primary">
                                 Whats the biggest challenge you're trying to solve?
                             </h2>
                             <div className="w-full flex flex-col justify-center items-center gap-4 px-4 border border-primary">
