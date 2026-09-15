@@ -153,7 +153,7 @@ const OnboardingForm = () => {
 
                     <div className="flex flex-col gap-4">
                         <p className="">
-                            We've got everything we need.
+                            We've got everything we need.<br/>
 
                             A member of the Squeeko team will review your centre's information and reach out to you shortly.
                         </p>
