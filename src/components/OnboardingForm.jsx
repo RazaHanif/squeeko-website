@@ -402,6 +402,7 @@ const OnboardingForm = () => {
                                 Whats the biggest challenge you're trying to solve?
                             </h2>
                             <div className="w-full grid grid-cols-2 justify-items-center gap-4 px-4">
+                                <div>
                                 {painPointType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -421,6 +422,7 @@ const OnboardingForm = () => {
                                         {type}
                                     </Button>
                                 ))}
+                                </div>
                                 <Button 
                                     type="button"
                                     variant="default"
