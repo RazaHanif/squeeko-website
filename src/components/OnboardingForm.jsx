@@ -165,7 +165,7 @@ const OnboardingForm = () => {
 
 
                     <NavLink 
-                        className="self-center hover:underline text-bold"
+                        className="self-center hover:underline text-semibold"
                         to={"/features"} 
                         end 
                     >
