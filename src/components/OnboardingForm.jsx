@@ -219,7 +219,6 @@ const OnboardingForm = () => {
                                                 ...prev,
                                                 daycareType: type,
                                             }))
-                                            console.log(type)
                                             nextStep()
                                         }}                            
                                         className="p-6 w-full"
@@ -250,7 +249,6 @@ const OnboardingForm = () => {
                                                 ...prev,
                                                 maxChildCapacity: type,
                                             }))
-                                            console.log(type)
                                             nextStep()
                                         }}                            
                                         className="p-6 w-full"
@@ -281,7 +279,6 @@ const OnboardingForm = () => {
                                                 ...prev,
                                                 numOfStaff: type,
                                             }))
-                                            console.log(type)
                                             nextStep();
                                         }}
                                         className="p-6 w-full"
@@ -356,7 +353,6 @@ const OnboardingForm = () => {
                                                 ...prev,
                                                 accepting: type,
                                             }))
-                                            console.log(type)
                                             nextStep();
                                         }}
                                         className="p-6 w-full"
@@ -387,7 +383,6 @@ const OnboardingForm = () => {
                                                 ...prev,
                                                 managementType: type,
                                             }))
-                                            console.log(type)
                                             nextStep();
                                         }}
                                         className="p-6 w-full"
@@ -421,7 +416,6 @@ const OnboardingForm = () => {
                                                     ? prev.painPoints.filter(item => item !== type)
                                                     : [...prev.painPoints, type],
                                             }))
-                                            console.log(type)
                                         }}
                                         className="p-6 w-full whitespace-normal break-words"
                                     >
@@ -461,7 +455,6 @@ const OnboardingForm = () => {
                                                 ...prev,
                                                 timeline: type,
                                             }))
-                                            console.log(type)
                                             nextStep();
                                         }}
                                         className="p-6 w-full"
