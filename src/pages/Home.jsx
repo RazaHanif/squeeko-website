@@ -350,9 +350,9 @@ function Home() {
                                 loading="lazy"
                                 className="w-full h-full object-cover"
                             /> */}
-                                                    <div className="border w-full flex-1 min-h-[200px] flex justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
-                            IMG
-                        </div>
+                            <div className="border w-full flex-1 min-h-[200px] flex justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
+                                IMG
+                            </div>
                         </div>
                     </div>
 
