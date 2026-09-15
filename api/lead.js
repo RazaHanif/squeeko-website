@@ -94,8 +94,7 @@ export default async function handler(req, res) {
                         // "squeekoadmin@gmail.com"
                     ],
                 subject: "Website Form Submission",
-                text: `${formData.firstName} ${formData.lastName} has submitted the form.
-                The lead has been added to the SQUEEKO Leads Google Sheet.`,
+                text: `${formData.firstName} ${formData.lastName} has submitted the form. It has been added to the Google Sheet.`,
             })
 
         } catch (emailError) {
