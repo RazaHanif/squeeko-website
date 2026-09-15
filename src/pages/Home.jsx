@@ -344,12 +344,15 @@ function Home() {
                     </div>
                     <div className="flex flex-1 w-full">
                         <div className="border-2 border-secondary w-full flex justify-center items-center rounded-xl overflow-hidden max-h-[75vh]">
-                            <img
+                            {/* <img
                                 src="/media/5.jpg"
                                 alt="something"
                                 loading="lazy"
                                 className="w-full h-full object-cover"
-                            />                            
+                            /> */}
+                                                    <div className="border w-full flex-1 min-h-[200px] flex justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
+                            IMG
+                        </div>
                         </div>
                     </div>
 
