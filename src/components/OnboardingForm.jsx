@@ -475,80 +475,81 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full border border-primary min-h-16">
                                 Almost there! Let's get your centre connected with our team.
                             </h2>
-                            <div className="flex flex-col justify-start items-center w-full gap-4 p-4 border border-primary flex-1">
-                                <div className="flex flex-row gap-4 w-full">
-                                    <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground flex-1">
-                                        <Label htmlFor="firstName" className="pl-2.5 text-xs">
-                                            First Name
+                            <div className="w-full flex flex-col justify-between items-center gap-4 border border-primary flex-1 p-4">
+                                <div className="w-full grid grid-cols-2 justify-items-center gap-4">
+                                    <div className="flex flex-row gap-4 w-full">
+                                        <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground flex-1">
+                                            <Label htmlFor="firstName" className="pl-2.5 text-xs">
+                                                First Name
+                                            </Label>
+                                            <input
+                                                type="text"
+                                                name="firstName"
+                                                id="firstName"
+                                                className={inputClass}
+                                                value={formData.firstName}
+                                                onChange={handleChange}
+                                                required
+                                            />
+                                        </div>
+                                        <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground flex-1">
+                                            <Label htmlFor="lastName" className="pl-2.5 text-xs">
+                                                Last Name
+                                            </Label>
+                                            <input
+                                                type="text"
+                                                name="lastName"
+                                                id="lastName"
+                                                className={inputClass}
+                                                value={formData.lastName}
+                                                onChange={handleChange}
+                                                required
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground">
+                                        <Label htmlFor="email" className="pl-2.5 text-xs">
+                                            Email
                                         </Label>
                                         <input
-                                            type="text"
-                                            name="firstName"
-                                            id="firstName"
+                                            type="email"
+                                            name="email"
+                                            id="email"
                                             className={inputClass}
-                                            value={formData.firstName}
+                                            value={formData.email}
                                             onChange={handleChange}
                                             required
                                         />
                                     </div>
-                                    <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground flex-1">
-                                        <Label htmlFor="lastName" className="pl-2.5 text-xs">
-                                            Last Name
+                                    <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground">
+                                        <Label htmlFor="phone" className="pl-2.5 text-xs">
+                                            Phone
+                                        </Label>
+                                        <input
+                                            type="phone"
+                                            name="phone"
+                                            id="phone"
+                                            className={inputClass}
+                                            value={formData.phone}
+                                            onChange={handleChange}
+                                            required
+                                        />
+                                    </div>
+                                    <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground">
+                                        <Label htmlFor="company" className="pl-2.5 text-xs">
+                                            Company
                                         </Label>
                                         <input
                                             type="text"
-                                            name="lastName"
-                                            id="lastName"
+                                            name="company"
+                                            id="company"
                                             className={inputClass}
-                                            value={formData.lastName}
+                                            value={formData.company}
                                             onChange={handleChange}
                                             required
                                         />
                                     </div>
                                 </div>
-                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground">
-                                    <Label htmlFor="email" className="pl-2.5 text-xs">
-                                        Email
-                                    </Label>
-                                    <input
-                                        type="email"
-                                        name="email"
-                                        id="email"
-                                        className={inputClass}
-                                        value={formData.email}
-                                        onChange={handleChange}
-                                        required
-                                    />
-                                </div>
-                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground">
-                                    <Label htmlFor="phone" className="pl-2.5 text-xs">
-                                        Phone
-                                    </Label>
-                                    <input
-                                        type="phone"
-                                        name="phone"
-                                        id="phone"
-                                        className={inputClass}
-                                        value={formData.phone}
-                                        onChange={handleChange}
-                                        required
-                                    />
-                                </div>
-                                <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground">
-                                    <Label htmlFor="company" className="pl-2.5 text-xs">
-                                        Company
-                                    </Label>
-                                    <input
-                                        type="text"
-                                        name="company"
-                                        id="company"
-                                        className={inputClass}
-                                        value={formData.company}
-                                        onChange={handleChange}
-                                        required
-                                    />
-                                </div>
-                                
                                 <Button 
                                     className="py-6 w-1/2"
                                     type="submit"
