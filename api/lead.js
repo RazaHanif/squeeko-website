@@ -1,4 +1,15 @@
 import { google } from "googleapis"
+import nodemailer from "nodemailer"
+
+const formatPhone = (phoneNumber) => {
+    const digits = phoneNumber.replace(/\D/g, "")
+
+    if (digits.length === 10) {
+        return `(${digits.slice(0,3)}) ${digits.slice(3,6)}-${digits.slice(6)}`
+    }
+
+    return phoneNumber
+}
 
 export default async function handler(req, res) {
     if (req.method !== "POST") {
@@ -18,25 +29,30 @@ export default async function handler(req, res) {
             })
         }
 
-        // const auth = new google.auth.GoogleAuth({
-        //     credentials: {
-        //         client_email: process.env.GOOGLE_EMAIL,
-        //         private_key: process.env.GOOGLE_KEY.replace(/\\n/g, "\n")
-        //     },
-        //     scopes: ["https://www.googleapis.com/auth/spreadsheets"]
-        // })
+        const auth = new google.auth.GoogleAuth({
+            credentials: {
+                client_email: process.env.GOOGLE_EMAIL,
+                private_key: process.env.GOOGLE_KEY.replace(/\\n/g, "\n")
+            },
+            scopes: ["https://www.googleapis.com/auth/spreadsheets"]
+        })
 
-        // const sheets = google.sheets({
-        //     version: "v4",
-        //     auth
-        // })
+        const sheets = google.sheets({
+            version: "v4",
+            auth
+        })
 
         const row = [
-            new Date().toISOString(),
+            new Date().toLocaleDateString("en-US", {
+                month: "2-digit",
+                day: "2-digit",
+                year: "numeric",
+            }),
+            "New",
             formData.firstName || "",
             formData.lastName || "",
             formData.email || "",
-            formData.phone || "",
+            formatPhone(formData.phone || ""),
             formData.company || "",
             formData.daycareType || "",
             formData.maxChildCapacity || "",
@@ -44,20 +60,47 @@ export default async function handler(req, res) {
             formData.numOfLocations || "",
             formData.accepting || "",
             formData.managementType || "",
-            Array.isArray(formData.painPoints) ? formData.painPoinds.join(", ") : "",
+            Array.isArray(formData.painPoints)
+                ? formData.painPoints.map(point => `• ${point}`).join("\n")
+                : "",
             formData.timeline || "",
         ]
 
-        console.log(row)
+        await sheets.spreadsheets.values.append({
+            spreadsheetId: process.env.GOOGLE_SHEET_ID,
+            range: "Leads!A:O",
+            valueInputOption: "USER_ENTERED",
+            requestBody: {
+                values: [row]
+            },
+        })
 
-        // await sheets.spreadsheets.values.append({
-        //     spreadsheetId: process.env.GOOGLE_SHEET_ID,
-        //     range: "Leads!A:N",
-        //     valueInputOption: "USER_ENTERED",
-        //     requestBody: {
-        //         values: [row]
-        //     },
-        // })
+        try {
+
+            const transporter = nodemailer.createTransport({
+                host: "smtp.gmail.com",
+                port: 465,
+                secure: true,
+                auth: {
+                    user: process.env.EMAIL_USER,
+                    pass: process.env.EMAIL_PASS
+                }
+            })              
+                    
+            await transporter.sendMail({
+                from: process.env.EMAIL_USER,
+                to: [
+                        "squeekoapp@gmail.com", 
+                        // "squeekoadmin@gmail.com"
+                    ],
+                subject: "Website Form Submission",
+                text: `${formData.firstName} ${formData.lastName} has submitted the form.
+                The lead has been added to the SQUEEKO Leads Google Sheet.`,
+            })
+
+        } catch (emailError) {
+            console.error("Email Failed to Send ", emailError)
+        }
 
         return res.status(200).json({
             success: true,

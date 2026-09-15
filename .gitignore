@@ -25,3 +25,5 @@ llm_helper.md
 *.sw?
 .env
 .ohgitrc.json
+.vercel
+.env*

@@ -3,13 +3,14 @@ import { Progress } from "@/components/ui/progress"
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Button } from "./ui/button";
+import { Loader2 } from "lucide-react";
 
 const OnboardingForm = () => {
     const daycareType = [
-        "Standalone daycare / childcare centre",
-        "Daycare within a school",
-        "Home daycare",
-        "Preschool / nursery"
+        "Standalone Daycare / Childcare Centre",
+        "Daycare Within a School",
+        "Home Daycare",
+        "Preschool / Nursery"
     ]
 
     const acceptingType = [
@@ -117,7 +118,7 @@ const OnboardingForm = () => {
         // setSubmitted(true)
 
         try {
-            const response = await fetch("/lead", {
+            const response = await fetch("/api/lead", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -207,7 +208,7 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 What best describes your centre?
                             </h2>
-                            <div className="flex flex-col justify-start items-center w-full gap-4 p-4 flex-1">
+                            <div className="flex flex-col justify-start items-center w-full gap-4 flex-1">
                                 {daycareType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -237,7 +238,7 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 What is your maximum licensed capacity?
                             </h2>
-                            <div className="w-full grid grid-cols-2 justify-items-center gap-4 p-4 [&>*:last-child:nth-child(odd)]:col-span-2 flex-1">
+                            <div className="w-full grid grid-cols-2 justify-items-center gap-4 [&>*:last-child:nth-child(odd)]:col-span-2 flex-1">
                                 {maxCapacityType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -267,7 +268,7 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 About how many employees work at your centre?
                             </h2>
-                            <div className="flex flex-col justify-start items-center w-full gap-4 p-4 flex-1">
+                            <div className="flex flex-col justify-start items-center w-full gap-4 flex-1">
                                 {numOfStaffType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -297,7 +298,7 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 How many locations do you operate?
                             </h2>
-                            <div className="flex flex-col justify-start items-center w-full gap-4 p-4 flex-1">
+                            <div className="flex flex-col justify-start items-center w-full gap-4 flex-1">
                                 <Button 
                                     type="button"
                                     value={"1"} 
@@ -307,7 +308,6 @@ const OnboardingForm = () => {
                                             ...prev,
                                             numOfLocations: "1",
                                         }))
-                                        console.log("1")
                                         nextStep();
                                     }}
                                     className="p-6 w-full"
@@ -323,7 +323,6 @@ const OnboardingForm = () => {
                                             ...prev,
                                             numOfLocations: "2 or more",
                                         }))
-                                        console.log("2 or more")
                                         nextStep();
                                     }}
                                     className="p-6 w-full"
@@ -341,7 +340,7 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 Are you currently accepting new families?
                             </h2>
-                            <div className="flex flex-col justify-start items-center w-full gap-4 p-4 flex-1">
+                            <div className="flex flex-col justify-start items-center w-full gap-4 flex-1">
                                 {acceptingType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -371,7 +370,7 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 How do you currently manage your centre?
                             </h2>
-                            <div className="flex flex-col justify-start items-center w-full gap-4 p-4 flex-1">
+                            <div className="flex flex-col justify-start items-center w-full gap-4 flex-1">
                                 {managementType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -401,7 +400,7 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 Whats the biggest challenge you're trying to solve?
                             </h2>
-                            <div className="w-full flex flex-col justify-between items-center gap-4 flex-1 p-4">
+                            <div className="w-full flex flex-col justify-between items-center gap-4 flex-1">
                                 <div className="w-full grid grid-cols-2 justify-items-center gap-4">
                                     {painPointType.map((type, idx) => (
                                         <Button 
@@ -417,7 +416,7 @@ const OnboardingForm = () => {
                                                         : [...prev.painPoints, type],
                                                 }))
                                             }}
-                                            className="p-6 w-full whitespace-normal break-words"
+                                            className="sm:p-6 p-8 w-full whitespace-normal break-words"
                                         >
                                             {type}
                                         </Button>
@@ -444,7 +443,7 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 When are you looking to make a change?
                             </h2>
-                            <div className="flex flex-col justify-start items-center w-full gap-4 p-4 flex-1">
+                            <div className="flex flex-col justify-start items-center w-full gap-4 flex-1">
                                 {timelineType.map((type, idx) => (
                                     <Button 
                                         type="button"
@@ -541,14 +540,14 @@ const OnboardingForm = () => {
                                             Phone
                                         </Label>
                                         <input
-                                            type="phone"
+                                            type="tel"
                                             name="phone"
                                             id="phone"
                                             placeholder=""
                                             className={inputClass}
                                             value={formData.phone}
                                             onChange={handleChange}
-                                            required
+                                            required 
                                         />
                                     </div>
                                     <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary bg-primary/90 text-primary-foreground">
@@ -574,8 +573,16 @@ const OnboardingForm = () => {
                                     className="py-6 w-1/2"
                                     type="submit"
                                     variant="default"
+                                    disabled={isSubmitting}
                                 >
-                                    Submit
+                                    {isSubmitting ? (
+                                        <div className="flex flex-row gap-4">
+                                            <Loader2 className="animate-spin" />
+                                            Submitting ...
+                                        </div>
+                                    ) : (
+                                        "Submit"
+                                    )}
                                 </Button>
                             </div>
                         </div>

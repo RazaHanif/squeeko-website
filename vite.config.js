@@ -10,6 +10,14 @@ export default defineConfig({
     tailwindcss(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3001',
+        changeOrigin: true
+      }
+    }
+  },
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "./src"),
