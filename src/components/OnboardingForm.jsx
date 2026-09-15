@@ -526,7 +526,7 @@ const OnboardingForm = () => {
                                             type="email"
                                             name="email"
                                             id="email"
-                                            placeholder="placeholder"
+                                            placeholder=""
                                             className={inputClass}
                                             value={formData.email}
                                             onChange={handleChange}
@@ -544,7 +544,7 @@ const OnboardingForm = () => {
                                             type="phone"
                                             name="phone"
                                             id="phone"
-                                            placeholder="placeholder"
+                                            placeholder=""
                                             className={inputClass}
                                             value={formData.phone}
                                             onChange={handleChange}
@@ -562,7 +562,7 @@ const OnboardingForm = () => {
                                             type="text"
                                             name="company"
                                             id="company"
-                                            placeholder="placeholder"
+                                            placeholder=""
                                             className={inputClass}
                                             value={formData.company}
                                             onChange={handleChange}
