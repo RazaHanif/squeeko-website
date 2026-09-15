@@ -401,7 +401,7 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full border border-primary min-h-16">
                                 Whats the biggest challenge you're trying to solve?
                             </h2>
-                            <div className="w-full flex flex-col justify-start items-center gap-4 border border-primary flex-1 p-4">
+                            <div className="w-full flex flex-col justify-between items-center gap-4 border border-primary flex-1 p-4">
                                 <div className="w-full grid grid-cols-2 justify-items-center gap-4">
                                     {painPointType.map((type, idx) => (
                                         <Button 
