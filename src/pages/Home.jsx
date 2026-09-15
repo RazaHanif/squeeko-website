@@ -250,12 +250,12 @@ function Home() {
 
 
                     <div className="w-9/10 lg:w-3/4 flex-1 flex justify-center items-center rounded-xl">
-                        <img
+                        {/* <img
                             src="/media/1.jpg"
                             alt="something"
                             loading="lazy"
                             className="w-xl rounded-lg border-2 border-secondary" 
-                        />
+                        /> */}
                     </div>
                 </div>
 
