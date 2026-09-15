@@ -476,7 +476,7 @@ const OnboardingForm = () => {
                                 Almost there! Let's get your centre connected with our team.
                             </h2>
                             <div className="w-full flex flex-col justify-between items-center gap-4 border border-primary flex-1 p-4">
-                                <div className="w-full flex gap-4">
+                                <div className="w-full flex flex-col gap-4">
                                     <div className="flex flex-row gap-4 w-full">
                                         <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-primary-foreground bg-primary/50 text-primary-foreground flex-1">
                                             <Label htmlFor="firstName" className="pl-2.5 text-xs">
