@@ -233,7 +233,7 @@ const OnboardingForm = () => {
                     {currentStep === 1 && (
                         <div 
                             key={currentStep}
-                            className={`min-h-[400px] flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
+                            className={`min-h-[400px] flex-1 flex flex-col justify-around items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
                             <h2 className="text-2xl text-center font-serif font-semibold w-full border border-primary">
                                 What is your maximum licensed capacity?
                             </h2>
