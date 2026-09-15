@@ -259,7 +259,6 @@ function Home() {
                         <div>
                             IMG
                         </div>
-                        IMG
                     </div>
                 </div>
 
