@@ -403,25 +403,25 @@ const OnboardingForm = () => {
                             </h2>
                             <div className="w-full gap-4 px-4 border border-primary">
                                 <div className="w-full grid grid-cols-2 justify-items-center gap-4">
-                                {painPointType.map((type, idx) => (
-                                    <Button 
-                                        type="button"
-                                        key={idx} 
-                                        value={type} 
-                                        variant={formData.painPoints.includes(type) ? "outline" : "default"}
-                                        onClick={() => {
-                                            setFormData((prev) => ({
-                                                ...prev,
-                                                painPoints: prev.painPoints.includes(type)
-                                                    ? prev.painPoints.filter(item => item !== type)
-                                                    : [...prev.painPoints, type],
-                                            }))
-                                        }}
-                                        className="p-6 w-full whitespace-normal break-words"
-                                    >
-                                        {type}
-                                    </Button>
-                                ))}
+                                    {painPointType.map((type, idx) => (
+                                        <Button 
+                                            type="button"
+                                            key={idx} 
+                                            value={type} 
+                                            variant={formData.painPoints.includes(type) ? "outline" : "default"}
+                                            onClick={() => {
+                                                setFormData((prev) => ({
+                                                    ...prev,
+                                                    painPoints: prev.painPoints.includes(type)
+                                                        ? prev.painPoints.filter(item => item !== type)
+                                                        : [...prev.painPoints, type],
+                                                }))
+                                            }}
+                                            className="p-6 w-full whitespace-normal break-words"
+                                        >
+                                            {type}
+                                        </Button>
+                                    ))}
                                 </div>
                                 <Button 
                                     type="button"
