@@ -67,7 +67,8 @@ const Temp = ({ children }) => {
                         SQUEEKO
                     </h1>
                     <p className="text-muted-foreground">
-                        under construction
+                        under construction <br/> 
+                        {import.meta.env.VITE_VERCEL_GIT_COMMIT_SHA?.slice(0,7)}
                     </p>
                 </div>
 
