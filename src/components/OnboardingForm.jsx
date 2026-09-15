@@ -421,7 +421,6 @@ const OnboardingForm = () => {
                                         {type}
                                     </Button>
                                 ))}
-                            </div>
                             <Button 
                                 type="button"
                                 variant="default"
@@ -434,6 +433,7 @@ const OnboardingForm = () => {
                             </Button>
                         </div>
                     )}
+                            </div>
 
                     {currentStep === 7 && (
                         <div 
