@@ -156,10 +156,10 @@ const OnboardingForm = () => {
                             We've got everything we need.
                         </p>
                         <p className="">
-                            A member of the Squeeko team will review your centre's information and reach out to you shortly.
+                            A member of the SQUEEKO team will review your centre's information and reach out to you shortly.
                         </p>
                         <p className="">
-                            In the meantime, see what Squeeko can do for your centre.
+                            In the meantime, see what SQUEEKO can do for your centre.
                         </p>
                     </div>
 
@@ -169,7 +169,7 @@ const OnboardingForm = () => {
                         to={"/features"} 
                         end 
                     >
-                        Explore Squeeko &rarr;
+                        Explore SQUEEKO &rarr;
                     </NavLink>
                 </div>
             ) : (
