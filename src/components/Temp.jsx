@@ -51,6 +51,10 @@ const Temp = ({ children }) => {
 
     const inputClass = `!bg-primary/50 text-background border-primary  transition-all duration-200 ease-in-out ${error ? "border-destructive focus-visible:border-destructive" : "" }`
 
+    const version = import.meta.env.VITE_VERCEL_GIT_COMMIT_SHA 
+        ? import.meta.env.VITE_VERCEL_GIT_COMMIT_SHA .slice(0,7)
+        : "local"
+
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full background bg-background overflow-hidden">
             <span className="ball" />
@@ -67,8 +71,7 @@ const Temp = ({ children }) => {
                         SQUEEKO
                     </h1>
                     <p className="text-muted-foreground">
-                        under construction <br/> 
-                        {import.meta.env.VITE_VERCEL_GIT_COMMIT_SHA?.slice(0,7)}
+                        under construction 
                     </p>
                 </div>
 
@@ -98,6 +101,9 @@ const Temp = ({ children }) => {
                         </CardContent>
                     </Card>
                 </div>
+                <p className="p-0 m-0 text-xs font-light text-muted-foreground">
+                    {version.toUpperCase()}
+                </p>
             </div>
         </div>
     )
