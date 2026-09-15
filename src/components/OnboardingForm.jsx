@@ -486,7 +486,7 @@ const OnboardingForm = () => {
                                                 type="text"
                                                 name="firstName"
                                                 id="firstName"
-                                                placeholder=
+                                                placeholder="Enter Y"
                                                 className={inputClass}
                                                 value={formData.firstName}
                                                 onChange={handleChange}
@@ -501,7 +501,7 @@ const OnboardingForm = () => {
                                                 type="text"
                                                 name="lastName"
                                                 id="lastName"
-                                                placeholder=
+                                                placeholder="Enter Y"
                                                 className={inputClass}
                                                 value={formData.lastName}
                                                 onChange={handleChange}
@@ -517,7 +517,7 @@ const OnboardingForm = () => {
                                             type="email"
                                             name="email"
                                             id="email"
-                                            placeholder=
+                                            placeholder="Enter Y"
                                             className={inputClass}
                                             value={formData.email}
                                             onChange={handleChange}
@@ -532,7 +532,7 @@ const OnboardingForm = () => {
                                             type="phone"
                                             name="phone"
                                             id="phone"
-                                            placeholder=
+                                            placeholder="Enter Y"
                                             className={inputClass}
                                             value={formData.phone}
                                             onChange={handleChange}
@@ -547,7 +547,7 @@ const OnboardingForm = () => {
                                             type="text"
                                             name="company"
                                             id="company"
-                                            placeholder=
+                                            placeholder="Enter Y"
                                             className={inputClass}
                                             value={formData.company}
                                             onChange={handleChange}
