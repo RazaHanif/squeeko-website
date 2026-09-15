@@ -401,7 +401,6 @@ const OnboardingForm = () => {
                             <h2 className="text-2xl text-center font-serif font-semibold w-full">
                                 Whats the biggest challenge you're trying to solve?
                             </h2>
-                            {/* Make this so they can choose multiple options that just add to the painPoints array */}
                             <div className="w-full grid grid-cols-2 justify-items-center gap-4 px-4">
                                 {painPointType.map((type, idx) => (
                                     <Button 
