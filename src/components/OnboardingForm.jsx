@@ -481,7 +481,7 @@ const OnboardingForm = () => {
                                         <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-primary bg-primary text-primary-foreground flex-1">
                                             <Label 
                                                 htmlFor="firstName" 
-                                                className="pl-2.5 text-xs text-secondary-foreground"
+                                                className="pl-2.5 text-xs"
                                             >
                                                 First Name
                                             </Label>
@@ -499,7 +499,7 @@ const OnboardingForm = () => {
                                         <div className="flex flex-col justify-center items-start p-2 rounded-lg border border-primary bg-primary text-primary-foreground flex-1">
                                             <Label 
                                                 htmlFor="lastName" 
-                                                className="pl-2.5 text-xs text-secondary-foreground"
+                                                className="pl-2.5 text-xs"
                                             >
                                                 Last Name
                                             </Label>
@@ -518,7 +518,7 @@ const OnboardingForm = () => {
                                     <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary bg-primary text-primary-foreground">
                                         <Label 
                                             htmlFor="email" 
-                                            className="pl-2.5 text-xs text-secondary-foreground"
+                                            className="pl-2.5 text-xs"
                                         >
                                             Email
                                         </Label>
@@ -536,7 +536,7 @@ const OnboardingForm = () => {
                                     <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary bg-primary text-primary-foreground">
                                         <Label 
                                             htmlFor="phone" 
-                                            className="pl-2.5 text-xs text-secondary-foreground"
+                                            className="pl-2.5 text-xs"
                                         >
                                             Phone
                                         </Label>
@@ -554,7 +554,7 @@ const OnboardingForm = () => {
                                     <div className="w-full flex flex-col justify-center items-start p-2 rounded-lg border border-primary bg-primary text-primary-foreground">
                                         <Label 
                                             htmlFor="company" 
-                                            className="pl-2.5 text-xs text-secondary-foreground"
+                                            className="pl-2.5 text-xs"
                                         >
                                             Company
                                         </Label>
