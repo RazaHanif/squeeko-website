@@ -147,7 +147,7 @@ const OnboardingForm = () => {
                 <div 
                     className="bg-muted border border-secondary-foreground w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 min-h-[600px]"
                 >
-                    <h2 className="text-3xl font-bold font-serif">
+                    <h2 className="text-3xl font-bold font-serif border">
                         You're all set!
                     </h2>
 
