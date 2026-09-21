@@ -203,9 +203,7 @@ function Header() {
                     to='/'
                     end
                 >
-                    <h2 className="text-4xl font-mono font-bold text-primary">
-                        squeeko
-                    </h2>
+                    <Logo 
                 </NavLink>
             </div>
             <div className="flex-2 flex flex-row justify-end items-center">
