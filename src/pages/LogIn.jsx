@@ -10,6 +10,9 @@ function LogIn() {
                     This page should have a username and password input, that right now will never actually submit it'll just give a user not found error.
                     Maybe this also gives an option to if you can't log in then sign up? but idk how we are gonna handle sign ups right now, maybe signup just links to call sales.
                 </p>
+
+
+                <Logo />
             </div>
 
             {/* 
