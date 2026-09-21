@@ -1,6 +1,6 @@
 import { PencilSparkles } from "lucide-react";
 
-function Logo(className) {
+function Logo(className="text-primary text-4xl") {
     return (
         <div className={`flex flex-row justify-center items-start ${className}`}>
             <h2 className="font-mono">
