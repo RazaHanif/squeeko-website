@@ -81,6 +81,44 @@ function FeatureTabs() {
                 },
             ],
         },
+        {
+            trigger: "Scheduling",
+            title: "Keep your day moving.",
+            desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next.",
+            points: [
+                {
+                    title: "Attendance", 
+                    point: "Know who's here and keep accurate attendance records."
+                },
+                {
+                    title: "Ratios", 
+                    point: "Keep an eye on classroom ratios as your day changes."
+                },
+                {
+                    title: "Daily Routines", 
+                    point: "Give your team an easier way to keep daily tasks on track."
+                },
+            ],
+        },
+        {
+            trigger: "Scheduling",
+            title: "Keep your day moving.",
+            desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next.",
+            points: [
+                {
+                    title: "Attendance", 
+                    point: "Know who's here and keep accurate attendance records."
+                },
+                {
+                    title: "Ratios", 
+                    point: "Keep an eye on classroom ratios as your day changes."
+                },
+                {
+                    title: "Daily Routines", 
+                    point: "Give your team an easier way to keep daily tasks on track."
+                },
+            ],
+        },
     ]
 
     return (
