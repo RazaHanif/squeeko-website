@@ -395,7 +395,7 @@ function Home() {
             </section>
 
             <section className="flex flex-col justify-center items-center gap-8 w-full py-40">
-                <div className="w-9/10 flex-1 flex">
+                <div className="flex-1 flex">
                     <HomeCards />
                 </div>
             </section>
