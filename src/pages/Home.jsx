@@ -225,7 +225,7 @@ function HomeCards() {
 
                     {/* <div className="bg-gradient-to-b from-primary from-50% to-primary/50"> */}
                     <CardContent className="flex flex-col justify-center items-center gap-4">
-                        <div className="p-2 text-secondary-foreground flex justify-center items-center rounded-xl bg-secondary">
+                        <div className="p-2 text-secondary-foreground flex justify-center items-center rounded-xl bg-secondary border-secondary-foreground">
                             <Icon className="size-[3em]" />
                         </div>
                         <div>
