@@ -304,12 +304,11 @@ function Home() {
                 </h2>
 
                 <div>
-                    
+                    <p className="font-bold">
+                        Tell us about yourself?
+                    </p>
+                    <OnboardingForm />
                 </div>
-                <p className="font-bold">
-                    Tell us about yourself?
-                </p>
-                <OnboardingForm />
             </section>
 
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full py-40">
