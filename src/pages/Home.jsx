@@ -223,7 +223,7 @@ function HomeCards() {
                     className="flex bg-primary border border-secondary-foreground text-secondary-foreground text-center"
                 >
                     <CardContent className="flex flex-col justify-center items-center gap-4">
-                        <div className="p-2 text-secondary-foreground flex justify-center items-center rounded-xl bg-secondary border border-secondary-foreground">
+                        <div className="p-2 text-secondary-foreground flex justify-center items-center rounded-full bg-secondary border border-secondary-foreground">
                             <Icon className="size-[3em]" />
                         </div>
                         <div>
