@@ -225,7 +225,7 @@ function HomeCards() {
 
                     {/* <div className="bg-gradient-to-b from-primary from-50% to-primary/50"> */}
                     <CardContent className="flex flex-col justify-center items-center gap-4">
-                        <div className="p-2 text-primary flex justify-center items-center rounded-xl bg-[linear-gradient(to_bottom,theme(colors.secondary)_0%,theme(colors.secondary)_50%,color-mix(in_srgb,theme(colors.secondary)_50%,transparent)_50%,color-mix(in_srgb,theme(colors.secondary)_0%,transparent)_100%)]">
+                        <div className="p-2 text-primary flex justify-center items-center rounded-xl bg-[linear-gradient(to_bottom,theme(colors.secondary)_0%,theme(colors.secondary)_50%,color-mix(in_srgb,theme(colors.secondary)_50%,transparent)_50%,color-mix(in_srgb,theme(colors.secondary)_100%,transparent)_100%)]">
                             <Icon className="size-[3em]" />
                         </div>
                         <div>
