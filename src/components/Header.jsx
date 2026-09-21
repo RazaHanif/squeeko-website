@@ -202,7 +202,7 @@ function Header() {
                     to='/'
                     end
                 >
-                    <Logo className="text-4xl" caps="true"/>
+                    <Logo className="text-4xl" />
                 </NavLink>
             </div>
             <div className="flex-2 flex flex-row justify-end items-center">
