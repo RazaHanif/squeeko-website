@@ -7,7 +7,7 @@ function Logo({className, stacked=false}) {
         >
             <PencilSparkles className="size-[1.5em] stroke-2" />
             <h2 className="font-mono">
-                squeeko
+                SQUEEKO
             </h2>
         </div>
     ) : (
