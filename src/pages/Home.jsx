@@ -220,7 +220,7 @@ function HomeCards() {
             {data.map(({ image, header, desc }, idx) => (
                 <Card
                     key={idx}
-                    className="flex bg-primary border border-secondary-foreground text-secondary-foreground"
+                    className="flex bg-primary border border-secondary-foreground text-secondary-foreground text-center"
                 >
                     <CardContent className="flex flex-col justify-center items-center gap-4">
                         <div className="p-2 border-secondary-foreground bg-secondary text-primary border flex justify-center items-center rounded-xl">
