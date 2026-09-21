@@ -201,7 +201,7 @@ function HomeSheet() {
             <SheetContent 
                 side="right"
                 showCloseButton={false}    
-                className="data-[side=top]:h-full gap-0 bg-background"
+                className="data-[side=right]:h-full gap-0 bg-background"
             >
                 <SheetHeader>
                     <SheetTitle>Lets get started?</SheetTitle>
