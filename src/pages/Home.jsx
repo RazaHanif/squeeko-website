@@ -222,7 +222,7 @@ function HomeCards() {
                     key={idx}
                     className="flex bg-primary border border-secondary-foreground text-secondary-foreground"
                 >
-                    <CardContent className="flex flex-col justify-center items-center gap-2">
+                    <CardContent className="flex flex-col justify-center items-center gap-4">
                         <div className="p-2 border-secondary-foreground bg-secondary border flex justify-center items-center rounded-xl">
                             {image}
                         </div>
