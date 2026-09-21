@@ -24,7 +24,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Daily Routines", 
-                    point: "Keep your daily schedule organized and accessible"
+                    point: "Give your team an easier way to keep daily tasks on track."
                 },
             ],
         }
