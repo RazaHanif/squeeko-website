@@ -129,7 +129,7 @@ function HomeFeatureAccordion() {
     return (
         <Accordion
             defaultValue={[data[0].trigger]}
-            className="w-full rounded-lg bg-secondary text-secondary-foreground p-6 border border-secondary-foreground"
+            className="w-full rounded-lg bg-accent text-secondary-foreground p-6 border border-secondary-foreground"
         >
             {data.map(({trigger, header, desc, links, image}) => (
                 <AccordionItem 
