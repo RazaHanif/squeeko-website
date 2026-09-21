@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/card"
 import { Slider } from "@/components/ui/slider"
 import { NavLink, useNavigate } from "react-router-dom"
-import { Calendar, ChevronRight, CreditCard } from "lucide-react"
+import { Calendar, ChevronRight, ClipboardCheck, CreditCard } from "lucide-react"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Label } from "@/components/ui/label"
 import { useState } from "react"
@@ -191,7 +191,7 @@ function HomeCards() {
         },
 
         {
-            image: <clipboardcheck,
+            image: <ClipboardCheck />,
             header: "Stay in compliance",
             desc: "Keep forms, signatures, records, and everything else your centre needs organized and up to date.",
         },
