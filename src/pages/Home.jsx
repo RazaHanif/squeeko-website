@@ -26,6 +26,13 @@ import Image from "@/components/Image"
 import Logo from "@/components/Logo"
 
 
+/* 
+Main feature overview - 
+
+
+*/
+
+
 function HomeFeatureAccordion() {
     const data = [
         {
