@@ -75,7 +75,7 @@ function Features() {
                 </p>
             </div>
 
-            <Fea
+            <FeatureTabs />
 
             {/* 
             
