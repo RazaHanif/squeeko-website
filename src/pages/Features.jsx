@@ -41,6 +41,10 @@ function FeatureTabs() {
                     title: "Daily Routines", 
                     point: "Give your team an easier way to keep daily tasks on track."
                 },
+                {
+                    title: "Daily Routines", 
+                    point: "Give your team an easier way to keep daily tasks on track."
+                },
             ],
         },
         {
