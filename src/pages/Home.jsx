@@ -200,7 +200,7 @@ function HomeSheet() {
             </SheetTrigger>
             <SheetContent>
                 <SheetHeader>
-                    <SheetTitle>Are you absolutely sure?</SheetTitle>
+                    <SheetTitle>Lets get started?</SheetTitle>
                     <SheetDescription>This action cannot be undone.</SheetDescription>
                 </SheetHeader>
             </SheetContent>
