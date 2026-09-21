@@ -209,7 +209,7 @@ function HomeCards() {
         },
 
         {
-            image: Building2,
+            image: Buildin,
             header: "Run your centre",
             desc: "Bring children, families, staff, records, and everyday centre operations together in one connected platform.",
         },
