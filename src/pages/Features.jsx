@@ -12,11 +12,11 @@ function FeatureTabs() {
             points: [
                 {
                     title: "Scheduling", 
-                    point: "Keep your daily schedule organized and accessible"
+                    point: "Keep your daily schedule organized and accessible."
                 },
                 {
                     title: "Attendance", 
-                    point: "Keep your daily schedule organized and accessible"
+                    point: "Know who's here and keep accurate attendance records."
                 },
                 {
                     title: "Scheduling", 
