@@ -191,7 +191,7 @@ function HomeCards() {
         },
 
         {
-            image: <Logo words={false} />,
+            image: <clipboardcheck,
             header: "Stay in compliance",
             desc: "Keep forms, signatures, records, and everything else your centre needs organized and up to date.",
         },
