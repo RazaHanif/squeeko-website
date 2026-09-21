@@ -212,26 +212,6 @@ function HomeCards() {
             image: <Building2 />,
             header: "Run your centre",
             desc: "Bring children, families, staff, records, and everyday centre operations together in one connected platform.",
-        },  
-        {
-            image: <Logo words={false} />,
-            header: "Stay on track",
-            desc: "This will be a small description of what the scheduling feature does within the app, including attendance, ratio, and other helpful stuff.",
-        },
-        {
-            image: <Logo words={false} />,
-            header: "Get paid",
-            desc: "This will overview how you can collect payments within the app, including automating late fees, field trips, rate increases etc.",
-        },
-        {
-            image: <Logo words={false} />,
-            header: "Stay in touch",
-            desc: "This will highlight the in app insta style feed, the in app messaging, and the ability to send forms to the parents directly",
-        },
-        {
-            image: <Logo words={false} />,
-            header: "Stay in touch",
-            desc: "This will highlight the in app insta style feed, the in app messaging, and the ability to send forms to the parents directly",
         },
     ]
 
