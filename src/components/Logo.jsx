@@ -6,7 +6,7 @@ function Logo({className, stacked=false, caps=false, icon=true, words=true}) {
         <div 
             className={`text-primary flex flex-col gap-1 justify-center items-center ${className}`}
         >
-            {icon && <PencilSparkles className={`stroke-3 ${words ? "size-[1.25em]" : "size-[1em]"}`}/>}
+            {icon && <PencilSparkles className={`stroke-3 ${words ? "size-[1.25em]" : "size-[1.25em]"}`}/>}
             {words && <h2 className="font-mono">{logo}</h2>}
         </div>
     ) : (
