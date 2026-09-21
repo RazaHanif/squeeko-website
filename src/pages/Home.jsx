@@ -51,7 +51,7 @@ function HomeFeatureAccordion() {
                 { title: "Attendance", link: "#" },
                 { title: "Daily Routines", link: "#" },
             ],
-            image: "/media/home-scheduling.png"
+            image: <Logo words={false} />
         },
 
         {
@@ -63,7 +63,7 @@ function HomeFeatureAccordion() {
                 { title: "Late Fees", link: "#" },
                 { title: "One-Off Charges", link: "#" },
             ],
-            image: "/media/home-billing.png"
+            image: <Logo words={false} />
         },
 
         {
@@ -75,7 +75,7 @@ function HomeFeatureAccordion() {
                 { title: "Signatures", link: "#" },
                 { title: "Record Keeping", link: "#" },
             ],
-            image: "/media/home-compliance.png"
+            image: <Logo words={false} />
         },
 
         {
@@ -87,7 +87,7 @@ function HomeFeatureAccordion() {
                 { title: "Centre Updates", link: "#" },
                 { title: "Family Communication", link: "#" },
             ],
-            image: "/media/home-communication.png"
+            image: <Logo words={false} />
         },
 
         {
@@ -99,7 +99,7 @@ function HomeFeatureAccordion() {
                 { title: "Photos", link: "#" },
                 { title: "Parent Updates", link: "#" },
             ],
-            image: "/media/home-daily-logs.png"
+            image: <Logo words={false} />
         },
 
         {
@@ -111,7 +111,7 @@ function HomeFeatureAccordion() {
                 { title: "Staff Management", link: "#" },
                 { title: "Centre Overview", link: "#" },
             ],
-            image: "/media/home-management.png"
+            image: <Logo words={false} />
         },
 
 
