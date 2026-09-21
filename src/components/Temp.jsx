@@ -68,7 +68,7 @@ const Temp = ({ children }) => {
 
             <div className="flex justify-center items-center gap-4 flex-1 flex-col w-9/10 lg:w-3/4 lg:py-16 py-8 z-50">
                 <div className="w-full flex flex-col justify-end items-center gap-2">
-                   <Logo className="text-5xl text-shadow-md"/>
+                    <Logo className="text-5xl text-shadow-md"/>
                     <p className="text-muted-foreground">
                         under construction 
                     </p>
