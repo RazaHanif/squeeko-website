@@ -18,15 +18,6 @@ function Features() {
             
                                     <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2" >
                                         <div className="flex-1">
-                                            <Button 
-                                                onClick={() => navigate("/features")}
-                                                variant="default"
-                                                className="w-full cursor-pointer p-6 border border-primary-foreground"
-                                            >
-                                                Learn More
-                                            </Button>
-                                        </div>
-                                        <div className="flex-1">
                                             <HomeSheet />
                                         </div>
                                     </div>
