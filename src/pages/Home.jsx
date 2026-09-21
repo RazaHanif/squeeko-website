@@ -258,7 +258,7 @@ function HomeCards() {
                     key={idx}
                     className="flex bg-card text-secondary-foreground text-center py-24 w-full"
                 >
-                    <CardContent className="flex flex-col justify-around items-center gap-4">
+                    <CardContent className="flex flex-col justify-around items-start gap-4">
                         <div className="p-10 text-secondary-foreground flex justify-center items-center rounded-full bg-secondary border border-secondary-foreground">
                             <Icon className="size-[2.5em]" />
                         </div>
