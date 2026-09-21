@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/card"
 import { Slider } from "@/components/ui/slider"
 import { NavLink, useNavigate } from "react-router-dom"
-import { ChevronRight } from "lucide-react"
+import { Calendar, ChevronRight } from "lucide-react"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Label } from "@/components/ui/label"
 import { useState } from "react"
@@ -179,7 +179,7 @@ function HomeFeatureAccordion() {
 function HomeCards() {
     const data = [
         {
-            image: <Calend />,
+            image: <Calendar />,
             header: "Keep your day moving",
             desc: "Stay on top of schedules, attendance, ratios, and daily routines without the paperwork.",
         },
