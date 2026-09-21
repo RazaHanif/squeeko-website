@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/card"
 import { Slider } from "@/components/ui/slider"
 import { NavLink, useNavigate } from "react-router-dom"
-import { Calendar, ChevronRight } from "lucide-react"
+import { Calendar, ChevronRight, CreditCard } from "lucide-react"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Label } from "@/components/ui/label"
 import { useState } from "react"
@@ -185,7 +185,7 @@ function HomeCards() {
         },
 
         {
-            image: <Credit,
+            image: <CreditCard />,
             header: "Get paid",
             desc: "Automate tuition and manage late fees, rate changes, and one-off charges all in one place.",
         },
