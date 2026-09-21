@@ -1,5 +1,6 @@
 import Logo from "@/components/Logo";
 import SignUpSheet from "@/components/SignUpSheet";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 function Features() {
     return (
