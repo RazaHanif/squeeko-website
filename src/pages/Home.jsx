@@ -113,63 +113,6 @@ function HomeFeatureAccordion() {
             ],
             image: <Logo words={false} />
         },
-
-
-        {
-            trigger: "Scheduling",
-            header: "Stay on track",
-            desc: "This will be a small description of what the scheduling feature does within the app, including attendance, ratio, and other helpful stuff.",
-            links: [
-                {title: "Attendance", link: "#"},
-                {title: "Ratio", link: "#"},
-                {title: "Late Fees", link: "#"},
-            ],
-            image: <Logo words={false} />
-        },
-        {
-            trigger: "Billing",
-            header: "Get paid",
-            desc: "This will overview how you can collect payments within the app, including automating late fees, field trips, rate increases etc.",
-            links: [
-                {title: "Auto Billing", link: "#"},
-                {title: "Late Fees", link: "#"},
-                {title: "Pizza Party", link: "#"},
-            ],
-            image: <Logo words={false} />
-        },
-        {
-            trigger: "Communication",
-            header: "Stay in touch",
-            desc: "This will highlight the in app insta style feed, the in app messaging, and the ability to send forms to the parents directly",
-            links: [
-                {title: "Insta Style Feed", link: "#"},
-                {title: "Messaging", link: "#"},
-                {title: "Forms", link: "#"},
-            ],
-            image: <Logo words={false} />
-        },
-        {
-            trigger: "Compliance",
-            header: "Get in Compliance",
-            desc: "This will overview the compliance aspect of the app, and how much overhead it saves in mental space and admin time.",
-            links: [
-                {title: "Forms", link: "#"},
-                {title: "OnBoarding", link: "#"},
-                {title: "Customizability", link: "#"},
-            ],
-            image: <Logo words={false} />
-        },
-        {
-            trigger: "Extra?",
-            header: "Secret Feature?",
-            desc: "idk if anything is gonna go here yet, this section is gonna be if i remember any other feature to highlight later or ill just delete this section",
-            links: [
-                {title: "Link 1", link: "#"},
-                {title: "Link 2", link: "#"},
-                {title: "Link 3", link: "#"},
-            ],
-            image: <Logo words={false} />
-        },
     ]
 
 
