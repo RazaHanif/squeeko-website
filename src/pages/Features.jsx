@@ -60,12 +60,6 @@ function Features() {
                     </div>
                 </div>
             </section>
-S
-            <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
-                <p>
-                    Overview of all the features offered by the program, focus on SEO
-                </p>
-            </div>
 
             <FeatureTabs />
 
