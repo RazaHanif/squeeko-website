@@ -145,7 +145,7 @@ function HomeFeatureAccordion() {
                     <AccordionContent 
                         className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit my-6 lg:my-12 lg:gap-6 gap-4"
                     >
-                        <h2 className="text-4xl lg:text-5xl font-serif font-semibold">
+                        <h2 className="text-4xl font-serif font-semibold">
                             {header}
                         </h2>
                         <div className="">
