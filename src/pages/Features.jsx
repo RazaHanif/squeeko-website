@@ -30,7 +30,7 @@ function FeatureTabs() {
             desc: "Tuition shouldn't mean spreadsheets, reminders, and manual calculations every month. Squeeko helps automate your billing so your team can spend less time chasing payments.",
             points: [
                 {
-                    title: "Attendance", 
+                    title: "Auto Billing", 
                     point: "Know who's here and keep accurate attendance records."
                 },
                 {
