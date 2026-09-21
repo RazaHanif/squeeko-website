@@ -321,7 +321,7 @@ function Home() {
                                 Learn More
                             </Button>
                             <div className="flex-1">
-                                <Sheet>
+                                <Sheet className>
                                     <SheetTrigger asChild>
                                         <Button 
                                             variant="secondary"
