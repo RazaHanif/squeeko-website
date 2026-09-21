@@ -5,7 +5,7 @@ function Logo({className, stacked=false}) {
         <div 
             className={`text-primary flex flex-col justify-center items-center ${className}`}
         >
-            <PencilSparkles className="size-[2em] stroke-2" />
+            <PencilSparkles className="size-[1.5em] stroke-2" />
             <h2 className="font-mono">
                 squeeko
             </h2>
