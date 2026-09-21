@@ -201,7 +201,7 @@ function HomeSheet() {
             <SheetContent>
                 <SheetHeader>
                     <SheetTitle>Lets get started?</SheetTitle>
-                    <SheetDescription>Tell us abit about your centre.</SheetDescription>
+                    <SheetDescription>Tell us a little about your centre.</SheetDescription>
                 </SheetHeader>
             </SheetContent>
         </Sheet>
