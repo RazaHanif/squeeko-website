@@ -1,7 +1,7 @@
 import { PencilSparkles } from "lucide-react";
 
 function Logo({className, stacked=false}) {
-    const logo = 
+    const logo = ca
     return stacked ? (
         <div 
             className={`text-primary flex flex-col justify-center items-center ${className}`}
