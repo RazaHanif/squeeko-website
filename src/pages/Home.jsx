@@ -262,7 +262,7 @@ function HomeCards() {
                         <div className="p-8 flex justify-center items-center rounded-full bg-background border">
                             <Icon className="size-[2.5em]" />
                         </div>
-                        <div className="">
+                        <div className="flex flex-col justify-center items-center">
                             <h2 className="text-2xl font-serif font-bold">
                                 {header}
                             </h2>
