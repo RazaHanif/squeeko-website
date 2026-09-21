@@ -188,7 +188,17 @@ function HomeFeatureAccordion() {
 
 
 function HomeSheet() {
-    
+    return (
+        <Sheet>
+        <SheetTrigger>Open</SheetTrigger>
+        <SheetContent>
+            <SheetHeader>
+            <SheetTitle>Are you absolutely sure?</SheetTitle>
+            <SheetDescription>This action cannot be undone.</SheetDescription>
+            </SheetHeader>
+        </SheetContent>
+        </Sheet>
+    )
 }
 
 function HomeCards() {
