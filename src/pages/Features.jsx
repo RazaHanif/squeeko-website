@@ -34,7 +34,7 @@ function FeatureTabs() {
                     point: "Set up recurring tuition and let payments run automatically."
                 },
                 {
-                    title: "Ratios", 
+                    title: "Late Fees", 
                     point: "Keep an eye on classroom ratios as your day changes."
                 },
                 {
