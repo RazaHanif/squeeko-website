@@ -29,7 +29,7 @@ import Logo from "@/components/Logo"
 /* 
 Main feature overview - 
 
-Scheduling - attendance, ratio 
+Scheduling - attendance, ratio, 
 
 
 */
