@@ -7,7 +7,7 @@ function FeatureTabs() {
     const data = [
         {
             trigger: "Scheduling",
-            
+            title: ""
         }
     ]
 
