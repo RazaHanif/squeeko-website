@@ -6,7 +6,7 @@ function Logo(className) {
             <h2 className={`text-4xl font-mono text-primary ${className}`}>
                 squeeko
             </h2>
-            <PencilSparkles className="size-[1em]" />
+            <PencilSparkles className="size-[2em]" />
         </div>
     );
 }
