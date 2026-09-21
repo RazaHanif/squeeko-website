@@ -194,10 +194,7 @@ function HomeSheet() {
                 variant="secondary"
                 className="flex-1 cursor-pointer p-6 border border-secondary-foreground" 
             >
-                <Button 
-                >
                     Sign Up
-                </Button>
             </SheetTrigger>
             <SheetContent>
                 <SheetHeader>
