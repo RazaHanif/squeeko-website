@@ -2,7 +2,7 @@ import { PencilSparkles } from "lucide-react"
 
 function Logo(className) {
     return (
-        <div>
+        <div className={``}>
             <PencilSparkles />
             <h2 
                 className={`text-4xl font-mono font-bold text-primary ${className}`}
