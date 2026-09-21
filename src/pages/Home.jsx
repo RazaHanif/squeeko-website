@@ -355,7 +355,7 @@ function Home() {
                                 className="w-full h-full object-cover"
                             /> */}
                             <div className="w-full flex-1 min-h-[200px] flex justify-center items-center text-2xl">
-                                IMG
+                                <Logo icon={false} className="text-secondary-foreground" />
                             </div>
                         </div>
                     </div>
