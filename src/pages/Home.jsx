@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/card"
 import { Slider } from "@/components/ui/slider"
 import { NavLink, useNavigate } from "react-router-dom"
-import { Calendar, Camera, ChevronRight, ClipboardCheck, CreditCard, MessageCircle } from "lucide-react"
+import { Building2, Calendar, Camera, ChevronRight, ClipboardCheck, CreditCard, MessageCircle } from "lucide-react"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Label } from "@/components/ui/label"
 import { useState } from "react"
@@ -209,7 +209,7 @@ function HomeCards() {
         },
 
         {
-            image: <Buil />,
+            image: <Building2 />,
             header: "Run your centre",
             desc: "Bring children, families, staff, records, and everyday centre operations together in one connected platform.",
         },  
