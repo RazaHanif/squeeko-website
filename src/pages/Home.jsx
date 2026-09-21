@@ -190,7 +190,9 @@ function HomeFeatureAccordion() {
 function HomeSheet() {
     return (
         <Sheet>
-            <SheetTrigger>Open</SheetTrigger>
+            <SheetTrigger>
+                {}
+            </SheetTrigger>
             <SheetContent>
                 <SheetHeader>
                 <SheetTitle>Are you absolutely sure?</SheetTitle>
