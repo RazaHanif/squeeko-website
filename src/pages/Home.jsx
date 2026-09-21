@@ -200,7 +200,8 @@ function HomeSheet() {
             </SheetTrigger>
             <SheetContent 
                 side="right"
-                className="w-full max-w-none h-full"
+                showCloseButton={false}    
+                className="data-[side=top]:h-full gap-0 bg-background"
             >
                 <SheetHeader>
                     <SheetTitle>Lets get started?</SheetTitle>
