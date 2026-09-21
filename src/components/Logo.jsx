@@ -3,7 +3,7 @@ function Logo(className) {
         <h2 
             className={`text-4xl font-mono font-bold text-primary ${className}`}
         >
-            squeeko
+            squeeko <P
         </h2>
     )
 }
