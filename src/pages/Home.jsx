@@ -37,7 +37,7 @@ function HomeFeatureAccordion() {
                 {title: "Ratio", link: "#"},
                 {title: "Late Fees", link: "#"},
             ],
-            image: "IMAGE"
+            image: <Logo icon={false} className="text-secondary-foreground" />
         },
         {
             trigger: "Billing",
@@ -48,7 +48,7 @@ function HomeFeatureAccordion() {
                 {title: "Late Fees", link: "#"},
                 {title: "Pizza Party", link: "#"},
             ],
-            image: "IMAGE"
+            image: <Logo icon={false} className="text-secondary-foreground" />
         },
         {
             trigger: "Communication",
@@ -59,7 +59,7 @@ function HomeFeatureAccordion() {
                 {title: "Messaging", link: "#"},
                 {title: "Forms", link: "#"},
             ],
-            image: "IMAGE"
+            image: <Logo icon={false} className="text-secondary-foreground" />
         },
         {
             trigger: "Compliance",
@@ -70,7 +70,7 @@ function HomeFeatureAccordion() {
                 {title: "OnBoarding", link: "#"},
                 {title: "Customizability", link: "#"},
             ],
-            image: "IMAGE"
+            image: <Logo icon={false} className="text-secondary-foreground" />
         },
         {
             trigger: "Extra?",
@@ -81,7 +81,7 @@ function HomeFeatureAccordion() {
                 {title: "Link 2", link: "#"},
                 {title: "Link 3", link: "#"},
             ],
-            image: "IMAGE"
+            image: <Logo icon={false} className="text-secondary-foreground" />
         },
     ]
 
@@ -149,22 +149,22 @@ function HomeFeatureAccordion() {
 function HomeCards() {
     const data = [
         {
-            image: "IMAGE",
+            image: <Logo icon={false} className="text-secondary-foreground" />,
             header: "Stay on track",
             desc: "This will be a small description of what the scheduling feature does within the app, including attendance, ratio, and other helpful stuff.",
         },
         {
-            image: "IMAGE",
+            image: <Logo icon={false} className="text-secondary-foreground" />,
             header: "Get paid",
             desc: "This will overview how you can collect payments within the app, including automating late fees, field trips, rate increases etc.",
         },
         {
-            image: "IMAGE",
+            image: <Logo icon={false} className="text-secondary-foreground" />,
             header: "Stay in touch",
             desc: "This will highlight the in app insta style feed, the in app messaging, and the ability to send forms to the parents directly",
         },
         {
-            image: "IMAGE",
+            image: <Logo icon={false} className="text-secondary-foreground" />,
             header: "Stay in touch",
             desc: "This will highlight the in app insta style feed, the in app messaging, and the ability to send forms to the parents directly",
         },
