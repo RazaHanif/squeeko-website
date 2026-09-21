@@ -34,6 +34,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
+import SignUpSheet from "@/components/SignUpSheet"
 
 
 /* 
@@ -300,7 +301,7 @@ function Home() {
                                 </Button>
                             </div>
                             <div className="flex-1">
-                                <Sign
+                                <SignUpSheet />
                             </div>
                         </div>
                     </div>
@@ -398,7 +399,7 @@ function Home() {
                                 </Button>
                             </div>
                             <div className="flex-1">
-                                <Sign
+                                <SignUpSheet />
                             </div>
                         </div>
                     </div>
