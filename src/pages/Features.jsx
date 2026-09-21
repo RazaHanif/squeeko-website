@@ -11,10 +11,6 @@ function FeatureTabs() {
             desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next.",
             points: [
                 {
-                    title: "Scheduling", 
-                    point: "Keep your daily schedule organized and accessible."
-                },
-                {
                     title: "Attendance", 
                     point: "Know who's here and keep accurate attendance records."
                 },
@@ -27,7 +23,7 @@ function FeatureTabs() {
                     point: "Give your team an easier way to keep daily tasks on track."
                 },
             ],
-        }
+        },
     ]
 
     return (
