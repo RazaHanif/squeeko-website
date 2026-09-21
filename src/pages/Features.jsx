@@ -8,7 +8,7 @@ function FeatureTabs() {
         {
             trigger: "Scheduling",
             title: "Keep your day moving.",
-            
+            desc: ""
         }
     ]
 
