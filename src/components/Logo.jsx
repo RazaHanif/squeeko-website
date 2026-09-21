@@ -8,7 +8,7 @@ function Logo({className, stacked=false}) {
         >
             <PencilSparkles className="size-[1.5em] stroke-2" />
             <h2 className="font-mono">
-                SQUEEKO
+                {logo}
             </h2>
         </div>
     ) : (
@@ -16,7 +16,7 @@ function Logo({className, stacked=false}) {
             className={`text-primary flex flex-row justify-center items-start ${className}`}
         >
             <h2 className="font-mono">
-                squeeko
+                {logo}
             </h2>
             <PencilSparkles className="size-[0.5em] stroke-3" />
         </div>
