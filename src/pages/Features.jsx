@@ -41,13 +41,6 @@ function Features() {
                             </div>
             
                             <div className="w-full mb-4">
-                                <HorizontalScro items={horizontalList} className="text-primary-foreground" speed={80}/>
-                                {/* <HorizontalScroll 
-                                    items={iconList.map(({icon: Icon}, idx) => (
-                                        <Icon key={idx} className="size-8 text-primary-foreground"/>
-                                    ))} 
-                                    speed={80}
-                                /> */}
                             </div>
                         </section>
             <div className="w-full flex justify-center items-center pb-8">
