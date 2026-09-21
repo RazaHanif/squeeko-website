@@ -24,6 +24,16 @@ import { useState } from "react"
 import OnboardingForm from "@/components/OnboardingForm"
 import Image from "@/components/Image"
 import Logo from "@/components/Logo"
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
 
 
 /* 
@@ -178,7 +188,7 @@ function HomeFeatureAccordion() {
 
 
 function HomeSheet() {
-    
+
 }
 
 function HomeCards() {
