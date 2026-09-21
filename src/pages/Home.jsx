@@ -300,7 +300,7 @@ function Home() {
                                 </Button>
                             </div>
                             <div className="flex-1">
-                                <HomeSheet />
+                                <Sign
                             </div>
                         </div>
                     </div>
@@ -398,7 +398,7 @@ function Home() {
                                 </Button>
                             </div>
                             <div className="flex-1">
-                                <HomeSheet />
+                                <Sign
                             </div>
                         </div>
                     </div>
