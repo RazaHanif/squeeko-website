@@ -38,7 +38,7 @@ function Features() {
                             </h1>
                             <h2 className="text-5xl font-serif text-center font-semibold">
                                 Everything your centre needs, <br/>
-                                Nothing you dont
+                                Nothing you don't.
                             </h2>
                             <p className="w-9/10 lg:w-3/4 text-center font-light">
                                 hero para
