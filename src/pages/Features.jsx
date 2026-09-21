@@ -6,7 +6,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 function FeatureTabs() {
     const data = [
         {
-            trigger: ""
+            trigger: "Scheduling",
+            
         }
     ]
 
