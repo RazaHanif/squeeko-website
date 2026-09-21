@@ -4,6 +4,14 @@
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/geist";
 
+@font-face {
+  font-family: "Peace Sans";
+  src: url("./assets/fonts/Peace-Sans.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* 
   For creating the background designs
   https://haikei.app/generators/
