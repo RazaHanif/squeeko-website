@@ -3,7 +3,9 @@ import SignUpSheet from "@/components/SignUpSheet";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 
-
+function FeatureTabs() {
+    
+}
 
 function Features() {
     return (
