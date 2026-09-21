@@ -9,6 +9,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
+import { Button } from "./ui/button"
 
 function SignUpSheet() {
     return (
