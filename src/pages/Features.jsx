@@ -31,7 +31,7 @@ function FeatureTabs() {
             points: [
                 {
                     title: "Auto Billing", 
-                    point: "Know who's here and keep accurate attendance records."
+                    point: "Set up recurring tuition and let payments run automatically."
                 },
                 {
                     title: "Ratios", 
