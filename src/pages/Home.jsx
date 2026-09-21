@@ -325,7 +325,7 @@ function Home() {
                                     <SheetTrigger asChild>
                                         <Button 
                                             variant="secondary"
-                                            className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
+                                            className="flex-1 w-full cursor-pointer p-6 border border-secondary-foreground"
                                         >
                                             Sign Up
                                         </Button>
