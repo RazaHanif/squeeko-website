@@ -200,7 +200,8 @@ function HomeSheet() {
             </SheetTrigger>
             <SheetContent 
                 side="right"
-    className="w-full max-w-none h-full">
+                className="w-full max-w-none h-full"
+            >
                 <SheetHeader>
                     <SheetTitle>Lets get started?</SheetTitle>
                     <SheetDescription>Tell us a little about your centre.</SheetDescription>
