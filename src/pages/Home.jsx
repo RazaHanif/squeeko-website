@@ -217,7 +217,7 @@ function HomeCards() {
 
     return (
         <div className="flex-1 shrink-0 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 justify-items-center p-8 lg:p-16">
-            {data.map(({ image, header, desc }, idx) => (
+            {data.map(({ image: Image, header, desc }, idx) => (
                 <Card
                     key={idx}
                     className="flex bg-primary border border-secondary-foreground text-secondary-foreground text-center"
