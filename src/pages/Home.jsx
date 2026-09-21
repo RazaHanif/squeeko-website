@@ -320,7 +320,7 @@ function Home() {
                                 >
                                 Learn More
                             </Button>
-                            <
+                            <HomeSheet />
                         </div>
                     </div>
 
