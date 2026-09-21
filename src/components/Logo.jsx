@@ -1,6 +1,6 @@
 import { PencilSparkles } from "lucide-react";
 
-function Logo({className, stacked=false, caps=false, icon=true}) {
+function Logo({className, stacked=false, caps=false, icon=false}) {
     const logo = caps ? "SQUEEKO" : "squeeko"
     return stacked ? (
         <div 
