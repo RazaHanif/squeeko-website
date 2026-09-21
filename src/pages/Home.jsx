@@ -42,6 +42,80 @@ Compliance - Onbaording, Form (incident, medical, etc)
 
 function HomeFeatureAccordion() {
     const data = [
+
+        {
+    trigger: "Scheduling",
+    header: "Keep your day moving",
+    desc: "Keep schedules, attendance, and daily routines in one place. See who’s coming, who’s here, and what needs to happen next without juggling paper, spreadsheets, or multiple apps.",
+    links: [
+        { title: "Scheduling", link: "#" },
+        { title: "Attendance", link: "#" },
+        { title: "Daily Routines", link: "#" },
+    ],
+    image: "/media/home-scheduling.png"
+},
+
+{
+    trigger: "Billing",
+    header: "Get paid",
+    desc: "Make tuition and other charges easier to manage. Automate recurring billing, handle late fees and one-off charges, and keep payments organized without chasing paperwork.",
+    links: [
+        { title: "Auto Billing", link: "#" },
+        { title: "Late Fees", link: "#" },
+        { title: "One-Off Charges", link: "#" },
+    ],
+    image: "/media/home-billing.png"
+},
+
+{
+    trigger: "Compliance",
+    header: "Stay on top of compliance",
+    desc: "Keep the forms, records, and signatures your centre needs organized and accessible. Know what’s complete, what’s missing, and what needs attention.",
+    links: [
+        { title: "Digital Forms", link: "#" },
+        { title: "Signatures", link: "#" },
+        { title: "Record Keeping", link: "#" },
+    ],
+    image: "/media/home-compliance.png"
+},
+
+{
+    trigger: "Communication",
+    header: "Keep families in the loop",
+    desc: "Give parents a simple way to stay connected with their child’s centre. Share updates, send messages, and keep important conversations together in one place.",
+    links: [
+        { title: "Parent Messaging", link: "#" },
+        { title: "Centre Updates", link: "#" },
+        { title: "Family Communication", link: "#" },
+    ],
+    image: "/media/home-communication.png"
+},
+
+{
+    trigger: "Daily Logs & Photos",
+    header: "Capture the little moments",
+    desc: "Make it easy for staff to record the day and share meaningful updates with families. Keep daily logs, notes, and photos together so nothing gets lost.",
+    links: [
+        { title: "Daily Logs", link: "#" },
+        { title: "Photos", link: "#" },
+        { title: "Parent Updates", link: "#" },
+    ],
+    image: "/media/home-daily-logs.png"
+},
+
+{
+    trigger: "Centre Management",
+    header: "Run your centre in one place",
+    desc: "Bring the moving pieces of your centre together. Manage children, families, staff, records, and day-to-day operations from one connected platform.",
+    links: [
+        { title: "Child & Family Profiles", link: "#" },
+        { title: "Staff Management", link: "#" },
+        { title: "Centre Overview", link: "#" },
+    ],
+    image: "/media/home-management.png"
+},
+
+
         {
             trigger: "Scheduling",
             header: "Stay on track",
