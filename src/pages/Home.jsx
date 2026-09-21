@@ -179,13 +179,13 @@ function HomeFeatureAccordion() {
 function HomeCards() {
     const data = [
         {
-            image: "Calendar",
+            image: Calendar,
             header: "Keep your day moving",
             desc: "Stay on top of schedules, attendance, ratios, and daily routines without the paperwork.",
         },
 
         {
-            image: "CreditCard",
+            image: CreditCard,
             header: "Get paid",
             desc: "Automate tuition and manage late fees, rate changes, and one-off charges all in one place.",
         },
