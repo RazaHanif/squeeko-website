@@ -111,7 +111,7 @@ function MobileNav() {
                         onClick={() => navigate('/')}
                     >
                         <h2 className="text-4xl font-mono font-bold text-primary">
-                            squeeko
+                            Squeeko
                         </h2>
                     </SheetClose>
                     <SheetClose className="cursor-pointer p-2 rounded-lg border-primary text-primary hover:bg-muted hover:text-primary transition-all duration-200">
@@ -204,7 +204,7 @@ function Header() {
                     end
                 >
                     <h2 className="text-4xl font-mono font-bold text-primary">
-                        squeeko
+                        Squeeko
                     </h2>
                 </NavLink>
             </div>
