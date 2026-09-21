@@ -2,6 +2,9 @@ import Logo from "@/components/Logo";
 import SignUpSheet from "@/components/SignUpSheet";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
+
+
+
 function Features() {
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
@@ -50,24 +53,6 @@ function Features() {
                     Overview of all the features offered by the program, focus on SEO
                 </p>
             </div>
-
-
-            <Tabs defaultValue="account" className="w-[400px]">
-                <TabsList>
-                    <TabsTrigger value="account">
-                        Account
-                    </TabsTrigger>
-                    <TabsTrigger value="password">
-                        Password
-                    </TabsTrigger>
-                </TabsList>
-                <TabsContent value="account">
-                    Make changes to your account here.
-                </TabsContent>
-                <TabsContent value="password">
-                    Change your password here.
-                </TabsContent>
-            </Tabs>
 
             {/* 
             
