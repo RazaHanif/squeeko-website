@@ -14,6 +14,18 @@ function FeatureTabs() {
                     title: "Scheduling", 
                     point: "Keep your daily schedule organized and accessible"
                 },
+                {
+                    title: "Scheduling", 
+                    point: "Keep your daily schedule organized and accessible"
+                },
+                {
+                    title: "Scheduling", 
+                    point: "Keep your daily schedule organized and accessible"
+                },
+                {
+                    title: "Scheduling", 
+                    point: "Keep your daily schedule organized and accessible"
+                },
             ],
         }
     ]
