@@ -313,7 +313,7 @@ function Home() {
                         </div>
 
                         <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/4 border border-green-500">
-                            <div className="border border-blue-500 flex-1">
+                            <div className="flex-1">
                                 <Button 
                                     onClick={() => navigate("/features")}
                                     variant="default"
@@ -322,7 +322,7 @@ function Home() {
                                     Learn More
                                 </Button>
                             </div>
-                            <div className="border border-blue-500 flex-1">
+                            <div className="flex-1">
                                 fds
                                 <Sheet className="flex-1">
                                     <SheetTrigger asChild className="w-full border border-red-500">
