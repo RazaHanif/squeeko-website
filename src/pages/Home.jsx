@@ -316,7 +316,7 @@ function Home() {
                             <Button 
                                 onClick={() => navigate("/features")}
                                 variant="default"
-                                className="w-1/3 cursor-pointer p-6 border border-primary-foreground"
+                                className="w-2/5 cursor-pointer p-6 border border-primary-foreground"
                                 >
                                 Learn More
                             </Button>
