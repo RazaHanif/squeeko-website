@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/card"
 import { Slider } from "@/components/ui/slider"
 import { NavLink, useNavigate } from "react-router-dom"
-import { Calendar, ChevronRight, ClipboardCheck, CreditCard } from "lucide-react"
+import { Calendar, ChevronRight, ClipboardCheck, CreditCard, MessageCircle } from "lucide-react"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Label } from "@/components/ui/label"
 import { useState } from "react"
@@ -197,7 +197,7 @@ function HomeCards() {
         },
 
         {
-            image: <Logo words={false} />,
+            image: <MessageCircle />,
             header: "Keep families connected",
             desc: "Share updates, send messages, and keep important conversations between your centre and families together.",
         },
