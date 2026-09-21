@@ -2,8 +2,8 @@ import { PencilSparkles } from "lucide-react";
 
 function Logo({className, stacked=false}) {
     return stacked ? (
-                <div 
-            className={`text-primary flex flex-row justify-center items-start ${className}`}
+        <div 
+            className={`text-primary flex flex-col justify-center items-start ${className}`}
         >
             <PencilSparkles className="size-[0.5em] stroke-3" />
             <h2 className="font-mono">
