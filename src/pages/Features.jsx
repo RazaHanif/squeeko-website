@@ -32,7 +32,7 @@ function Features() {
             <section className="min-h-[calc(100vh-80px)] flex flex-col justify-around items-center gap-8 w-full">
                 <div className="flex lg:flex-row flex-col justify-center items-center lg:items-stretch w-full gap-8 lg:gap-0">
                     <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
-                        <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-1">
+                        <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-6">
                             <h1 className="text-xs font-bold">
                                 BUILT FOR CHILDCARE
                             </h1>
