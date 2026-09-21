@@ -200,7 +200,6 @@ function HomeSheet() {
             </SheetTrigger>
             <SheetContent 
                 side="right"
-                showCloseButton={false}    
                 className="data-[side=right]:h-full gap-0 bg-background"
             >
                 <SheetHeader>
