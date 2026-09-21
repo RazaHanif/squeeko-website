@@ -1,8 +1,8 @@
 import { PencilSparkles } from "lucide-react";
 
-function Logo({className="text-primary text-4xl"}) {
+function Logo({className}) {
     return (
-        <div className={`flex flex-row justify-center items-start ${className}`}>
+        <div className={`text-primary text-4xl flex flex-row justify-center items-start ${className}`}>
             <h2 className="font-mono">
                 squeeko
             </h2>
