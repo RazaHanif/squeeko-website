@@ -75,6 +75,8 @@ function Features() {
                 </p>
             </div>
 
+            <Fea
+
             {/* 
             
             <StructData schema={localBusinessSchema} />
