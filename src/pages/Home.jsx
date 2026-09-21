@@ -200,7 +200,7 @@ function HomeSheet() {
             </SheetTrigger>
             <SheetContent 
                 side="right"
-                className="data-[side=right]:w-full bg-background flex"
+                className="data-[side=right]:w-full bg-background flex flex-col justify-center"
             >
                 <SheetHeader>
                     <SheetTitle>Lets get started?</SheetTitle>
