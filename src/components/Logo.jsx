@@ -4,7 +4,7 @@ function Logo({className, stacked=false, caps=false}) {
     const logo = caps ? "SQUEEKO" : "squeeko"
     return stacked ? (
         <div 
-            className={`text-primary flex flex-col justify-center items-center ${className}`}
+            className={`text-primary flex flex-col gap-1 justify-center items-center ${className}`}
         >
             <PencilSparkles className="size-[1.25em] stroke-3" />
             <h2 className="font-mono">
