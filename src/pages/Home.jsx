@@ -224,7 +224,7 @@ function HomeCards() {
                 >
                     <CardContent className="flex flex-col justify-center items-center gap-4">
                         <div className="p-2 border-secondary-foreground bg-secondary text-primary border flex justify-center items-center rounded-xl">
-                            {image}
+                            <Image />
                         </div>
                         <div>
                             <h2 className="text-2xl font-serif font-bold">
