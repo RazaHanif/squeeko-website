@@ -302,6 +302,10 @@ function Home() {
                 <h2 className="text-4xl lg:text-5xl font-serif text-center font-semibold">
                     Wanna see SQUEEKO in your centre?
                 </h2>
+
+                <div>
+                    
+                </div>
                 <p className="font-bold">
                     Tell us about yourself?
                 </p>
