@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/card"
 import { Slider } from "@/components/ui/slider"
 import { NavLink, useNavigate } from "react-router-dom"
-import { Calendar, ChevronRight, ClipboardCheck, CreditCard, MessageCircle } from "lucide-react"
+import { Calendar, Camera, ChevronRight, ClipboardCheck, CreditCard, MessageCircle } from "lucide-react"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
 import { Label } from "@/components/ui/label"
 import { useState } from "react"
@@ -203,7 +203,7 @@ function HomeCards() {
         },
 
         {
-            image: <Logo words={false} />,
+            image: <Camera />,
             header: "Capture the day",
             desc: "Record daily logs, notes, and photos so staff can document the day and families can stay in the loop.",
         },
