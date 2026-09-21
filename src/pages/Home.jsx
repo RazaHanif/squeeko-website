@@ -303,7 +303,7 @@ function Home() {
                     Wanna see SQUEEKO in your centre?
                 </h2>
 
-                <div>
+                <div f>
                     <p className="font-bold">
                         Tell us about yourself?
                     </p>
