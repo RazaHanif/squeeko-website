@@ -22,3 +22,5 @@ function SignUpSheet() {
         </Sheet>
     )
 }
+
+export default SignUpSheet
