@@ -189,7 +189,7 @@ function HomeFeatureAccordion() {
 
 function HomeSheet() {
     return (
-        <Sheet class>
+        <Sheet className="w-full">
             <SheetTrigger asChild className="w-full">
                 <Button 
                     variant="secondary"
