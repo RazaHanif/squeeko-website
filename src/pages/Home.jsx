@@ -311,7 +311,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full py-40">
+            <section className="flex flex-col justify-center items-center gap-8 w-full py-40">
                 <div className="w-9/10 text-center text-2xl border-2 border-secondary-foreground bg-secondary rounded-2xl flex-1 flex">
                     <HomeCards />
                 </div>
