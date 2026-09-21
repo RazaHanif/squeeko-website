@@ -42,7 +42,6 @@ Compliance - Onbaording, Form (incident, medical, etc)
 
 function HomeFeatureAccordion() {
     const data = [
-
         {
             trigger: "Scheduling",
             header: "Keep your day moving",
