@@ -318,7 +318,7 @@ function Home() {
                                     onClick={() => navigate("/features")}
                                     variant="default"
                                     className="w-full cursor-pointer p-6 border border-primary-foreground"
-                                    >
+                                >
                                     Learn More
                                 </Button>
                             </div>
