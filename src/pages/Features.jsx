@@ -39,9 +39,6 @@ function Features() {
                                     </div>
                                 </div>
                             </div>
-            
-                            <div className="w-full mb-4">
-                            </div>
                         </section>
             <div className="w-full flex justify-center items-center pb-8">
                 <h1 className="text-4xl lg:text-5xl font-serif">Features</h1>
