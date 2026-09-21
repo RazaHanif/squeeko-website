@@ -198,7 +198,9 @@ function HomeSheet() {
                     Sign Up
                 </Button>
             </SheetTrigger>
-            <SheetContent className="w-full">
+            <SheetContent 
+                side="right"
+    className="w-full max-w-none h-full">
                 <SheetHeader>
                     <SheetTitle>Lets get started?</SheetTitle>
                     <SheetDescription>Tell us a little about your centre.</SheetDescription>
