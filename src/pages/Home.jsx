@@ -227,14 +227,13 @@ function HomeCards() {
                             {image}
                         </div>
                         <div>
-                            
+                            <h2 className="text-2xl font-serif font-bold">
+                                {header}
+                            </h2>
+                            <p className="text-sm font-light">
+                                {desc}
+                            </p>
                         </div>
-                        <h2 className="text-2xl font-serif font-bold">
-                            {header}
-                        </h2>
-                        <p className="text-sm font-light">
-                            {desc}
-                        </p>
                     </CardContent>
                 </Card>
             ))}
