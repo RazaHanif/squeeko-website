@@ -314,15 +314,14 @@ function Home() {
 
                         <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/4 border border-green-500">
                             <div>
-                                
+                                <Button 
+                                    onClick={() => navigate("/features")}
+                                    variant="default"
+                                    className="w-2/5 cursor-pointer p-6 border border-primary-foreground"
+                                    >
+                                    Learn More
+                                </Button>
                             </div>
-                            <Button 
-                                onClick={() => navigate("/features")}
-                                variant="default"
-                                className="w-2/5 cursor-pointer p-6 border border-primary-foreground"
-                                >
-                                Learn More
-                            </Button>
                             <div className="w=2/5 border border-blue-500">
                                 fds
                                 <Sheet className="flex-1">
