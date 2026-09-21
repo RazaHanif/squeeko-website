@@ -185,7 +185,7 @@ function HomeCards() {
         },
 
         {
-            image: <Logo words={false} />,
+            image: <Credit,
             header: "Get paid",
             desc: "Automate tuition and manage late fees, rate changes, and one-off charges all in one place.",
         },
