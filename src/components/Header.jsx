@@ -111,9 +111,7 @@ function MobileNav() {
                         className="cursor-pointer"
                         onClick={() => navigate('/')}
                     >
-                        <h2 className="text-4xl font-mono font-bold text-primary">
-                            squeeko
-                        </h2>
+                        <Logo />
                     </SheetClose>
                     <SheetClose className="cursor-pointer p-2 rounded-lg border-primary text-primary hover:bg-muted hover:text-primary transition-all duration-200">
                         <X className="w-8 h-8"/>
