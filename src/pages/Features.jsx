@@ -34,7 +34,7 @@ function Features() {
                     <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
                         <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-6">
                             <h1 className="text-xs font-bold">
-                                hero eyebrow
+                                BUILT FOR CHILDCARE
                             </h1>
                             <h2 className="text-5xl font-serif text-center font-semibold">
                                 hero title
