@@ -12,7 +12,7 @@ function Features() {
                                             hero title
                                         </h2>
                                         <p className="w-9/10 lg:w-3/4 text-center font-light">
-hero 
+                                            hero para
                                         </p>
                                     </div>
             
