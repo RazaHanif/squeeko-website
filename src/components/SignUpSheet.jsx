@@ -1,4 +1,4 @@
-function HomeSheet() {
+function SignUpSheet() {
     return (
         <Sheet className="w-full">
             <SheetTrigger asChild className="w-full">
