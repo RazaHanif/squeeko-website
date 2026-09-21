@@ -4,7 +4,11 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 
 function FeatureTabs() {
-    const data = []
+    const data = [
+        {
+            
+        }
+    ]
 
     return (
         <Tabs defaultValue="account" className="w-[400px]">
