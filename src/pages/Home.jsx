@@ -393,11 +393,11 @@ function Home() {
             />
             <meta
                 property="og:url"
-                content="https://www.Squeeko.ca/"
+                content="https://www.squeeko.ca/"
             />
             <meta
                 property="og:image"
-                content="https://www.Squeeko.ca/media/og-image.jpg"
+                content="https://www.squeeko.ca/media/og-image.jpg"
             />
             <meta
                 property="og:image:alt"
