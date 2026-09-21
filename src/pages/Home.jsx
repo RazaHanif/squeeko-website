@@ -412,7 +412,8 @@ function Home() {
                         <p className="w-9/10 lg:w-3/4 text-start font-light">
                              With Squeeko's powerful technology and expert human support, you can keep your busy days running smoothly.
                         </p>
-                                                <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2" >
+                        
+                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2" >
                             <div className="flex-1">
                                 <Button 
                                     onClick={() => navigate("/features")}
