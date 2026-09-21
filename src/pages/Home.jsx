@@ -35,8 +35,7 @@ Billing - auto payments, penalties, accounting, add on charges
 
 Communication - Messaging, Pictures, Insta feed, Forms (inicdent etc)
 
-Compliance - Onbaording, F
-
+Compliance - Onbaording, Form (incident, medical, etc)
 
 */
 
