@@ -217,14 +217,14 @@ function HomeCards() {
 
     return (
         <div className="flex-1 shrink-0 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 justify-items-center p-8 lg:p-16">
-            {data.map(({ image: Image, header, desc }, idx) => (
+            {data.map(({ image: Icon, header, desc }, idx) => (
                 <Card
                     key={idx}
                     className="flex bg-primary border border-secondary-foreground text-secondary-foreground text-center"
                 >
                     <CardContent className="flex flex-col justify-center items-center gap-4">
                         <div className="p-2 border-secondary-foreground bg-secondary text-primary border flex justify-center items-center rounded-xl">
-                            <Image />
+                            <Icon />
                         </div>
                         <div>
                             <h2 className="text-2xl font-serif font-bold">
