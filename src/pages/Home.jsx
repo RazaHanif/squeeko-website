@@ -212,7 +212,7 @@ function HomeCards() {
     image: <Logo words={false} />,
     header: "Run your centre",
     desc: "Bring children, families, staff, records, and everyday centre operations together in one connected platform.",
-},
+},  
         {
             image: <Logo words={false} />,
             header: "Stay on track",
