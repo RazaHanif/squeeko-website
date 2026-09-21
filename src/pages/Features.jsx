@@ -56,20 +56,11 @@ function Features() {
                     <div className="w-9/10 flex-1 flex justify-center items-center rounded-xl">
                         <div className="w-full lg:w-3/4 border min-h-[200px] lg:min-h-full flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
                             <Logo icon={false} className="text-secondary-foreground" />
-                            {/* <img
-                                src="/media/1.jpg"
-                                alt="something"
-                                loading="lazy"
-                                className="w-xl rounded-lg border-2 border-secondary" 
-                            /> */}
                         </div>
                     </div>
                 </div>
             </section>
-            <div className="w-full flex justify-center items-center pb-8">
-                <h1 className="text-4xl lg:text-5xl font-serif">Features</h1>
-            </div>
-
+S
             <div className="flex flex-col justify-center items-center w-full text-muted-foreground">
                 <p>
                     Overview of all the features offered by the program, focus on SEO
