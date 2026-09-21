@@ -298,7 +298,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className="flex flex-col justify-center items-center gap-8 w-full bg-primary bg-[url('/home-why.svg')] pb-16" id="home-form">
+            <section className="flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-why.svg')] pb-16" id="home-form">
                 <h2 className="text-4xl lg:text-5xl font-serif text-center font-semibold">
                     Wanna see SQUEEKO in your centre?
                 </h2>
