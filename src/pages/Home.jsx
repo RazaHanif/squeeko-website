@@ -322,7 +322,7 @@ function Home() {
                             </Button>
                             <div className="flex-1 border">
                                 <Sheet className="flex-1">
-                                    <SheetTrigger asChild clas>
+                                    <SheetTrigger asChild className="border">
                                         <Button 
                                             variant="secondary"
                                             className="flex-1 w-full cursor-pointer p-6 border border-secondary-foreground"
