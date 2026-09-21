@@ -191,25 +191,25 @@ function HomeCards() {
         },
 
         {
-            image: "ClipboardCheck",
+            image: ClipboardCheck,
             header: "Stay in compliance",
             desc: "Keep forms, signatures, records, and everything else your centre needs organized and up to date.",
         },
 
         {
-            image: "MessageCircle",
+            image: MessageCircle,
             header: "Keep families connected",
             desc: "Share updates, send messages, and keep important conversations between your centre and families together.",
         },
 
         {
-            image: "Camera",
+            image: Camera,
             header: "Capture the day",
             desc: "Record daily logs, notes, and photos so staff can document the day and families can stay in the loop.",
         },
 
         {
-            image: "Building2",
+            image: Building2,
             header: "Run your centre",
             desc: "Bring children, families, staff, records, and everyday centre operations together in one connected platform.",
         },
