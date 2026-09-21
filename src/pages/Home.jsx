@@ -33,7 +33,7 @@ Scheduling - attendance, ratio,
 
 Billing - auto payments, penalties, accounting, add on charges
 
-Communication - Messaging, Pictures
+Communication - Messaging, Pictures, Insta feed, 
 
 
 */
