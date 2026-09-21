@@ -45,7 +45,7 @@ function HomeFeatureAccordion() {
         {
             trigger: "Scheduling",
             header: "Keep your day moving",
-            desc: "Keep schedules, attendance, and daily routines in one place. See who’s coming, who’s here, and what needs to happen next without juggling paper, spreadsheets, or multiple apps.",
+            desc: "Keep schedules, attendance, and daily routines in one place. See who's coming, who's here, and what needs to happen next without juggling paper, spreadsheets, or multiple apps.",
             links: [
                 { title: "Scheduling", link: "#" },
                 { title: "Attendance", link: "#" },
@@ -69,7 +69,7 @@ function HomeFeatureAccordion() {
         {
             trigger: "Compliance",
             header: "Stay on top of compliance",
-            desc: "Keep the forms, records, and signatures your centre needs organized and accessible. Know what’s complete, what’s missing, and what needs attention.",
+            desc: "Keep the forms, records, and signatures your centre needs organized and accessible. Know what's complete, what's missing, and what needs attention.",
             links: [
                 { title: "Digital Forms", link: "#" },
                 { title: "Signatures", link: "#" },
@@ -81,7 +81,7 @@ function HomeFeatureAccordion() {
         {
             trigger: "Communication",
             header: "Keep families in the loop",
-            desc: "Give parents a simple way to stay connected with their child’s centre. Share updates, send messages, and keep important conversations together in one place.",
+            desc: "Give parents a simple way to stay connected with their child's centre. Share updates, send messages, and keep important conversations together in one place.",
             links: [
                 { title: "Parent Messaging", link: "#" },
                 { title: "Centre Updates", link: "#" },
