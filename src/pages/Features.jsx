@@ -26,7 +26,7 @@ function FeatureTabs() {
         },
         {
             trigger: "Billing",
-            title: "Keep your day moving.",
+            title: "Get paid without the paperwork.",
             desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next.",
             points: [
                 {
