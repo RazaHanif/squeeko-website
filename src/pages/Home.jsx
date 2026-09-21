@@ -201,7 +201,7 @@ function HomeSheet() {
             <SheetContent>
                 <SheetHeader>
                     <SheetTitle>Lets get started?</SheetTitle>
-                    <SheetDescription>This action cannot be undone.</SheetDescription>
+                    <SheetDescription>Tell us abit about your centre.</SheetDescription>
                 </SheetHeader>
             </SheetContent>
         </Sheet>
