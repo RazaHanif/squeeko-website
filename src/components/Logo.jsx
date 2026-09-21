@@ -1,9 +1,11 @@
+import { PencilSparkles } from "lucide-react"
+
 function Logo(className) {
     return (
         <h2 
             className={`text-4xl font-mono font-bold text-primary ${className}`}
         >
-            squeeko <P
+            squeeko <PencilSparkles />
         </h2>
     )
 }
