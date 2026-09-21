@@ -179,40 +179,40 @@ function HomeFeatureAccordion() {
 function HomeCards() {
     const data = [
         {
-    image: <Logo words={false} />,
-    header: "Keep your day moving",
-    desc: "Stay on top of schedules, attendance, ratios, and daily routines without the paperwork.",
-},
+                image: <Logo words={false} />,
+                header: "Keep your day moving",
+                desc: "Stay on top of schedules, attendance, ratios, and daily routines without the paperwork.",
+            },
 
-{
-    image: <Logo words={false} />,
-    header: "Get paid",
-    desc: "Automate tuition and manage late fees, rate changes, and one-off charges all in one place.",
-},
+            {
+                image: <Logo words={false} />,
+                header: "Get paid",
+                desc: "Automate tuition and manage late fees, rate changes, and one-off charges all in one place.",
+            },
 
-{
-    image: <Logo words={false} />,
-    header: "Stay in compliance",
-    desc: "Keep forms, signatures, records, and everything else your centre needs organized and up to date.",
-},
+            {
+                image: <Logo words={false} />,
+                header: "Stay in compliance",
+                desc: "Keep forms, signatures, records, and everything else your centre needs organized and up to date.",
+            },
 
-{
-    image: <Logo words={false} />,
-    header: "Keep families connected",
-    desc: "Share updates, send messages, and keep important conversations between your centre and families together.",
-},
+            {
+                image: <Logo words={false} />,
+                header: "Keep families connected",
+                desc: "Share updates, send messages, and keep important conversations between your centre and families together.",
+            },
 
-{
-    image: <Logo words={false} />,
-    header: "Capture the day",
-    desc: "Record daily logs, notes, and photos so staff can document the day and families can stay in the loop.",
-},
+            {
+                image: <Logo words={false} />,
+                header: "Capture the day",
+                desc: "Record daily logs, notes, and photos so staff can document the day and families can stay in the loop.",
+            },
 
-{
-    image: <Logo words={false} />,
-    header: "Run your centre",
-    desc: "Bring children, families, staff, records, and everyday centre operations together in one connected platform.",
-},  
+            {
+                image: <Logo words={false} />,
+                header: "Run your centre",
+                desc: "Bring children, families, staff, records, and everyday centre operations together in one connected platform.",
+            },  
         {
             image: <Logo words={false} />,
             header: "Stay on track",
