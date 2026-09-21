@@ -430,14 +430,14 @@ function Home() {
                     </div>
                     <div className="flex flex-1 w-full">
                         <div className="border-2 border-secondary w-full flex justify-center items-center rounded-xl overflow-hidden max-h-[75vh]">
-                            {/* <img
-                                src="/media/5.jpg"
-                                alt="something"
-                                loading="lazy"
-                                className="w-full h-full object-cover"
-                            /> */}
                             <div className="w-full flex-1 min-h-[200px] flex justify-center items-center text-2xl">
                                 <Logo icon={false} className="text-secondary-foreground" />
+                                {/* <img
+                                    src="/media/5.jpg"
+                                    alt="something"
+                                    loading="lazy"
+                                    className="w-full h-full object-cover"
+                                /> */}
                             </div>
                         </div>
                     </div>
