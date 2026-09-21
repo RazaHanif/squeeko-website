@@ -266,7 +266,7 @@ function HomeCards() {
                             <h2 className="text-2xl font-serif font-bold">
                                 {header}
                             </h2>
-                            <p className="text-sm font-light">
+                            <p className="text-sm font-light min-h-">
                                 {desc}
                             </p>
                         </div>
