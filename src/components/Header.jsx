@@ -23,6 +23,7 @@ import {
 import { useEffect, useState } from "react";
 import { Menu, User, X } from "lucide-react";
 import { links } from "./NavigationLinks";
+import Logo from "./Logo";
 
 function LogInBtn() {
     return (
@@ -203,7 +204,7 @@ function Header() {
                     to='/'
                     end
                 >
-                    <Logo 
+                    <Logo />
                 </NavLink>
             </div>
             <div className="flex-2 flex flex-row justify-end items-center">
