@@ -20,7 +20,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Ratios", 
-                    point: "Keep your daily schedule organized and accessible"
+                    point: "Keep an eye on classroom ratios as your day changes."
                 },
                 {
                     title: "Scheduling", 
