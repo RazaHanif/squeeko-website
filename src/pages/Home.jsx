@@ -189,23 +189,23 @@ function HomeFeatureAccordion() {
 
 function HomeSheet() {
     return (
-        <Sheet>
-            <SheetTrigger asChild>
-                <Button 
-                    variant="secondary"
-                    className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
-                >
-                    Sign Up
-                </Button>
-            </SheetTrigger>
-            <SheetContent>
-                <SheetHeader>
-                    <SheetTitle>Lets get started?</SheetTitle>
-                    <SheetDescription>Tell us a little about your centre.</SheetDescription>
-                </SheetHeader>
-                <OnboardingForm />
-            </SheetContent>
-        </Sheet>
+                                <Sheet>
+                                    <SheetTrigger asChild className="w-full">
+                                        <Button 
+                                            variant="secondary"
+                                            className="flex-1 w-full cursor-pointer p-6 border border-secondary-foreground"
+                                        >
+                                            Sign Up
+                                        </Button>
+                                    </SheetTrigger>
+                                    <SheetContent>
+                                        <SheetHeader>
+                                            <SheetTitle>Lets get started?</SheetTitle>
+                                            <SheetDescription>Tell us a little about your centre.</SheetDescription>
+                                        </SheetHeader>
+                                        <OnboardingForm />
+                                    </SheetContent>
+                                </Sheet>
     )
 }
 
