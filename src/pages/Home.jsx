@@ -315,7 +315,7 @@ function Home() {
                             </p>
                         </div>
 
-                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 border border-red-500 " >
+                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 w-1/2 border border-red-500 " >
                             <div className="flex-1">
                                 <Button 
                                     onClick={() => navigate("/features")}
