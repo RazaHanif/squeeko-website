@@ -35,7 +35,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Late Fees", 
-                    point: "Keep an eye on classroom ratios as your day changes."
+                    point: "Apply late fees consistently ."
                 },
                 {
                     title: "Daily Routines", 
