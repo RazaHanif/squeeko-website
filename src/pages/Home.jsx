@@ -190,7 +190,7 @@ function HomeFeatureAccordion() {
 function HomeSheet() {
     return (
         <Sheet>
-            <SheetTrigger asChild>
+            <SheetTrigger asChild clas>
                 <Button 
                     variant="secondary"
                     className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
