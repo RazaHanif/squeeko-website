@@ -14,7 +14,7 @@ function SignUpSheet() {
     return (
         <Sheet className="w-full">
             <SheetTrigger asChild className="w-full">
-                <Button 
+                <Button
                     variant="secondary"
                     className="flex-1 w-full cursor-pointer p-6 border border-secondary-foreground"
                 >
