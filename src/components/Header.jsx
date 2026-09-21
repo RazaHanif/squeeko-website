@@ -111,7 +111,7 @@ function MobileNav() {
                         className="cursor-pointer"
                         onClick={() => navigate('/')}
                     >
-                        <Logo />
+                        <Logo className="text-4xl"/>
                     </SheetClose>
                     <SheetClose className="cursor-pointer p-2 rounded-lg border-primary text-primary hover:bg-muted hover:text-primary transition-all duration-200">
                         <X className="w-8 h-8"/>
@@ -202,7 +202,7 @@ function Header() {
                     to='/'
                     end
                 >
-                    <Logo />
+                    <Logo className="text-4xl"/>
                 </NavLink>
             </div>
             <div className="flex-2 flex flex-row justify-end items-center">
