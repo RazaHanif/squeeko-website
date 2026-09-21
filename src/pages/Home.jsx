@@ -303,7 +303,7 @@ function Home() {
                     Wanna see SQUEEKO in your centre?
                 </h2>
 
-                <div f>
+                <div className="flex flex-col justifiy-center items-center">
                     <p className="font-bold">
                         Tell us about yourself?
                     </p>
