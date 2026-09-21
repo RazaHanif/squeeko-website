@@ -179,7 +179,7 @@ function HomeFeatureAccordion() {
 function HomeCards() {
     const data = [
         {
-            image: <Calendar />,
+            image: <Calend />,
             header: "Keep your day moving",
             desc: "Stay on top of schedules, attendance, ratios, and daily routines without the paperwork.",
         },
