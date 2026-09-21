@@ -1,3 +1,5 @@
+import Logo from "@/components/Logo";
+
 function LogIn() {
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
