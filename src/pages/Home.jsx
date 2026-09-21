@@ -31,6 +31,8 @@ Main feature overview -
 
 Scheduling - attendance, ratio, 
 
+Billing - 
+
 
 */
 
