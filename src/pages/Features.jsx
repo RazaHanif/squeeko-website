@@ -12,7 +12,7 @@ function Features() {
                                             hero title
                                         </h2>
                                         <p className="w-9/10 lg:w-3/4 text-center font-light">
-                                            Squeeko brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
+hero 
                                         </p>
                                     </div>
             
