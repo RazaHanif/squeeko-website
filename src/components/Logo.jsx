@@ -1,4 +1,4 @@
-function Logo() {
+function Logo(className) {
     return (
         <h2 className="text-4xl font-mono font-bold text-primary">
             squeeko
