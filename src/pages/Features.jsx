@@ -46,7 +46,7 @@ function Features() {
                         </div>
 
                         <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2" >
-                            <div className="flex-1 w-">
+                            <div className="flex-1 w-3/4">
                                 <SignUpSheet />
                             </div>
                         </div>
