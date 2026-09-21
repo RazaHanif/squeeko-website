@@ -191,17 +191,6 @@ function Header() {
     return (
         <div className={
             `sticky top-0 z-50 flex flex-row justify-between items-center w-full self-center p-6 lg:px-20 px-10 bg-background/10 transition-all duration-10
-
-            border border-white/20
-            backdrop-blur-lg
-            shadow-[0_8px_32px_rgba(0,0,0,0.08)]
-            before:absolute
-            before:inset-0
-            before:rounded-2xl
-            before:pointer-events-none
-            before:bg-gradient-to-b
-            before:from-white/15
-            before:to-transparent 
             ${
                 scrolled 
                 ? 'border-b' 
