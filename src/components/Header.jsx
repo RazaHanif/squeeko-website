@@ -111,7 +111,7 @@ function MobileNav() {
                         className="cursor-pointer"
                         onClick={() => navigate('/')}
                     >
-                        <Logo className="text-4xl"/>
+                        <Logo className="text-4xl" />
                     </SheetClose>
                     <SheetClose className="cursor-pointer p-2 rounded-lg border-primary text-primary hover:bg-muted hover:text-primary transition-all duration-200">
                         <X className="w-8 h-8"/>
