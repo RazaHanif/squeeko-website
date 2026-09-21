@@ -299,7 +299,7 @@ function Home() {
 
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full">
-            <section className="min-h-[calc(100vh-80px)] flex flex-col justify-between items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center mt-16 lg:mt-0">
+            <section className="min-h-[calc(100vh-80px)] flex flex-col justify-between lg:justify-center items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center mt-16 lg:mt-0">
                 <div className="flex lg:flex-row flex-col justify-center items-center lg:items-stretch w-full gap-8 lg:gap-0 border border-green-500">
                     <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
                         <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-6">
