@@ -320,8 +320,9 @@ function Home() {
                                 >
                                 Learn More
                             </Button>
-                            <div></div>
-                            <HomeSheet />
+                            <div className="flex-1">
+                                <HomeSheet />
+                            </div>
                         </div>
                     </div>
 
