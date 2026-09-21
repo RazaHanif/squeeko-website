@@ -226,6 +226,9 @@ function HomeCards() {
                         <div className="p-2 border-secondary-foreground bg-secondary border flex justify-center items-center rounded-xl">
                             {image}
                         </div>
+                        <div>
+                            
+                        </div>
                         <h2 className="text-2xl font-serif font-bold">
                             {header}
                         </h2>
