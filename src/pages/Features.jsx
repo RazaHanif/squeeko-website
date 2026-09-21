@@ -1,3 +1,5 @@
+import SignUpSheet from "@/components/SignUpSheet";
+
 function Features() {
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
@@ -18,7 +20,7 @@ function Features() {
             
                                     <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2" >
                                         <div className="flex-1">
-                                            <HomeSheet />
+                                            <SignUpSheet />
                                         </div>
                                     </div>
                                 </div>
