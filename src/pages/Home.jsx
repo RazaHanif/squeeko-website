@@ -320,12 +320,7 @@ function Home() {
                                 >
                                 Learn More
                             </Button>
-                            <Button 
-                    variant="secondary"
-                    className="flex-1 cursor-pointer p-6 border border-secondary-foreground"
-                >
-                    Sign Up
-                </Button>
+                            <HomeSheet />
                         </div>
                     </div>
 
