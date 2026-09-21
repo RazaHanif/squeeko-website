@@ -202,7 +202,7 @@ function Home() {
         'never miss another payment',
         'stay connected with families',
         'Built for childcare, by childcare experts',
-        'Goodbye paperwork. Hello squeeko',
+        'Goodbye paperwork. Hello Squeeko',
         'Run your centre with confidence',
         'The smarter way to manage childcare',
     ]
@@ -224,10 +224,10 @@ function Home() {
                             </h1>
                             <h2 className="text-5xl font-serif text-center font-semibold">
                                 Your children have you,<br/>
-                                your center has squeeko
+                                your center has Squeeko
                             </h2>
                             <p className="w-9/10 lg:w-3/4 text-center font-light">
-                                squeeko brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
+                                Squeeko brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
                             </p>
                         </div>
 
@@ -300,7 +300,7 @@ function Home() {
 
             <section className="flex flex-col justify-center items-center gap-8 w-full -mt-0.5 bg-[url('/home-why.svg')] bg-cover bg-center pb-16" id="home-form">
                 <h2 className="text-4xl lg:text-5xl font-serif text-center font-semibold">
-                    Wanna see squeeko in your centre?
+                    Wanna see Squeeko in your centre?
                 </h2>
 
                 <div className="w-full flex flex-col justify-center items-center">
@@ -324,10 +324,10 @@ function Home() {
                             GET STARTED
                         </p>
                         <h2 className="text-4xl lg:text-5xl font-serif text-start font-semibold">
-                            See squeeko run your center
+                            See Squeeko run your center
                         </h2>
                         <p className="w-9/10 lg:w-3/4 text-start font-light">
-                             With squeeko's powerful technology and expert human support, you can keep your busy days running smoothly.
+                             With Squeeko's powerful technology and expert human support, you can keep your busy days running smoothly.
                         </p>
                         <div className="flex flex-row justify-start items-center gap-6 w-3/4 lg:w-1/4">
                             <Button 
@@ -371,21 +371,21 @@ function Home() {
             */}
 
             <title>
-                Child Care Management Software | squeeko
+                Child Care Management Software | Squeeko
             </title>
 
             <meta
                 name="description"
-                content="squeeko is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
+                content="Squeeko is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
             />
 
             <meta 
                 property="og:title"
-                content="Child Care Management Software | squeeko"
+                content="Child Care Management Software | Squeeko"
             />
             <meta
                 property="og:description"
-                content="squeeko is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
+                content="Squeeko is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
             />
             <meta 
                 property="og:type"
@@ -393,15 +393,15 @@ function Home() {
             />
             <meta
                 property="og:url"
-                content="https://www.squeeko.ca/"
+                content="https://www.Squeeko.ca/"
             />
             <meta
                 property="og:image"
-                content="https://www.squeeko.ca/media/og-image.jpg"
+                content="https://www.Squeeko.ca/media/og-image.jpg"
             />
             <meta
                 property="og:image:alt"
-                content="squeeko Child Care Management Software Logo"
+                content="Squeeko Child Care Management Software Logo"
             />
         </div>
     )
