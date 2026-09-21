@@ -190,7 +190,7 @@ function Header() {
 
     return (
         <div className={
-            `sticky top-0 z-50 flex flex-row justify-between items-center w-full self-center p-6 lg:px-20 px-10 bg-background transition-all duration-10
+            `sticky top-0 z-50 flex flex-row justify-between items-center w-full self-center p-6 lg:px-20 px-10 bg-background/10 transition-all duration-10
 
             border border-white/20
             backdrop-blur-2xl
