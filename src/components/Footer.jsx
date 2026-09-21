@@ -95,7 +95,7 @@ function Footer() {
                     <h2 className="text-2xl font-mono font-bold text-primary">
                         SQUEEKO
                     </h2>
-                    <Logo className="text-xl"/>
+                    <Logo className="text-2xl"/>
                     <p className="font-light w-full lg:w-2/3">
                         Manage your center with beautifully designed software and a team who cares about your success.
                     </p>
