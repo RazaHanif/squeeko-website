@@ -19,7 +19,7 @@ function FeatureTabs() {
                     point: "Know who's here and keep accurate attendance records."
                 },
                 {
-                    title: "Scheduling", 
+                    title: "Ratios", 
                     point: "Keep your daily schedule organized and accessible"
                 },
                 {
