@@ -8,7 +8,8 @@ function FeatureTabs() {
         {
             trigger: "Scheduling",
             title: "Keep your day moving.",
-            desc: ""
+            desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next."
+            
         }
     ]
 
