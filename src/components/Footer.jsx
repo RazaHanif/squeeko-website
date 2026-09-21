@@ -92,9 +92,6 @@ function Footer() {
                     <FooterAccordion />
                 </div>
                 <div className="flex-1 flex flex-col justify-start items-start w-9/10 p-4 gap-4 text-muted-foreground">
-                    <h2 className="text-2xl font-mono font-bold text-primary">
-                        SQUEEKO
-                    </h2>
                     <Logo className="text-3xl"/>
                     <p className="font-light w-full lg:w-2/3">
                         Manage your center with beautifully designed software and a team who cares about your success.
