@@ -27,7 +27,7 @@ function FeatureTabs() {
         {
             trigger: "Billing",
             title: "Get paid without the paperwork.",
-            desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next.",
+            desc: "Tuition shouldn't mean spreadsheets, reminders, and manual calculations every month. Squeeko helps automate your billing so your team can spend less time chasing payments.",
             points: [
                 {
                     title: "Attendance", 
