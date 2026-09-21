@@ -249,7 +249,7 @@ function Home() {
                     </div>
 
 
-                    <div className="w-9/10 flex-1 flex justify-center items-center rounded-xl border-red-500 border">
+                    <div className="w-9/10 flex-1 flex justify-center items-center rounded-xl">
                         {/* <img
                             src="/media/1.jpg"
                             alt="something"
