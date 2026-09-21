@@ -429,7 +429,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="flex flex-1 w-full">
-                        <div className="border-2 border-secondary-foreground bg-secondary w-full flex justify-center items-center rounded-xl overflow-hidden max-h-[75vh]">
+                        <div className="border border-secondary-foreground bg-secondary w-full flex justify-center items-center rounded-xl overflow-hidden max-h-[75vh]">
                             <div className="w-full flex-1 min-h-[200px] flex justify-center items-center text-2xl">
                                 <Logo icon={false} className="text-secondary-foreground" />
                                 {/* <img
