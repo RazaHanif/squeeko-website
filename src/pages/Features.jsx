@@ -37,7 +37,7 @@ function Features() {
                                 BUILT FOR CHILDCARE
                             </h1>
                             <h2 className="text-5xl font-serif text-center font-semibold">
-                                hero title
+                                Everything your centre needs, <br/>
                             </h2>
                             <p className="w-9/10 lg:w-3/4 text-center font-light">
                                 hero para
