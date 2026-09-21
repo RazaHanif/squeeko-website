@@ -28,7 +28,7 @@ function FeatureTabs() {
 
 function Features() {
     return (
-        <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
+        <div className="flex flex-col flex-1 w-full lg:py-16 py-8">
             <section className="min-h-[calc(100vh-80px)] flex flex-col justify-around items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center mt-16 lg:mt-0">
                 <div className="flex lg:flex-row flex-col justify-center items-center lg:items-stretch w-full gap-8 lg:gap-0">
                     <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
