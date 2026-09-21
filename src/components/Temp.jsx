@@ -71,7 +71,7 @@ const Temp = ({ children }) => {
                     <h1 className="text-5xl font-mono font-bold text-primary text-shadow-md">
                         SQUEEKO
                     </h1>
-                    <Logo />
+                    <Logo className="text-5xl"/>
                     <p className="text-muted-foreground">
                         under construction 
                     </p>
