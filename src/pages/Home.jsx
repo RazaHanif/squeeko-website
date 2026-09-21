@@ -320,7 +320,7 @@ function Home() {
                                 >
                                 Learn More
                             </Button>
-                            <div className="flex-1">
+                            <div className="flex-1 border">
                                 <Sheet className="flex-1">
                                     <SheetTrigger asChild>
                                         <Button 
