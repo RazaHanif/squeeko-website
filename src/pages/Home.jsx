@@ -202,7 +202,7 @@ function HomeSheet() {
                 side="right"
                 className="data-[side=right]:w-full bg-background flex flex-col justify-center items-center border border-red-500"
             >
-                <SheetHeader>
+                <SheetHeader className="">
                     <SheetTitle>Lets get started?</SheetTitle>
                     <SheetDescription>Tell us a little about your centre.</SheetDescription>
                 </SheetHeader>
