@@ -8,6 +8,7 @@ import {
 import { legalLinks, links, socialLinks } from "./NavigationLinks"
 import { useState } from "react"
 import { Copyright } from "lucide-react"
+import Logo from "./Logo"
 
 function FooterAccordion() {
     const [open, setOpen] = useState("")
@@ -94,6 +95,7 @@ function Footer() {
                     <h2 className="text-2xl font-mono font-bold text-primary">
                         SQUEEKO
                     </h2>
+                    <Logo />
                     <p className="font-light w-full lg:w-2/3">
                         Manage your center with beautifully designed software and a team who cares about your success.
                     </p>
