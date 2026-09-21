@@ -6,7 +6,7 @@ function Logo({className, stacked=false, caps=false}) {
         <div 
             className={`text-primary flex flex-col justify-center items-center ${className}`}
         >
-            <PencilSparkles className="size-[1.5em] stroke-2" />
+            <PencilSparkles className="size-[1.25em] stroke-2" />
             <h2 className="font-mono">
                 {logo}
             </h2>
