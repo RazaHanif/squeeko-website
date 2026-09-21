@@ -193,7 +193,6 @@ function Header() {
             `sticky top-0 z-50 flex flex-row justify-between items-center w-full self-center p-6 lg:px-20 px-10 bg-background transition-all duration-10
 
             border border-white/20
-            bg-white/10
             backdrop-blur-2xl
             shadow-[0_8px_32px_rgba(0,0,0,0.08)]
             before:absolute
