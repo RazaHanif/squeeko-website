@@ -215,7 +215,7 @@ function Home() {
 
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full">
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center mt-16 lg:mt-0">
+            <section className="flex flex-col justify-center items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center mt-16 lg:mt-0">
                 <div className="flex lg:flex-row flex-col justify-center items-center lg:items-stretch w-full gap-8 lg:gap-0">
                     <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
                         <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-6">
@@ -311,13 +311,13 @@ function Home() {
                 </div>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full py-40">
+            <section className="flex flex-col justify-center items-center gap-8 w-full py-40">
                 <div className="w-9/10 text-center text-2xl border-2 border-secondary-foreground bg-secondary rounded-2xl flex-1 flex">
                     <HomeCards />
                 </div>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full py-8 lg:py-16 bg-gradient-to-b from-background to-primary">
+            <section className="flex flex-col justify-center items-center gap-8 w-full py-8 lg:py-16 bg-gradient-to-b from-background to-primary">
                 <div className="flex flex-1 flex-col lg:flex-row gap-4 w-9/10 p-2">
                     <div className="flex lg:flex-1 flex-col justify-start lg:justify-center gap-4">
                         <p className="text-xs lg:text-sm font-bold">
