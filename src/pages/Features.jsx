@@ -7,7 +7,7 @@ function FeatureTabs() {
     const data = []
 
     return (
-                    <Tabs defaultValue="account" className="w-[400px]">
+        <Tabs defaultValue="account" className="w-[400px]">
                 <TabsList>
                     <TabsTrigger value="account">
                         Account
