@@ -39,7 +39,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Rate Changes", 
-                    point: "Give your team an easier way to keep daily tasks on track."
+                    point: "Update tuition rates without rebuilding your billing process."
                 },
                 {
                     title: "Daily Routines", 
