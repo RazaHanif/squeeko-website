@@ -196,7 +196,7 @@ function FeatureTabs() {
                         </div>
                     </div>
                     <div>
-                        
+                        Image
                     </div>
                 </TabsContent>
             ))}
