@@ -153,7 +153,7 @@ function FeatureTabs() {
                 ))}
             </TabsList>
                 {/* {links.map(({ title, link }) => ( */}
-                {data.map(({id, trigger, title, desc, points}) => (
+                {data.map(({id, title, desc, points}) => (
                     <TabsContent value={id} key={id}>
                         <h2 className="font-serif text-2xl font-bold">
                             {title}
