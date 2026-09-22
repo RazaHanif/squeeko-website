@@ -77,7 +77,7 @@ function FeatureTabs() {
             points: [
                 {
                     title: "Parent Messaging", 
-                    point: "Know who's here and keep accurate attendance records."
+                    point: "Keep conversations between staff and families in one place."
                 },
                 {
                     title: "Ratios", 
