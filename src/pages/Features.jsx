@@ -43,7 +43,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "One-Off Charges", 
-                    point: "Bill for field trips, acrivities, ."
+                    point: "Bill for field trips, activities, ."
                 },
             ],
         },
