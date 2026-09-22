@@ -147,7 +147,7 @@ function FeatureTabs() {
     return (
         <Tabs 
             defaultValue="schedule"
-            className="w-full flex-1 bg-"
+            className="w-full flex-1 bg-muted-foreground"
         >
             <div className="w-full overflow-x-auto scrollbar-none">
                 <TabsList
