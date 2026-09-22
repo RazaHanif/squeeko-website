@@ -178,7 +178,7 @@ function FeatureTabs() {
                         </p>
                     </div>
 
-                    <div className="">
+                    <div className="bg-green-500">
                         {points.map(({title, point}) => (
                             <div key={title}>
                                 <h2>{title}</h2>
