@@ -134,7 +134,7 @@ function FeatureTabs() {
                     point: "Get a clearer picture of what's happening across your centre."
                 },
                 {
-                    title: "Daily Routines", 
+                    title: "Connected Records", 
                     point: "Give your team an easier way to keep daily tasks on track."
                 },
             ],
