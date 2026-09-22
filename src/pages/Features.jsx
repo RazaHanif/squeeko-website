@@ -160,26 +160,26 @@ function FeatureTabs() {
                     ))}
                 </TabsList>
             </div>
-                {data.map(({id, title, desc, points}) => (
-                    <TabsContent value={id} key={id}>
-                        <h2 className="font-serif text-2xl font-bold">
-                            {title}
-                        </h2>
-                        <p className="font-sm">
-                            {desc}
-                        </p>
+            {data.map(({id, title, desc, points}) => (
+                <TabsContent value={id} key={id}>
+                    <h2 className="font-serif text-2xl font-bold">
+                        {title}
+                    </h2>
+                    <p className="font-sm">
+                        {desc}
+                    </p>
 
-                        <div>
-                            {points.map(({title, point}) => (
-                                <div key={title}>
-                                    <h2>{title}</h2>
-                                    <p>{point}</p>
-                                </div>
-                            ))}
-                        </div>
-                    </TabsContent>
+                    <div>
+                        {points.map(({title, point}) => (
+                            <div key={title}>
+                                <h2>{title}</h2>
+                                <p>{point}</p>
+                            </div>
+                        ))}
+                    </div>
+                </TabsContent>
 
-                ))}
+            ))}
                 
 
             <TabsContent value="account">
