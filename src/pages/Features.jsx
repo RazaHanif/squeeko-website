@@ -149,7 +149,7 @@ function FeatureTabs() {
             defaultValue="schedule"
             className="w-full flex-1 p-4 bg-muted-foreground"
         >
-            <p>
+            <p className="w-full text-center ">
             This looks really shitty fix the styling    
             </p>
             <TabsList
