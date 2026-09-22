@@ -84,7 +84,7 @@ function FeatureTabs() {
                     point: "Share important information with the families who need it."
                 },
                 {
-                    title: "Daily Routines", 
+                    title: "Daily Updates", 
                     point: "Give your team an easier way to keep daily tasks on track."
                 },
             ],
