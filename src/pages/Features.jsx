@@ -167,7 +167,9 @@ function FeatureTabs() {
             </div>
             {data.map(({id, title, desc, points}) => (
                 <TabsContent 
-                    value={id} key={id}
+                    value={id} 
+                    key={id}
+                    className=""
                 >
                     <h2 className="font-serif text-2xl font-bold">
                         {title}
