@@ -81,7 +81,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Centre Updates", 
-                    point: "Keep an eye on classroom ratios as your day changes."
+                    point: "Share important information with families who need it."
                 },
                 {
                     title: "Daily Routines", 
