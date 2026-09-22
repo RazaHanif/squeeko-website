@@ -73,7 +73,7 @@ function FeatureTabs() {
         {
             trigger: "Communication",
             title: "Keep families in the loop.",
-            desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next.",
+            desc: "Give parents a simple way to stay connected with their centre, while giving your team one place to manage everyday communication.",
             points: [
                 {
                     title: "Attendance", 
