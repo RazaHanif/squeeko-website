@@ -148,7 +148,7 @@ function FeatureTabs() {
             defaultValue="schedule"
             className="w-full bg-green-500"
         >
-            <TabsList variant="line" >
+            <TabsList variant="line" className="flex flex-col">
                 {data.map(({id, trigger}) => (
                     <TabsTrigger value={id} key={id}>
                         {trigger}
