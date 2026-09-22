@@ -163,7 +163,7 @@ function FeatureTabs() {
                     </TabsTrigger>
                 ))}
             </TabsList>
-            {data.map(({id, title, desc, points}) => (
+            {data.map(({id, trigger, title, desc, points}) => (
                 <TabsContent 
                     value={id} 
                     key={id}
