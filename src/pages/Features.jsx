@@ -170,31 +170,30 @@ function FeatureTabs() {
                     className="self-center flex flex-col justify-center items-center w-9/10 px-4 bg-primary"
                 >
                     <div>
-                        
-                    </div>
-                    <div className="flex-1 flex flex-col justify-around items-center gap-4 w-full">
-                        <h2 className="font-serif text-4xl font-bold text-center">
-                            {title}
-                        </h2>
-                        <p className="w-9/10">
-                            {desc}
-                        </p>
-                    </div>
+                        <div className="flex-1 flex flex-col justify-around items-center gap-4 w-full">
+                            <h2 className="font-serif text-4xl font-bold text-center">
+                                {title}
+                            </h2>
+                            <p className="w-9/10">
+                                {desc}
+                            </p>
+                        </div>
 
-                    <div className="flex-2 flex flex-col justify-start gap-4 w-full">
-                        {points.map(({title, point}) => (
-                            <div 
-                                className="flex flex-col"
-                                key={title}
-                            >
-                                <h2 className="text-lg font-bold">
-                                    {title}
-                                </h2>
-                                <p className="">
-                                    {point}
-                                </p>
-                            </div>
-                        ))}
+                        <div className="flex-2 flex flex-col justify-start gap-4 w-full">
+                            {points.map(({title, point}) => (
+                                <div 
+                                    className="flex flex-col"
+                                    key={title}
+                                >
+                                    <h2 className="text-lg font-bold">
+                                        {title}
+                                    </h2>
+                                    <p className="">
+                                        {point}
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </TabsContent>
             ))}
