@@ -126,6 +126,10 @@ function FeatureTabs() {
                     point: "Know who's here and keep accurate attendance records."
                 },
                 {
+                    title: "Attendance", 
+                    point: "Know who's here and keep accurate attendance records."
+                },
+                {
                     title: "Ratios", 
                     point: "Keep an eye on classroom ratios as your day changes."
                 },
