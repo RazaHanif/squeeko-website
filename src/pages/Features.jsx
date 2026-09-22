@@ -53,7 +53,7 @@ function FeatureTabs() {
             desc: "Keep the forms, signatures, and records your centre relies on organized and accessible, so compliance doesn't live in a filling cabinet.",
             points: [
                 {
-                    title: "Attendance", 
+                    title: "Digital Forms", 
                     point: "Know who's here and keep accurate attendance records."
                 },
                 {
