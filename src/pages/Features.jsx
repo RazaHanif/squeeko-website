@@ -178,7 +178,6 @@ function FeatureTabs() {
                         ))}
                     </div>
                 </TabsContent>
-
             ))}
         </Tabs>
     )
