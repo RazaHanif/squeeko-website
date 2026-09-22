@@ -131,7 +131,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Ratios", 
-                    point: "Keep an eye on classroom ratios as your day changes."
+                    point: "Get a clearer picture of what's happening across your centre."
                 },
                 {
                     title: "Daily Routines", 
