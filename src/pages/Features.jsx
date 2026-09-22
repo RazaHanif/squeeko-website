@@ -50,7 +50,7 @@ function FeatureTabs() {
         {
             trigger: "Compliance",
             title: "Know what's done. Know what's missing.",
-            desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next.",
+            desc: "Keep the forms, signatures, and records your centre relies on organzied and accesible.",
             points: [
                 {
                     title: "Attendance", 
