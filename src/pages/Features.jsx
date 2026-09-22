@@ -50,7 +50,7 @@ function FeatureTabs() {
         {
             trigger: "Compliance",
             title: "Know what's done. Know what's missing.",
-            desc: "Keep the forms, signatures, and records your centre relies on organized and accessible, so compliance doesn't live in a filling cabnit.",
+            desc: "Keep the forms, signatures, and records your centre relies on organized and accessible, so compliance doesn't live in a filling cabniet.",
             points: [
                 {
                     title: "Attendance", 
