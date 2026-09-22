@@ -122,7 +122,7 @@ function FeatureTabs() {
             desc: "Squeeko connects the people, information, and everyday work behind your centre so your team can spend less time managing systems and more time caring for children.",
             points: [
                 {
-                    title: "Attendance", 
+                    title: "Child & Family Profiles", 
                     point: "Know who's here and keep accurate attendance records."
                 },
                 {
