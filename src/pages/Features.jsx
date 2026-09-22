@@ -149,7 +149,6 @@ function FeatureTabs() {
             className="w-full bg-green-500"
             orientation="vertical"
         >
-            <div className="w-full overflow-x-auto">
                 <TabsList className="w-max min-w-full lg:w-full" variant="line">
                     {data.map(({id, trigger}) => (
                         <TabsTrigger value={id} key={id}>
@@ -157,7 +156,6 @@ function FeatureTabs() {
                         </TabsTrigger>
                     ))}
                 </TabsList>
-            </div>
                 {data.map(({id, title, desc, points}) => (
                     <TabsContent value={id} key={id}>
                         <h2 className="font-serif text-2xl font-bold">
