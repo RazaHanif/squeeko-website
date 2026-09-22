@@ -61,7 +61,7 @@ function FeatureTabs() {
                     point: "Collect and keep track of required signatures digitally."
                 },
                 {
-                    title: "Daily Routines", 
+                    title: "Record Keeping", 
                     point: "Give your team an easier way to keep daily tasks on track."
                 },
             ],
