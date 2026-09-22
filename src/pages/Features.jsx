@@ -148,7 +148,9 @@ function FeatureTabs() {
             defaultValue="schedule"
             className="w-full bg-green-500"
         >
-            <div
+            <div className="">
+
+            </div>
             <TabsList>
                 {data.map(({id, trigger}) => (
                     <TabsTrigger value={id} key={id}>
