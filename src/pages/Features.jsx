@@ -185,9 +185,11 @@ function FeatureTabs() {
                                 key={title}
                             >
                                 <h2 className="text-secondary">
-                                    {title}</h2>
+                                    {title}
+                                </h2>
                                 <p className="text-secondary">
-                                    {point}</p>
+                                    {point}
+                                </p>
                             </div>
                         ))}
                     </div>
