@@ -140,6 +140,7 @@ function FeatureTabs() {
     return (
         <Tabs defaultValue="account" className="w-[400px]">
             <TabsList>
+                
                 <TabsTrigger value="account">
                     Account
                 </TabsTrigger>
