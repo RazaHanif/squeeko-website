@@ -7,6 +7,7 @@ function FeatureTabs() {
     const data = [
         {
             trigger: "Scheduling",
+            trigger: "Scheduling",
             title: "Keep your day moving.",
             desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next.",
             points: [
@@ -140,7 +141,7 @@ function FeatureTabs() {
     return (
         <Tabs defaultValue="account" className="w-[400px]">
             <TabsList>
-                
+
                 <TabsTrigger value="account">
                     Account
                 </TabsTrigger>
