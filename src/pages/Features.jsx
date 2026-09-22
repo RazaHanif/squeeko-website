@@ -123,7 +123,7 @@ function FeatureTabs() {
             points: [
                 {
                     title: "Child & Family Profiles", 
-                    point: "Know who's here and keep accurate attendance records."
+                    point: "Keep important information together and easy to find."
                 },
                 {
                     title: "Attendance", 
