@@ -104,7 +104,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Photos", 
-                    point: "Keep an eye on classroom ratios as your day changes."
+                    point: "Capture and share moments with the right families."
                 },
                 {
                     title: "Daily Routines", 
