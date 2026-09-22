@@ -54,7 +54,7 @@ function FeatureTabs() {
             points: [
                 {
                     title: "Digital Forms", 
-                    point: "Know who's here and keep accurate attendance records."
+                    point: "Move away from paper forms and keep everything in one place."
                 },
                 {
                     title: "Ratios", 
