@@ -180,7 +180,9 @@ function FeatureTabs() {
 
                     <div className="flex-2 flex flex-col justify-start">
                         {points.map(({title, point}) => (
-                            <div key={title}>
+                            <div 
+                            
+                            key={title}>
                                 <h2>{title}</h2>
                                 <p>{point}</p>
                             </div>
