@@ -146,13 +146,21 @@ function FeatureTabs() {
     return (
         <Tabs defaultValue="account" className="w-[400px]">
             <TabsList>
-                {data.map((feature) => (
-                    <TabsTrigger value={feature.id} key={feature.id}>
-                        {feature.trigger}
+                {data.map(({id, trigger}) => (
+                    <TabsTrigger value={id} key={id}>
+                        {trigger}
                     </TabsTrigger>
                 ))}
             </TabsList>
-            {data.map(({}))}
+                {/* {links.map(({ title, link }) => ( */}
+                {data.map(({id, trigger, title, desc, points}) => (
+                    <TabsContent value={id} key={id}>
+                        
+                    </TabsContent>
+
+                ))}
+                
+
             <TabsContent value="account">
                 Make changes to your account here.
             </TabsContent>
