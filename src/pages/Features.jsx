@@ -211,7 +211,7 @@ function FeatureTabs() {
 
 function Features() {
     return (
-        <ScrollSnap className="flex flex-col justify-center items-center flex-1 font-serif w-full lg:pb-16 pb-8">
+        <ScrollSnap className="flex flex-col justify-center items-center flex-1 w-full lg:pb-16 pb-8">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full mt-16 lg:mt-0">
                 <div className="flex lg:flex-row flex-col justify-center items-center lg:items-stretch w-full gap-8 lg:gap-0">
                     <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
