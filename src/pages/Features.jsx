@@ -150,7 +150,7 @@ function FeatureTabs() {
             orientation="vertical"
         >
             <div className="w-full overflow-x-auto">
-                <TabsList className="w-max min-w-full lg:w-full">
+                <TabsList className="w-max min-w-full lg:w-full" variant="line">
                     {data.map(({id, trigger}) => (
                         <TabsTrigger value={id} key={id}>
                             {trigger}
