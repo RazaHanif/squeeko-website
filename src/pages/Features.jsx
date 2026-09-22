@@ -170,14 +170,13 @@ function FeatureTabs() {
                     className="self-center flex flex-col justify-around items-center bg-muted w-9/10 px-4"
                 >
                     <div>
-                        
+                        <h2 className="font-serif text-4xl font-bold">
+                            {title}
+                        </h2>
+                        <p className="font-sm">
+                            {desc}
+                        </p>
                     </div>
-                    <h2 className="font-serif text-4xl font-bold">
-                        {title}
-                    </h2>
-                    <p className="font-sm">
-                        {desc}
-                    </p>
 
                     <div>
                         {points.map(({title, point}) => (
