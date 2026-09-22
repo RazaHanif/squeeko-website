@@ -223,7 +223,7 @@ function Features() {
                 </div>
             </section>
 
-            <section className="min-h-[calc(100vh-80px)] flex flex-col gap-8 w-full bg-green-200">
+            <section className="min-h-[calc(100vh-80px)] flex flex-col w-full bg-green-200">
                 <FeatureTabs />
             </section>
             
