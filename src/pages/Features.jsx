@@ -65,7 +65,7 @@ function FeatureTabs() {
                     point: "Keep important records organized and easy to access."
                 },
                 {
-                    title: "Record Keeping", 
+                    title: "Status Tracking", 
                     point: "Keep important records organized and easy to access."
                 },
             ],
