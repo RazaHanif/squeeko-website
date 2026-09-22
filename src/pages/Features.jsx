@@ -158,7 +158,7 @@ function FeatureTabs() {
                         <TabsTrigger 
                             value={id} 
                             key={id} 
-                            className=""
+                            className="poin"
                         >
                             {trigger}
                         </TabsTrigger>
