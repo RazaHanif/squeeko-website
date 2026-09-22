@@ -74,7 +74,7 @@ function FeatureTabs() {
             ],
         },
         {
-            id: "schedule",
+            id: "communication",
             trigger: "Communication",
             title: "Keep families in the loop.",
             desc: "Give parents a simple way to stay connected with their centre, while giving your team one place to manage everyday communication.",
