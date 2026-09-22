@@ -148,7 +148,7 @@ function FeatureTabs() {
             <TabsList>
                 {data.map((feature) => (
                     <TabsTrigger value={feature.id}>
-                        
+                        {feature.trigger}
                     </TabsTrigger>
                 ))}
 
