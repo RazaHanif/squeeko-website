@@ -130,7 +130,7 @@ function FeatureTabs() {
                     point: "Give your team the tools and information they need."
                 },
                 {
-                    title: "Ratios", 
+                    title: "Centre Overview", 
                     point: "Get a clearer picture of what's happening across your centre."
                 },
                 {
