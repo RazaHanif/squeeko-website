@@ -81,7 +81,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Centre Updates", 
-                    point: "Share important information with families who need it."
+                    point: "Share important information with the families who need it."
                 },
                 {
                     title: "Daily Routines", 
