@@ -35,7 +35,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Late Fees", 
-                    point: "Apply late fees consistently ."
+                    point: "Apply late fees automatically without awkward  ."
                 },
                 {
                     title: "Daily Routines", 
