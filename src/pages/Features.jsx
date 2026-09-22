@@ -62,7 +62,11 @@ function FeatureTabs() {
                 },
                 {
                     title: "Record Keeping", 
-                    point: "Keep importa."
+                    point: "Keep important records organized and easy to access."
+                },
+                {
+                    title: "Record Keeping", 
+                    point: "Keep important records organized and easy to access."
                 },
             ],
         },
