@@ -96,7 +96,7 @@ function FeatureTabs() {
         {
             trigger: "Daily Logs & Photos",
             title: "Capture the little moments.",
-            desc: "The little things matter. Make it easy for staff to document the day and share meaningful .",
+            desc: "The little things matter. Make it easy for staff to document the day and share meaningful moments with families.",
             points: [
                 {
                     title: "Attendance", 
