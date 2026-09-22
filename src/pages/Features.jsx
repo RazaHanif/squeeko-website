@@ -152,7 +152,7 @@ function FeatureTabs() {
                     </TabsTrigger>
                 ))}
             </TabsList>
-            
+            {data.map(({}))}
             <TabsContent value="account">
                 Make changes to your account here.
             </TabsContent>
