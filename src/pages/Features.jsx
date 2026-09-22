@@ -158,7 +158,9 @@ function FeatureTabs() {
                         <h2 className="font-serif text-2xl font-bold">
                             {title}
                         </h2>
-                        <p></p>
+                        <p className="">
+
+                        </p>
                     </TabsContent>
 
                 ))}
