@@ -111,7 +111,7 @@ function FeatureTabs() {
                     point: "Keep each child's daily information organized."
                 },
                 {
-                    title: "Daily Routines", 
+                    title: "Family Connection", 
                     point: "Give your team an easier way to keep daily tasks on track."
                 },
             ],
