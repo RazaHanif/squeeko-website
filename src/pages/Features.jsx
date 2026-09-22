@@ -148,7 +148,7 @@ function FeatureTabs() {
             defaultValue="schedule"
             className="w-full bg-green-500"
         >
-            <div className="">
+            <div className="w-full overflow-x-auto">
 
             </div>
             <TabsList>
