@@ -89,7 +89,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "One Place", 
-                    point: "Keep parents connected to what happend during the day."
+                    point: "Stop jumping between email, texts, and different apps."
                 },
             ],
         },
