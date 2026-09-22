@@ -148,7 +148,7 @@ function FeatureTabs() {
             defaultValue="schedule"
             className="w-full bg-green-500"
         >
-            <div>
+            <div className="w-full ">
                 <TabsList
                     className="w-max min-w-full lg:w-full"
                     variant="line"
