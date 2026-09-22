@@ -174,7 +174,7 @@ function FeatureTabs() {
                             <h2 className="font-serif text-4xl font-bold bg-red-500">
                                 {title}
                             </h2>
-                            <p className="w-9/10 bg-red-500">
+                            <p className=" bg-red-500">
                                 {desc}
                             </p>
                         </div>
