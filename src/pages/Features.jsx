@@ -126,7 +126,7 @@ function FeatureTabs() {
                     point: "Keep important information together and easy to find."
                 },
                 {
-                    title: "Attendance", 
+                    title: "Staff Management", 
                     point: "Know who's here and keep accurate attendance records."
                 },
                 {
