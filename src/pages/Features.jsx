@@ -167,7 +167,7 @@ function FeatureTabs() {
                 <TabsContent 
                     value={id} 
                     key={id}
-                    className="self-center flex flex-col justify-center items-center w-9/10 px-4 bg-primary"
+                    className="self-center flex flex-row justify-center items-center w-9/10 px-4 bg-primary"
                 >
                     <div>
                         <div className="flex-1 flex flex-col justify-around items-center gap-4 w-full">
