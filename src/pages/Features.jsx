@@ -58,7 +58,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Signatures", 
-                    point: "Keep an eye on classroom ratios as your day changes."
+                    point: "Collect and keep track of required signatures digitally."
                 },
                 {
                     title: "Daily Routines", 
