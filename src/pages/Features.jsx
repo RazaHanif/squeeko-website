@@ -38,7 +38,7 @@ function FeatureTabs() {
                     point: "Apply late fees automatically without keeping track manually."
                 },
                 {
-                    title: "Daily Routines", 
+                    title: "Rate Changes", 
                     point: "Give your team an easier way to keep daily tasks on track."
                 },
                 {
