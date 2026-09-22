@@ -103,7 +103,7 @@ function FeatureTabs() {
                     point: "Record notes and important details from the day."
                 },
                 {
-                    title: "Ratios", 
+                    title: "Photos", 
                     point: "Keep an eye on classroom ratios as your day changes."
                 },
                 {
