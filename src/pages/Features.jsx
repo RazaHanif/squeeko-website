@@ -147,7 +147,7 @@ function FeatureTabs() {
     return (
         <Tabs 
             defaultValue="schedule"
-            className="w-full flex-1 p-4"
+            className="w-full flex-1 p-4 bg-primary"
         >
             <p className="w-full text-center text-destructive">
             This looks really shitty fix the styling    
