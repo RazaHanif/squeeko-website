@@ -188,7 +188,7 @@ function FeatureTabs() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex-1 flex flex-row justify-center gap-4 w-full min-h-[14em]">
+                    <div className="flex-1 flex flex-row justify-start gap-4 w-full min-h-[14em]">
                         {points.map(({title, point}) => (
                             <div 
                                 className="flex flex-col flex-1 gap-2"
