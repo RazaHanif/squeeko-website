@@ -152,6 +152,7 @@ function FeatureTabs() {
                     </TabsTrigger>
                 ))}
             </TabsList>
+            
             <TabsContent value="account">
                 Make changes to your account here.
             </TabsContent>
