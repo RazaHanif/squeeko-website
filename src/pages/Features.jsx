@@ -178,7 +178,7 @@ function FeatureTabs() {
                         </p>
                     </div>
 
-                    <div className="flex-2 flex flex-col justify-center items-center">
+                    <div className="flex-2 flex flex-col justify-center">
                         {points.map(({title, point}) => (
                             <div key={title}>
                                 <h2>{title}</h2>
