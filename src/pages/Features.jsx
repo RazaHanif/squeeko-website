@@ -118,7 +118,7 @@ function FeatureTabs() {
         },
         {
             trigger: "Centre Management",
-            title: "Keep your day moving.",
+            title: "Run your centre in one place.",
             desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next.",
             points: [
                 {
