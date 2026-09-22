@@ -169,7 +169,7 @@ function FeatureTabs() {
                 <TabsContent 
                     value={id} 
                     key={id}
-                    className="flex flex-col just"
+                    className="flex flex-col justify-around items-center"
                 >
                     <h2 className="font-serif text-2xl font-bold">
                         {title}
