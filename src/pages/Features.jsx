@@ -197,7 +197,7 @@ function FeatureTabs() {
                                 <h2 className="font-bold bg-secondary flex-1">
                                     {title}
                                 </h2>
-                                <p className="bg-secondary">
+                                <p className="bg-secondary flex-3">
                                     {point}
                                 </p>
                             </div>
