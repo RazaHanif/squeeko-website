@@ -112,7 +112,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Family Connection", 
-                    point: "Give your team an easier way to keep daily tasks on track."
+                    point: "Give parents a window into their child's day."
                 },
             ],
         },
