@@ -244,7 +244,7 @@ function Features() {
                 </div>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col w-full">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col w-full bg-gradient-to-b to-background from-primary">
                 <FeatureTabs />
             </section>
             
