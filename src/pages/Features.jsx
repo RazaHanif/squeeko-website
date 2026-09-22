@@ -133,10 +133,6 @@ function FeatureTabs() {
                     title: "Centre Overview", 
                     point: "Get a clearer picture of what's happening across your centre."
                 },
-                {
-                    title: "Connected Records", 
-                    point: "Give your team an easier way to keep daily tasks on track."
-                },
             ],
         },
     ]
