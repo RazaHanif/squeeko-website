@@ -149,7 +149,7 @@ function FeatureTabs() {
             className="w-full bg-green-500"
         >
             <div className="w-full overflow-x-auto">
-                <TabsList>
+                <TabsList clas>
                     {data.map(({id, trigger}) => (
                         <TabsTrigger value={id} key={id}>
                             {trigger}
