@@ -99,7 +99,7 @@ function FeatureTabs() {
             desc: "The little things matter. Make it easy for staff to document the day and share meaningful moments with families.",
             points: [
                 {
-                    title: "Attendance", 
+                    title: "Daily Logs", 
                     point: "Know who's here and keep accurate attendance records."
                 },
                 {
