@@ -170,7 +170,7 @@ function FeatureTabs() {
                     className="self-center flex flex-col justify-center items-center w-9/10 px-4 bg-primary h-full min-h-full"
                 >
                     <div className="flex-2 flex flex-row gap-8">
-                        <div className="flex flex-1 flex-col justify-center gap-16 w-full bg-muted">
+                        <div className="flex flex-1 flex-col justify-center gap-16 w-full">
                             <h2 className="font-serif text-4xl font-bold">
                                 {title}
                             </h2>
