@@ -181,7 +181,7 @@ function FeatureTabs() {
 
                         <div className="w-9/10 flex-1 flex justify-center">
                             <div className="w-full lg:w-3/4 border min-h-[200px]  flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
-                                <Logo icon={false} className="text-secondary-foreground" />
+                                {trigger}
                             </div>
                         </div>
                     </div>
