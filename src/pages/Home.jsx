@@ -309,7 +309,7 @@ function Home() {
 
                     <div className="w-9/10 flex-1 flex justify-center items-center rounded-xl">
                         <div className="w-full lg:w-3/4 border min-h-[200px] lg:min-h-full flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
-                            <Logo icon={true} stacked={true} caps={false} className="text-secondary-foreground" />
+                            <Logo icon={false} className="text-secondary-foreground" />
                             {/* <img
                                 src="/media/1.jpg"
                                 alt="something"
