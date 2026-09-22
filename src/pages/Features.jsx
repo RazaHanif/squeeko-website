@@ -95,7 +95,7 @@ function FeatureTabs() {
         },
         {
             trigger: "Daily Logs & Photos",
-            title: "Keep your day moving.",
+            title: "Capture the little moments.",
             desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next.",
             points: [
                 {
