@@ -88,7 +88,7 @@ function FeatureTabs() {
                     point: "Keep parents connected to what happend during the day."
                 },
                 {
-                    title: "Daily Updates", 
+                    title: "One Place", 
                     point: "Keep parents connected to what happend during the day."
                 },
             ],
