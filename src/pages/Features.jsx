@@ -221,7 +221,7 @@ function Features() {
                                 Nothing you don't.
                             </h2>
                             <p className="w-9/10 lg:w-3/4 text-center font-light">
-                                Squeeko brings the everyday work of running a childcare centre into one connected platform — from attendance and billing to compliance and family communication.
+                                Squeeko brings the everyday work of running a childcare centre into one connected platform, from attendance and billing to compliance and family communication.
                             </p>
                         </div>
 
