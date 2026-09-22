@@ -184,7 +184,7 @@ function FeatureTabs() {
                                 className="flex flex-col"
                                 key={title}
                             >
-                                <h2 className="text-secondary text-xl font-bold">
+                                <h2 className="text-xl font-bold">
                                     {title}
                                 </h2>
                                 <p className="">
