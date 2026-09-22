@@ -100,7 +100,7 @@ function FeatureTabs() {
             points: [
                 {
                     title: "Daily Logs", 
-                    point: "Know who's here and keep accurate attendance records."
+                    point: "Record notes and important details from the day."
                 },
                 {
                     title: "Ratios", 
