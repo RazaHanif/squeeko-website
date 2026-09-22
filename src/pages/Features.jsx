@@ -107,7 +107,7 @@ function FeatureTabs() {
                     point: "Capture and share moments with the right families."
                 },
                 {
-                    title: "Daily Routines", 
+                    title: "Child Updates", 
                     point: "Give your team an easier way to keep daily tasks on track."
                 },
                 {
