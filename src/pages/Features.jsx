@@ -1,6 +1,7 @@
 import Logo from "@/components/Logo";
 import SignUpSheet from "@/components/SignUpSheet";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { ChevronRight } from "lucide-react";
 
 
 function FeatureTabs() {
@@ -161,7 +162,7 @@ function FeatureTabs() {
                 </TabsList>
             </div>
             <div className="pointer-events-none absolute right-0 top-0 h-full w-12 bg-gradient-to-l from-background to transparent flex items-center justify-end">
-                <Chevron
+                <ChevronRight />
             </div>
             {data.map(({id, title, desc, points}) => (
                 <TabsContent value={id} key={id}>
