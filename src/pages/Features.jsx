@@ -147,7 +147,6 @@ function FeatureTabs() {
         <Tabs 
             defaultValue="schedule"
             className="w-full bg-green-500"
-            orientation="vertical"
         >
             <TabsList variant="line">
                 {data.map(({id, trigger}) => (
