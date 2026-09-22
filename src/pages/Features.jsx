@@ -147,7 +147,7 @@ function FeatureTabs() {
     return (
         <Tabs 
             defaultValue="schedule"
-            className="w-full flex-1 p-4 bg-secondary"
+            className="w-full flex-1 p-4"
         >
             <TabsList
                 className="w-full grid grid-cols-2 grid-rows-3 sm:grid-cols-3 sm:grid-rows-2 lg:grid-cols-6 lg:grid-rows-1 min-h-[8em] sm:min-h-[4em] lg:min-h-auto bg-card !rounded-2xl p-2"
