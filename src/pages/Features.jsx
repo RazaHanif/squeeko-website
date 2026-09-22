@@ -184,7 +184,7 @@ function FeatureTabs() {
                                 className="bg-primary flex flex-col"
                                 key={title}
                             >
-                                <h2 className="text-secondary">
+                                <h2 className="text-secondary text-2xl">
                                     {title}
                                 </h2>
                                 <p className="text-secondary">
