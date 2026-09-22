@@ -151,7 +151,7 @@ function FeatureTabs() {
         >
             <div className="w-full overflow-x-auto scrollbar-none">
                 <TabsList
-                    className="w-max min-w-full lg:w-full"
+                    className="w-full grid grid-cols-2 lg:"
                     variant="line"
                 >
                     {data.map(({id, trigger}) => (
