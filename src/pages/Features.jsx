@@ -85,7 +85,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Daily Updates", 
-                    point: "Give your team an easier way to keep daily tasks on track."
+                    point: "Keep parents connec."
                 },
             ],
         },
