@@ -76,7 +76,7 @@ function FeatureTabs() {
             desc: "Give parents a simple way to stay connected with their centre, while giving your team one place to manage everyday communication.",
             points: [
                 {
-                    title: "Attendance", 
+                    title: "Parent Messaging", 
                     point: "Know who's here and keep accurate attendance records."
                 },
                 {
