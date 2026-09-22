@@ -160,7 +160,7 @@ function FeatureTabs() {
                     ))}
                 </TabsList>
             </div>
-            <div className=""></div>
+            <div className="pointer-events-none absolute right-0 top-0 "></div>
             {data.map(({id, title, desc, points}) => (
                 <TabsContent value={id} key={id}>
                     <h2 className="font-serif text-2xl font-bold">
