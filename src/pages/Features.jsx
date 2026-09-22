@@ -163,7 +163,12 @@ function FeatureTabs() {
                         </p>
 
                         <div>
-                            {points.map(({title, point}))}
+                            {points.map(({title, point}) => (
+                                <div>
+                                    <h2>{title}</h2>
+                                    <p>{point}</p>
+                                </div>
+                            ))}
                         </div>
                     </TabsContent>
 
