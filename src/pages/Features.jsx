@@ -57,7 +57,7 @@ function FeatureTabs() {
                     point: "Move away from paper forms and keep everything in one place."
                 },
                 {
-                    title: "Ratios", 
+                    title: "Signatures", 
                     point: "Keep an eye on classroom ratios as your day changes."
                 },
                 {
