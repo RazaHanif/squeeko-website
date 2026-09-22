@@ -147,7 +147,7 @@ function FeatureTabs() {
         <Tabs defaultValue="account" className="w-[400px]">
             <TabsList>
                 {data.map((feature) => (
-                    <TabsTrigger value={feature.id} >
+                    <TabsTrigger value={feature.id} key={feature.id}>
                         {feature.trigger}
                     </TabsTrigger>
                 ))}
