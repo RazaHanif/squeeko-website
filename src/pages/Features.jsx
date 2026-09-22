@@ -119,7 +119,7 @@ function FeatureTabs() {
         {
             trigger: "Centre Management",
             title: "Run your centre in one place.",
-            desc: "Squeeko connects the people, inofrmation.",
+            desc: "Squeeko connects the people, information, and everyday work behind your centre so t.",
             points: [
                 {
                     title: "Attendance", 
