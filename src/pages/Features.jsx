@@ -144,7 +144,7 @@ function FeatureTabs() {
     ]
 
     return (
-        <Tabs defaultValue="account">
+        <Tabs defaultValue="schedule">
             <TabsList>
                 {data.map(({id, trigger}) => (
                     <TabsTrigger value={id} key={id}>
