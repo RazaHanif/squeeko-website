@@ -157,7 +157,8 @@ function FeatureTabs() {
                     {data.map(({id, trigger}) => (
                         <TabsTrigger 
                             value={id} 
-                            key={id} className={}>
+                            key={id} 
+                            className={}>
                             {trigger}
                         </TabsTrigger>
                     ))}
