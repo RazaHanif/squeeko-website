@@ -163,7 +163,7 @@ function FeatureTabs() {
                         </p>
 
                         <div>
-                            
+                            {points.map(({title, point}))}
                         </div>
                     </TabsContent>
 
