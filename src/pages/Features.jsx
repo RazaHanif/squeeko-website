@@ -159,7 +159,7 @@ function FeatureTabs() {
                             {trigger}
                         </TabsTrigger>
                     ))}
-                    <div className="pointer-events-none absolute right-0 top-0 h-full w-12 bg-gradient-to-l from-background to transparent flex items-center justify-end">
+                    <div className="pointer-events-none absolute right-0 top-0 h-full w-12 bg-gradient-to-l from-primary to transparent flex items-center justify-end">
                         <ChevronRight />
                     </div>
                 </TabsList>
