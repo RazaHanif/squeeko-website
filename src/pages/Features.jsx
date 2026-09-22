@@ -149,8 +149,9 @@ function FeatureTabs() {
             className="w-full bg-green-500"
         >
             <TabsList
-                className=""
-                variant="line">
+                className="w-max min-w-full lg:w-full"
+                variant="line"
+            >
                 {data.map(({id, trigger}) => (
                     <TabsTrigger value={id} key={id}>
                         {trigger}
