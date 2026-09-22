@@ -43,7 +43,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "One-Off Charges", 
-                    point: "Give your team an easier way to keep daily tasks on track."
+                    point: "Bill for field trips, acrivities, ."
                 },
             ],
         },
