@@ -80,7 +80,7 @@ function FeatureTabs() {
                     point: "Keep conversations between staff and families in one place."
                 },
                 {
-                    title: "Ratios", 
+                    title: "Daily Updates", 
                     point: "Keep an eye on classroom ratios as your day changes."
                 },
                 {
