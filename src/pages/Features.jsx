@@ -66,7 +66,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Status Tracking", 
-                    point: "Keep important records organized and easy to access."
+                    point: "See what's complete and what still needs attention."
                 },
             ],
         },
