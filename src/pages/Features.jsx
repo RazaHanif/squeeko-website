@@ -62,7 +62,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Record Keeping", 
-                    point: "Give your team an easier way to keep daily tasks on track."
+                    point: "Keep importa."
                 },
             ],
         },
