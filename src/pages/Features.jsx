@@ -6,8 +6,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 function FeatureTabs() {
     const data = [
         {
+            id: "schedule",
             trigger: "Scheduling",
-            
             title: "Keep your day moving.",
             desc: "From the moment children arrive to the moment they head home, Squeeko helps your team keep track of who's here, where they need to be, and what needs to happen next.",
             points: [
@@ -26,6 +26,7 @@ function FeatureTabs() {
             ],
         },
         {
+            id: "billing",
             trigger: "Billing",
             title: "Get paid without the paperwork.",
             desc: "Tuition shouldn't mean spreadsheets, reminders, and manual calculations every month. Squeeko helps automate your billing so your team can spend less time chasing payments.",
@@ -49,6 +50,7 @@ function FeatureTabs() {
             ],
         },
         {
+            id: "compliance",
             trigger: "Compliance",
             title: "Know what's done. Know what's missing.",
             desc: "Keep the forms, signatures, and records your centre relies on organized and accessible, so compliance doesn't live in a filling cabinet.",
@@ -72,6 +74,7 @@ function FeatureTabs() {
             ],
         },
         {
+            id: "schedule",
             trigger: "Communication",
             title: "Keep families in the loop.",
             desc: "Give parents a simple way to stay connected with their centre, while giving your team one place to manage everyday communication.",
