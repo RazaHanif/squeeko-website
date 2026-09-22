@@ -127,7 +127,7 @@ function FeatureTabs() {
                 },
                 {
                     title: "Staff Management", 
-                    point: "Know who's here and keep accurate attendance records."
+                    point: "Give your team the tools and information they need."
                 },
                 {
                     title: "Ratios", 
