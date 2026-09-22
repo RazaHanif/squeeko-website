@@ -227,7 +227,7 @@ function Features() {
                 </div>
             </section>
 
-            <section className="min-h-[calc(100vh-80px)] flex flex-col w-full bg-card">
+            <section className="min-h-[calc(100vh-80px)] flex flex-col w-full">
                 <FeatureTabs />
             </section>
             
