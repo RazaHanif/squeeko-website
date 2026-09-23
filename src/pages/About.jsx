@@ -116,8 +116,7 @@ export default function About() {
                     <div className="mt-20 grid grid-cols-1 lg:grid-cols-3 gap-6">
 
                         <div className="lg:col-span-2 aspect-[16/9] rounded-3xl overflow-hidden bg-secondary">
-                                <Logo icon={false} className="text-secondary-foreground" />
-                            </div>
+                            <Logo icon={false} className="text-secondary-foreground" />
                         </div>
 
                         <div className="hidden lg:flex rounded-3xl bg-primary p-10 items-end">
