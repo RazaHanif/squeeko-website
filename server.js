@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 app.all('/api/lead', (req, res) => handler(req, res));
-app.all('/api/lead', (req, res) => handler(req, res));
+app.all('/api/login', (req, res) => handler(req, res));
 
 app.listen(3001, () => {
   console.log('Server listening on port 3001');
