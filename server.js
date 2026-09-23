@@ -2,6 +2,7 @@
 import "dotenv/config";
 import express from 'express';
 import { handler as leadHandler } from './api/lead.js';
+import { handler as loginHandler } from './api/login.js';
 
 const app = express();
 app.use(express.json());
