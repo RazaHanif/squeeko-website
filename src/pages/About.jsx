@@ -407,7 +407,7 @@ export default function About() {
             <section className="border-b">
                 <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-20">
 
-                    <div className="relative aspect-[16/8] rounded-3xl overflow-hidden bg-secondaryflex justify-center items-center">
+                    <div className="relative aspect-[16/8] rounded-3xl overflow-hidden bg-secondary flex justify-center items-center">
                         <Logo icon={false} className="text-secondary-foreground text-4xl" />
 
                         <div className="absolute inset-0 flex items-end p-8 lg:p-16 bg-gradient-to-t from-black/50 to-transparent">
