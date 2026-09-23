@@ -14,7 +14,7 @@ function LogIn() {
                 </p>
 
 
-                <Logo />
+
             </div>
 
             {/* 
