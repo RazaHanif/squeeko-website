@@ -8,8 +8,6 @@ function LogIn() {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-export default function LoginForm() {
-    return (
         <form className="flex flex-col gap-6 w-full max-w-sm">
             <div className="flex flex-col gap-2">
                 <Label htmlFor="username">Username</Label>
@@ -33,8 +31,6 @@ export default function LoginForm() {
                 Log In
             </Button>
         </form>
-    )
-}
 
 
             {/* 
