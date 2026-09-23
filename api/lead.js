@@ -11,7 +11,7 @@ const formatPhone = (phoneNumber) => {
     return phoneNumber
 }
 
-export default async function handler(req, res) {
+export default async function leadHandler(req, res) {
     if (req.method !== "POST") {
         return res.status(405).json({
             success: false,
