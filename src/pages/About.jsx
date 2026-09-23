@@ -521,17 +521,6 @@ export default function About() {
                                 <Button
                                     asChild
                                     size="lg"
-                                    className="rounded-full px-8"
-                                >
-                                    <Link to="/contact">
-                                        Let's talk
-                                        <ArrowRight className="ml-2 size-4" />
-                                    </Link>
-                                </Button>
-
-                                <Button
-                                    asChild
-                                    size="lg"
                                     variant="outline"
                                     className="rounded-full px-8"
                                 >
