@@ -100,7 +100,7 @@ function LogIn() {
     return (
         <div className="flex flex-col flex-1 justify-center items-center w-full lg:py-16 py-8">
             <Card className="bg-primary/50 ring-primary p-8 gg w-full">
-                <CardContent class>
+                <CardContent className="flex fle">
                     <LoginForm />
                 </CardContent>
             </Card>
