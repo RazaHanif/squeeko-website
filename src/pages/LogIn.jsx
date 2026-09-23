@@ -97,7 +97,7 @@ function LoginForm() {
 function LogIn() {
     return (
         <div className="flex flex-col flex-1 justify-center items-center w-full lg:py-16 py-8 min-h-[calc(100vh-80px)]">
-            <Card className="bg-primary/50 ring-primary p-8 gg w-3/4">
+            <Card className="bg-primary/50 ring-primary p-8 gg w-md">
                 <CardContent className="flex justify-center items-center">
                     <LoginForm />
                 </CardContent>
