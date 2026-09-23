@@ -6,7 +6,7 @@ function LogIn() {
     return (
         <div className="flex flex-col flex-1 justify-center w-9/10 lg:w-3/4 lg:py-16 py-8">
 
-        <form className="flex flex-col gap-6 w-full max-w-sm">
+        <form className="flex flex-col gap-6 w-full max-w-sm bg-secondary">
             <div className="flex flex-col gap-2">
                 <Label htmlFor="username">Username</Label>
                 <Input
