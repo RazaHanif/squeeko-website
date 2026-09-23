@@ -79,11 +79,11 @@ function LoginForm() {
                 />
             </div>
 
-            {error && (
-                <p className="text-sm text-destructive">
+            <p className="text-sm text-destructive">
+                {error && (
                     {error}
-                </p>
-            )}
+                )}
+            </p>
 
             <Button
                 type="submit"
