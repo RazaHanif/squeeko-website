@@ -8,5 +8,8 @@ export default async function handler(req, res) {
 
     await new Promise((resolve) => setTimeout(resolve, 1000))
 
-    return res.status
+    return res.status(404).json({
+            success: true,
+            message: "Successfully Submitted."
+        })
 }
