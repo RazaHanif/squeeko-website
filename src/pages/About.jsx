@@ -87,6 +87,7 @@ import {
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import Logo from "@/components/Logo";
 
 export default function About() {
     return (
@@ -116,7 +117,7 @@ export default function About() {
 
                         <div className="lg:col-span-2 aspect-[16/9] rounded-3xl overflow-hidden bg-secondary">
                             <div className="w-full lg:w-3/4 border min-h-[200px] lg:min-h-full flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
-                                <Log icon={false} className="text-secondary-foreground" />
+                                <Logo icon={false} className="text-secondary-foreground" />
                             </div>
                         </div>
 
