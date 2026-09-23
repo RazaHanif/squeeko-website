@@ -520,7 +520,7 @@ export default function About() {
                                 <Button
                                     asChild
                                     size="lg"
-                                    variant="outline"
+                                    variant="secondary"
                                     className="rounded-full px-8"
                                 >
                                     <Link to="/features">
