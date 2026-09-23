@@ -95,7 +95,30 @@ function LoginForm() {
 function LogIn() {
     return (
         <div className="flex flex-col flex-1 justify-center items-center w-full lg:py-16 py-8">
+                                <Card className="bg-primary/50 ring-primary p-8 gg">
+                                    <CardContent>
+                                        <form
+                                            onSubmit={handleSubmit}
+                                            className="flex flex-col justify-center items-center gap-4"
+                                        >
+                                            <Input
+                                                id='password'
+                                                type='password'
+                                                value={password}
+                                                className={inputClass}
+                                                onChange={(e) => setPassword(e.target.value)}
+                                            />
             
+                                            <Button 
+                                                type="submit" 
+                                                variant="outline" 
+                                                className="w-2/3 cursor-pointer !bg-primary/50 !border-primary text-background hover:!bg-primary/75 hover:!text-background"
+                                            >
+                                                Enter
+                                            </Button>
+                                        </form>
+                                    </CardContent>
+                                </Card>
 
 
 
