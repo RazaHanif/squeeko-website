@@ -33,8 +33,8 @@ function LoginForm() {
                 setError(data.message || "User not found")
                 return
             }
-        } catch (error) {
-            setError("Something went wrong. Please try again.",  error)
+        } catch (err) {
+            setError("Something went wrong. Please try again.",  err)
         } finally {
             setLoading(false)
         }
