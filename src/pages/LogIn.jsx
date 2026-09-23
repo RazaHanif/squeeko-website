@@ -79,7 +79,7 @@ function LoginForm() {
                 />
             </div>
 
-            <p className="text-sm text-destructive min-h-">
+            <p className="text-sm text-destructive min-h-5">
                 {error}
             </p>
 
