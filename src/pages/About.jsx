@@ -517,7 +517,6 @@ export default function About() {
                             </p>
 
                             <div className="mt-10 flex flex-col sm:flex-row gap-4">
-
                                 <Button
                                     asChild
                                     size="lg"
