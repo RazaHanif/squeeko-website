@@ -523,8 +523,9 @@ export default function About() {
                                     variant="outline"
                                     className="rounded-full px-8"
                                 >
-                                    Explore Squeeko
-                                
+                                    <Link to="/features">
+                                        Explore Squeeko
+                                    </Link>
                                 </Button>
 
                             </div>
