@@ -5,4 +5,6 @@ export default async function handler(req, res) {
             message: "Method not allowed."
         })
     }
+
+    await new Promise((resolve))
 }
