@@ -1,12 +1,11 @@
 import Logo from "@/components/Logo";
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
 
 function LogIn() {
     return (
         <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
-
-            import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
 
         <form className="flex flex-col gap-6 w-full max-w-sm">
             <div className="flex flex-col gap-2">
