@@ -1,6 +1,96 @@
+import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+
+export default function LoginForm() {
+    const [username, setUsername] = useState("")
+    const [password, setPassword] = useState("")
+    const [loading, setLoading] = useState(false)
+    const [error, setError] = useState("")
+
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+
+        setLoading(true)
+        setError("")
+
+        try {
+            const response = await fetch("/api/login", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    username,
+                    password,
+                }),
+            })
+
+            const data = await response.json()
+
+            if (!response.ok) {
+                setError(data.message || "User not found")
+                return
+            }
+        } catch (error) {
+            setError("Something went wrong. Please try again.")
+        } finally {
+            setLoading(false)
+        }
+    }
+
+    return (
+        <form
+            onSubmit={handleSubmit}
+            className="flex flex-col gap-6 w-full max-w-sm"
+        >
+            <div className="flex flex-col gap-2">
+                <Label htmlFor="username">
+                    Username
+                </Label>
+
+                <Input
+                    id="username"
+                    type="text"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    placeholder="Username"
+                    required
+                />
+            </div>
+
+            <div className="flex flex-col gap-2">
+                <Label htmlFor="password">
+                    Password
+                </Label>
+
+                <Input
+                    id="password"
+                    type="password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    placeholder="Password"
+                    required
+                />
+            </div>
+
+            {error && (
+                <p className="text-sm text-destructive">
+                    {error}
+                </p>
+            )}
+
+            <Button
+                type="submit"
+                className="w-full"
+                disabled={loading}
+            >
+                {loading ? "Logging in..." : "Log In"}
+            </Button>
+        </form>
+    )
+}
 
 function LogIn() {
     return (
