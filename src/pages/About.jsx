@@ -91,8 +91,6 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function About() {
     return (
         <main className="w-full overflow-hidden">
-
-            {/* HERO */}
             <section className="min-h-[calc(100vh-80px)] flex items-center border-b">
                 <div className="w-full max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-32">
 
