@@ -99,8 +99,8 @@ export default function About() {
                         </p>
 
                         <h1 className="font-serif text-6xl sm:text-7xl lg:text-8xl xl:text-9xl leading-[0.9] tracking-tight">
-                            We're here to make
-                                childcare a little easier.
+                            We're here to make <br/>
+                            childcare a little easier.
                         </h1>
 
                         <div className="mt-12 max-w-2xl">
