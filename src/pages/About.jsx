@@ -88,7 +88,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
-export default function AboutUs() {
+export default function About() {
     return (
         <main className="w-full overflow-hidden">
 
