@@ -6,29 +6,29 @@ function LogIn() {
     return (
         <div className="flex flex-col flex-1 justify-center items-center w-full lg:py-16 py-8">
 
-        <form className="flex flex-col gap-6 w-full max-w-sm bg-secondary">
-            <div className="flex flex-col gap-2">
-                <Label htmlFor="username">Username</Label>
-                <Input
-                    id="username"
-                    type="text"
-                    placeholder="Enter your username"
-                />
-            </div>
+            <form className="flex flex-col gap-6 w-full max-w-sm bg-secondary">
+                <div className="flex flex-col gap-2">
+                    <Label htmlFor="username">Username</Label>
+                    <Input
+                        id="username"
+                        type="text"
+                        placeholder="Enter your username"
+                    />
+                </div>
 
-            <div className="flex flex-col gap-2">
-                <Label htmlFor="password">Password</Label>
-                <Input
-                    id="password"
-                    type="password"
-                    placeholder="Enter your password"
-                />
-            </div>
+                <div className="flex flex-col gap-2">
+                    <Label htmlFor="password">Password</Label>
+                    <Input
+                        id="password"
+                        type="password"
+                        placeholder="Enter your password"
+                    />
+                </div>
 
-            <Button type="submit" className="w-full">
-                Log In
-            </Button>
-        </form>
+                <Button type="submit" className="w-full">
+                    Log In
+                </Button>
+            </form>
 
 
             {/* 
