@@ -6,7 +6,7 @@ import {
   Card,
   CardContent,
 } from "@/components/ui/card"
-import Logo from "@/Logo"
+import Logo from "@/components/Logo"
 
 function LoginForm() {
     const [username, setUsername] = useState("")
