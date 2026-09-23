@@ -410,11 +410,9 @@ export default function About() {
                 <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-20">
 
                     <div className="relative aspect-[16/8] rounded-3xl overflow-hidden bg-secondary">
-                        <img
-                            src="/media/about-team.jpg"
-                            alt="Childcare team working together"
-                            className="w-full h-full object-cover"
-                        />
+                        <div className="w-full lg:w-3/4 border min-h-[200px] lg:min-h-full flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
+                                                    <Logo icon={false} className="text-secondary-foreground" />
+                                                </div>
 
                         <div className="absolute inset-0 flex items-end p-8 lg:p-16 bg-gradient-to-t from-black/50 to-transparent">
                             <p className="max-w-2xl text-white font-serif text-3xl lg:text-5xl leading-tight">
