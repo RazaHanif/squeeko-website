@@ -10,6 +10,6 @@ export default async function handler(req, res) {
 
     return res.status(404).json({
             success: false,
-            message: "Successfully Submitted."
+            message: "User not found."
         })
 }
