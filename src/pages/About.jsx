@@ -524,7 +524,7 @@ export default function About() {
                                     className="rounded-full px-8"
                                 >
                                         Explore Squeeko
-                                    </Link>
+                                
                                 </Button>
 
                             </div>
