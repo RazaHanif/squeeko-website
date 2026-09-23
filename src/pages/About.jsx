@@ -408,8 +408,7 @@ export default function About() {
                 <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-20">
 
                     <div className="relative aspect-[16/8] rounded-3xl overflow-hidden bg-secondaryflex justify-center items-center">
-                            <Logo icon={false} className="text-secondary-foreground text-4xl" />
-                        </div>
+                        <Logo icon={false} className="text-secondary-foreground text-4xl" />
 
                         <div className="absolute inset-0 flex items-end p-8 lg:p-16 bg-gradient-to-t from-black/50 to-transparent">
                             <p className="max-w-2xl text-white font-serif text-3xl lg:text-5xl leading-tight">
