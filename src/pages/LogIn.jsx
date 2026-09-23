@@ -80,9 +80,7 @@ function LoginForm() {
             </div>
 
             <p className="text-sm text-destructive">
-                {error && (
-                    {error}
-                )}
+
             </p>
 
             <Button
