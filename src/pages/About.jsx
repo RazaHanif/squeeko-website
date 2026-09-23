@@ -1,5 +1,3 @@
-import ScrollSnap from "@/components/gsap/ScrollSnap"
-
 function About() {
     return (
         <div className="flex flex-col justify-center items-center flex-1 gap-4 font-serif w-9/10 lg:w-3/4 lg:pb-16 pb-8">
