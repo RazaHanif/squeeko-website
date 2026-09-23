@@ -1,7 +1,7 @@
 // This file is just for testing api in local dev
 import "dotenv/config";
 import express from 'express';
-import handler from './api/lead.js';
+import { handler as leadHandler } from './api/lead.js';
 
 const app = express();
 app.use(express.json());
