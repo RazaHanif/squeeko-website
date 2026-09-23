@@ -102,7 +102,7 @@ export default function About() {
                         </p>
 
                         <h1 className="font-serif text-6xl sm:text-7xl lg:text-8xl xl:text-9xl leading-[0.9] tracking-tight">
-                            We’re here to make
+                            We'’'re here to make
                             <span className="block">
                                 childcare a little easier.
                             </span>
