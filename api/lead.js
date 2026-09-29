@@ -91,7 +91,7 @@ export default async function leadHandler(req, res) {
                 from: process.env.EMAIL_USER,
                 to: [
                         "squeekoapp@gmail.com", 
-                        // "squeekoadmin@gmail.com"
+                        "squeekoadmin@gmail.com"
                     ],
                 subject: "Website Form Submission",
                 text: `${formData.firstName} ${formData.lastName} has submitted the form. It has been added to the Google Sheet.`,

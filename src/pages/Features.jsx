@@ -148,10 +148,10 @@ function FeatureTabs() {
     return (
         <Tabs 
             defaultValue="schedule"
-            className="w-full flex-1 p-4"
+            className="w-full flex-1"
         >
             <TabsList
-                className="w-full grid grid-cols-2 grid-rows-3 sm:grid-cols-3 sm:grid-rows-2 lg:grid-cols-6 lg:grid-rows-1 min-h-[8em] sm:min-h-[4em] lg:min-h-auto bg-secondary !rounded-2xl p-2"
+                className="w-full grid grid-cols-2 grid-rows-3 sm:grid-cols-3 sm:grid-rows-2 lg:grid-cols-6 lg:grid-rows-1 min-h-[8em] sm:min-h-[4em] lg:min-h-[2em] bg-secondary !rounded-2xl p-2"
                 variant="line"
             >
                 {data.map(({id, trigger}) => (
@@ -211,7 +211,7 @@ function FeatureTabs() {
 
 function Features() {
     return (
-        <ScrollSnap className="flex flex-col justify-center items-center flex-1 w-full lg:pb-16 pb-8">
+        <ScrollSnap className="flex flex-col justify-center items-center flex-1 w-full">
             <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full mt-16 lg:mt-0">
                 <div className="flex lg:flex-row flex-col justify-center items-center lg:items-stretch w-full gap-8 lg:gap-0">
                     <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
@@ -244,19 +244,18 @@ function Features() {
                 </div>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col w-full p-8 bg-secondary/25">
+            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col w-full p-8 bg-accent">
                 <FeatureTabs />
             </section>
             
 
 
-            {/* 
-            
+{/*             
             <StructData schema={localBusinessSchema} />
             <StructData schema={organizationSchema} />
             <StructData schema={websiteSchema} /> 
-            
-            */}
+*/}
+
 
             <title>Child Care Management Software | SQUEEKO</title>
 

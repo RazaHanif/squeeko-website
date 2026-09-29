@@ -5,25 +5,24 @@ function NotFound() {
     const navigate = useNavigate()
 
     return (
-        <div className="flex flex-col flex-1 w-9/10 lg:w-3/4 lg:py-16 py-8">
-            <div className="w-full flex justify-center items-center pb-8">
-                <h1 className="text-4xl lg:text-5xl font-serif">
-                    404 Not Found
-                </h1>
-            </div>
-
-            <div className="flex flex-col justify-center items-center w-full text-muted-foreground gap-16">
-                <p>
-                    This firstly needs a proper 404 error from vercel, but also this button should be nicer
-                </p>
-
-                <Button
-                    className="cursor-pointer"
-                    onClick={() => navigate('/')}
-                >
-                    Go Home!
-                </Button>
-            </div>
+        <div className="flex-1 flex flex-col justify-center items-center w-full">
+            <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-16 w-full bg-[url('/404.svg')] bg-cover bg-center">
+                <div className="flex">
+                    <h1 className="text-5xl font-serif text-center font-semibold">
+                        404 <br/>
+                        Not Found
+                    </h1>
+                </div>
+                <div className="w-1/4">
+                    <Button
+                        variant="default"
+                        className="w-full cursor-pointer p-6 border border-primary-foreground"
+                        onClick={() => navigate('/')}
+                        >
+                        Go Home!
+                    </Button>
+                </div>
+            </section>
 
             {/* 
             

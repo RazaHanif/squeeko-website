@@ -86,10 +86,10 @@ function FooterLinks() {
 
 function Footer() {
     return (
-        <div className="flex flex-col justify-center items-center w-full border-t">
+        <div className="flex flex-col justify-center items-center w-full border-t bg-background z-50">
             <div className="flex-1 flex lg:flex-row flex-col w-9/10 lg:py-8 py-4">
                 <div className="lg:hidden flex px-4">
-                    <FooterAccordion />
+                    {/* <FooterAccordion /> */}
                 </div>
                 <div className="flex-1 flex flex-col justify-start items-start w-9/10 p-4 gap-4 text-muted-foreground">
                     <Logo className="text-3xl"/>
@@ -105,13 +105,13 @@ function Footer() {
                     </div>
                 </div>
                 
-                <div className="flex-1 lg:flex hidden flex-col items-center justify-start gap-2 p-4">
+                {/* <div className="flex-1 lg:flex hidden flex-col items-center justify-start gap-2 p-4">
                     <FooterLinks />
-                </div>
+                </div> */}
             </div>
 
-            <div className="flex flex-col lg:flex-row justify-center lg:justify-around items-center w-9/10 gap-2 border-t lg:py-8 py-4">
-                <div className="flex flex-row gap-2 lg:gap-6 text-xs w-full lg:justify-start justify-around flex-wrap text-muted-foreground">
+            <div className="flex flex-col  justify-center lg:justify-around items-center w-9/10 gap-2 border-t lg:py-8 py-4">
+                {/* <div className="flex flex-row gap-2 lg:gap-6 text-xs w-full lg:justify-start justify-around flex-wrap text-muted-foreground">
                     {legalLinks.map(({ title, link }) => (
                         <NavLink 
                             key={link}
@@ -122,7 +122,7 @@ function Footer() {
                             {title}
                         </NavLink>
                     ))}
-                </div>
+                </div> */}
                 <div className="flex flex-row flex-2">
                     <h2 
                         className="text-xs font-semibold text-nowrap text-muted-foreground font-mono flex flex-row justify-center items-center text-center gap-2"

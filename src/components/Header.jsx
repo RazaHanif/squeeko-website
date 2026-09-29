@@ -1,4 +1,4 @@
-import { NavLink, useNavigate } from "react-router-dom"
+import { NavLink, useLocation, useNavigate } from "react-router-dom"
 import {
   Sheet,
   SheetClose,
@@ -42,8 +42,7 @@ function DesktopNav() {
     return (
         <NavigationMenu className="lg:flex hidden">
             <NavigationMenuList className="gap-2">
-
-                {Object.entries(links)
+                {/* {Object.entries(links)
                     .filter(([ category ]) => category !== "Company")
                     .map(([ category, items ]) => (
                         <NavigationMenuItem key={category}>
@@ -65,8 +64,20 @@ function DesktopNav() {
                             </NavigationMenuContent>
                         </NavigationMenuItem>
                     )
+                )} */}
+                {links.Product
+                    .filter(({ title }) => title === "Features")
+                    .map(({ title, link }) => (
+                        <NavigationMenuItem key={link}>
+                            <NavigationMenuLink 
+                                onClick={() => navigate(link)}
+                                className="cursor-pointer text-xl text-primary inline-flex h-9 w-max px-2.5 py-1.5 hover:bg-muted hover:text-primary"
+                            >
+                                {title}
+                            </NavigationMenuLink>
+                        </NavigationMenuItem>
+                    )
                 )}
-
                 {links.Company
                     .filter(({ title }) => title === "About Us")
                     .map(({ title, link }) => (
@@ -119,7 +130,7 @@ function MobileNav() {
                 </SheetHeader>
 
                 <Accordion>
-                    {Object.entries(links)
+                    {/* {Object.entries(links)
                         .filter(([category]) => category !== "Company")
                         .map(([ category, items ]) => (
                         <AccordionItem
@@ -147,8 +158,24 @@ function MobileNav() {
                                 ))}
                             </AccordionContent>
                         </AccordionItem>
-                    ))}
+                    ))} */}
 
+                    {links.Product
+                        .filter(({ title }) => title === "Features")
+                        .map(({ title, link }) => (
+                            <AccordionItem 
+                                key={link}
+                                value={title}
+                                className="border-b hover:bg-gradient-to-r from-background to-primary/40 px-10"
+                            >
+                                <SheetClose
+                                    onClick={() => navigate(link)}
+                                    className="text-lg text-primary cursor-pointer items-start w-full border border-transparent py-4 text-left font-medium outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50"
+                                >
+                                    {title}
+                                </SheetClose>
+                            </AccordionItem>
+                        ))}
                     {links.Company
                         .filter(({ title }) => title === "About Us")
                         .map(({ title, link }) => (
@@ -195,7 +222,9 @@ function Header() {
                 scrolled 
                 ? 'border-b' 
                 : 'border-b-0'
-            }`}
+            }`
+        }
+
         >
             <div className="flex-1 flex justify-start items-center">
                 <NavLink

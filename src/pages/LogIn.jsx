@@ -59,7 +59,6 @@ function LoginForm() {
                     type="text"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
-                    placeholder="Username"
                     required
                 />
             </div>
@@ -74,7 +73,6 @@ function LoginForm() {
                     type="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    placeholder="Password"
                     required
                 />
             </div>
@@ -96,22 +94,23 @@ function LoginForm() {
 
 function LogIn() {
     return (
-        <div className="flex flex-col flex-1 justify-center items-center w-full lg:py-16 py-8 min-h-[calc(100vh-80px)]">
-            <Card className="bg-primary/50 ring-primary p-8 gg w-md">
-                <CardContent className="flex justify-center items-center">
-                    <LoginForm />
-                </CardContent>
-            </Card>
+        <div className="flex-1 flex flex-col justify-center items-center w-full background bg-background overflow-hidden lg:py-16 py-8 min-h-[calc(100vh-80px)]">
 
+            <div className="flex justify-center items-center gap-4 flex-1 flex-col w-9/10 lg:w-3/4 lg:py-16 py-8 z-10">
+                <div className="flex flex-col justify-center items-center w-full">
+                    <Card className="bg-primary/50 ring-primary p-8 gg w-md">
+                        <CardContent className="flex justify-center items-center">
+                            <LoginForm />
+                        </CardContent>
+                    </Card>
+                </div>
+            </div>
 
-
-            {/* 
-            
+{/*             
             <StructData schema={localBusinessSchema} />
             <StructData schema={organizationSchema} />
             <StructData schema={websiteSchema} /> 
-            
-            */}
+*/}
 
             <title>Child Care Management Software | SQUEEKO</title>
 

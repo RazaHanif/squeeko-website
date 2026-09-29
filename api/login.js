@@ -10,6 +10,6 @@ export default async function loginHandler(req, res) {
 
     return res.status(404).json({
             success: false,
-            message: "User not found."
+            message: "Incorrect username or password. Please try again."
         })
 }

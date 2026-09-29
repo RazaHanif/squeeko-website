@@ -1,85 +1,8 @@
-
-
-
-
-// function About() {
-//     return (
-//         <div className="flex flex-col justify-center items-center flex-1 gap-4 font-serif w-9/10 lg:w-3/4 lg:pb-16 pb-8">
-//             <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary text-muted-foreground">
-//                 <h1 className="text-4xl lg:text-5xl font-serif text-center">
-//                     About
-//                 </h1>
-//             </section>
-
-//             <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-gradient-to-l from-background to-primary text-muted-foreground">
-//                 <p className="w-3/4 text-center text-2xl">
-//                     This should have some contact info, mission, vision, and values format for a base. 
-//                 </p>
-//             </section>
-
-//             <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-gradient-to-r from-background to-primary text-muted-foreground">
-//                 <p className="w-3/4 text-center text-2xl">
-//                     Features
-//                 </p>
-//             </section>
-
-//             <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center w-full bg-gradient-to-l from-background to-primary text-muted-foreground">
-//                 <p className="w-3/4 text-center text-2xl">
-//                     CTA
-//                 </p>
-//             </section>
-
-//             {/* 
-            
-//             <StructData schema={localBusinessSchema} />
-//             <StructData schema={organizationSchema} />
-//             <StructData schema={websiteSchema} /> 
-            
-//             */}
-
-//             <title>
-//                 Child Care Management Software | SQUEEKO
-//             </title>
-
-//             <meta
-//                 name="description"
-//                 content="SQUEEKO is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
-//             />
-
-//             <meta 
-//                 property="og:title"
-//                 content="Child Care Management Software | SQUEEKO"
-//             />
-//             <meta
-//                 property="og:description"
-//                 content="SQUEEKO is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
-//             />
-//             <meta 
-//                 property="og:type"
-//                 content="website"
-//             />
-//             <meta
-//                 property="og:url"
-//                 content="https://www.squeeko.ca/"
-//             />
-//             <meta
-//                 property="og:image"
-//                 content="https://www.squeeko.ca/media/og-image.jpg"
-//             />
-//             <meta
-//                 property="og:image:alt"
-//                 content="SQUEEKO Child Care Management Software Logo"
-//             />
-//         </div>
-//     )
-// }
-
-// export default About
-
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
     Heart,
     Lightbulb,
+    PencilSparkles,
     Sparkles,
     Users,
 } from "lucide-react";
@@ -87,451 +10,384 @@ import {
 import { Button } from "@/components/ui/button";
 import Logo from "@/components/Logo";
 
-export default function About() {
+function About() {
+    const navigate = useNavigate();
+
     return (
-        <div className="w-full overflow-hidden bg-blue-50">
-            <section className="min-h-[calc(100vh-80px)] flex items-center">
-                <div className="w-full max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-32 bg-accent">
-                    <div className="max-w-5xl bg-accent">
-                        <p className="mb-8 text-sm font-medium tracking-[0.2em] text-muted-foreground">
-                            ABOUT SQUEEKO
-                        </p>
-
-                        <h1 className="font-serif text-6xl sm:text-7xl lg:text-8xl xl:text-9xl leading-[0.9] tracking-tight">
-                            We're here to make <br/>
-                            childcare a little easier.
-                        </h1>
-
-                        <div className="mt-12 max-w-2xl">
-                            <p className="text-xl lg:text-2xl leading-relaxed text-muted-foreground">
-                                Running a childcare centre means taking care of
-                                a lot of people. The children. The families.
-                                Your educators. And, somehow, the business too.
+        <div className="w-full overflow-hidden">
+            <section className="min-h-[calc(100vh-80px)] w-full flex items-center">
+                <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex flex-col">
+                    <div className="flex flex-col lg:flex-row gap-8">
+                        <div className="flex-4">
+                            <p className="mb-8 text-xs tracking-[0.2em]">
+                                ABOUT SQUEEKO.
                             </p>
-                        </div>
-                    </div>
-
-                    <div className="mt-20 grid grid-cols-1 lg:grid-cols-3 gap-6">
-                        <div className="lg:col-span-2 aspect-[16/9] rounded-3xl overflow-hidden bg-secondary flex justify-center items-center">
-                            <Logo icon={false} className="text-secondary-foreground text-4xl" />
-                        </div>
-
-                        <div className="hidden lg:flex rounded-3xl bg-primary p-10 items-end">
-                            <div>
-                                <Sparkles className="size-10 mb-8" />
-
-                                <p className="text-2xl font-medium leading-snug">
-                                    Built for the people who make childcare
-                                    happen every day.
+                            <h1 className="font-serif text-5xl leading-[0.9] tracking-tight">
+                                Helping the people <br />
+                                who nurture the little ones.
+                            </h1>
+                            <div className="mt-12 max-w-2xl">
+                                <p className="leading-relaxed text-muted-foreground">
+                                    Running a childcare centre means wearing a
+                                    dozen hats at once, educator, manager,
+                                    administrator, and resident problem solver.
+                                    We're here to lighten that load.
                                 </p>
                             </div>
                         </div>
 
+                        <div className="hidden lg:flex flex-col flex-1 bg-primary text-secondary-foreground p-10 items-end justify-center rounded-xl w-full border border-secondary-foreground">
+                            <PencilSparkles className="size-10 mb-8" />
+                            <p className="text-xl">
+                                Built specifically for Ontario childcare teams
+                                who deserve tools as caring as they are.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="lg:hidden mt-20 grid grid-cols-1 gap-6">
+                        <div className="aspect-[16/9] overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl w-full border border-secondary-foreground">
+                            <Logo
+                                icon={false}
+                                className="text-secondary-foreground text-xl"
+                            />
+                        </div>
                     </div>
                 </div>
             </section>
 
-
-            {/* INTRO */}
-            <section className="border-b">
-                <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-36">
-
-                    <div className="grid lg:grid-cols-2 gap-16 lg:gap-32">
-
-                        <div>
-                            <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
-                                A little about us
-                            </p>
+            <section className="hidden lg:flex w-full">
+                <div className="w-3/4 mx-auto flex flex-col">
+                    <div className="grid grid-cols-1 gap-6">
+                        <div className="aspect-[16/9] overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl w-full border border-secondary-foreground">
+                            <Logo
+                                icon={false}
+                                className="text-secondary-foreground text-xl"
+                            />
                         </div>
+                    </div>
+                </div>
+            </section>
 
-                        <div className="space-y-8">
-                            <h2 className="font-serif text-4xl lg:text-6xl leading-tight">
+            <section className="min-h-[calc(100vh-80px)] w-full bg-[url('/about-mission.svg')] bg-cover bg-center">
+                <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex flex-col">
+                    <div className="flex flex-col lg:flex-row gap-16 lg:gap-32">
+                        <div className="flex-1">
+                            <p className="text-xs">A LITTLE ABOUT US.</p>
+                        </div>
+                        <div className="flex-2 flex flex-col gap-8">
+                            <h2 className="font-serif text-4xl">
                                 Childcare is complicated enough.
                             </h2>
-
-                            <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
+                            <div className="flex flex-col gap-6 font-light">
                                 <p>
-                                    There are attendance records to keep,
-                                    forms to collect, ratios to manage,
-                                    families to communicate with, payments to
-                                    track, and regulations to stay on top of.
+                                    Between maintaining strict room ratios,
+                                    keeping track of Ministry of Education
+                                    requirements, managing wait lists, and
+                                    updating parents, your day is already packed
+                                    before you even open the doors.
                                 </p>
-
                                 <p>
-                                    The software shouldn't add to that.
+                                    Your management software shouldn't feel like
+                                    another job on your to-do list.
                                 </p>
-
                                 <p>
-                                    That's why we're building Squeeko
-                                    specifically for childcare centres —
-                                    bringing the everyday pieces of running a
-                                    centre together in one connected place.
-                                </p>
-
-                                <p className="text-foreground text-xl">
-                                    We want Squeeko to feel less like another
-                                    piece of software and more like another
-                                    member of your team.
+                                    That's why we created Squeeko: to give
+                                    Ontario childcare directors and educators a
+                                    single, intuitive place to handle
+                                    compliance, daily logs, and centre logistics
+                                    without the usual headache.
                                 </p>
                             </div>
                         </div>
+                    </div>
+                </div>
 
+                <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 pb-24 lg:pb-36 flex flex-col">
+                    <div className="flex flex-col lg:flex-row gap-16 lg:gap-32">
+                        <div className="flex-1">
+                            <p className="text-xs">OUR MISSION.</p>
+                        </div>
+                        <div className="flex-2 flex flex-col gap-8">
+                            <h2 className="font-serif text-4xl">
+                                Give educators back their time.
+                            </h2>
+                            <div className="flex flex-col gap-6 font-light">
+                                <p>
+                                    You don't need more complex software with
+                                    fifty buttons you'll never press. You need
+                                    simple, thoughtful tools that work quietly
+                                    in the background.
+                                </p>
+                                <p>
+                                    Squeeko brings attendance, Ministry
+                                    compliance checks, fee structures, and
+                                    family communication into one smooth system,
+                                    so you can focus on building a safe, happy
+                                    environment for kids to grow.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-
-            {/* MISSION */}
-            <section className="border-b">
-                <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-36">
-
-                    <div className="grid lg:grid-cols-12 gap-12">
-
-                        <div className="lg:col-span-4">
-                            <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
-                                Our mission
-                            </p>
+            <section className="min-h-[calc(100vh-80px)] w-full bg-primary flex">
+                <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex justify-center">
+                    <div className="w-full flex flex-col lg:flex-row gap-16 lg:gap-32">
+                        <div className="flex-1 flex flex-col justify-center lg:justify-start ">
+                            <div className="flex-1 lg:flex-0">
+                                <p className="text-xs">OUR VISION.</p>
+                            </div>
+                            <div className="flex-2 lg:flex-0 flex flex-col gap-8">
+                                <h2 className="font-serif text-4xl">
+                                    Smoother operations. <br />
+                                    Supported educators. <br />
+                                    Thriving centres.
+                                </h2>
+                            </div>
                         </div>
-
-                        <div className="lg:col-span-8">
-                            <h2 className="font-serif text-5xl lg:text-7xl leading-[0.95] tracking-tight">
-                                Make childcare
-                                <span className="block text-muted-foreground">
-                                    easier to run.
-                                </span>
-                            </h2>
-
-                            <p className="mt-12 max-w-2xl text-xl leading-relaxed text-muted-foreground">
-                                We believe childcare operators should have
-                                better tools. Not more tools — better ones.
-                            </p>
-
-                            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-                                Squeeko brings scheduling, attendance,
-                                compliance, communication, and billing into
-                                one connected place, giving centre owners and
-                                their teams more time to focus on the children
-                                and families who depend on them.
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-
-            {/* VISION */}
-            <section className="border-b bg-secondary">
-                <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-36">
-
-                    <div className="grid lg:grid-cols-2 gap-16 items-center">
-
-                        <div>
-                            <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
-                                Our vision
-                            </p>
-
-                            <h2 className="mt-8 font-serif text-5xl lg:text-7xl leading-[0.95]">
-                                Better centres.
-                                <br />
-                                Happier teams.
-                                <br />
-                                Stronger communities.
-                            </h2>
-                        </div>
-
-                        <div className="lg:pl-12">
-                            <div className="aspect-square rounded-full overflow-hidden">
-                                <img
-                                    src="/media/about-vision.jpg"
-                                    alt="Children playing together"
-                                    className="w-full h-full object-cover"
+                        <div className="w-full flex-1 flex flex-col justify-center items-center overflow-hidden">
+                            <div className="w-full aspect-[16/9] overflow-hidden flex flex-col justify-center items-center flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl border border-secondary-foreground">
+                                <Logo
+                                    icon={false}
+                                    className="text-secondary-foreground text-xl"
                                 />
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
 
-
-            {/* VALUES */}
-            <section className="border-b">
-                <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-36">
-
+            <section className="min-h-[calc(100vh-80px)] w-full border-y">
+                <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex justify-center flex-col">
                     <div className="mb-16 lg:mb-24">
-                        <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
-                            What we believe
-                        </p>
+                        <p className="text-xs">WHAT WE BELIEVE.</p>
 
-                        <h2 className="mt-6 max-w-3xl font-serif text-5xl lg:text-7xl leading-tight">
-                            Build things people
-                            <span className="text-muted-foreground">
-                                {" "}actually want to use.
-                            </span>
+                        <h2 className="mt-6 max-w-3xl font-serif text-4xl">
+                            Software should feel like an extra set of hands.
                         </h2>
                     </div>
-
-
                     <div className="grid md:grid-cols-2 gap-x-12 gap-y-0">
-
-                        {/* VALUE 01 */}
                         <div className="border-t py-12">
                             <div className="flex items-start justify-between gap-8">
-                                <span className="text-sm text-muted-foreground">
-                                    01
-                                </span>
-
-                                <div className="max-w-xl">
+                                <div className="w-full">
                                     <Heart className="size-7 mb-8" />
-
-                                    <h3 className="font-serif text-3xl lg:text-4xl">
-                                        Built for childcare.
+                                    <h3 className="font-serif text-3xl">
+                                        Rooted in local reality.
                                     </h3>
-
-                                    <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-                                        Childcare isn't just another industry
-                                        with a calendar and a payment system.
-                                        There are ratios, licensing
-                                        requirements, daily logs, parent
-                                        communication, forms, and a hundred
-                                        little things that make running a
-                                        centre different.
+                                    <p className="mt-5 text-muted-foreground">
+                                        Childcare rules in Ontario are unique.
+                                        Generic software built for generic
+                                        businesses just doesn't cut it when
+                                        you're managing provincial standards,
+                                        subsidy reporting, and daily attendance
+                                        logs.
                                     </p>
-
-                                    <p className="mt-5 text-lg leading-relaxed">
-                                        Your software should understand that.
+                                    <p className="mt-5 text-muted-foreground">
+                                        We design specifically around your
+                                        actual daily regulations.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-
-                        {/* VALUE 02 */}
                         <div className="border-t py-12">
                             <div className="flex items-start justify-between gap-8">
-                                <span className="text-sm text-muted-foreground">
-                                    02
-                                </span>
-
-                                <div className="max-w-xl">
+                                <div className="w-full">
                                     <Lightbulb className="size-7 mb-8" />
-
-                                    <h3 className="font-serif text-3xl lg:text-4xl">
-                                        Keep it simple.
+                                    <h3 className="font-serif text-3xl">
+                                        Delightfully uncomplicated.
                                     </h3>
-
-                                    <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-                                        Running a centre is already
-                                        complicated. Your software shouldn't
-                                        be.
+                                    <p className="mt-5 text-muted-foreground">
+                                        If a tool requires a 40-page manual or
+                                        hours of staff training, it's missing
+                                        the point.
                                     </p>
-
-                                    <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-                                        We believe the best tools are the ones
-                                        your team can pick up and understand
-                                        without a manual, a training course,
-                                        or three different tabs open.
+                                    <p className="mt-5 text-muted-foreground">
+                                        We test every workflow to ensure your
+                                        team can log in, get what they need done
+                                        in seconds, and get right back to the
+                                        children.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-
-                        {/* VALUE 03 */}
                         <div className="border-t py-12">
                             <div className="flex items-start justify-between gap-8">
-                                <span className="text-sm text-muted-foreground">
-                                    03
-                                </span>
-
-                                <div className="max-w-xl">
+                                <div className="w-full">
                                     <Users className="size-7 mb-8" />
-
-                                    <h3 className="font-serif text-3xl lg:text-4xl">
-                                        People come first.
+                                    <h3 className="font-serif text-3xl">
+                                        Relationships over records.
                                     </h3>
-
-                                    <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-                                        Technology is only useful when it
-                                        makes people's lives better.
+                                    <p className="mt-5 text-muted-foreground">
+                                        At its core, early childhood education
+                                        is about trust between families and
+                                        educators.
                                     </p>
-
-                                    <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-                                        Squeeko exists to support the people
-                                        behind childcare — owners, directors,
-                                        educators, and families.
+                                    <p className="mt-5 text-muted-foreground">
+                                        Squeeko handles the administrative
+                                        clutter so you have more brain space for
+                                        clear communication, warm updates, and
+                                        meaningful connections.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-
-                        {/* VALUE 04 */}
                         <div className="border-t py-12">
                             <div className="flex items-start justify-between gap-8">
-                                <span className="text-sm text-muted-foreground">
-                                    04
-                                </span>
-
-                                <div className="max-w-xl">
+                                <div className="w-full">
                                     <Sparkles className="size-7 mb-8" />
-
-                                    <h3 className="font-serif text-3xl lg:text-4xl">
-                                        Keep getting better.
+                                    <h3 className="font-serif text-3xl">
+                                        Always learning, always listening.
                                     </h3>
-
-                                    <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-                                        Squeeko isn't finished. And we don't
-                                        think it ever should be.
+                                    <p className="mt-5 text-muted-foreground">
+                                        Regulations change, technology shifts,
+                                        and your centre's needs evolve over
+                                        time.
                                     </p>
-
-                                    <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-                                        We're building alongside childcare
-                                        operators, listening to what works,
-                                        paying attention to what doesn't, and
-                                        continuously improving the product.
+                                    <p className="mt-5 text-muted-foreground">
+                                        We regularly collaborate with real
+                                        Ontario directors to refine our
+                                        platform, because the best features come
+                                        straight from the classroom floor.
                                     </p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
 
-
-            {/* LARGE IMAGE / STORY BREAK */}
-            <section className="border-b">
-                <div className="max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-20">
-
-                    <div className="relative aspect-[16/8] rounded-3xl overflow-hidden bg-secondary flex justify-center items-center">
-                        <Logo icon={false} className="text-secondary-foreground text-4xl" />
-
-                        <div className="absolute inset-0 flex items-end p-8 lg:p-16 bg-gradient-to-t from-black/50 to-transparent">
-                            <p className="max-w-2xl text-white font-serif text-3xl lg:text-5xl leading-tight">
-                                Good software should give people more time for
-                                the things that matter.
-                            </p>
+            <section className="min-h-[calc(100vh-80px)] w-full bg-primary">
+                <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex justify-center">
+                    <div className="flex flex-col lg:flex-row gap-16 lg:gap-32">
+                        <div className="flex-1">
+                            <p className="text-xs">WHY SQUEEKO?</p>
                         </div>
-                    </div>
-
-                </div>
-            </section>
-
-
-            {/* WHY SQUEEKO */}
-            <section className="border-b">
-                <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-36">
-
-                    <div className="grid lg:grid-cols-12 gap-12">
-
-                        <div className="lg:col-span-4">
-                            <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
-                                Why Squeeko?
-                            </p>
-                        </div>
-
-                        <div className="lg:col-span-8">
-
-                            <h2 className="font-serif text-5xl lg:text-7xl leading-[0.95]">
-                                Because childcare deserves
-                                <span className="text-muted-foreground">
-                                    {" "}better software.
-                                </span>
+                        <div className="flex-2 flex flex-col gap-8">
+                            <h2 className="font-serif text-4xl">
+                                Software designed for how centres actually run.
                             </h2>
 
-                            <div className="mt-12 space-y-6 max-w-2xl text-lg lg:text-xl leading-relaxed text-muted-foreground">
+                            <div className="flex flex-col gap-6 font-light">
                                 <p>
-                                    There are plenty of platforms that can
-                                    help you run a business.
+                                    Most administrative tools are built to
+                                    handle general business tasks: invoicing
+                                    here, spreadsheets there, messaging
+                                    somewhere else.
                                 </p>
-
                                 <p>
-                                    We wanted to build one that understands
-                                    <span className="text-foreground">
-                                        {" "}your business.
-                                    </span>
+                                    Childcare is different. It's fluid, human,
+                                    and heavily regulated.
                                 </p>
-
                                 <p>
-                                    Squeeko is made specifically for
-                                    childcare — from the way attendance works
-                                    to the way families communicate, forms get
-                                    signed, and payments get collected.
+                                    We built Squeeko from the ground up
+                                    specifically for childcare
+                                    environments, connecting daily attendance,
+                                    Ministry compliance, reporting, and parent
+                                    communication into one effortless workflow.
+                                </p>
+                                <p>
+                                    One intuitive place. <br />
+                                    Built with care in Ontario.
                                 </p>
                             </div>
-
-                            <div className="mt-12 flex items-center gap-3 text-lg">
-                                <span>
-                                    One place.
-                                </span>
-
-                                <span className="text-muted-foreground">
-                                    One connected system.
-                                </span>
-                            </div>
-
                         </div>
-
                     </div>
                 </div>
             </section>
 
-
-            {/* GETTING STARTED */}
-            <section>
-                <div className="max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-40">
-
-                    <div className="grid lg:grid-cols-2 gap-16 items-end">
-
-                        <div>
-                            <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground">
-                                And we're just getting started.
+            <section className="min-h-[calc(100vh-80px)] w-full bg-primary flex">
+                <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 self-center">
+                    <div className="relative aspect-[16/9] overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary p-10 rounded-xl w-full border border-secondary-foreground">
+                        <Logo
+                            icon={true}
+                            words={false}
+                            className="text-secondary-foreground text-xl"
+                        />
+                        <div className="absolute inset-0 flex items-end p-8 lg:p-16 bg-gradient-to-t from-primary/75 to-transparent">
+                            <p className="max-w-2xl text-primary-foreground font-serif text-3xl lg:text-4xl">
+                                Because your 2:00 PM shouldn't be spent
+                                wrestling with compliance paperwork.
                             </p>
-
-                            <h2 className="mt-8 font-serif text-6xl lg:text-8xl leading-[0.9] tracking-tight">
-                                Let's build
-                                <span className="block text-muted-foreground">
-                                    something better.
-                                </span>
-                            </h2>
                         </div>
+                    </div>
+                </div>
+            </section>
 
-                        <div className="lg:pb-2 lg:pl-12">
+            <section className="min-h-[calc(100vh-80px)] w-full bg-[url('/about-cta.svg')] bg-cover bg-center">
+                <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex flex-col">
+                    <div className="flex-2 flex flex-col gap-8">
+                        <h2 className="font-serif text-4xl">
+                            Let's simplify <br />
+                            childcare.
+                        </h2>
 
-                            <p className="text-xl leading-relaxed text-muted-foreground">
+                        <div className="flex flex-col gap-6 font-light">
+                            <p>
                                 Squeeko is being built with real childcare
                                 centres, real educators, and real feedback.
                             </p>
-
-                            <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
+                            <p>
                                 We're not trying to build the biggest
                                 software company in the world.
                             </p>
-
-                            <p className="mt-6 text-xl leading-relaxed">
-                                We're trying to build something really useful.
+                            <p>
+                                We're trying to build something really
+                                useful.
                             </p>
-
-                            <div className="mt-10 flex flex-col sm:flex-row gap-4">
+                            <div className="flex flex-row justify-center items-center gap-6 w-1/2 lg:w-1/4">
                                 <Button
-                                    asChild
-                                    size="lg"
-                                    variant="secondary"
-                                    className="rounded-full px-8"
+                                    variant="default"
+                                    className="w-full cursor-pointer p-6 border border-primary-foreground"
+                                    onClick={() =>
+                                        navigate("/features")
+                                    }
                                 >
-                                    <Link to="/features">
-                                        Explore Squeeko
-                                    </Link>
+                                    Explore Squeeko
                                 </Button>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
+
+{/*             
+            <StructData schema={localBusinessSchema} />
+            <StructData schema={organizationSchema} />
+            <StructData schema={websiteSchema} /> 
+*/}
+   
+            <title>Child Care Management Software | SQUEEKO</title>
+
+            <meta
+                name="description"
+                content="SQUEEKO is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
+            />
+
+            <meta
+                property="og:title"
+                content="Child Care Management Software | SQUEEKO"
+            />
+            <meta
+                property="og:description"
+                content="SQUEEKO is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
+            />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://www.squeeko.ca/" />
+            <meta
+                property="og:image"
+                content="https://www.squeeko.ca/media/og-image.jpg"
+            />
+            <meta
+                property="og:image:alt"
+                content="SQUEEKO Child Care Management Software Logo"
+            />
         </div>
     );
 }
+
+export default About

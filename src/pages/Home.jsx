@@ -420,13 +420,11 @@ function Home() {
                 </div>
             </section>
 
-            {/* 
-            
+{/*             
             <StructData schema={localBusinessSchema} />
             <StructData schema={organizationSchema} />
             <StructData schema={websiteSchema} /> 
-            
-            */}
+*/}
 
             <title>
                 Child Care Management Software | Squeeko
