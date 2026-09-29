@@ -94,7 +94,7 @@ export default function About() {
                 <div className="w-full max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-32 bg-accent">
                     <div className="max-w-5xl bg-accent">
                         <p className="mb-8 text-sm font-medium tracking-[0.2em] text-muted-foreground">
-                            About Squeeko
+                            ABOUT SQUEEKO
                         </p>
 
                         <h1 className="font-serif text-6xl sm:text-7xl lg:text-8xl xl:text-9xl leading-[0.9] tracking-tight">
