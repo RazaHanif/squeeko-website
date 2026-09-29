@@ -85,7 +85,6 @@ import {
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import Logo from "@/components/Logo";
 
 export default function About() {
