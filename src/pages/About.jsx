@@ -89,7 +89,7 @@ import Logo from "@/components/Logo";
 
 export default function About() {
     return (
-        <div className="w-full overflow-hidden bg-red-500">
+        <div className="w-full overflow-hidden bg-blue-50">
             <section className="min-h-[calc(100vh-80px)] flex items-center border-b">
                 <div className="w-full max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-32 bg-accent">
                     <div className="max-w-5xl bg-accent">
