@@ -93,7 +93,7 @@ export default function About() {
             <section className="min-h-[calc(100vh-80px)] flex items-center">
                 <div className="w-full max-w-7xl mx-auto px-6 lg:px-12 py-24 lg:py-32 bg-accent">
                     <div className="max-w-5xl bg-accent">
-                        <p className="mb-8 text-sm font-medium uppercase tracking-[0.2em] text-muted-foreground">
+                        <p className="mb-8 text-sm font-medium tracking-[0.2em] text-muted-foreground">
                             About Squeeko
                         </p>
 
