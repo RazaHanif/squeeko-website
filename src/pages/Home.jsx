@@ -1,55 +1,25 @@
-import HorizontalScroll from "@/components/HorizontalScroll"
-import { Button } from "@/components/ui/button"
+import HorizontalScroll from "@/components/HorizontalScroll";
+import { Button } from "@/components/ui/button";
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion";
+import { Card, CardContent } from "@/components/ui/card";
+import { NavLink, useNavigate } from "react-router-dom";
 import {
-  Card,
-  CardAction,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-import { Slider } from "@/components/ui/slider"
-import { NavLink, useNavigate } from "react-router-dom"
-import { Building2, Calendar, Camera, ChevronRight, ClipboardCheck, CreditCard, MessageCircle } from "lucide-react"
-import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons"
-import { Label } from "@/components/ui/label"
-import { useState } from "react"
-import OnboardingForm from "@/components/OnboardingForm"
-import Image from "@/components/Image"
-import Logo from "@/components/Logo"
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetDescription,
-  SheetFooter,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet"
-import SignUpSheet from "@/components/SignUpSheet"
-
-
-/* 
-Main feature overview - 
-
-Scheduling - attendance, ratio, 
-
-Billing - auto payments, penalties, accounting, add on charges
-
-Communication - Messaging, Pictures, Insta feed, Forms (inicdent etc)
-
-Compliance - Onbaording, Form (incident, medical, etc)
-
-*/
-
+    Building2,
+    Calendar,
+    Camera,
+    ChevronRight,
+    ClipboardCheck,
+    CreditCard,
+    MessageCircle,
+} from "lucide-react";
+// import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons";
+import OnboardingForm from "@/components/OnboardingForm";
+import SignUpSheet from "@/components/SignUpSheet";
 
 function HomeFeatureAccordion() {
     const data = [
@@ -62,7 +32,7 @@ function HomeFeatureAccordion() {
                 { title: "Attendance", link: "#" },
                 { title: "Daily Routines", link: "#" },
             ],
-            image: <Logo words={false} />
+            image: "HomeAccordionImageScheduling",
         },
 
         {
@@ -74,7 +44,7 @@ function HomeFeatureAccordion() {
                 { title: "Late Fees", link: "#" },
                 { title: "One-Off Charges", link: "#" },
             ],
-            image: <Logo words={false} />
+            image: "HomeAccordionImageBilling",
         },
 
         {
@@ -86,7 +56,7 @@ function HomeFeatureAccordion() {
                 { title: "Signatures", link: "#" },
                 { title: "Record Keeping", link: "#" },
             ],
-            image: <Logo words={false} />
+            image: "HomeAccordionImageCompliance",
         },
 
         {
@@ -98,7 +68,7 @@ function HomeFeatureAccordion() {
                 { title: "Centre Updates", link: "#" },
                 { title: "Family Communication", link: "#" },
             ],
-            image: <Logo words={false} />
+            image: "HomeAccordionImageCommunication",
         },
 
         {
@@ -110,81 +80,87 @@ function HomeFeatureAccordion() {
                 { title: "Photos", link: "#" },
                 { title: "Parent Updates", link: "#" },
             ],
-            image: <Logo words={false} />
+            image: "HomeAccordionImageDailyLog",
         },
 
         {
             trigger: "Centre Management",
             header: "Run your centre in one place",
-            desc: "Bring the moving pieces of your centre together. Manage children, families, staff, records, and day-to-day operations from one connected platform.",
+            desc: "Bring the moving pieces of your centre together. Manage children, families, and staff records. Streamline day-to-day operations from one connected platform.",
             links: [
                 { title: "Child & Family Profiles", link: "#" },
                 { title: "Staff Management", link: "#" },
                 { title: "Centre Overview", link: "#" },
             ],
-            image: <Logo words={false} />
+            image: "HomeAccordionImageCentreManagement",
         },
-    ]
-
+    ];
 
     return (
         <Accordion
             defaultValue={[data[0].trigger]}
             className="w-full rounded-2xl bg-accent text-secondary-foreground p-6 border border-secondary-foreground"
         >
-            {data.map(({trigger, header, desc, links, image}) => (
-                <AccordionItem 
-                    key={trigger}
-                    value={trigger}
-                    className="border-secondary-foreground"
-                >
-                    <AccordionTrigger 
-                        className="cursor-pointer hover:no-underline"
+            {data.map(
+                ({
+                    trigger,
+                    header,
+                    desc,
+                    links,
+                    image
+                }) => (
+                    <AccordionItem
+                        key={trigger}
+                        value={trigger}
+                        className="border-secondary-foreground"
                     >
-                        {trigger}
-                    </AccordionTrigger>
-                    <AccordionContent 
-                        className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit my-6 lg:my-12 lg:gap-6 gap-4"
-                    >
-                        <h2 className="text-4xl font-serif font-semibold">
-                            {header}
-                        </h2>
-                        <div className="">
-                            <p>
-                                {desc}
-                            </p>
-                        </div>
-                        <div className="flex flex-col items-start">
-                            {links.map(({ title, link }) => (
-                                    // <NavLink 
-                                    //     key={link}
-                                    //     to={link}
-                                    //     end
-                                    //     className="flex flex-row justify-center items-center text-lg"
-                                    // >
-                                    //     <ChevronRight className="size-6"/>
-                                    //     {title}
-                                    // </NavLink>
-                                    <p 
-                                        key={title}
-                                        className="flex flex-row justify-center items-center text-lg"
-                                    >
-                                        <ChevronRight className="size-6"/>
-                                        {title}
-                                    </p>
-                            ))}
-                        </div>
+                        <AccordionTrigger className="cursor-pointer hover:no-underline">
+                            {trigger}
+                        </AccordionTrigger>
+                        <AccordionContent className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit my-6 lg:my-12 lg:gap-6 gap-4">
+                            <h2 className="text-4xl font-serif font-semibold">
+                                {header}
+                            </h2>
+                            <div className="">
+                                <p>{desc}</p>
+                            </div>
+                            <div className="flex flex-col items-start">
+                                {links.map(
+                                    ({
+                                        title,
+                                        // link
+                                    }) => (
+                                        // <NavLink
+                                        //     key={link}
+                                        //     to={link}
+                                        //     end
+                                        //     className="flex flex-row justify-center items-center text-lg"
+                                        // >
+                                        //     <ChevronRight className="size-6"/>
+                                        //     {title}
+                                        // </NavLink>
+                                        <p
+                                            key={title}
+                                            className="flex flex-row justify-center items-center text-lg"
+                                        >
+                                            <ChevronRight className="size-6" />
+                                            {title}
+                                        </p>
+                                    ),
+                                )}
+                            </div>
 
-                        {/* <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-primary text-primary-foreground border-primary-foreground border">
-                            <div className="text-lg font-bold font-mono">
+                            <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-primary text-primary-foreground border-primary-foreground border">
+                            <div className="">
                                 {image}
                             </div>
-                        </div> */}
-                    </AccordionContent>
-                </AccordionItem>
-            ))}
+                        </div>
+                        </AccordionContent>
+                    </AccordionItem>
+                ),
+            )}
         </Accordion>
-    )
+    );
 }
 
 function HomeCards() {
@@ -224,7 +200,7 @@ function HomeCards() {
             header: "Run your centre",
             desc: "Bring children, families, staff, records, and everyday centre operations together in one connected platform.",
         },
-    ]
+    ];
 
     return (
         <div className="flex-1 shrink-0 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 justify-items-center p-8 lg:p-16">
@@ -249,28 +225,28 @@ function HomeCards() {
                 </Card>
             ))}
         </div>
-    )
+    );
 }
 
 function Home() {
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     const horizontalList = [
-        'Spend more time with the children',
-        'Less paperwork. more childcare',
-        'never miss another payment',
-        'stay connected with families',
-        'Built for childcare, by childcare experts',
-        'Goodbye paperwork. Hello Squeeko',
-        'Run your centre with confidence',
-        'The smarter way to manage childcare',
-    ]
+        "Spend more time with the children",
+        "Less paperwork. more childcare",
+        "never miss another payment",
+        "stay connected with families",
+        "Built for childcare, by childcare experts",
+        "Goodbye paperwork. Hello Squeeko",
+        "Run your centre with confidence",
+        "The smarter way to manage childcare",
+    ];
 
-    const iconList = [
-        {icon: InstagramIcon},
-        {icon: FacebookIcon},
-        {icon: YoutubeIcon},
-    ]
+    // const iconList = [
+    //     { icon: InstagramIcon },
+    //     { icon: FacebookIcon },
+    //     { icon: YoutubeIcon },
+    // ];
 
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full">
@@ -279,20 +255,23 @@ function Home() {
                     <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
                         <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-6">
                             <h1 className="text-xs font-bold">
-                                CHILD CARE MANAGEMENT SOFTWARE  
+                                CHILD CARE MANAGEMENT SOFTWARE
                             </h1>
                             <h2 className="text-5xl font-serif text-center font-semibold">
-                                Your children have you,<br/>
+                                Your children have you,
+                                <br />
                                 your center has Squeeko
                             </h2>
                             <p className="w-9/10 lg:w-3/4 text-center font-light">
-                                Squeeko brings scheduling, billing, payments, parent communication, and more into one connected system, helping you reduce admin, support your team and focus on child care.
+                                Squeeko brings scheduling, billing, payments,
+                                parent communication and more into one connected
+                                system. Helping you reduce admin time so you can support your team and focus on the children.
                             </p>
                         </div>
 
-                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2" >
+                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2">
                             <div className="flex-1">
-                                <Button 
+                                <Button
                                     onClick={() => navigate("/features")}
                                     variant="default"
                                     className="w-full cursor-pointer p-6 border border-primary-foreground"
@@ -306,10 +285,9 @@ function Home() {
                         </div>
                     </div>
 
-
                     <div className="w-9/10 flex-1 flex justify-center items-center rounded-xl">
-                        <div className="w-full lg:w-3/4 border min-h-[200px] lg:min-h-full flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
-                            <Logo icon={false} className="text-secondary-foreground" />
+                        <div className="w-full lg:w-3/4 border min-h-50 lg:min-h-full flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
+                            HomeImage1
                             {/* <img
                                 src="/media/1.jpg"
                                 alt="something"
@@ -321,7 +299,11 @@ function Home() {
                 </div>
 
                 <div className="w-full mb-4">
-                    <HorizontalScroll items={horizontalList} className="text-primary-foreground" speed={80}/>
+                    <HorizontalScroll
+                        items={horizontalList}
+                        className="text-primary-foreground"
+                        speed={80}
+                    />
                     {/* <HorizontalScroll 
                         items={iconList.map(({icon: Icon}, idx) => (
                             <Icon key={idx} className="size-8 text-primary-foreground"/>
@@ -331,12 +313,9 @@ function Home() {
                 </div>
             </section>
 
-            
             <section className="flex flex-col justify-start items-center w-full bg-primary text-primary-foreground pb-40 lg:pt-0 pt-40">
                 <div className="p-8 lg:p-16 flex flex-col justify-center items-center gap-2">
-                    <p className="text-center text-sm">
-                        FEATURES
-                    </p>
+                    <p className="text-center text-sm">FEATURES</p>
                     <h2 className="text-4xl font-serif text-center font-semibold">
                         The tools your centre needs, all in one place
                     </h2>
@@ -347,7 +326,7 @@ function Home() {
                         <NavLink
                             to="/features"
                             end
-                            className="cursor-pointer hover:underline" 
+                            className="cursor-pointer hover:underline"
                         >
                             see all features &rarr;
                         </NavLink>
@@ -356,15 +335,15 @@ function Home() {
                 </div>
             </section>
 
-            <section className="flex flex-col justify-center items-center gap-8 w-full -mt-0.5 bg-[url('/home-why.svg')] bg-cover bg-center pb-16" id="home-form">
+            <section
+                className="flex flex-col justify-center items-center gap-8 w-full -mt-0.5 bg-[url('/home-why.svg')] bg-cover bg-center pb-16"
+                id="home-form"
+            >
                 <h2 className="text-4xl lg:text-5xl font-serif text-center font-semibold">
                     Wanna see Squeeko in your centre?
                 </h2>
 
                 <div className="w-full flex flex-col justify-center items-center">
-                    <p className="font-bold">
-                        Tell us about yourself?
-                    </p>
                     <OnboardingForm />
                 </div>
             </section>
@@ -382,15 +361,17 @@ function Home() {
                             GET STARTED
                         </p>
                         <h2 className="text-4xl lg:text-5xl font-serif text-start font-semibold">
-                            See Squeeko run your center
+                            Have Squeeko run your center
                         </h2>
                         <p className="w-9/10 lg:w-3/4 text-start font-light">
-                             With Squeeko's powerful technology and expert human support, you can keep your busy days running smoothly.
+                            With Squeeko's powerful technology and expert human
+                            support, you can keep your busy days running
+                            smoothly.
                         </p>
-                        
-                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2" >
+
+                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2">
                             <div className="flex-1">
-                                <Button 
+                                <Button
                                     onClick={() => navigate("/features")}
                                     variant="default"
                                     className="w-full cursor-pointer p-6 border border-primary-foreground"
@@ -405,8 +386,8 @@ function Home() {
                     </div>
                     <div className="flex flex-1 w-full">
                         <div className="border border-secondary-foreground bg-secondary w-full flex justify-center items-center rounded-xl overflow-hidden max-h-[75vh]">
-                            <div className="w-full flex-1 min-h-[200px] flex justify-center items-center text-2xl">
-                                <Logo icon={false} className="text-secondary-foreground" />
+                            <div className="w-full flex-1 min-h-50 flex justify-center items-center text-2xl">
+                                HomeImage2
                                 {/* <img
                                     src="/media/5.jpg"
                                     alt="something"
@@ -416,26 +397,23 @@ function Home() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
 
-{/*             
+            {/*             
             <StructData schema={localBusinessSchema} />
             <StructData schema={organizationSchema} />
             <StructData schema={websiteSchema} /> 
 */}
 
-            <title>
-                Child Care Management Software | Squeeko
-            </title>
+            <title>Child Care Management Software | Squeeko</title>
 
             <meta
                 name="description"
                 content="Squeeko is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
             />
 
-            <meta 
+            <meta
                 property="og:title"
                 content="Child Care Management Software | Squeeko"
             />
@@ -443,14 +421,8 @@ function Home() {
                 property="og:description"
                 content="Squeeko is childcare management software built to help centers stay organized, stay compliant, connect with families, and get paid in one simple platform."
             />
-            <meta 
-                property="og:type"
-                content="website"
-            />
-            <meta
-                property="og:url"
-                content="https://www.squeeko.ca/"
-            />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://www.squeeko.ca/" />
             <meta
                 property="og:image"
                 content="https://www.squeeko.ca/media/og-image.jpg"
@@ -460,7 +432,7 @@ function Home() {
                 content="Squeeko Child Care Management Software Logo"
             />
         </div>
-    )
+    );
 }
 
-export default Home
+export default Home;

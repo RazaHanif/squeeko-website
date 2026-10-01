@@ -24,7 +24,6 @@ const OnboardingForm = () => {
         "Spreadsheets / Excel",
         "Childcare Software",
         "A Combination of Tools",
-        "Other"
     ]
 
     const maxCapacityType = [
@@ -61,10 +60,10 @@ const OnboardingForm = () => {
     ]
 
     const timelineType = [
-        "Just exploring",
+        "As Soon As Possible",
         "Within the next 3 months",
         "Within 6 months",
-        "As Soon As Possible"
+        "Just exploring my options"
     ]
 
     const [formData, setFormData] = useState({
@@ -146,7 +145,7 @@ const OnboardingForm = () => {
         <div className="w-9/10 lg:w-1/2">
             { submitted ? (
                 <div 
-                    className="bg-muted border w-full flex flex-1 flex-col justify-around rounded-2xl py-8 px-8 lg:py-16 min-h-[600px]"
+                    className="bg-muted border w-full flex flex-1 flex-col justify-around rounded-2xl py-8 px-8 lg:py-16 min-h-150"
                 >
                     <h2 className="text-3xl font-bold font-serif text-center">
                         You're all set!
@@ -154,13 +153,10 @@ const OnboardingForm = () => {
 
                     <div className="flex flex-col gap-4">
                         <p className="">
-                            We've got everything we need.
+                            A member of the Squeeko team will review your submission and contact you for the next steps.
                         </p>
                         <p className="">
-                            A member of the SQUEEKO team will review your centre's information and reach out to you shortly.
-                        </p>
-                        <p className="">
-                            In the meantime, see what SQUEEKO can do for your centre.
+                            In the meantime, see what Squeeko can do for you.
                         </p>
                     </div>
 
@@ -170,13 +166,13 @@ const OnboardingForm = () => {
                         to={"/features"} 
                         end 
                     >
-                        Explore SQUEEKO &rarr;
+                        Explore Squeeko &rarr;
                     </NavLink>
                 </div>
             ) : (
                 <form
                     onSubmit={ handleSubmit }
-                    className="bg-muted border w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 min-h-[600px]"
+                    className="bg-muted border w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 min-h-150"
 
                 >
                     <div className="w-full mb-8">
@@ -204,7 +200,7 @@ const OnboardingForm = () => {
                     {currentStep === 0 && (
                         <div 
                             key={currentStep}
-                            className={`min-h-[400px] lg:min-h-[475px] flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
+                            className={`min-h-110 lg:min-h-120 flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 What best describes your centre?
                             </h2>
@@ -234,7 +230,7 @@ const OnboardingForm = () => {
                     {currentStep === 1 && (
                         <div 
                             key={currentStep}
-                            className={`min-h-[400px] lg:min-h-[475px] flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
+                            className={`min-h-110 lg:min-h-120 flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 What is your maximum licensed capacity?
                             </h2>
@@ -264,9 +260,9 @@ const OnboardingForm = () => {
                     {currentStep === 2 && (
                         <div 
                             key={currentStep}
-                            className={`min-h-[400px] lg:min-h-[475px] flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
+                            className={`min-h-110 lg:min-h-120 flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
-                                About how many employees work at your centre?
+                                How many employees work at your centre?
                             </h2>
                             <div className="flex flex-col justify-start items-center w-full gap-4 flex-1">
                                 {numOfStaffType.map((type, idx) => (
@@ -294,7 +290,7 @@ const OnboardingForm = () => {
                     {currentStep === 3 && (
                         <div 
                             key={currentStep}
-                            className={`min-h-[400px] lg:min-h-[475px] flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
+                            className={`min-h-110 lg:min-h-120 flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 How many locations do you operate?
                             </h2>
@@ -336,7 +332,7 @@ const OnboardingForm = () => {
                     {currentStep === 4 && (
                         <div 
                             key={currentStep}
-                            className={`min-h-[400px] lg:min-h-[475px] flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
+                            className={`min-h-110 lg:min-h-120 flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 Are you currently accepting new families?
                             </h2>
@@ -366,7 +362,7 @@ const OnboardingForm = () => {
                     {currentStep === 5 && (
                         <div 
                             key={currentStep}
-                            className={`min-h-[400px] lg:min-h-[475px] flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
+                            className={`min-h-110 lg:min-h-120 flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 How do you currently manage your centre?
                             </h2>
@@ -396,9 +392,9 @@ const OnboardingForm = () => {
                     {currentStep === 6 && (
                         <div 
                             key={currentStep}
-                            className={`min-h-[400px] lg:min-h-[475px] flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
+                            className={`min-h-110 lg:min-h-120 flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
-                                Whats the biggest challenge you're trying to solve?
+                                Whats the biggest challenge you're trying to solve?<br /> (Select all that apply)
                             </h2>
                             <div className="w-full flex flex-col justify-between items-center gap-4 flex-1">
                                 <div className="w-full grid grid-cols-2 justify-items-center gap-4">
@@ -416,7 +412,7 @@ const OnboardingForm = () => {
                                                         : [...prev.painPoints, type],
                                                 }))
                                             }}
-                                            className="sm:p-6 p-8 w-full whitespace-normal break-words"
+                                            className="sm:p-6 p-8 w-full whitespace-normal wrap-break-word"
                                         >
                                             {type}
                                         </Button>
@@ -439,7 +435,7 @@ const OnboardingForm = () => {
                     {currentStep === 7 && (
                         <div 
                             key={currentStep}
-                            className={`min-h-[400px] lg:min-h-[475px] flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
+                            className={`min-h-110 lg:min-h-120 flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
                                 When are you looking to make a change?
                             </h2>
@@ -470,9 +466,9 @@ const OnboardingForm = () => {
                     {currentStep === 8 && (
                         <div 
                             key={currentStep}
-                            className={`min-h-[400px] lg:min-h-[475px] flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
+                            className={`min-h-110 lg:min-h-120 flex-1 flex flex-col justify-center items-center gap-4 question-container ${direction === 1 ? "slide-left" : "slide-right"}`}>
                             <h2 className="text-2xl text-center font-serif font-semibold w-full min-h-16">
-                                Almost there! Let's get your centre connected with our team.
+                                Almost there! <br /> Let's get you connected with our team.
                             </h2>
                             <div className="w-full flex flex-col justify-between items-center gap-4 flex-1">
                                 <div className="w-full flex flex-col gap-4">

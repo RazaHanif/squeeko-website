@@ -6,9 +6,7 @@ import {
     Sparkles,
     Users,
 } from "lucide-react";
-
 import { Button } from "@/components/ui/button";
-import Logo from "@/components/Logo";
 
 function About() {
     const navigate = useNavigate();
@@ -17,39 +15,38 @@ function About() {
         <div className="w-full overflow-hidden">
             <section className="min-h-[calc(100vh-80px)] w-full flex items-center">
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex flex-col">
-                    <div className="flex flex-col lg:flex-row gap-8">
-                        <div className="flex-4">
-                            <p className="mb-8 text-xs tracking-[0.2em]">
-                                ABOUT SQUEEKO.
-                            </p>
-                            <h1 className="font-serif text-5xl leading-[0.9] tracking-tight">
-                                Helping the people <br />
-                                who nurture the little ones.
-                            </h1>
-                            <div className="mt-12 max-w-2xl">
-                                <p className="leading-relaxed text-muted-foreground">
-                                    Running a childcare centre means wearing a
-                                    dozen hats at once, educator, manager,
-                                    administrator, and resident problem solver.
-                                    We're here to lighten that load.
+                    <div className="w-full flex flex-col lg:flex-row gap-8">
+                        <div className="flex-2 flex flex-col justify-center items-center text-center">
+                            <div className="mb-6 flex-1 flex flex-col justify-center items-center">
+                                <p className="text-xs font-bold">
+                                    ABOUT SQUEEKO.
+                                </p>
+                                <h1 className="mt-6 max-w-3xl font-serif text-5xl font-semibold">
+                                    Helping the people <br />
+                                    who nurture the little ones.
+                                </h1>
+                            </div>
+                            
+                            <div className="max-w-2xl w-full flex flex-col justify-center items-center">
+                                <p className="font-light">
+                                    Running a childcare centre means wearing a dozen hats at once: teacher, manager, administrator and role model. We're here to lighten that load.
                                 </p>
                             </div>
                         </div>
 
-                        <div className="hidden lg:flex flex-col flex-1 bg-primary text-secondary-foreground p-10 items-end justify-center rounded-xl w-full border border-secondary-foreground">
-                            <PencilSparkles className="size-10 mb-8" />
-                            <p className="text-xl">
-                                Built specifically for Ontario childcare teams
-                                who deserve tools as caring as they are.
-                            </p>
+                        <div className="hidden lg:flex flex-col justify-center items-center flex-1 w-9/10">
+                            <div className="bg-primary text-secondary-foreground p-10 items-end justify-center rounded-xl border border-secondary-foreground w-3/4">
+                                <PencilSparkles className="size-10 mb-8" />
+                                <p className="text-xl">
+                                    Built specifically for Ontario childcare teams
+                                    who deserve tools as caring as they are.
+                                </p>        
+                            </div>
                         </div>
                     </div>
                     <div className="lg:hidden mt-20 grid grid-cols-1 gap-6">
-                        <div className="aspect-[16/9] overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl w-full border border-secondary-foreground">
-                            <Logo
-                                icon={false}
-                                className="text-secondary-foreground text-xl"
-                            />
+                        <div className="aspect-video overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl w-full border border-secondary-foreground">
+                            AboutImage1
                         </div>
                     </div>
                 </div>
@@ -58,11 +55,8 @@ function About() {
             <section className="hidden lg:flex w-full">
                 <div className="w-3/4 mx-auto flex flex-col">
                     <div className="grid grid-cols-1 gap-6">
-                        <div className="aspect-[16/9] overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl w-full border border-secondary-foreground">
-                            <Logo
-                                icon={false}
-                                className="text-secondary-foreground text-xl"
-                            />
+                        <div className="aspect-video overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl w-full border border-secondary-foreground">
+                            AboutImage1
                         </div>
                     </div>
                 </div>
@@ -72,12 +66,13 @@ function About() {
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex flex-col">
                     <div className="flex flex-col lg:flex-row gap-16 lg:gap-32">
                         <div className="flex-1">
-                            <p className="text-xs">A LITTLE ABOUT US.</p>
-                        </div>
-                        <div className="flex-2 flex flex-col gap-8">
-                            <h2 className="font-serif text-4xl">
+                            <p className="text-xs font-bold">A LITTLE ABOUT US</p>
+
+                            <h2 className="mt-6 max-w-3xl font-serif text-4xl">
                                 Childcare is complicated enough.
                             </h2>
+                        </div>
+                        <div className="flex-2 flex flex-col gap-8">
                             <div className="flex flex-col gap-6 font-light">
                                 <p>
                                     Between maintaining strict room ratios,
@@ -91,7 +86,7 @@ function About() {
                                     another job on your to-do list.
                                 </p>
                                 <p>
-                                    That's why we created Squeeko: to give
+                                    That's why we created Squeeko; to give
                                     Ontario childcare directors and educators a
                                     single, intuitive place to handle
                                     compliance, daily logs, and centre logistics
@@ -105,12 +100,13 @@ function About() {
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 pb-24 lg:pb-36 flex flex-col">
                     <div className="flex flex-col lg:flex-row gap-16 lg:gap-32">
                         <div className="flex-1">
-                            <p className="text-xs">OUR MISSION.</p>
-                        </div>
-                        <div className="flex-2 flex flex-col gap-8">
-                            <h2 className="font-serif text-4xl">
+                            <p className="text-xs font-bold">OUR MISSION.</p>
+
+                            <h2 className="mt-6 max-w-3xl font-serif text-4xl">
                                 Give educators back their time.
                             </h2>
+                        </div>
+                        <div className="flex-2 flex flex-col gap-8">
                             <div className="flex flex-col gap-6 font-light">
                                 <p>
                                     You don't need more complex software with
@@ -136,22 +132,22 @@ function About() {
                     <div className="w-full flex flex-col lg:flex-row gap-16 lg:gap-32">
                         <div className="flex-1 flex flex-col justify-center lg:justify-start ">
                             <div className="flex-1 lg:flex-0">
-                                <p className="text-xs">OUR VISION.</p>
-                            </div>
-                            <div className="flex-2 lg:flex-0 flex flex-col gap-8">
-                                <h2 className="font-serif text-4xl">
+                                <p className="text-xs font-bold">OUR VISION.</p>
+
+                                <h2 className="mt-6 max-w-3xl font-serif text-4xl">
                                     Smoother operations. <br />
                                     Supported educators. <br />
                                     Thriving centres.
                                 </h2>
+
+                            </div>
+
+                            <div className="flex-2 lg:flex-0 flex flex-col gap-8">
                             </div>
                         </div>
                         <div className="w-full flex-1 flex flex-col justify-center items-center overflow-hidden">
-                            <div className="w-full aspect-[16/9] overflow-hidden flex flex-col justify-center items-center flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl border border-secondary-foreground">
-                                <Logo
-                                    icon={false}
-                                    className="text-secondary-foreground text-xl"
-                                />
+                            <div className="w-full aspect-video overflow-hidden flex flex-col justify-center items-center flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl border border-secondary-foreground">
+                                AboutImage2
                             </div>
                         </div>
                     </div>
@@ -161,7 +157,7 @@ function About() {
             <section className="min-h-[calc(100vh-80px)] w-full border-y">
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex justify-center flex-col">
                     <div className="mb-16 lg:mb-24">
-                        <p className="text-xs">WHAT WE BELIEVE.</p>
+                        <p className="text-xs font-bold">WHAT WE BELIEVE.</p>
 
                         <h2 className="mt-6 max-w-3xl font-serif text-4xl">
                             Software should feel like an extra set of hands.
@@ -175,17 +171,11 @@ function About() {
                                     <h3 className="font-serif text-3xl">
                                         Rooted in local reality.
                                     </h3>
-                                    <p className="mt-5 text-muted-foreground">
-                                        Childcare rules in Ontario are unique.
-                                        Generic software built for generic
-                                        businesses just doesn't cut it when
-                                        you're managing provincial standards,
-                                        subsidy reporting, and daily attendance
-                                        logs.
+                                    <p className="mt-5 font-light">
+                                        Ontario has a variety of unique polices and procedures. Generic software built for generic businesses just doesn't cut it when you're managing provincial standards, subsidy reporting, and daily attendance logs.
                                     </p>
-                                    <p className="mt-5 text-muted-foreground">
-                                        We design specifically around your
-                                        actual daily regulations.
+                                    <p className="mt-5 font-light">
+                                        We design specifically around your actual daily regulations.
                                     </p>
                                 </div>
                             </div>
@@ -198,12 +188,12 @@ function About() {
                                     <h3 className="font-serif text-3xl">
                                         Delightfully uncomplicated.
                                     </h3>
-                                    <p className="mt-5 text-muted-foreground">
+                                    <p className="mt-5 font-light">
                                         If a tool requires a 40-page manual or
                                         hours of staff training, it's missing
                                         the point.
                                     </p>
-                                    <p className="mt-5 text-muted-foreground">
+                                    <p className="mt-5 font-light">
                                         We test every workflow to ensure your
                                         team can log in, get what they need done
                                         in seconds, and get right back to the
@@ -220,12 +210,12 @@ function About() {
                                     <h3 className="font-serif text-3xl">
                                         Relationships over records.
                                     </h3>
-                                    <p className="mt-5 text-muted-foreground">
+                                    <p className="mt-5 font-light">
                                         At its core, early childhood education
                                         is about trust between families and
                                         educators.
                                     </p>
-                                    <p className="mt-5 text-muted-foreground">
+                                    <p className="mt-5 font-light">
                                         Squeeko handles the administrative
                                         clutter so you have more brain space for
                                         clear communication, warm updates, and
@@ -242,12 +232,12 @@ function About() {
                                     <h3 className="font-serif text-3xl">
                                         Always learning, always listening.
                                     </h3>
-                                    <p className="mt-5 text-muted-foreground">
+                                    <p className="mt-5 font-light">
                                         Regulations change, technology shifts,
                                         and your centre's needs evolve over
                                         time.
                                     </p>
-                                    <p className="mt-5 text-muted-foreground">
+                                    <p className="mt-5 font-light">
                                         We regularly collaborate with real
                                         Ontario directors to refine our
                                         platform, because the best features come
@@ -264,7 +254,7 @@ function About() {
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex justify-center">
                     <div className="flex flex-col lg:flex-row gap-16 lg:gap-32">
                         <div className="flex-1">
-                            <p className="text-xs">WHY SQUEEKO?</p>
+                            <p className="text-xs font-bold">WHY SQUEEKO?</p>
                         </div>
                         <div className="flex-2 flex flex-col gap-8">
                             <h2 className="font-serif text-4xl">
@@ -299,15 +289,11 @@ function About() {
                 </div>
             </section>
 
-            <section className="min-h-[calc(100vh-80px)] w-full bg-primary flex">
+            <section className="lg:min-h-[calc(100vh-80px)] w-full bg-primary flex">
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 self-center">
-                    <div className="relative aspect-[16/9] overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary p-10 rounded-xl w-full border border-secondary-foreground">
-                        <Logo
-                            icon={true}
-                            words={false}
-                            className="text-secondary-foreground text-xl"
-                        />
-                        <div className="absolute inset-0 flex items-end p-8 lg:p-16 bg-gradient-to-t from-primary/75 to-transparent">
+                    <div className="relative aspect-video overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary p-10 rounded-xl w-full border border-secondary-foreground">
+                        AboutImage3
+                        <div className="absolute inset-0 hidden lg:flex items-end p-8 lg:p-16 bg-gradient-to-t from-primary/75 to-transparent">
                             <p className="max-w-2xl text-primary-foreground font-serif text-3xl lg:text-4xl">
                                 Because your 2:00 PM shouldn't be spent
                                 wrestling with compliance paperwork.
@@ -317,7 +303,7 @@ function About() {
                 </div>
             </section>
 
-            <section className="min-h-[calc(100vh-80px)] w-full bg-[url('/about-cta.svg')] bg-cover bg-center">
+            <section className="min-h-[calc(100vh-80px)] w-full bg-[url('/about-cta.svg')] bg-cover bg-center flex flex-col justify-center">
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex flex-col">
                     <div className="flex-2 flex flex-col gap-8">
                         <h2 className="font-serif text-4xl">

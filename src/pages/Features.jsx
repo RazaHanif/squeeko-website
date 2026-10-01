@@ -1,9 +1,5 @@
-import ScrollSnap from "@/components/gsap/ScrollSnap";
-import Logo from "@/components/Logo";
 import SignUpSheet from "@/components/SignUpSheet";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ChevronRight } from "lucide-react";
-
 
 function FeatureTabs() {
     const data = [
@@ -26,6 +22,7 @@ function FeatureTabs() {
                     point: "Give your team an easier way to keep daily tasks on track."
                 },
             ],
+            image: "FeatureTabScheduling"
         },
         {
             id: "billing",
@@ -50,6 +47,7 @@ function FeatureTabs() {
                     point: "Bill for field trips, activities, supplies and everything in between."
                 },
             ],
+            image: "FeatureTabBilling"
         },
         {
             id: "compliance",
@@ -74,6 +72,7 @@ function FeatureTabs() {
                     point: "See what's complete and what still needs attention."
                 },
             ],
+            image: "FeatureTabCompliance"
         },
         {
             id: "communication",
@@ -98,6 +97,7 @@ function FeatureTabs() {
                     point: "Stop jumping between email, texts, and different apps."
                 },
             ],
+            image: "FeatureTabCommunication"
         },
         {
             id: "logs",
@@ -122,12 +122,13 @@ function FeatureTabs() {
                     point: "Give parents a window into their child's day."
                 },
             ],
+            image: "FeatureTabDailyLogs"
         },
         {
             id: "centre",
             trigger: "Centre Management",
             title: "Run your centre in one place.",
-            desc: "Squeeko connects the people, information, and everyday work behind your centre so your team can spend less time managing systems and more time caring for children.",
+            desc: "Squeeko helps manage the people, the information, and everyday work behind your centre. It'll allow your team to spend less time managing systems and more time focusing on the children.",
             points: [
                 {
                     title: "Child & Family Profiles", 
@@ -142,6 +143,7 @@ function FeatureTabs() {
                     point: "Get a clearer picture of what's happening across your centre."
                 },
             ],
+            image: "FeatureTabCentreManagement"
         },
     ]
 
@@ -151,7 +153,7 @@ function FeatureTabs() {
             className="w-full flex-1"
         >
             <TabsList
-                className="w-full grid grid-cols-2 grid-rows-3 sm:grid-cols-3 sm:grid-rows-2 lg:grid-cols-6 lg:grid-rows-1 min-h-[8em] sm:min-h-[4em] lg:min-h-[2em] bg-secondary !rounded-2xl p-2"
+                className="w-full grid grid-cols-2 grid-rows-3 sm:grid-cols-3 sm:grid-rows-2 lg:grid-cols-6 lg:grid-rows-1 min-h-[8em] sm:min-h-[4em] lg:min-h-[2em] bg-secondary rounded-2xl! p-2"
                 variant="line"
             >
                 {data.map(({id, trigger}) => (
@@ -164,14 +166,14 @@ function FeatureTabs() {
                     </TabsTrigger>
                 ))}
             </TabsList>
-            {data.map(({id, trigger, title, desc, points}) => (
+            {data.map(({id, title, desc, points, image}) => (
                 <TabsContent 
                     value={id} 
                     key={id}
-                    className="self-center flex flex-col justify-center items-center gap-16 w-9/10 px-4 pt-8 h-full min-h-full"
+                    className="self-center flex flex-col justify-center items-center gap-8 w-9/10 px-4 pt-8 h-full min-h-full"
                 >
-                    <div className="flex-2 w-full flex flex-row gap-8">
-                        <div className="flex flex-1 flex-col justify-center gap-16 w-full">
+                    <div className="flex-2 w-full flex flex-col lg:flex-row gap-8 justify-center items-center">
+                        <div className="flex flex-1 flex-col justify-center gap-16 w-full ">
                             <h2 className="font-serif text-4xl font-bold">
                                 {title}
                             </h2>
@@ -181,14 +183,14 @@ function FeatureTabs() {
                         </div>
 
                         <div className="w-9/10 flex-1 flex justify-center">
-                            <div className="w-full lg:w-3/4 border min-h-[200px]  flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
-                                <h2 className="font-mono text-secondary-foreground text-center">
-                                    {trigger}
+                            <div className="w-full lg:w-3/4 border min-h-50 flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded">
+                                <h2 className="text-secondary-foreground text-center">
+                                    {image}
                                 </h2>
                             </div>
                         </div>
                     </div>
-                    <div className="flex-1 flex flex-row justify-start gap-4 w-full min-h-[14em]">
+                    <div className="flex-1 flex flex-col lg:flex-row w-full gap-4 min-h-[14em] ">
                         {points.map(({title, point}) => (
                             <div 
                                 className="flex flex-col flex-1 gap-2 justify-center"
@@ -211,8 +213,8 @@ function FeatureTabs() {
 
 function Features() {
     return (
-        <ScrollSnap className="flex flex-col justify-center items-center flex-1 w-full">
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full mt-16 lg:mt-0">
+        <div className="flex flex-col justify-center items-center flex-1 w-full">
+            <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full mt-16 lg:mt-0">
                 <div className="flex lg:flex-row flex-col justify-center items-center lg:items-stretch w-full gap-8 lg:gap-0">
                     <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
                         <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-6">
@@ -237,14 +239,14 @@ function Features() {
 
 
                     <div className="w-9/10 flex-1 flex justify-center items-center rounded-xl">
-                        <div className="w-full lg:w-3/4 border min-h-[200px] lg:min-h-full flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
-                            <Logo icon={false} className="text-secondary-foreground" />
+                        <div className="w-full lg:w-3/4 border min-h-50 lg:min-h-full flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
+                            FeatureImage1
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="snap-section min-h-[calc(100vh-80px)] flex flex-col w-full p-8 bg-accent">
+            <section className="min-h-[calc(100vh-80px)] flex flex-col w-full p-8 bg-accent">
                 <FeatureTabs />
             </section>
             
@@ -283,7 +285,7 @@ function Features() {
                 content="SQUEEKO Child Care Management Software Logo"
             />
 
-        </ScrollSnap>
+        </div>
     );
 }
 

@@ -1,10 +1,7 @@
 import OnboardingForm from "@/components/OnboardingForm"
 import {
   Sheet,
-  SheetClose,
   SheetContent,
-  SheetDescription,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -28,7 +25,6 @@ function SignUpSheet() {
             >
                 <SheetHeader className="self-start">
                     <SheetTitle>Lets get started?</SheetTitle>
-                    <SheetDescription>Tell us a little about your centre.</SheetDescription>
                 </SheetHeader>
                 <OnboardingForm />
             </SheetContent>
