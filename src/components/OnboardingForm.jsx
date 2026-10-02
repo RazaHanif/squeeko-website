@@ -4,8 +4,11 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Loader2 } from "lucide-react";
+import { Checkbox } from "@/components/ui/checkbox"
 
 const OnboardingForm = () => {
+    const [checked, setChecked] = useState(false)
+
     const daycareType = [
         "Standalone Daycare / Childcare Centre",
         "Daycare Within a School",
@@ -563,6 +566,16 @@ const OnboardingForm = () => {
                                             onChange={handleChange}
                                             required
                                         />
+                                    </div>
+                                    <div className="w-full flex flex-row justify-start items-start gap-2">
+                                        <Checkbox 
+                                            checked={checked} 
+                                            onCheckedChange={setChecked} 
+                                        />
+                                        <p className="text-xs">
+                                            By submitting this form, you consent to receive electronic communications from Squeeko regarding our childcare software and services. You may unsubscribe at any time.
+                                        </p>
+
                                     </div>
                                 </div>
                                 <Button 

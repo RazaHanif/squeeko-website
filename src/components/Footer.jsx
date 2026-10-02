@@ -1,87 +1,71 @@
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
-import { legalLinks, links, socialLinks } from "./NavigationLinks"
-import { useState } from "react"
-import { Copyright } from "lucide-react"
-import Logo from "./Logo"
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion";
+import { legalLinks, links, socialLinks } from "./NavigationLinks";
+import { useState } from "react";
+import { Copyright } from "lucide-react";
+import Logo from "./Logo";
 
 function FooterAccordion() {
-    const [open, setOpen] = useState("")
+    const [open, setOpen] = useState("");
 
     return (
-        <Accordion 
+        <Accordion
             className="lg:hidden flex"
             value={open}
             onValueChange={setOpen}
-            >
-            {Object.entries(links).map(([ category, items ]) => (
+        >
+            {Object.entries(links).map(([category, items]) => (
                 <AccordionItem
                     key={category}
                     value={category}
                     className="border-b"
                 >
-                    <AccordionTrigger
-                        className="text-lg text-primary hover:no-underline cursor-pointer"
-                    >
+                    <AccordionTrigger className="text-lg text-primary hover:no-underline cursor-pointer">
                         {category}
                     </AccordionTrigger>
 
-                    <AccordionContent 
-                        className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3"
-                    >
+                    <AccordionContent className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground pl-3">
                         {items.map(({ title, link }) => (
-                                <NavLink
-                                    key={link}
-                                    to={link}
-                                    end
-                                    className="py-2"
-                                    onClick={() => setOpen("")}
-                                >
-                                    {title}
-                                </NavLink>
+                            <NavLink
+                                key={link}
+                                to={link}
+                                end
+                                className="py-2"
+                                onClick={() => setOpen("")}
+                            >
+                                {title}
+                            </NavLink>
                         ))}
                     </AccordionContent>
                 </AccordionItem>
             ))}
         </Accordion>
-    )
+    );
 }
 
 function FooterLinks() {
     return (
         <div className="hidden lg:flex flex-row w-full justify-around items-center">
-            {Object.entries(links).map(([ category, items ]) => (
-                <div
-                    key={category}
-                    value={category}
-                >
-                    <h2 className="text-xl text-primary mb-4">
-                        {category}
-                    </h2>
+            {Object.entries(links).map(([category, items]) => (
+                <div key={category} value={category}>
+                    <h2 className="text-xl text-primary mb-4">{category}</h2>
 
-                    <div
-                        className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground gap-2"
-                    >
+                    <div className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit text-muted-foreground gap-2">
                         {items.map(({ title, link }) => (
-                                <NavLink
-                                    key={link}
-                                    to={link}
-                                    end
-                                    className=""
-                                >
-                                    {title}
-                                </NavLink>
+                            <NavLink key={link} to={link} end className="">
+                                {title}
+                            </NavLink>
                         ))}
                     </div>
                 </div>
             ))}
         </div>
-    )
+    );
 }
 
 function Footer() {
@@ -92,9 +76,10 @@ function Footer() {
                     {/* <FooterAccordion /> */}
                 </div>
                 <div className="flex-1 flex flex-col justify-start items-start w-9/10 p-4 gap-4 text-muted-foreground">
-                    <Logo className="text-3xl"/>
+                    <Logo className="text-3xl" />
                     <p className="font-light w-full lg:w-2/3">
-                        Manage your center with beautifully designed software and a team who cares about your success.
+                        Manage your center with beautifully designed software
+                        and a team who cares about your success.
                     </p>
                     <div className="flex flex-row justify-start lg:justify-center items-center">
                         {socialLinks.map(({ icon: Icon, link }) => (
@@ -104,16 +89,16 @@ function Footer() {
                         ))}
                     </div>
                 </div>
-                
+
                 {/* <div className="flex-1 lg:flex hidden flex-col items-center justify-start gap-2 p-4">
                     <FooterLinks />
                 </div> */}
             </div>
 
-            <div className="flex flex-col  justify-center lg:justify-around items-center w-9/10 gap-2 border-t lg:py-8 py-4">
-                {/* <div className="flex flex-row gap-2 lg:gap-6 text-xs w-full lg:justify-start justify-around flex-wrap text-muted-foreground">
+            <div className="flex flex-col lg:flex-row justify-center lg:justify-around items-center w-9/10 gap-2 border-t lg:py-8 py-4">
+                <div className="flex flex-row gap-2 lg:gap-6 text-xs w-full lg:justify-start justify-around flex-wrap text-muted-foreground">
                     {legalLinks.map(({ title, link }) => (
-                        <NavLink 
+                        <NavLink
                             key={link}
                             to={link}
                             end
@@ -122,18 +107,16 @@ function Footer() {
                             {title}
                         </NavLink>
                     ))}
-                </div> */}
+                </div>
                 <div className="flex flex-row flex-2">
-                    <h2 
-                        className="text-xs font-semibold text-nowrap text-muted-foreground font-mono flex flex-row justify-center items-center text-center gap-2"
-                    >
-                        <Copyright className="size-2.5"/> 2026 SQUEEKO - All Rights Reserved.
+                    <h2 className="text-xs font-semibold text-nowrap text-muted-foreground font-mono flex flex-row justify-center items-center text-center gap-2">
+                        <Copyright className="size-2.5" /> 2026 SQUEEKO - All
+                        Rights Reserved.
                     </h2>
                 </div>
             </div>
-
         </div>
-    )
+    );
 }
 
-export default Footer
+export default Footer;

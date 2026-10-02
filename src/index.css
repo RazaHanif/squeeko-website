@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -54,7 +54,8 @@
   --sidebar-ring: oklch(0.6333 0.0309 154.9039);
   --font-sans: "Inter", ui-sans-serif, sans-serif, system-ui;
   --font-serif: "DM Serif Display", serif;
-  --font-mono: "Peace Sans", monospace;
+  --font-mono: "Google Sans Code", monospace;
+  --font-logo: "Peace Sans", monospace;
   --radius: 0.35rem;
   --shadow-x: 0px;
   --shadow-y: 1px;
@@ -109,7 +110,8 @@
   --sidebar-ring: oklch(0.6333 0.0309 154.9039);
   --font-sans: "Inter", ui-sans-serif, sans-serif, system-ui;
   --font-serif: "DM Serif Display", serif;
-  --font-mono: "Peace Sans", monospace;
+  --font-mono: "Google Sans Code", monospace;
+  --font-logo: "Peace Sans", monospace;
   --radius: 0.35rem;
   --shadow-x: 0px;
   --shadow-y: 1px;
@@ -164,6 +166,7 @@
   --font-sans: var(--font-sans);
   --font-mono: var(--font-mono);
   --font-serif: var(--font-serif);
+  --font-logo: var(--font-logo);
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);

@@ -45,8 +45,13 @@ function About() {
                         </div>
                     </div>
                     <div className="lg:hidden mt-20 grid grid-cols-1 gap-6">
-                        <div className="aspect-video overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl w-full border border-secondary-foreground">
-                            AboutImage1
+                        <div className="w-full flex flex-col justify-center items-center">
+                            <img
+                                src="/media/aboutImage1.jpg"
+                                alt="Childcare goodbyes"
+                                loading="lazy"
+                                className="border border-secondary-foreground rounded lg:max-w-3/4 max-w-9/10"
+                            />
                         </div>
                     </div>
                 </div>
@@ -55,8 +60,13 @@ function About() {
             <section className="hidden lg:flex w-full">
                 <div className="w-3/4 mx-auto flex flex-col">
                     <div className="grid grid-cols-1 gap-6">
-                        <div className="aspect-video overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl w-full border border-secondary-foreground">
-                            AboutImage1
+                        <div className="w-full flex flex-col justify-center items-center">
+                            <img
+                                src="/media/aboutImage1.jpg"
+                                alt="Childcare goodbyes"
+                                loading="lazy"
+                                className="border border-secondary-foreground rounded lg:max-w-3/4 max-w-9/10"
+                            />
                         </div>
                     </div>
                 </div>
@@ -139,15 +149,16 @@ function About() {
                                     Supported educators. <br />
                                     Thriving centres.
                                 </h2>
-
-                            </div>
-
-                            <div className="flex-2 lg:flex-0 flex flex-col gap-8">
                             </div>
                         </div>
-                        <div className="w-full flex-1 flex flex-col justify-center items-center overflow-hidden">
-                            <div className="w-full aspect-video overflow-hidden flex flex-col justify-center items-center flex-1 bg-secondary text-secondary-foreground  p-10 rounded-xl border border-secondary-foreground">
-                                AboutImage2
+                        <div className="w-full flex-1 flex flex-col justify-center items-center">
+                            <div className="w-full flex flex-col justify-center items-center">
+                                <img
+                                    src="/media/aboutImage2.jpg"
+                                    alt="Childcare playtime"
+                                    loading="lazy"
+                                    className="border border-secondary-foreground rounded w-9/10"
+                                />
                             </div>
                         </div>
                     </div>
@@ -291,8 +302,7 @@ function About() {
 
             <section className="lg:min-h-[calc(100vh-80px)] w-full bg-primary flex">
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 self-center">
-                    <div className="relative aspect-video overflow-hidden flex justify-center items-center flex-col flex-1 bg-secondary p-10 rounded-xl w-full border border-secondary-foreground">
-                        AboutImage3
+                    <div className="relative aspect-video overflow-hidden flex justify-center items-center flex-col flex-1 bg-[url('/media/aboutImage3.jpg')] bg-cover bg-center p-10 rounded-xl w-full border border-secondary-foreground ">
                         <div className="absolute inset-0 hidden lg:flex items-end p-8 lg:p-16 bg-gradient-to-t from-primary/75 to-transparent">
                             <p className="max-w-2xl text-primary-foreground font-serif text-3xl lg:text-4xl">
                                 Because your 2:00 PM shouldn't be spent
@@ -366,7 +376,7 @@ function About() {
             <meta property="og:url" content="https://www.squeeko.ca/" />
             <meta
                 property="og:image"
-                content="https://www.squeeko.ca/media/og-image.jpg"
+                content="https://www.squeeko.ca/og-image.png"
             />
             <meta
                 property="og:image:alt"

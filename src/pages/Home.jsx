@@ -32,7 +32,8 @@ function HomeFeatureAccordion() {
                 { title: "Attendance", link: "#" },
                 { title: "Daily Routines", link: "#" },
             ],
-            image: "HomeAccordionImageScheduling",
+            image: "HomeAccordionScheduling.jpg",
+            imageAlt: "Child care admin working on tablet"
         },
 
         {
@@ -44,7 +45,8 @@ function HomeFeatureAccordion() {
                 { title: "Late Fees", link: "#" },
                 { title: "One-Off Charges", link: "#" },
             ],
-            image: "HomeAccordionImageBilling",
+            image: "HomeAccordionBilling.jpg",
+            imageAlt: "Small business owner getting paid cash"
         },
 
         {
@@ -56,7 +58,8 @@ function HomeFeatureAccordion() {
                 { title: "Signatures", link: "#" },
                 { title: "Record Keeping", link: "#" },
             ],
-            image: "HomeAccordionImageCompliance",
+            image: "HomeAccordionCompliance.jpg",
+            imageAlt: "Women looking through paper "
         },
 
         {
@@ -68,7 +71,8 @@ function HomeFeatureAccordion() {
                 { title: "Centre Updates", link: "#" },
                 { title: "Family Communication", link: "#" },
             ],
-            image: "HomeAccordionImageCommunication",
+            image: "HomeAccordionCommunication.jpg",
+            imageAlt: "Whiteboard calender"
         },
 
         {
@@ -80,7 +84,8 @@ function HomeFeatureAccordion() {
                 { title: "Photos", link: "#" },
                 { title: "Parent Updates", link: "#" },
             ],
-            image: "HomeAccordionImageDailyLog",
+            image: "HomeAccordionDailyLog.jpg",
+            imageAlt: "Child showing hand painting"
         },
 
         {
@@ -92,7 +97,8 @@ function HomeFeatureAccordion() {
                 { title: "Staff Management", link: "#" },
                 { title: "Centre Overview", link: "#" },
             ],
-            image: "HomeAccordionImageCentreManagement",
+            image: "HomeAccordionCentreManagement.jpg",
+            imageAlt: "Centre Admin working on laptop"
         },
     ];
 
@@ -107,7 +113,8 @@ function HomeFeatureAccordion() {
                     header,
                     desc,
                     links,
-                    image
+                    image,
+                    imageAlt
                 }) => (
                     <AccordionItem
                         key={trigger}
@@ -117,44 +124,49 @@ function HomeFeatureAccordion() {
                         <AccordionTrigger className="cursor-pointer hover:no-underline">
                             {trigger}
                         </AccordionTrigger>
-                        <AccordionContent className="flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit my-6 lg:my-12 lg:gap-6 gap-4">
-                            <h2 className="text-4xl font-serif font-semibold">
-                                {header}
-                            </h2>
-                            <div className="">
-                                <p>{desc}</p>
-                            </div>
-                            <div className="flex flex-col items-start">
-                                {links.map(
-                                    ({
-                                        title,
-                                        // link
-                                    }) => (
-                                        // <NavLink
-                                        //     key={link}
-                                        //     to={link}
-                                        //     end
-                                        //     className="flex flex-row justify-center items-center text-lg"
-                                        // >
-                                        //     <ChevronRight className="size-6"/>
-                                        //     {title}
-                                        // </NavLink>
-                                        <p
+                        <AccordionContent className="flex flex-col lg:flex-row my-6 lg:my-12 lg:gap-6 gap-4">
+                            <div className="flex-1 flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit lg:gap-6 gap-4">
+                                <h2 className="text-4xl font-serif font-semibold">
+                                    {header}
+                                </h2>
+                                <div className="">
+                                    <p>{desc}</p>
+                                </div>
+                                <div className="flex flex-col items-start">
+                                    {links.map(
+                                        ({
+                                            title,
+                                            // link
+                                        }) => (
+                                            // <NavLink
+                                            //     key={link}
+                                            //     to={link}
+                                            //     end
+                                            //     className="flex flex-row justify-center items-center text-lg"
+                                            // >
+                                            //     <ChevronRight className="size-6"/>
+                                            //     {title}
+                                            // </NavLink>
+                                            <p
                                             key={title}
                                             className="flex flex-row justify-center items-center text-lg"
-                                        >
-                                            <ChevronRight className="size-6" />
-                                            {title}
-                                        </p>
-                                    ),
-                                )}
+                                            >
+                                                <ChevronRight className="size-6" />
+                                                {title}
+                                            </p>
+                                        ),
+                                    )}
+                                </div>
                             </div>
 
-                            <div className="flex-1 flex flex-col justify-center items-center p-20 rounded-xl bg-primary text-primary-foreground border-primary-foreground border">
-                            <div className="">
-                                {image}
+                            <div className="flex-1 flex flex-col justify-center items-center">
+                                <img
+                                    src={`/media/${image}`}
+                                    alt={imageAlt}
+                                    loading="lazy"
+                                    className="border border-secondary-foreground rounded lg:max-w-2/3 max-w-9/10"
+                                />
                             </div>
-                        </div>
                         </AccordionContent>
                     </AccordionItem>
                 ),
@@ -285,15 +297,14 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="w-9/10 flex-1 flex justify-center items-center rounded-xl">
-                        <div className="w-full lg:w-3/4 border min-h-50 lg:min-h-full flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
-                            HomeImage1
-                            {/* <img
-                                src="/media/1.jpg"
-                                alt="something"
+                    <div className="w-9/10 flex-1 flex justify-center items-center">
+                        <div className="w-full flex flex-col justify-center items-center">
+                            <img
+                                src="/media/homeImage1.jpg"
+                                alt="Childcare playtime"
                                 loading="lazy"
-                                className="w-xl rounded-lg border-2 border-secondary" 
-                            /> */}
+                                className="border border-secondary-foreground rounded lg:max-w-3/4 max-w-9/10"
+                            />
                         </div>
                     </div>
                 </div>
@@ -385,15 +396,14 @@ function Home() {
                         </div>
                     </div>
                     <div className="flex flex-1 w-full">
-                        <div className="border border-secondary-foreground bg-secondary w-full flex justify-center items-center rounded-xl overflow-hidden max-h-[75vh]">
-                            <div className="w-full flex-1 min-h-50 flex justify-center items-center text-2xl">
-                                HomeImage2
-                                {/* <img
-                                    src="/media/5.jpg"
-                                    alt="something"
+                        <div className="w-9/10 flex-1 flex justify-center items-center rounded-xl">
+                            <div className="w-full flex flex-col justify-center items-center">
+                                <img
+                                    src="/media/homeImage2.jpg"
+                                    alt="Childcare learning time"
                                     loading="lazy"
-                                    className="w-full h-full object-cover"
-                                /> */}
+                                    className="border border-secondary-foreground rounded"
+                                />
                             </div>
                         </div>
                     </div>
@@ -425,7 +435,7 @@ function Home() {
             <meta property="og:url" content="https://www.squeeko.ca/" />
             <meta
                 property="og:image"
-                content="https://www.squeeko.ca/media/og-image.jpg"
+                content="https://www.squeeko.ca/og-image.png"
             />
             <meta
                 property="og:image:alt"

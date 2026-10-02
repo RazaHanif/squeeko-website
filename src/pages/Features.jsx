@@ -22,7 +22,8 @@ function FeatureTabs() {
                     point: "Give your team an easier way to keep daily tasks on track."
                 },
             ],
-            image: "FeatureTabScheduling"
+            image: "FeatureTabScheduling.jpg",
+            imageAlt: "Man working on laptop"
         },
         {
             id: "billing",
@@ -47,7 +48,8 @@ function FeatureTabs() {
                     point: "Bill for field trips, activities, supplies and everything in between."
                 },
             ],
-            image: "FeatureTabBilling"
+            image: "FeatureTabBilling.jpg",
+            imageAlt: "Owner doing accounting"
         },
         {
             id: "compliance",
@@ -72,7 +74,8 @@ function FeatureTabs() {
                     point: "See what's complete and what still needs attention."
                 },
             ],
-            image: "FeatureTabCompliance"
+            image: "FeatureTabCompliance.jpg",
+            imageAlt: "Women working on laptop"
         },
         {
             id: "communication",
@@ -97,7 +100,8 @@ function FeatureTabs() {
                     point: "Stop jumping between email, texts, and different apps."
                 },
             ],
-            image: "FeatureTabCommunication"
+            image: "FeatureTabCommunication.jpg",
+            imageAlt: "Calender on laptop screen"
         },
         {
             id: "logs",
@@ -122,7 +126,8 @@ function FeatureTabs() {
                     point: "Give parents a window into their child's day."
                 },
             ],
-            image: "FeatureTabDailyLogs"
+            image: "FeatureTabDailyLog.jpg",
+            imageAlt: "Children playing"
         },
         {
             id: "centre",
@@ -143,7 +148,8 @@ function FeatureTabs() {
                     point: "Get a clearer picture of what's happening across your centre."
                 },
             ],
-            image: "FeatureTabCentreManagement"
+            image: "FeatureTabCentreManagement.jpg",
+            imageAlt: "Women working on laptop with baby in arms"
         },
     ]
 
@@ -166,7 +172,7 @@ function FeatureTabs() {
                     </TabsTrigger>
                 ))}
             </TabsList>
-            {data.map(({id, title, desc, points, image}) => (
+            {data.map(({id, title, desc, points, image, imageAlt}) => (
                 <TabsContent 
                     value={id} 
                     key={id}
@@ -183,10 +189,13 @@ function FeatureTabs() {
                         </div>
 
                         <div className="w-9/10 flex-1 flex justify-center">
-                            <div className="w-full lg:w-3/4 border min-h-50 flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded">
-                                <h2 className="text-secondary-foreground text-center">
-                                    {image}
-                                </h2>
+                            <div className="flex-1 flex flex-col justify-center items-center">
+                                <img
+                                    src={`/media/${image}`}
+                                    alt={imageAlt}
+                                    loading="lazy"
+                                    className="border border-secondary-foreground rounded lg:max-w-2/3 max-w-9/10"
+                                />
                             </div>
                         </div>
                     </div>
@@ -238,9 +247,16 @@ function Features() {
                     </div>
 
 
-                    <div className="w-9/10 flex-1 flex justify-center items-center rounded-xl">
-                        <div className="w-full lg:w-3/4 border min-h-50 lg:min-h-full flex flex-col justify-center items-center bg-secondary border-secondary-foreground rounded text-2xl">
-                            FeatureImage1
+                    <div className="flex flex-1 w-full">
+                        <div className="w-9/10 flex-1 flex justify-center items-center rounded-xl">
+                            <div className="w-full flex flex-col justify-center items-center">
+                                <img
+                                    src="/media/featureImage1.jpg"
+                                    alt="Childcare playtime"
+                                    loading="lazy"
+                                    className="border border-secondary-foreground rounded lg:max-w-3/4 max-w-9/10"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -278,7 +294,7 @@ function Features() {
             <meta property="og:url" content="https://www.squeeko.ca/" />
             <meta
                 property="og:image"
-                content="https://www.squeeko.ca/media/og-image.jpg"
+                content="https://www.squeeko.ca/og-image.png"
             />
             <meta
                 property="og:image:alt"
