@@ -72,8 +72,8 @@ function Footer() {
     return (
         <div className="flex flex-col justify-center items-center w-full border-t bg-background z-50">
             <div className="flex-1 flex lg:flex-row flex-col w-9/10 lg:py-8 py-4">
-                <div className="lg:hidden flex px-4">
-                    {/* <FooterAccordion /> */}
+                <div className="hidden px-4">
+                    <FooterAccordion />
                 </div>
                 <div className="flex-1 flex flex-col justify-start items-start w-9/10 p-4 gap-4 text-muted-foreground">
                     <Logo className="text-3xl" />
@@ -90,9 +90,9 @@ function Footer() {
                     </div>
                 </div>
 
-                {/* <div className="flex-1 lg:flex hidden flex-col items-center justify-start gap-2 p-4">
+                <div className="hidden flex-1 flex-col items-center justify-start gap-2 p-4">
                     <FooterLinks />
-                </div> */}
+                </div>
             </div>
 
             <div className="flex flex-col lg:flex-row justify-center lg:justify-around items-center w-9/10 gap-2 border-t lg:py-8 py-4">

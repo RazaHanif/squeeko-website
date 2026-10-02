@@ -22,41 +22,39 @@ import Temp from "./components/Temp";
 function App() {
     return (
         <div className="flex-1 flex flex-col w-full min-h-dvh">
-            <Temp>
-                <Header />
-                <div className="flex-1 flex flex-col justify-center items-center w-full relative">
-                    <ScrollToTop />
+            <Header />
+            <div className="flex-1 flex flex-col justify-center items-center w-full relative">
+                <ScrollToTop />
 
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="*" element={<NotFound />} />
-                        <Route path="/about-us" element={<About />} />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="*" element={<NotFound />} />
+                    <Route path="/about-us" element={<About />} />
 
-                        <Route path="/log-in" element={<LogIn />} />
-                        <Route path="/features" element={<Features />} />
-                        {/* <Route path="/pricing" element={<Pricing />} /> */}
-                        {/* <Route path="/sales" element={<Sales />} /> */}
-                        {/* <Route path="/guides" element={<Guides />} /> */}
-                        {/* <Route path="/contact-us" element={<Contact />} /> */}
-                        {/* <Route path="/book-a-demo" element={<BookADemo />} /> */}
-                        {/* <Route path="/careers" element={<Careers />} /> */}
-                        {/* <Route path="/security-and-trust" element={<SecurityAndTrust />} /> */}
-                        <Route
-                            path="/legal/privacy-policy"
-                            element={<PrivacyPolicy />}
-                        />
-                        <Route
-                            path="/legal/cookie-policy"
-                            element={<CookiePolicy />}
-                        />
-                        <Route
-                            path="/legal/terms-of-service"
-                            element={<TermsOfService />}
-                        />
-                    </Routes>
-                </div>
-                <Footer />
-            </Temp>
+                    <Route path="/log-in" element={<LogIn />} />
+                    <Route path="/features" element={<Features />} />
+                    {/* <Route path="/pricing" element={<Pricing />} /> */}
+                    {/* <Route path="/sales" element={<Sales />} /> */}
+                    {/* <Route path="/guides" element={<Guides />} /> */}
+                    {/* <Route path="/contact-us" element={<Contact />} /> */}
+                    {/* <Route path="/book-a-demo" element={<BookADemo />} /> */}
+                    {/* <Route path="/careers" element={<Careers />} /> */}
+                    {/* <Route path="/security-and-trust" element={<SecurityAndTrust />} /> */}
+                    <Route
+                        path="/legal/privacy-policy"
+                        element={<PrivacyPolicy />}
+                    />
+                    <Route
+                        path="/legal/cookie-policy"
+                        element={<CookiePolicy />}
+                    />
+                    <Route
+                        path="/legal/terms-of-service"
+                        element={<TermsOfService />}
+                    />
+                </Routes>
+            </div>
+            <Footer />
         </div>
     );
 }
