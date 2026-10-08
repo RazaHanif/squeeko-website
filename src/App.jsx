@@ -6,18 +6,17 @@ import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import Features from "./pages/Features";
-import Pricing from "./pages/Pricing";
-import Sales from "./pages/Sales";
-import Guides from "./pages/Guides";
-import Contact from "./pages/Contact";
-import BookADemo from "./pages/BookADemo";
-import Careers from "./pages/Careers";
-import SecurityAndTrust from "./pages/SecurityAndTrust";
+// import Pricing from "./pages/Pricing";
+// import Sales from "./pages/Sales";
+// import Guides from "./pages/Guides";
+// import Contact from "./pages/Contact";
+// import BookADemo from "./pages/BookADemo";
+// import Careers from "./pages/Careers";
+// import SecurityAndTrust from "./pages/SecurityAndTrust";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import CookiePolicy from "./pages/CookiePolicy";
 import TermsOfService from "./pages/TermsOfService";
 import LogIn from "./pages/LogIn";
-import Temp from "./components/Temp";
 
 function App() {
     return (
@@ -40,18 +39,9 @@ function App() {
                     {/* <Route path="/book-a-demo" element={<BookADemo />} /> */}
                     {/* <Route path="/careers" element={<Careers />} /> */}
                     {/* <Route path="/security-and-trust" element={<SecurityAndTrust />} /> */}
-                    <Route
-                        path="/legal/privacy-policy"
-                        element={<PrivacyPolicy />}
-                    />
-                    <Route
-                        path="/legal/cookie-policy"
-                        element={<CookiePolicy />}
-                    />
-                    <Route
-                        path="/legal/terms-of-service"
-                        element={<TermsOfService />}
-                    />
+                    <Route path="/legal/privacy-policy" element={<PrivacyPolicy />} />
+                    <Route path="/legal/cookie-policy" element={<CookiePolicy />} />
+                    <Route path="/legal/terms-of-service" element={<TermsOfService />} />
                 </Routes>
             </div>
             <Footer />

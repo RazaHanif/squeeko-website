@@ -189,7 +189,7 @@ function TermsOfService() {
                         </h5>
 
                         <p>
-                            Squeeko reserves the right to modify subscription fees upon providing 30 days' advance notice to the Centre. Failure to pay subscription fees within 15 days of the due date may result in temporary suspension or termination of platform access.
+                            Squeeko reserves the right to modify subscription fees upon providing 30 days advance notice to the Centre. Failure to pay subscription fees within 15 days of the due date may result in temporary suspension or termination of platform access.
                         </p>
                     </div>
 
