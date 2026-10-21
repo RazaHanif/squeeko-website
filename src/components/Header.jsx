@@ -1,25 +1,21 @@
-import { NavLink, useLocation, useNavigate } from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom";
 import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetHeader,
-  SheetTrigger,
-} from "@/components/ui/sheet"
+    Sheet,
+    SheetClose,
+    SheetContent,
+    SheetHeader,
+    SheetTrigger,
+} from "@/components/ui/sheet";
 import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu"
+    NavigationMenu,
+    NavigationMenuItem,
+    NavigationMenuLink,
+    NavigationMenuList,
+} from "@/components/ui/navigation-menu";
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
+    Accordion,
+    AccordionItem,
+} from "@/components/ui/accordion";
 import { useEffect, useState } from "react";
 import { Menu, User, X } from "lucide-react";
 import { links } from "./NavigationLinks";
@@ -27,13 +23,13 @@ import Logo from "./Logo";
 
 function LogInBtn() {
     return (
-        <NavLink 
-            className="cursor-pointer p-2 rounded-lg transition-all duration-200 text-primary hover:bg-muted hover:text-primary" 
+        <NavLink
+            className="cursor-pointer p-2 rounded-lg transition-all duration-200 text-primary hover:bg-muted hover:text-primary"
             to="/log-in"
         >
-            <User className="w-8 h-8"/>
+            <User className="w-8 h-8" />
         </NavLink>
-    )
+    );
 }
 
 function DesktopNav() {
@@ -65,43 +61,41 @@ function DesktopNav() {
                         </NavigationMenuItem>
                     )
                 )} */}
-                {links.Product
-                    .filter(({ title }) => title === "Features")
-                    .map(({ title, link }) => (
+                {links.Product.filter(({ title }) => title === "Features").map(
+                    ({ title, link }) => (
                         <NavigationMenuItem key={link}>
-                            <NavigationMenuLink 
+                            <NavigationMenuLink
                                 onClick={() => navigate(link)}
                                 className="cursor-pointer text-xl text-primary inline-flex h-9 w-max px-2.5 py-1.5 hover:bg-muted hover:text-primary"
                             >
                                 {title}
                             </NavigationMenuLink>
                         </NavigationMenuItem>
-                    )
+                    ),
                 )}
-                {links.Company
-                    .filter(({ title }) => title === "About Us")
-                    .map(({ title, link }) => (
+                {links.Company.filter(({ title }) => title === "About Us").map(
+                    ({ title, link }) => (
                         <NavigationMenuItem key={link}>
-                            <NavigationMenuLink 
+                            <NavigationMenuLink
                                 onClick={() => navigate(link)}
                                 className="cursor-pointer text-xl text-primary inline-flex h-9 w-max px-2.5 py-1.5 hover:bg-muted hover:text-primary"
                             >
                                 {title}
                             </NavigationMenuLink>
                         </NavigationMenuItem>
-                    )
+                    ),
                 )}
-                    
+
                 <NavigationMenuItem className="flex flex-col justify-center items-center flex-1 border-l pl-2">
                     <LogInBtn />
                 </NavigationMenuItem>
             </NavigationMenuList>
         </NavigationMenu>
-    )
+    );
 }
 
 function MobileNav() {
-    const navigate = useNavigate()
+    const navigate = useNavigate();
     return (
         <Sheet>
             <div className="lg:hidden flex flex-row justify-end items-center">
@@ -109,23 +103,23 @@ function MobileNav() {
                     <LogInBtn />
                 </div>
                 <SheetTrigger className="cursor-pointer p-2 rounded-lg border-primary text-primary hover:bg-muted hover:text-primary transition-all duration-200">
-                    <Menu className="w-8 h-8"/>
+                    <Menu className="w-8 h-8" />
                 </SheetTrigger>
             </div>
-            <SheetContent 
-                side="top" 
-                showCloseButton={false}    
+            <SheetContent
+                side="top"
+                showCloseButton={false}
                 className="data-[side=top]:h-full gap-0 bg-background"
             >
                 <SheetHeader className="flex flex-row justify-between items-center w-full py-6 px-10 border-b">
                     <SheetClose
                         className="cursor-pointer"
-                        onClick={() => navigate('/')}
+                        onClick={() => navigate("/")}
                     >
-                        <Logo className="text-4xl"/>
+                        <Logo className="text-4xl" />
                     </SheetClose>
                     <SheetClose className="cursor-pointer p-2 rounded-lg border-primary text-primary hover:bg-muted hover:text-primary transition-all duration-200">
-                        <X className="w-8 h-8"/>
+                        <X className="w-8 h-8" />
                     </SheetClose>
                 </SheetHeader>
 
@@ -160,78 +154,69 @@ function MobileNav() {
                         </AccordionItem>
                     ))} */}
 
-                    {links.Product
-                        .filter(({ title }) => title === "Features")
-                        .map(({ title, link }) => (
-                            <AccordionItem 
-                                key={link}
-                                value={title}
-                                className="border-b hover:bg-gradient-to-r from-background to-primary/40 px-10"
+                    {links.Product.filter(
+                        ({ title }) => title === "Features",
+                    ).map(({ title, link }) => (
+                        <AccordionItem
+                            key={link}
+                            value={title}
+                            className="border-b hover:bg-gradient-to-r from-background to-primary/40 px-10"
+                        >
+                            <SheetClose
+                                onClick={() => navigate(link)}
+                                className="text-lg text-primary cursor-pointer items-start w-full border border-transparent py-4 text-left font-medium outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50"
                             >
-                                <SheetClose
-                                    onClick={() => navigate(link)}
-                                    className="text-lg text-primary cursor-pointer items-start w-full border border-transparent py-4 text-left font-medium outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50"
-                                >
-                                    {title}
-                                </SheetClose>
-                            </AccordionItem>
-                        ))}
-                    {links.Company
-                        .filter(({ title }) => title === "About Us")
-                        .map(({ title, link }) => (
-                            <AccordionItem 
-                                key={link}
-                                value={title}
-                                className="border-b hover:bg-gradient-to-r from-background to-primary/40 px-10"
+                                {title}
+                            </SheetClose>
+                        </AccordionItem>
+                    ))}
+                    {links.Company.filter(
+                        ({ title }) => title === "About Us",
+                    ).map(({ title, link }) => (
+                        <AccordionItem
+                            key={link}
+                            value={title}
+                            className="border-b hover:bg-gradient-to-r from-background to-primary/40 px-10"
+                        >
+                            <SheetClose
+                                onClick={() => navigate(link)}
+                                className="text-lg text-primary cursor-pointer items-start w-full border border-transparent py-4 text-left font-medium outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50"
                             >
-                                <SheetClose
-                                    onClick={() => navigate(link)}
-                                    className="text-lg text-primary cursor-pointer items-start w-full border border-transparent py-4 text-left font-medium outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50"
-                                >
-                                    {title}
-                                </SheetClose>
-                            </AccordionItem>
-                        ))}
+                                {title}
+                            </SheetClose>
+                        </AccordionItem>
+                    ))}
                 </Accordion>
             </SheetContent>
         </Sheet>
-    )
+    );
 }
 
 function Header() {
-    const [scrolled, setScrolled] = useState(false)
+    const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
-            setScrolled(window.scrollY > 0)
-        }
+            setScrolled(window.scrollY > 0);
+        };
 
-        handleScroll()
+        handleScroll();
 
-        window.addEventListener("scroll", handleScroll)
+        window.addEventListener("scroll", handleScroll);
 
         return () => {
-            window.removeEventListener("scroll", handleScroll)
-        }
-    }, [])
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
 
     return (
-        <div className={
-            `sticky top-0 z-50 flex flex-row justify-between items-center w-full self-center p-6 lg:px-20 px-10 bg-background transition-all duration-10
-            ${
-                scrolled 
-                ? 'border-b' 
-                : 'border-b-0'
-            }`
-        }
-
+        <div
+            className={`sticky top-0 z-50 flex flex-row justify-between items-center w-full self-center p-6 lg:px-20 px-10 bg-background transition-all duration-10
+            ${scrolled ? "border-b" : "border-b-0"}`}
         >
             <div className="flex-1 flex justify-start items-center">
-                <NavLink
-                    to='/'
-                    end
-                >
-                    <Logo className="text-4xl"/>
+                <NavLink to="/" end>
+                    <Logo className="text-4xl" />
                 </NavLink>
             </div>
             <div className="flex-2 flex flex-row justify-end items-center">
@@ -239,7 +224,7 @@ function Header() {
                 <MobileNav />
             </div>
         </div>
-    )
+    );
 }
 
-export default Header
+export default Header;
