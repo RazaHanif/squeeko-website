@@ -2,7 +2,7 @@ function TermsOfService() {
     return (
 <div className="flex-1 flex flex-col w-full">
             <section className="flex flex-col w-full">
-                <div className="bg-primary flex-1 w-full flex flex-col items-center py-36">
+                <div className="bg-accent text-accent-foreground flex-1 w-full flex flex-col items-center py-36">
                     <h1 className="text-4xl lg:text-6xl font-serif">
                         Terms of Service
                     </h1>
@@ -18,13 +18,13 @@ function TermsOfService() {
                     <div className="w-full flex flex-col gap-4 py-4">
                         <p>
                             Welcome to{" "}
-                            <span className="font-semibold text-primary">
-                                Squeeko
+                            <span className="font-semibold text-primary font-logo">
+                                squeeko
                             </span>{" "}
                             ("Squeeko," "we," "us," or "our"). These Terms of Service ("Terms") govern your access to and use of the Squeeko website{" "}
                             <a
                                 href="/"
-                                className="font-mono text-blue-500 hover:underline"
+                                className="font-mono text-blue-500 font-medium hover:underline"
                                 >
                                 squeeko.ca
                             </a>{""}
@@ -38,7 +38,7 @@ function TermsOfService() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Description of Services & Customer Eligibility
                         </h4>
 
@@ -57,7 +57,7 @@ function TermsOfService() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Roles and Account Management
                         </h4>
 
@@ -100,7 +100,7 @@ function TermsOfService() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Data Ownership & Privacy Compliance
                         </h4>
 
@@ -138,12 +138,12 @@ function TermsOfService() {
                         </p>
 
                         <p>
-                            For complete details on data processing, storage regions, and security measures, please refer to our <a href="/legal/privacy-policy" className="font-mono text-blue-500 hover:underline">Privacy Policy</a>.
+                            For complete details on data processing, storage regions, and security measures, please refer to our <a href="/legal/privacy-policy" className="font-mono text-blue-500 font-medium hover:underline">Privacy Policy</a>.
                         </p>
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Subscriptions, Payments, and Billing
                         </h4>
 
@@ -171,7 +171,7 @@ function TermsOfService() {
                                 By utilizing payment features, you agree to comply with{" "}
                                 <a
                                     href="https://stripe.com/en-ca/legal"
-                                    className="font-mono text-blue-500 hover:underline"
+                                    className="font-mono text-blue-500 font-medium hover:underline"
                                     >
                                     Stripe's Terms of Service
                                 </a>
@@ -194,7 +194,7 @@ function TermsOfService() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Acceptable Use and Platform Rules
                         </h4>
                         <p>
@@ -226,7 +226,7 @@ function TermsOfService() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Intellectual Property Rights
                         </h4>
 
@@ -239,7 +239,7 @@ function TermsOfService() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Disclaimers & Limitation of Liability
                         </h4>
 
@@ -275,7 +275,7 @@ function TermsOfService() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Indemnification
                         </h4>
                         <p>
@@ -295,7 +295,7 @@ function TermsOfService() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Termination
                         </h4>
                         <ul className="flex flex-col gap-2 pl-2 lg:pl-4 lg:list-disc marker:text-muted-foreground">
@@ -321,7 +321,7 @@ function TermsOfService() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Governing Law & Dispute Resolution
                         </h4>
                         <p>
@@ -338,7 +338,7 @@ function TermsOfService() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Changes to Terms
                         </h4>
                         <p>
@@ -347,7 +347,7 @@ function TermsOfService() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Contact Us
                         </h4>
                         <p>

@@ -4,9 +4,11 @@ import { useNavigate } from 'react-router-dom';
 function NotFound() {
     const navigate = useNavigate()
 
+    const bgImage = "bg-[url('/light/mobile/not_found.svg')] sm:bg-[url('/light/desktop/not_found.svg')] dark:bg-[url('/dark/mobile/not_found.svg')] sm:dark:bg-[url('/dark/desktop/not_found.svg')]"
+
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full">
-            <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-16 w-full bg-[url('/404.svg')] bg-cover bg-center">
+            <section className={`min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-16 w-full ${bgImage} bg-cover bg-center`}>
                 <div className="flex">
                     <h1 className="text-5xl font-serif text-center font-semibold">
                         404 <br/>

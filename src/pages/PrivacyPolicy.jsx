@@ -2,7 +2,7 @@ function PrivacyPolicy() {
     return (
         <div className="flex-1 flex flex-col w-full">
             <section className="flex flex-col w-full">
-                <div className="bg-primary flex-1 w-full flex flex-col items-center py-36">
+                <div className="bg-accent text-accent-foreground flex-1 w-full flex flex-col items-center py-36">
                     <h1 className="text-4xl lg:text-6xl font-serif">
                         Privacy Policy
                     </h1>
@@ -18,8 +18,8 @@ function PrivacyPolicy() {
                     <div className="w-full flex flex-col gap-4 py-4">
                         <p>
                             Welcome to{" "}
-                            <span className="font-semibold text-primary">
-                                Squeeko
+                            <span className="font-semibold text-primary font-logo">
+                                squeeko
                             </span>{" "}
                             ("Squeeko," "we," "us," or "our"). Squeeko provides
                             a cloud-based childcare management platform designed
@@ -33,7 +33,7 @@ function PrivacyPolicy() {
                             you visit our website at{" "}
                             <a
                                 href="/"
-                                className="font-mono text-blue-500 hover:underline"
+                                className="font-mono text-blue-500 font-medium hover:underline"
                             >
                                 squeeko.ca
                             </a>{" "}
@@ -42,7 +42,7 @@ function PrivacyPolicy() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Important Legal Distinction: Role of Squeeko vs.
                             Childcare Centres
                         </h4>
@@ -97,7 +97,7 @@ function PrivacyPolicy() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Information We Collect
                         </h4>
 
@@ -172,7 +172,7 @@ function PrivacyPolicy() {
                                 servers. Please review{" "}
                                 <a
                                     href="https://stripe.com/privacy"
-                                    className="font-mono text-blue-500 hover:underline"
+                                    className="font-mono text-blue-500 font-medium hover:underline"
                                 >
                                     Stripe's Privacy Policy
                                 </a>{" "}
@@ -208,7 +208,7 @@ function PrivacyPolicy() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             How We Use Information
                         </h4>
 
@@ -260,7 +260,7 @@ function PrivacyPolicy() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             How Information is Shared
                         </h4>
 
@@ -331,7 +331,7 @@ function PrivacyPolicy() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Photo Sharing and In-App Media Rules
                         </h4>
 
@@ -360,7 +360,7 @@ function PrivacyPolicy() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Data Retention and Deletion
                         </h4>
 
@@ -412,7 +412,7 @@ function PrivacyPolicy() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Data Storage, Location, and Safeguards
                         </h4>
 
@@ -455,7 +455,7 @@ function PrivacyPolicy() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Your Rights & Choices
                         </h4>
 
@@ -498,7 +498,7 @@ function PrivacyPolicy() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Changes to This Privacy Policy
                         </h4>
 
@@ -515,7 +515,7 @@ function PrivacyPolicy() {
                     </div>
 
                     <div className="w-full flex flex-col gap-4 py-4">
-                        <h4 className="font-serif text-2xl lg:text-3xl text-primary">
+                        <h4 className="font-serif text-2xl lg:text-3xl text-foreground">
                             Contact Us
                         </h4>
 

@@ -148,7 +148,7 @@ const OnboardingForm = () => {
         <div className="w-9/10 lg:w-1/2">
             { submitted ? (
                 <div 
-                    className="bg-muted border w-full flex flex-1 flex-col justify-around rounded-2xl py-8 px-8 lg:py-16 min-h-150"
+                    className="bg-muted text-muted-foreground dark:bg-accent dark:text-accent-foreground rounded-xl shadow-xl w-full flex flex-1 flex-col justify-around py-8 px-8 lg:py-16 min-h-150"
                 >
                     <h2 className="text-3xl font-bold font-serif text-center">
                         You're all set!
@@ -175,7 +175,7 @@ const OnboardingForm = () => {
             ) : (
                 <form
                     onSubmit={ handleSubmit }
-                    className="bg-muted border w-full flex flex-1 flex-col justify-center rounded-2xl py-8 px-8 lg:py-16 min-h-150"
+                    className="bg-muted text-muted-foreground dark:bg-accent dark:text-accent-foreground rounded-xl shadow-xl w-full flex flex-1 flex-col justify-center py-8 px-8 lg:py-16 min-h-150"
 
                 >
                     <div className="w-full mb-8">
@@ -214,14 +214,14 @@ const OnboardingForm = () => {
                                         key={idx} 
                                         value={type}
                                         variant="default"
+                                        className="p-6 w-full"
                                         onClick={() => {
                                             setFormData((prev) => ({
                                                 ...prev,
                                                 daycareType: type,
                                             }))
                                             nextStep()
-                                        }}                            
-                                        className="p-6 w-full"
+                                        }}
                                     >
                                         {type}
                                     </Button>

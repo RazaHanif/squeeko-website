@@ -159,8 +159,9 @@ function FeatureTabs() {
             className="w-full flex-1"
         >
             <TabsList
-                className="w-full grid grid-cols-2 grid-rows-3 sm:grid-cols-3 sm:grid-rows-2 lg:grid-cols-6 lg:grid-rows-1 min-h-[8em] sm:min-h-[4em] lg:min-h-[2em] bg-secondary rounded-2xl! p-2"
+                 className="w-full grid grid-cols-2 grid-rows-3 sm:grid-cols-3 sm:grid-rows-2 lg:grid-cols-6 lg:grid-rows-1 min-h-[8em] sm:min-h-[4em] lg:min-h-[2em] p-2 shadow-xl rounded-xl! bg-background"
                 variant="line"
+                
             >
                 {data.map(({id, trigger}) => (
                     <TabsTrigger 
@@ -226,35 +227,32 @@ function Features() {
             <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full mt-16 lg:mt-0">
                 <div className="flex lg:flex-row flex-col justify-center items-center lg:items-stretch w-full gap-8 lg:gap-0">
                     <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
-                        <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-6">
+                        <div className="w-9/10 lg:w-3/4 flex flex-col justify-start items-start gap-6">
                             <h1 className="text-xs font-bold">
                                 BUILT FOR CHILDCARE
                             </h1>
-                            <h2 className="text-5xl font-serif text-center font-semibold">
+                            <h2 className="text-5xl font-serif text-start font-semibold">
                                 Everything your centre needs. <br/>
                                 Nothing you don't.
                             </h2>
-                            <p className="w-9/10 lg:w-3/4 text-center font-light">
+                            <p className="w-9/10 lg:w-3/4 text-start font-light">
                                 Squeeko brings the everyday work of running a childcare centre into one connected platform, from attendance and billing to compliance and family communication.
                             </p>
-                        </div>
 
-                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2" >
-                            <div className="w-3/4">
+                            <div className="w-1/2">
                                 <SignUpSheet />
                             </div>
                         </div>
                     </div>
 
-
-                    <div className="flex flex-1 w-full">
+                    <div className="w-9/10 flex flex-1">
                         <div className="w-9/10 flex-1 flex justify-center items-center rounded-xl">
                             <div className="w-full flex flex-col justify-center items-center">
                                 <img
                                     src="/media/featureImage1.jpg"
                                     alt="Childcare playtime"
                                     loading="lazy"
-                                    className="border border-secondary-foreground rounded lg:max-w-3/4 max-w-9/10"
+                                    className="shadow-xl rounded-xl max-w-full lg:max-w-3/4"
                                 />
                             </div>
                         </div>
@@ -262,7 +260,7 @@ function Features() {
                 </div>
             </section>
 
-            <section className="min-h-[calc(100vh-80px)] flex flex-col w-full p-8 bg-accent">
+            <section className="min-h-[calc(100vh-80px)] flex flex-col w-full p-8 bg-linear-to-b from-background to-secondary dark:to-accent">
                 <FeatureTabs />
             </section>
             

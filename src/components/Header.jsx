@@ -36,31 +36,8 @@ function DesktopNav() {
     const navigate = useNavigate();
 
     return (
-        <NavigationMenu className="lg:flex hidden">
+        <NavigationMenu className="lg:flex! hidden!">
             <NavigationMenuList className="gap-2">
-                {/* {Object.entries(links)
-                    .filter(([ category ]) => category !== "Company")
-                    .map(([ category, items ]) => (
-                        <NavigationMenuItem key={category}>
-                            <NavigationMenuTrigger
-                                className="cursor-pointer text-xl text-primary"
-                            >
-                                {category}
-                            </NavigationMenuTrigger>
-                            <NavigationMenuContent className="">
-                                {items.map(({ title, link }) => (
-                                    <NavigationMenuLink 
-                                        key={link}
-                                        onClick={() => navigate(link)}
-                                        className="cursor-pointer text-xl text-primary"
-                                    >
-                                        {title}
-                                    </NavigationMenuLink>
-                                ))}
-                            </NavigationMenuContent>
-                        </NavigationMenuItem>
-                    )
-                )} */}
                 {links.Product.filter(({ title }) => title === "Features").map(
                     ({ title, link }) => (
                         <NavigationMenuItem key={link}>
@@ -219,6 +196,7 @@ function Header() {
                     <Logo className="text-4xl" />
                 </NavLink>
             </div>
+
             <div className="flex-2 flex flex-row justify-end items-center">
                 <DesktopNav />
                 <MobileNav />

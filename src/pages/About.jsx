@@ -2,7 +2,6 @@ import { useNavigate } from "react-router-dom";
 import {
     Heart,
     Lightbulb,
-    PencilSparkles,
     Sparkles,
     Users,
 } from "lucide-react";
@@ -11,68 +10,45 @@ import { Button } from "@/components/ui/button";
 function About() {
     const navigate = useNavigate();
 
+    const bgImageMission = "bg-[url('/light/mobile/about_mission.svg')] sm:bg-[url('/light/desktop/about_mission.svg')] dark:bg-[url('/dark/mobile/about_mission.svg')] sm:dark:bg-[url('/dark/desktop/about_mission.svg')]"
+
+    const bgImageCTA = "bg-[url('/light/mobile/about_cta.svg')] sm:bg-[url('/light/desktop/about_cta.svg')] dark:bg-[url('/dark/mobile/about_cta.svg')] sm:dark:bg-[url('/dark/desktop/about_cta.svg')]"
+
     return (
         <div className="w-full overflow-hidden">
-            <section className="min-h-[calc(100vh-80px)] w-full flex items-center">
-                <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex flex-col">
-                    <div className="w-full flex flex-col lg:flex-row gap-8">
-                        <div className="flex-2 flex flex-col justify-center items-center text-center">
-                            <div className="mb-6 flex-1 flex flex-col justify-center items-center">
-                                <p className="text-xs font-bold">
-                                    ABOUT SQUEEKO.
-                                </p>
-                                <h1 className="mt-6 max-w-3xl font-serif text-5xl font-semibold">
-                                    Helping the people <br />
-                                    who nurture the little ones.
-                                </h1>
-                            </div>
-                            
-                            <div className="max-w-2xl w-full flex flex-col justify-center items-center">
-                                <p className="font-light">
-                                    Running a childcare centre means wearing a dozen hats at once: teacher, manager, administrator and role model. We're here to lighten that load.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="hidden lg:flex flex-col justify-center items-center flex-1 w-9/10">
-                            <div className="bg-primary text-secondary-foreground p-10 items-end justify-center rounded-xl border border-secondary-foreground w-3/4">
-                                <PencilSparkles className="size-10 mb-8" />
-                                <p className="text-xl">
-                                    Built specifically for Ontario childcare teams
-                                    who deserve tools as caring as they are.
-                                </p>        
-                            </div>
+            <section
+                className={`min-h-[calc(100vh-80px)] flex flex-col justify-around items-center gap-8 w-full bg-cover bg-center mt-16 lg:mt-0`}
+            >
+                <div className="flex lg:flex-row flex-col justify-center items-center lg:items-stretch w-full gap-8 lg:gap-0">
+                    <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
+                        <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-start gap-6">
+                            <h1 className="text-xs font-bold">
+                                ABOUT SQUEEKO.
+                            </h1>
+                            <h2 className="text-5xl font-serif font-semibold">
+                                Helping the people <br />
+                                who nurture the little ones.
+                            </h2>
+                            <p className="w-9/10 lg:w-3/4 font-light">
+                                Running a childcare centre means wearing a dozen hats at once: teacher, manager, administrator and role model. We're here to lighten that load.
+                            </p>
                         </div>
                     </div>
-                    <div className="lg:hidden mt-20 grid grid-cols-1 gap-6">
+
+                    <div className="w-9/10 flex-1 flex justify-center items-center">
                         <div className="w-full flex flex-col justify-center items-center">
                             <img
                                 src="/media/aboutImage1.jpg"
                                 alt="Childcare goodbyes"
                                 loading="lazy"
-                                className="border border-secondary-foreground rounded lg:max-w-3/4 max-w-9/10"
+                                className="shadow-xl rounded-xl max-w-full lg:max-w-3/4"
                             />
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="hidden lg:flex w-full">
-                <div className="w-3/4 mx-auto flex flex-col">
-                    <div className="grid grid-cols-1 gap-6">
-                        <div className="w-full flex flex-col justify-center items-center">
-                            <img
-                                src="/media/aboutImage1.jpg"
-                                alt="Childcare goodbyes"
-                                loading="lazy"
-                                className="border border-secondary-foreground rounded lg:max-w-3/4 max-w-9/10"
-                            />
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="min-h-[calc(100vh-80px)] w-full bg-[url('/about-mission.svg')] bg-cover bg-center">
+            <section className={`min-h-[calc(100vh-80px)] w-full ${bgImageMission} bg-cover bg-center`}>
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex flex-col">
                     <div className="flex flex-col lg:flex-row gap-16 lg:gap-32">
                         <div className="flex-1">
@@ -137,19 +113,17 @@ function About() {
                 </div>
             </section>
 
-            <section className="min-h-[calc(100vh-80px)] w-full bg-primary flex">
+            <section className="min-h-[calc(100vh-80px)] w-full bg-secondary dark:bg-accent flex">
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex justify-center">
                     <div className="w-full flex flex-col lg:flex-row gap-16 lg:gap-32">
-                        <div className="flex-1 flex flex-col justify-center lg:justify-start ">
-                            <div className="flex-1 lg:flex-0">
-                                <p className="text-xs font-bold">OUR VISION.</p>
+                        <div className="flex-1 flex flex-col justify-center">
+                            <p className="text-xs font-bold">OUR VISION.</p>
 
-                                <h2 className="mt-6 max-w-3xl font-serif text-4xl">
-                                    Smoother operations. <br />
-                                    Supported educators. <br />
-                                    Thriving centres.
-                                </h2>
-                            </div>
+                            <h2 className="mt-6 max-w-3xl font-serif text-4xl">
+                                Smoother operations. <br />
+                                Supported educators. <br />
+                                Thriving centres.
+                            </h2>
                         </div>
                         <div className="w-full flex-1 flex flex-col justify-center items-center">
                             <div className="w-full flex flex-col justify-center items-center">
@@ -157,7 +131,7 @@ function About() {
                                     src="/media/aboutImage2.jpg"
                                     alt="Childcare playtime"
                                     loading="lazy"
-                                    className="border border-secondary-foreground rounded w-9/10"
+                                    className="shadow-xl rounded-xl max-w-full"
                                 />
                             </div>
                         </div>
@@ -177,8 +151,8 @@ function About() {
                     <div className="grid md:grid-cols-2 gap-x-12 gap-y-0">
                         <div className="border-t py-12">
                             <div className="flex items-start justify-between gap-8">
+                                <Heart className="size-7 mb-8" />
                                 <div className="w-full">
-                                    <Heart className="size-7 mb-8" />
                                     <h3 className="font-serif text-3xl">
                                         Rooted in local reality.
                                     </h3>
@@ -194,8 +168,8 @@ function About() {
 
                         <div className="border-t py-12">
                             <div className="flex items-start justify-between gap-8">
+                                <Lightbulb className="size-7 mb-8" />
                                 <div className="w-full">
-                                    <Lightbulb className="size-7 mb-8" />
                                     <h3 className="font-serif text-3xl">
                                         Delightfully uncomplicated.
                                     </h3>
@@ -216,8 +190,8 @@ function About() {
 
                         <div className="border-t py-12">
                             <div className="flex items-start justify-between gap-8">
+                                <Users className="size-7 mb-8" />
                                 <div className="w-full">
-                                    <Users className="size-7 mb-8" />
                                     <h3 className="font-serif text-3xl">
                                         Relationships over records.
                                     </h3>
@@ -238,8 +212,8 @@ function About() {
 
                         <div className="border-t py-12">
                             <div className="flex items-start justify-between gap-8">
+                                <Sparkles className="size-7 mb-8" />
                                 <div className="w-full">
-                                    <Sparkles className="size-7 mb-8" />
                                     <h3 className="font-serif text-3xl">
                                         Always learning, always listening.
                                     </h3>
@@ -261,7 +235,7 @@ function About() {
                 </div>
             </section>
 
-            <section className="min-h-[calc(100vh-80px)] w-full bg-primary">
+            <section className="min-h-[calc(100vh-80px)] w-full bg-secondary dark:bg-accent">
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex justify-center">
                     <div className="flex flex-col lg:flex-row gap-16 lg:gap-32">
                         <div className="flex-1">
@@ -300,11 +274,11 @@ function About() {
                 </div>
             </section>
 
-            <section className="lg:min-h-[calc(100vh-80px)] w-full bg-primary flex">
-                <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 self-center">
-                    <div className="relative aspect-video overflow-hidden flex justify-center items-center flex-col flex-1 bg-[url('/media/aboutImage3.jpg')] bg-cover bg-center p-10 rounded-xl w-full border border-secondary-foreground ">
-                        <div className="absolute inset-0 hidden lg:flex items-end p-8 lg:p-16 bg-gradient-to-t from-primary/75 to-transparent">
-                            <p className="max-w-2xl text-primary-foreground font-serif text-3xl lg:text-4xl">
+            <section className="lg:min-h-[calc(100vh-80px)] w-full bg-secondary dark:bg-accent flex">
+                <div className="w-full lg:w-3/4 mx-auto px-6 lg:px-12 self-center">
+                    <div className="relative aspect-video overflow-hidden flex justify-center items-center flex-col flex-1 bg-[url('/media/aboutImage3.jpg')] bg-cover bg-center p-10 shadow-xl rounded-xl w-full">
+                        <div className="absolute inset-0 hidden! lg:flex! items-end p-8 lg:p-16 bg-linear-to-t from-background/75 to-transparent">
+                            <p className="max-w-2xl text-foreground font-serif text-3xl lg:text-4xl">
                                 Because your 2:00 PM shouldn't be spent
                                 wrestling with compliance paperwork.
                             </p>
@@ -313,7 +287,7 @@ function About() {
                 </div>
             </section>
 
-            <section className="min-h-[calc(100vh-80px)] w-full bg-[url('/about-cta.svg')] bg-cover bg-center flex flex-col justify-center">
+            <section className={`min-h-[calc(100vh-80px)] w-full ${bgImageCTA} bg-cover bg-center flex flex-col justify-center`}>
                 <div className="w-full lg:w-9/10 mx-auto px-6 lg:px-12 py-24 lg:py-36 flex flex-col">
                     <div className="flex-2 flex flex-col gap-8">
                         <h2 className="font-serif text-4xl">

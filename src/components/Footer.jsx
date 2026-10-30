@@ -76,7 +76,7 @@ function Footer() {
                     <FooterAccordion />
                 </div>
                 <div className="flex-1 flex flex-col justify-start items-start w-9/10 p-4 gap-4 text-muted-foreground">
-                    <Logo className="text-3xl" />
+                    <Logo className="text-3xl text-primary" />
                     <p className="font-light w-full lg:w-2/3">
                         Manage your center with beautifully designed software
                         and a team who cares about your success.

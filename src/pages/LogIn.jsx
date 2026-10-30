@@ -1,23 +1,25 @@
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
 import {
-  Card,
-  CardContent,
-} from "@/components/ui/card"
+    Card,
+    CardContent,
+    CardHeader,
+    CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+// import { Label } from "@/components/ui/label"
 
 function LoginForm() {
-    const [username, setUsername] = useState("")
-    const [password, setPassword] = useState("")
-    const [loading, setLoading] = useState(false)
-    const [error, setError] = useState("")
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState("");
 
     const handleSubmit = async (e) => {
-        e.preventDefault()
+        e.preventDefault();
 
-        setLoading(true)
-        setError("")
+        setLoading(true);
+        setError("");
 
         try {
             const response = await fetch("/api/login", {
@@ -29,84 +31,78 @@ function LoginForm() {
                     username,
                     password,
                 }),
-            })
+            });
 
-            const data = await response.json()
+            const data = await response.json();
 
             if (!response.ok) {
-                setError(data.message || "User not found")
-                return
+                setError(data.message || "User not found");
+                return;
             }
         } catch (err) {
-            setError("Something went wrong. Please try again.",  err)
+            setError("Something went wrong. Please try again.", err);
         } finally {
-            setLoading(false)
+            setLoading(false);
         }
-    }
+    };
 
     return (
-        <form
-            onSubmit={handleSubmit}
-            className="flex flex-col gap-6 w-full max-w-sm"
-        >
-            <div className="flex flex-col gap-2">
-                <Label htmlFor="username">
-                    Username
-                </Label>
+        <Card className="w-full max-w-sm">
+            <CardHeader>
+                <CardTitle>
+                    Login to your account
+                </CardTitle>
+            </CardHeader>
+            <CardContent>
+                <form onSubmit={handleSubmit}>
+                    <div className="flex flex-col gap-6">
+                        <p className="text-sm text-destructive min-h-5">
+                            {error}
+                        </p>
 
-                <Input
-                    id="username"
-                    type="text"
-                    value={username}
-                    onChange={(e) => setUsername(e.target.value)}
-                    required
-                />
-            </div>
+                        <div className="grid gap-2">
+                            <Input
+                                id="username"
+                                type="text"
+                                value={username}
+                                onChange={(e) => setUsername(e.target.value)}
+                                placeholder="Enter username"
+                                required
+                            />
+                        </div>
 
-            <div className="flex flex-col gap-2">
-                <Label htmlFor="password">
-                    Password
-                </Label>
+                        <div className="grid gap-2">
+                            <Input
+                                id="password"
+                                type="password"
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                                placeholder="Enter password"
+                                required
+                            />
+                        </div>
 
-                <Input
-                    id="password"
-                    type="password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    required
-                />
-            </div>
 
-            <p className="text-sm text-destructive min-h-5">
-                {error}
-            </p>
-
-            <Button
-                type="submit"
-                className="w-full"
-                disabled={loading}
-            >
-                {loading ? "Logging in..." : "Log In"}
-            </Button>
-        </form>
-    )
+                        <Button type="submit" className="w-full" disabled={loading}>
+                            {loading ? "Logging in..." : "Login"}
+                        </Button>
+                    </div>
+                </form>
+            </CardContent>
+        </Card>
+    );
 }
 
 function LogIn() {
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full background bg-background overflow-hidden lg:py-16 py-8 min-h-[calc(100vh-80px)]">
-
             <div className="flex justify-center items-center gap-4 flex-1 flex-col w-9/10 lg:w-3/4 lg:py-16 py-8 z-10">
                 <div className="flex flex-col justify-center items-center w-full">
-                    <Card className="bg-primary/50 ring-primary p-8 gg w-md">
-                        <CardContent className="flex justify-center items-center">
-                            <LoginForm />
-                        </CardContent>
-                    </Card>
+                    <LoginForm />
                 </div>
             </div>
 
-{/*             
+            {/*             
             <StructData schema={localBusinessSchema} />
             <StructData schema={organizationSchema} />
             <StructData schema={websiteSchema} /> 

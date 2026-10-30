@@ -17,7 +17,6 @@ import {
     CreditCard,
     MessageCircle,
 } from "lucide-react";
-// import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/icons";
 import OnboardingForm from "@/components/OnboardingForm";
 import SignUpSheet from "@/components/SignUpSheet";
 
@@ -33,7 +32,7 @@ function HomeFeatureAccordion() {
                 { title: "Daily Routines", link: "#" },
             ],
             image: "HomeAccordionScheduling.jpg",
-            imageAlt: "Child care admin working on tablet"
+            imageAlt: "Child care admin working on tablet",
         },
 
         {
@@ -46,7 +45,7 @@ function HomeFeatureAccordion() {
                 { title: "One-Off Charges", link: "#" },
             ],
             image: "HomeAccordionBilling.jpg",
-            imageAlt: "Small business owner getting paid cash"
+            imageAlt: "Small business owner getting paid cash",
         },
 
         {
@@ -59,7 +58,7 @@ function HomeFeatureAccordion() {
                 { title: "Record Keeping", link: "#" },
             ],
             image: "HomeAccordionCompliance.jpg",
-            imageAlt: "Women looking through paper "
+            imageAlt: "Women looking through paper ",
         },
 
         {
@@ -72,7 +71,7 @@ function HomeFeatureAccordion() {
                 { title: "Family Communication", link: "#" },
             ],
             image: "HomeAccordionCommunication.jpg",
-            imageAlt: "Whiteboard calender"
+            imageAlt: "Whiteboard calender",
         },
 
         {
@@ -85,7 +84,7 @@ function HomeFeatureAccordion() {
                 { title: "Parent Updates", link: "#" },
             ],
             image: "HomeAccordionDailyLog.jpg",
-            imageAlt: "Child showing hand painting"
+            imageAlt: "Child showing hand painting",
         },
 
         {
@@ -98,79 +97,70 @@ function HomeFeatureAccordion() {
                 { title: "Centre Overview", link: "#" },
             ],
             image: "HomeAccordionCentreManagement.jpg",
-            imageAlt: "Centre Admin working on laptop"
+            imageAlt: "Centre Admin working on laptop",
         },
     ];
 
     return (
         <Accordion
             defaultValue={[data[0].trigger]}
-            className="w-full rounded-2xl bg-accent text-secondary-foreground p-6 border border-secondary-foreground"
+            className="w-full shadow-xl rounded-xl bg-muted text-muted-foreground p-6"
         >
-            {data.map(
-                ({
-                    trigger,
-                    header,
-                    desc,
-                    links,
-                    image,
-                    imageAlt
-                }) => (
-                    <AccordionItem
-                        key={trigger}
-                        value={trigger}
-                        className="border-secondary-foreground"
-                    >
-                        <AccordionTrigger className="cursor-pointer hover:no-underline">
-                            {trigger}
-                        </AccordionTrigger>
-                        <AccordionContent className="flex flex-col lg:flex-row my-6 lg:my-12 lg:gap-6 gap-4">
-                            <div className="flex-1 flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit lg:gap-6 gap-4">
-                                <h2 className="text-4xl font-serif font-semibold">
-                                    {header}
-                                </h2>
-                                <div className="">
-                                    <p>{desc}</p>
-                                </div>
-                                <div className="flex flex-col items-start">
-                                    {links.map(
-                                        ({
-                                            title,
-                                            // link
-                                        }) => (
-                                            // <NavLink
-                                            //     key={link}
-                                            //     to={link}
-                                            //     end
-                                            //     className="flex flex-row justify-center items-center text-lg"
-                                            // >
-                                            //     <ChevronRight className="size-6"/>
-                                            //     {title}
-                                            // </NavLink>
-                                            <p
+            {data.map(({ trigger, header, desc, links, image, imageAlt }) => (
+                <AccordionItem
+                    key={trigger}
+                    value={trigger}
+                    className="border-foreground"
+                >
+                    <AccordionTrigger className="cursor-pointer hover:no-underline">
+                        {trigger}
+                    </AccordionTrigger>
+                    <AccordionContent className="flex flex-col lg:flex-row my-6 lg:my-12 lg:gap-6 gap-4">
+                        <div className="flex-1 flex flex-col [&_a]:no-underline [&_a]:hover:text-primary [&_a]:hover:underline [&_a]:w-fit lg:gap-6 gap-4">
+                            <h2 className="text-4xl font-serif font-semibold text-foreground">
+                                {header}
+                            </h2>
+                            <div className="">
+                                <p>{desc}</p>
+                            </div>
+                            <div className="flex flex-col items-start">
+                                {links.map(
+                                    ({
+                                        title,
+                                        // link
+                                    }) => (
+                                        // <NavLink
+                                        //     key={link}
+                                        //     to={link}
+                                        //     end
+                                        //     className="flex flex-row justify-center items-center text-lg"
+                                        // >
+                                        //     <ChevronRight className="size-6"/>
+                                        //     {title}
+                                        // </NavLink>
+                                        <p
                                             key={title}
                                             className="flex flex-row justify-center items-center text-lg"
-                                            >
-                                                <ChevronRight className="size-6" />
-                                                {title}
-                                            </p>
-                                        ),
-                                    )}
-                                </div>
+                                        >
+                                            <ChevronRight className="size-6" />
+                                            {title}
+                                        </p>
+                                    ),
+                                )}
                             </div>
+                        </div>
 
-                            <div className="flex-1 flex flex-col justify-center items-center">
-                                <img
-                                    src={`/media/${image}`}
-                                    alt={imageAlt}
-                                    loading="lazy"
-                                    className="border border-secondary-foreground rounded lg:max-w-2/3 max-w-9/10"
-                                />
-                            </div>
-                        </AccordionContent>
-                    </AccordionItem>
-                ),
-            )}
+                        <div className="flex-1 flex flex-col justify-center items-center">
+                            <img
+                                src={`/media/${image}`}
+                                alt={imageAlt}
+                                loading="lazy"
+                                className="shadow-xl rounded-xl lg:max-w-2/3 max-w-9/10"
+                            />
+                        </div>
+                    </AccordionContent>
+                </AccordionItem>
+            ))}
         </Accordion>
     );
 }
@@ -215,21 +205,23 @@ function HomeCards() {
     ];
 
     return (
-        <div className="flex-1 shrink-0 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 justify-items-center p-8 lg:p-16">
+        <div className="flex-1 shrink-0 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 justify-items-center p-8 lg:p-16">
             {data.map(({ image: Icon, header, desc }, idx) => (
                 <Card
                     key={idx}
-                    className="flex bg-card text-center py-24 w-full h-64 p-0 rounded-2xl"
+                    className="flex bg-accent text-accent-foreground w-full h-32 p-0 shadow-xl rounded-xl"
                 >
-                    <CardContent className="flex-1 shrink-0 w-full h-full flex flex-col justify-around items-center gap-4">
-                        <div className="p-8 flex justify-center items-center rounded-full bg-background border">
-                            <Icon className="size-[2.5em]" />
+                    <CardContent className="flex-1 shrink-0 w-full h-full flex flex-row gap-4 py-4">
+                        <div className="flex flex-col justify-start">
+                            <div className="p-2.5 flex justify-center rounded-full bg-accent-foreground text-accent">
+                                <Icon className="size-5" />
+                            </div>
                         </div>
-                        <div className="flex flex-col justify-center items-center">
+                        <div className="flex flex-col justify-start gap-2">
                             <h2 className="text-2xl font-serif font-bold">
                                 {header}
                             </h2>
-                            <p className="text-sm font-light min-h-[2em] lg:w-3/4">
+                            <p className="text-sm font-light min-h-2 lg:w-3/4">
                                 {desc}
                             </p>
                         </div>
@@ -254,47 +246,50 @@ function Home() {
         "The smarter way to manage childcare",
     ];
 
-    // const iconList = [
-    //     { icon: InstagramIcon },
-    //     { icon: FacebookIcon },
-    //     { icon: YoutubeIcon },
-    // ];
+    const bgImageHero =
+        "bg-[url('/light/mobile/home_hero.svg')] sm:bg-[url('/light/desktop/home_hero.svg')] dark:bg-[url('/dark/mobile/home_hero.svg')] sm:dark:bg-[url('/dark/desktop/home_hero.svg')]";
+
+    const bgImageWhy =
+        "bg-[url('/light/mobile/home_why.svg')] sm:bg-[url('/light/desktop/home_why.svg')] dark:bg-[url('/dark/mobile/home_why.svg')] sm:dark:bg-[url('/dark/desktop/home_why.svg')]";
 
     return (
         <div className="flex-1 flex flex-col justify-center items-center w-full">
-            <section className="min-h-[calc(100vh-80px)] flex flex-col justify-around items-center gap-8 w-full bg-[url('/home-hero.svg')] bg-cover bg-center mt-16 lg:mt-0">
+            <section
+                className={`min-h-[calc(100vh-80px)] flex flex-col justify-around items-center gap-8 w-full ${bgImageHero} bg-cover bg-center mt-16 lg:mt-0`}
+            >
                 <div className="flex lg:flex-row flex-col justify-center items-center lg:items-stretch w-full gap-8 lg:gap-0">
                     <div className="flex flex-col flex-1 w-full justify-center items-center gap-6">
-                        <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-center gap-6">
+                        <div className="w-9/10 lg:w-3/4 flex flex-col justify-center items-start gap-6">
                             <h1 className="text-xs font-bold">
                                 CHILD CARE MANAGEMENT SOFTWARE
                             </h1>
-                            <h2 className="text-5xl font-serif text-center font-semibold">
+                            <h2 className="text-5xl font-serif font-semibold">
                                 Your children have you,
                                 <br />
                                 your center has Squeeko
                             </h2>
-                            <p className="w-9/10 lg:w-3/4 text-center font-light">
+                            <p className="w-9/10 lg:w-3/4 font-light">
                                 Squeeko brings scheduling, billing, payments,
                                 parent communication and more into one connected
-                                system. Helping you reduce admin time so you can support your team and focus on the children.
+                                system. Helping you reduce admin time so you can
+                                support your team and focus on the children.
                             </p>
+                            <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2">
+                                <div className="flex-1">
+                                    <Button
+                                        onClick={() => navigate("/features")}
+                                        variant="default"
+                                        className="w-full cursor-pointer p-6"
+                                    >
+                                        Learn More
+                                    </Button>
+                                </div>
+                                <div className="flex-1">
+                                    <SignUpSheet />
+                                </div>
+                            </div>
                         </div>
 
-                        <div className="flex flex-row justify-center items-center gap-6 w-3/4 lg:w-1/2">
-                            <div className="flex-1">
-                                <Button
-                                    onClick={() => navigate("/features")}
-                                    variant="default"
-                                    className="w-full cursor-pointer p-6 border border-primary-foreground"
-                                >
-                                    Learn More
-                                </Button>
-                            </div>
-                            <div className="flex-1">
-                                <SignUpSheet />
-                            </div>
-                        </div>
                     </div>
 
                     <div className="w-9/10 flex-1 flex justify-center items-center">
@@ -303,7 +298,7 @@ function Home() {
                                 src="/media/homeImage1.jpg"
                                 alt="Childcare playtime"
                                 loading="lazy"
-                                className="border border-secondary-foreground rounded lg:max-w-3/4 max-w-9/10"
+                                className="shadow-xl rounded-xl max-w-full lg:max-w-3/4"
                             />
                         </div>
                     </div>
@@ -312,19 +307,13 @@ function Home() {
                 <div className="w-full mb-4">
                     <HorizontalScroll
                         items={horizontalList}
-                        className="text-primary-foreground"
+                        className="text-secondary-foreground dark:text-foreground"
                         speed={80}
                     />
-                    {/* <HorizontalScroll 
-                        items={iconList.map(({icon: Icon}, idx) => (
-                            <Icon key={idx} className="size-8 text-primary-foreground"/>
-                        ))} 
-                        speed={80}
-                    /> */}
                 </div>
             </section>
 
-            <section className="flex flex-col justify-start items-center w-full bg-primary text-primary-foreground pb-40 lg:pt-0 pt-40">
+            <section className="flex flex-col justify-start items-center w-full bg-secondary dark:bg-accent text-secondary-foreground dark:text-foreground pb-40 lg:pt-0 pt-40">
                 <div className="p-8 lg:p-16 flex flex-col justify-center items-center gap-2">
                     <p className="text-center text-sm">FEATURES</p>
                     <h2 className="text-4xl font-serif text-center font-semibold">
@@ -347,7 +336,7 @@ function Home() {
             </section>
 
             <section
-                className="flex flex-col justify-center items-center gap-8 w-full -mt-0.5 bg-[url('/home-why.svg')] bg-cover bg-center pb-16"
+                className={`flex flex-col justify-center items-center gap-8 w-full -mt-0.5 ${bgImageWhy} bg-cover bg-center pb-16`}
                 id="home-form"
             >
                 <h2 className="text-4xl lg:text-5xl font-serif text-center font-semibold">
@@ -365,7 +354,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full py-8 lg:py-16 bg-gradient-to-b from-background to-primary">
+            <section className="min-h-[calc(100vh-80px)] flex flex-col justify-center items-center gap-8 w-full py-8 lg:py-16 bg-linear-to-b from-background to-secondary dark:to-accent">
                 <div className="flex flex-1 flex-col lg:flex-row gap-4 w-9/10 p-2">
                     <div className="flex lg:flex-1 flex-col justify-start lg:justify-center gap-4">
                         <p className="text-xs lg:text-sm font-bold">
@@ -385,7 +374,7 @@ function Home() {
                                 <Button
                                     onClick={() => navigate("/features")}
                                     variant="default"
-                                    className="w-full cursor-pointer p-6 border border-primary-foreground"
+                                    className="w-full p-6"
                                 >
                                     Learn More
                                 </Button>
@@ -402,7 +391,7 @@ function Home() {
                                     src="/media/homeImage2.jpg"
                                     alt="Childcare learning time"
                                     loading="lazy"
-                                    className="border border-secondary-foreground rounded"
+                                    className="shadow-xl rounded-xl "
                                 />
                             </div>
                         </div>
