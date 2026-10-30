@@ -13,7 +13,7 @@ function SignUpSheet() {
             </SheetTrigger>
             <SheetContent 
                 side="top"
-                className="data-[side=top]:h-full bg-background flex flex-col justify-center items-center p-6"
+                className="data-[side=top]:h-full bg-background flex flex-col justify-center items-center"
             >
                 <OnboardingForm />
             </SheetContent>
