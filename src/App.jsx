@@ -21,7 +21,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 
 function App() {
     return (
-        <ThemeProvider defaultTheme="system">
+        <ThemeProvider>
             <div className="flex-1 flex flex-col w-full min-h-dvh">
                 <Header />
                 <div className="flex-1 flex flex-col justify-center items-center w-full relative">
